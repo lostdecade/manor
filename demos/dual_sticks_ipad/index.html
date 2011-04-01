@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Dual Sticks Example</title>
+		<meta charset="utf-8">
+		<meta
+			name="viewport"
+			content="width=device-width, user-scalable=yes, initial-scale-1.0, maximum-scale=1.0"
+		>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="stage" width="1024" height="768"></canvas>
+		<script>
+(function () {
+
+var WIDTH = 1024;
+var HEIGHT = 768;
+
+var canvas = document.getElementById("stage");
+var context = canvas.getContext("2d");
+var pointer = {
+	angle: 0,
+	radius: 36,
+	x: (WIDTH / 2),
+	y: (HEIGHT / 2)
+};
+var points = [];
+var touches = [];
+
+function draw () {
+	context.clearRect(0, 0, WIDTH, HEIGHT);
+
+	for (var i = 0; i < points.length; ++i) {
+		drawStick(i);
+	}
+
+	drawPointer();
+};
+
+function drawPointer () {
+	context.save();
+
+	context.beginPath();
+	context.moveTo(pointer.x, pointer.y);
+	context.arc(pointer.x, pointer.y, pointer.radius, 0, (Math.PI * 2), true);
+	context.lineWidth = 3;
+	context.strokeStyle = "rgb(0, 0, 0)";
+	context.stroke();
+
+	context.restore();
+};
+
+function drawStick (index) {
+	var point = points[index];
+
+	if (!point) {
+		return;
+	}
+
+	context.save();
+	context.globalAlpha = 0.5;
+
+	var x = point.initial.x;
+	var y = point.initial.y;
+	context.beginPath();
+	context.arc(x, y, 72, 0, (Math.PI * 2), true);
+	context.lineWidth = 6;
+	context.strokeStyle = "rgb(0, 0, 0)";
+	context.stroke();
+
+	var x = point.movement.x;
+	var y = point.movement.y;
+	context.beginPath();
+	context.arc(x, y, 48, 0, (Math.PI * 2), true);
+	context.strokeStyle = "rgb(200, 0, 0)";
+	context.stroke();
+
+	context.restore();
+};
+
+function init () {
+	document.addEventListener("touchstart", function (e) {
+		e.preventDefault();
+		setPoints(e.touches, "initial");
+		setPoints(e.touches, "movement");
+	});
+
+	document.addEventListener("touchmove", function (e) {
+		e.preventDefault();
+		setPoints(e.touches, "movement");
+	});
+
+	setInterval(draw, 1);
+};
+
+function setPoints (touches, key) {
+	for (var i = 0; i < touches.length; ++i) {
+		var touch = touches[i];
+		points[i] = (points[i] || {});
+
+		var heading = Math.atan2(touch.pageX, -touch.pageY);
+
+		if (key == "movement") {
+			// TODO: prevent it from moving outside of its parent
+			var x = touch.pageX;
+			var y = touch.pageY;
+
+			/*
+			var heading = Math.atan2(x, -y);
+			var x = points[i].initial.x;
+			var y = points[i].initial.y;
+			*/
+
+			points[i][key] = {
+				x: x,
+				y: y
+			};
+
+		} else {
+			points[i][key] = {
+				x: touch.pageX,
+				y: touch.pageY
+			};
+		}
+
+	}
+};
+
+init();
+
+}());
+		</script>
+
+	</body>
+</html>
