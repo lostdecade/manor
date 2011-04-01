@@ -33,11 +33,19 @@ var pointer = {
 var points = [];
 var touches = [];
 
+var moveStick = null;
+var shootStick = null;
+
 function draw () {
 	context.clearRect(0, 0, WIDTH, HEIGHT);
 
 	for (var i = 0; i < points.length; ++i) {
 		drawStick(i);
+	}
+
+	if (moveStick != null) {
+		pointer.x += (moveStick.length * moveStick.normal.x);
+		pointer.y += (moveStick.length * moveStick.normal.y);
 	}
 
 	drawPointer();
@@ -47,13 +55,54 @@ function drawPointer () {
 	context.save();
 
 	context.beginPath();
-	context.moveTo(pointer.x, pointer.y);
 	context.arc(pointer.x, pointer.y, pointer.radius, 0, (Math.PI * 2), true);
+
+	if (shootStick != null) {
+		var end = getVectorFromRadians(shootStick.angle, pointer.radius);
+		context.moveTo(pointer.x, pointer.y);
+		context.lineTo(pointer.x + end.x, pointer.y + end.y);
+	}
+
 	context.lineWidth = 3;
 	context.strokeStyle = "rgb(0, 0, 0)";
 	context.stroke();
 
 	context.restore();
+};
+
+function subtractVectors (v1, v2) {
+	return {
+		x: v1.x - v2.x,
+		y: v1.y - v2.y
+	};
+};
+
+function getVectorLength (v) {
+	return Math.sqrt(v.x * v.x + v.y * v.y);
+};
+
+function getVectorNormal (v) {
+	var len = getVectorLength(v);
+	if (len === 0) {
+		return v;
+	} else {
+		return {
+			x: (v.x * (1 / len)),
+			y: (v.y * (1 / len))
+		};
+	}
+};
+
+function getRadians (x, y) {
+	return Math.atan2(x, -y);
+};
+
+function getVectorFromRadians (radians, length) {
+	length = Number(length) || 1;
+	return {
+		x: Math.sin(radians) * length,
+		y: -Math.cos(radians) * length
+	};
 };
 
 function drawStick (index) {
@@ -66,19 +115,60 @@ function drawStick (index) {
 	context.save();
 	context.globalAlpha = 0.5;
 
-	var x = point.initial.x;
-	var y = point.initial.y;
+	var initial = {
+		x: point.initial.x,
+		y: point.initial.y
+	};
+
 	context.beginPath();
-	context.arc(x, y, 72, 0, (Math.PI * 2), true);
+	context.arc(initial.x, initial.y, 72, 0, (Math.PI * 2), true);
 	context.lineWidth = 6;
 	context.strokeStyle = "rgb(0, 0, 0)";
 	context.stroke();
 
-	var x = point.movement.x;
-	var y = point.movement.y;
+	var movement = {
+		x: point.movement.x,
+		y: point.movement.y
+	};
+
+	var diff = subtractVectors(movement, initial);
+	var length = getVectorLength(diff);
+
+	var maxLength = 24;
+
+	var color = "rgb(200, 0, 0)";
+
+	if (length > maxLength) {
+		length = maxLength;
+		color = "rgb(200, 200, 0)";
+		var rads = getRadians(diff.x, diff.y);
+		movement = getVectorFromRadians(rads, length);
+		movement.x += initial.x;
+		movement.y += initial.y;
+	}
+
+	if (moveStick == null || initial.x < moveStick.x) {
+		moveStick = {
+			x: initial.x,
+			y: initial.y,
+			angle: getRadians(diff.x, diff.y),
+			normal: getVectorNormal(diff),
+			length: length
+		};
+	} else if (shootStick == null || initial.x > shootStick.x) {
+		// This is the move stick
+		shootStick = {
+			x: initial.x,
+			y: initial.y,
+			angle: getRadians(diff.x, diff.y),
+			normal: getVectorNormal(diff),
+			length: length
+		};
+	}
+
 	context.beginPath();
-	context.arc(x, y, 48, 0, (Math.PI * 2), true);
-	context.strokeStyle = "rgb(200, 0, 0)";
+	context.arc(movement.x, movement.y, 48, 0, (Math.PI * 2), true);
+	context.strokeStyle = color;
 	context.stroke();
 
 	context.restore();
@@ -96,7 +186,14 @@ function init () {
 		setPoints(e.touches, "movement");
 	});
 
-	setInterval(draw, 1);
+	setInterval(main, 1);
+};
+
+function main () {
+	moveStick = null;
+	shootStick = null;
+
+	draw();
 };
 
 function setPoints (touches, key) {
@@ -108,18 +205,9 @@ function setPoints (touches, key) {
 
 		if (key == "movement") {
 			// TODO: prevent it from moving outside of its parent
-			var x = touch.pageX;
-			var y = touch.pageY;
-
-			/*
-			var heading = Math.atan2(x, -y);
-			var x = points[i].initial.x;
-			var y = points[i].initial.y;
-			*/
-
 			points[i][key] = {
-				x: x,
-				y: y
+				x: touch.pageX,
+				y: touch.pageY
 			};
 
 		} else {
