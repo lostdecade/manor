@@ -15,17 +15,17 @@
 		</style>
 	</head>
 	<body>
-		<canvas id="stage" width="1024" height="768"></canvas>
+		<canvas id="stage" width="1024" height="690"></canvas>
 		<script>
 (function () {
 
-var WIDTH = 1024;
-var HEIGHT = 768;
-
 var canvas = document.getElementById("stage");
 var context = canvas.getContext("2d");
+
+var WIDTH = canvas.offsetWidth;
+var HEIGHT = canvas.offsetHeight;
+
 var pointer = {
-	angle: 0,
 	radius: 36,
 	x: (WIDTH / 2),
 	y: (HEIGHT / 2)
@@ -35,6 +35,16 @@ var touches = [];
 
 var moveStick = null;
 var shootStick = null;
+
+function constrain (value, radius, min, max) {
+	if ((value - radius) < min) {
+		return (min + radius);
+	}
+	if ((value + radius) > max) {
+		return (max - radius);
+	}
+	return value;
+};
 
 function draw () {
 	context.clearRect(0, 0, WIDTH, HEIGHT);
@@ -46,9 +56,28 @@ function draw () {
 	if (moveStick != null) {
 		pointer.x += (moveStick.length * moveStick.normal.x);
 		pointer.y += (moveStick.length * moveStick.normal.y);
+
+		pointer.x = constrain(pointer.x, pointer.radius, 0, WIDTH);
+		pointer.y = constrain(pointer.y, pointer.radius, 0, HEIGHT);
 	}
 
 	drawPointer();
+	drawDebug();
+};
+
+function drawDebug () {
+	context.save();
+
+	context.fillStyle = "rgb(0, 0, 0)";
+	context.font = "20px Verdana";
+	context.textBaseline = "top";
+
+	var x = parseInt(pointer.x);
+	var y = parseInt(pointer.y);
+	context.fillText((x + ", " + y), 0, 0);
+	context.fillText(shootStick.angle, 0, 20);
+
+	context.restore();
 };
 
 function drawPointer () {
