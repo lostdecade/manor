@@ -5,4 +5,5 @@ This is where [Lost Decade Games](http://www.lostdecadegames.com/) puts its demo
 ## Authors
 
 [Geoff Blair](https://github.com/richtaur)
+and
 [Matt Hackett](https://github.com/geoffb)
