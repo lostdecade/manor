@@ -79,15 +79,15 @@ var init = function () {
 		}
 	}
 
-	var lastNow = Date.now();
+	var then = Date.now();
 
 	interval = setInterval(function () {
 		var now = Date.now();
-		var elapsed = ((now - lastNow));
-		lastNow = now;
+		var elapsed = (now - then);
 
 		update(elapsed);
 		render(ctx, elapsed);
+		then = now;
 	}, 1);
 };
 
