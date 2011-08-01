@@ -85,7 +85,7 @@ function init () {
 		stick.setInputXY(stick.limit.x, stick.limit.y);
 	});
 
-	image.src = "img/Analog_stick_guide_by_Eric_the_Rexman.png";
+	image.src = "img/stick.png";
 	image.onload = function () {
 		setInterval(main, 1);
 	};
