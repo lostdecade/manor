@@ -6,18 +6,30 @@
 	<meta name="description" content="Official website of Lost Decade Games, an independent game company in Silicon Valley, CA, focusing on HTML5 games.">
 	<meta name="keywords" content="html5 games, javascript, chrome webstore, game dev, open source, blog, git, github, lost decade games, matt hackett, richtaur, geoff blair, gosub">
 	<link rel="shortcut icon" href="/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="/media/css/ldg.css">
+	<link href="http://fonts.googleapis.com/css?family=Prociono" rel="stylesheet" type="text/css">
+	<link rel="stylesheet/less" type="text/css" href="/media/css/ldg.less">
+	<script src="/media/js/less.js"></script>
 </head>
 <body>
 
 	<div class="page">
-		<div class="head">
+		<div id="head">
+			<img src="/media/images/ldg_logo_240x240.jpg" width="240" height="240">
 			<a href="/" class="title">Lost Decade Games</a>
+			<nav>
+				<a href="/">Blog</a>
+				<a href="/contact.html">Contact Us</a>
+			</nav>
 		</div>
-		<div class="body">
-			{{ content }}
+		<div id="body">
+			<div class="main">
+				{{ content }}
+			</div>
+			<div class="aux">
+				sidebar n stuff
+			</div>
 		</div>
-		<div class="foot">
+		<div id="foot">
 			<!-- links and shit -->
 		</div>
 	</div>
