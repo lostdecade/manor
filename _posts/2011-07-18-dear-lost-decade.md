@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Dear Lost Decade...
-post_author: Matt Hackett
 post_date: 2011-07-18
+post_author: Matt Hackett
+post_gravatar: 60fd5218fff6927c0ed376cce01c5460
 ---
 About a week ago we launched Onslaught! on iPad, and during the weekend we were surprised and delighted to discover a few things. First, Onslaught! is in the "New & Noteworthy" section of the iPad App Store. We're thrilled to see Apple helping to bring exposure to our game, and have been excited to see a significant boost in sales. We think this speaks loudly that HTML5 is here, today, and there can be no more doubt that it's a viable development choice.
 

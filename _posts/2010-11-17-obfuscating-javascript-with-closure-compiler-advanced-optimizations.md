@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Obfuscating JavaScript with Closure Compiler Advanced Optimizations
-post_author: Geoff Blair
 post_date: 2010-11-17
+post_author: Geoff Blair
+post_gravatar: 76dbcc74021b8039f14c7b583978b56d
 ---
 While working on our upcoming game, Onslaught! Arena, we wanted to obfuscate the JavaScript code as much as possible. Using tools like [YUICompressor][1] and [Google Closure Compiler][2] (with Standard Optimizations) just weren't enough. Luckily, Closure Complier has an "[Advanced Optimizations][3]" mode. This mode will really make your JavaScript gross and unreadable!
 
