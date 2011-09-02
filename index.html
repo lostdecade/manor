@@ -1,55 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>Demos and hacks and stuff by Lost Decade Games</title>
-		<meta charset="utf-8">
-	</head>
-	<body>
-		<h1>Demos and hacks and stuff by Lost Decade Games</h1>
-		<p>
-			This page is where we stick our demos, prototypes and other fun stuff.
-			Everything here is <a href="https://github.com/lostdecade/lostdecade.github.com"> open source</a>!
-			For more information, check out our <a href="http://blog.lostdecadegames.com/">blog</a>.
-		</p>
-
-		<!--
-		<h2>Cellular Automation</h2>
-		<p>
-			An example of cells in a 2d world affecting each other</a>.
-			<a href="demos/cellular_automation/">See the demo</a>
-			or
-			<a href="http://blog.lostdecadegames.com/cellular-automation-in-javascript">read the article.</a>.
-		</p>
-		-->
-
-		<h2>Analog thumb sticks for iPad using HTML5</h2>
-		<p>
-			An abstraction library for emulating <a href="http://en.wikipedia.org/wiki/Analog_stick">analog sticks</a>.
-			<a href="http://blog.lostdecadegames.com/analog-thumb-sticks-for-ios-using-html5">Read the full article.</a>
-		</p>
-		<ul>
-			<li>
-				<a href="demos/analog_stick/">Analog stick</a>
-			</li>
-			<li>
-				<a href="demos/analog_stick/static_with_graphic.html">Static analog stick with graphic</a>
-			</li>
-			<li>
-				<a href="demos/analog_stick/ios.html">Dual analog sticks for iOS</a> (works only with iOS devices)
-			</li>
-		</ul>
-
-		<h2>Simple Canvas Game</h2>
-		<p>
-			An extremely simple example of how to make a <a href="demos/simple_canvas_game/">game using HTML5 Canvas</a>.
-			For a full code walkthrough, <a href="http://blog.lostdecadegames.com/how-to-make-a-simple-html5-canvas-game">read the blog.</a>
-		</p>
-		
-		<!--
-		<h2>Benchmarks</h2>
-		<ul>
-			<li><a href="demos/benchmarks/">Numbers</a>
-		</ul>
-		-->
-	</body>
-</html>
+---
+layout: default
+title: Home
+---
+<section>
+	<h1>Posts</h1>
+	<ul>
+		{% for post in site.posts %}
+		<li>
+			<span>{{ post.date | date_to_string }}:</span>
+			<a href="{{ post.url }}">{{ post.title }}</a>
+			<p>{{ post.summary }}</p>
+		</li>
+		{% endfor %}
+	</ul>
+</section>

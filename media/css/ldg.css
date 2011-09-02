@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Prociono);
+
+html, body {
+	background: #000;
+	color: #fff;
+	font-family: Arial, sans;
+}
+
+a {
+	color: orange;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.page {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.page > .head > .title {
+	font-family: Prociono, Arial, sans;
+	font-size: 32px;
+}
