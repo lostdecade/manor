@@ -3,6 +3,12 @@ body, h1 {
 	margin: 0;
 }
 
+.border-box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 html, body {
 	background: #000;
 	color: #fff;
@@ -54,8 +60,7 @@ a:hover {
 	overflow: hidden;
 
 	.main {
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
+		.border-box;
 		float: left;
 		width: 500px;
 		padding: 20px;
@@ -63,8 +68,7 @@ a:hover {
 	}
 
 	.aux {
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
+		.border-box;
 		float: left;
 		width: 300px;
 		padding: 20px;
