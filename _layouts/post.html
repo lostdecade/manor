@@ -3,11 +3,16 @@ layout: default
 ---
 <section class="post">
 	<h1>{{ page.title }}</h1>
-	<div>
-		<img src="http://www.gravatar.com/avatar/{{ page.post_gravatar }}?s=40" width="40" height="40">
-		{{ page.post_author }}
+	<div class="info">
+		<img
+			class="avatar"
+			src="http://www.gravatar.com/avatar/{{ page.post_gravatar }}?s=40"
+			width="40"
+			height="40"
+		>
+		<span class="author">Posted by {{ page.post_author }}</span>
+		<span class="date">{{ page.post_date | date_to_string }}</span>
 	</div>
-	<div>{{ page.post_date | date_to_string }}</div>
 	<div>{{ content }}</div>
 
 	<!-- Social media -->
