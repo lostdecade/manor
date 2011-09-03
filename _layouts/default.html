@@ -28,6 +28,41 @@
 			</div>
 			<div class="aux">
 				Lost Decade Games is an HTML5 Game Studio in Palo Alto, CA.
+
+				<!-- Twitter widget -->
+				<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+				<script>
+				new TWTR.Widget({
+					version: 2,
+					type: 'profile',
+					rpp: 3,
+					interval: 30000,
+					width: 'auto',
+					height: 300,
+					theme: {
+						shell: {
+							background: '#333333',
+							color: '#ffffff'
+						},
+						tweets: {
+							background: '#000000',
+							color: '#ffffff',
+							links: '#4aed05'
+						}
+					},
+					features: {
+						scrollbar: false,
+						loop: false,
+						live: true,
+						hashtags: true,
+						timestamp: true,
+						avatars: false,
+						behavior: 'all'
+					}
+				}).render().setUser('lostdecadegames').start();
+				</script>
+				<!-- /Twitter -->
+
 			</div>
 		</div>
 		<div id="foot">
