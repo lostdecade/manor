@@ -1,6 +1,6 @@
-# Demos, prototypes and hacks by Lost Decade Games
+# The Lost Decade Games website
 
-This is where [Lost Decade Games](http://www.lostdecadegames.com/) puts its demos, examples and other developer-friendly goodness. For more information on this stuff, please see our [blog](http://blog.lostdecadegames.com/).
+This is the [Lost Decade Games](http://www.lostdecadegames.com/) blog where we talk about our games, post demos, examples and other developer-friendly goodness. For more information on this stuff, please see our [blog](http://blog.lostdecadegames.com/).
 
 ## Authors
 
