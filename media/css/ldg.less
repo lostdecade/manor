@@ -1,7 +1,13 @@
 /* Reset */
-body, h1 {
+body, h1, h2, ul {
 	margin: 0;
 }
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
 
 .border-box {
 	-webkit-box-sizing: border-box;
@@ -38,17 +44,29 @@ a:hover {
 		vertical-align: top;
 		font-family: Prociono, Arial, sans;
 		font-size: 40px;
+		color: #fff;
+		-webkit-transition: color 350ms linear;
+	}
+
+	.title:hover {
+		text-decoration: none;
+		color: #808000;
+		-webkit-transition: color 350ms linear;
 	}
 
 	nav {
 		margin-top: 10px;
-		padding: 10px;
+		padding: 10px 20px;
 		background: #999;
 		border-bottom: solid 4px #666;
 		a {
-			color: white;
+			color: #eee;
+			text-shadow: 1px 1px 0 #666;
 			display: inline-block;
 			margin-right: 30px;
+		}
+		a:hover {
+			text-decoration: none;
 		}
 	}
 	
@@ -59,6 +77,10 @@ a:hover {
 	background: #fff;
 	color: #000;
 	overflow: hidden;
+
+	a {
+		color: #008000;
+	}
 
 	.main {
 		.border-box;
@@ -108,3 +130,22 @@ a:hover {
 
 }
 
+.post-list {
+
+	text-align: left;
+
+	li {
+		margin-top: 20px;
+	}
+
+	.title {
+		display: inline-block;
+	}
+
+	.date {
+		display: block;
+		color: #999;
+		font-size: 12px;
+	}
+
+}

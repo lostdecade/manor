@@ -3,14 +3,12 @@ layout: default
 title: Home
 ---
 <section>
-	<h1>Posts</h1>
-	<ul>
+	<ul class="post-list">
 		{% for post in site.posts %}
 		<li>
-			<span>{{ post.date | date_to_string }}:</span>
-			<a href="{{ post.url }}">{{ post.title }}</a>
-			<p>{{ post.summary }}</p>
+			<a class="title" href="{{ post.url }}">{{ post.title }}</a>
+			<span class="date">{{ post.date | date_to_string }}</span>
 		</li>
 		{% endfor %}
 	</ul>
-</section>
+</sction>
