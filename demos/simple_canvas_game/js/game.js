@@ -48,14 +48,17 @@ addEventListener("keyup", function (e) {
 }, false);
 
 // Reset the game when the player catches a monster
-var reset = function () {
+var resetHero = function () {
 	hero.x = canvas.width / 2;
 	hero.y = canvas.height / 2;
+};
 
-	// Throw the monster somewhere on the screen randomly
+// Throw the monster somewhere on the screen randomly
+var resetMonster = function () {
 	monster.x = 32 + (Math.random() * (canvas.width - 64));
 	monster.y = 32 + (Math.random() * (canvas.height - 64));
 };
+
 
 // Update game objects
 var update = function (modifier) {
@@ -80,7 +83,7 @@ var update = function (modifier) {
 		&& monster.y <= (hero.y + 32)
 	) {
 		++monstersCaught;
-		reset();
+		resetMonster();
 	}
 };
 
@@ -118,6 +121,7 @@ var main = function () {
 };
 
 // Let's play this game!
-reset();
+resetHero();
+resetMonster();
 var then = Date.now();
 setInterval(main, 1); // Execute as fast as possible
