@@ -1,0 +1,294 @@
+---
+layout: post
+title: How to make a simple HTML5 Canvas game
+post_date: 2011-08-29
+post_author: Matt Hackett
+post_gravatar: 60fd5218fff6927c0ed376cce01c5460
+---
+<p>
+	Since releasing <a href="http://www.lostdecadegames.com/onslaught_arena">Onslaught! Arena</a>,
+	I've had many requests for a very basic tutorial on how to make a simple game in canvas.
+	After pondering for some time how to best approach this complex subject,
+	I decided just to put together the <em>very simplest</em> game I can imagine and walk through it practically line-by-line.
+</p>
+
+<p>
+	So here it is!
+	Let's jump right in by walking through
+	<a href="https://github.com/lostdecade/lostdecade.github.com/blob/master/demos/simple_canvas_game/js/game.js">game.js</a>.
+	You can also <a href="http://lostdecade.github.com/demos/simple_canvas_game/">play the game right here</a>.
+</p>
+
+<a href="http://www.flickr.com/photos/50655575@N03/6084194152/in/photostream">
+	<img alt="Simple game using Onslaught! graphics" src="http://farm7.static.flickr.com/6203/6084194152_35c3e3ba34_z.jpg">
+</a>
+
+<h3>1. Create the canvas</h3>
+
+<pre><code>
+// Create the canvas
+var canvas = document.createElement("canvas");
+var ctx = canvas.getContext("2d");
+canvas.width = 512;
+canvas.height = 480;
+document.body.appendChild(canvas);
+</code></pre>
+
+<p>
+	The first thing we need to do is create a
+	<a href="https://developer.mozilla.org/en/canvas_tutorial">canvas element</a>.
+	I did this in JavaScript instead of HTML to demonstrate how easily it is accomplished.
+	Once we have the element we get a reference to its context,
+	set its dimensions and append it to the document's body.
+</p>
+
+<h3>2. Include images</h3>
+
+<pre><code>
+// Background image
+var bgReady = false;
+var bgImage = new Image();
+bgImage.onload = function () {
+	bgReady = true;
+};
+bgImage.src = "images/background.png";
+</code></pre>
+
+<p>
+	A game needs graphics! So let's load up some images.
+	I wanted to do this as simply as possible so it's just an <code>Image</code> instead of being wrapped up in a nice Class or something.
+	<code>bgReady</code> is used to let the canvas
+	know when it's safe to draw it, as trying to
+	<a href="http://stackoverflow.com/questions/2923564/uncaught-error-index-size-err">render it before it's loaded will throw a DOM error</a>.
+</p>
+
+<p>
+	We do this for each of the three graphics we need:
+	<a href="https://github.com/lostdecade/lostdecade.github.com/blob/master/demos/simple_canvas_game/images/background.png">background</a>,
+	<a href="https://github.com/lostdecade/lostdecade.github.com/blob/master/demos/simple_canvas_game/images/hero.png">hero</a>
+	and <a href="https://github.com/lostdecade/lostdecade.github.com/blob/master/demos/simple_canvas_game/images/monster.png">monster</a>.
+</p>
+
+<h3>3. Game objects</h3>
+
+<pre><code>
+// Game objects
+var hero = {
+	speed: 256, // movement in pixels per second
+	x: 0,
+	y: 0
+};
+var monster = {
+	x: 0,
+	y: 0
+};
+var monstersCaught = 0;
+</code></pre>
+
+<p>
+	Now we define some variables we'll need to use later.
+	<code>hero</code> gets setup with <code>speed</code> which is how fast it'll move in pixels per second.
+	<code>monster</code> won't move so it just has coordinates.
+	Lastly, <code>monstersCaught</code> stores the number of monsters the player has caught.
+</p>
+
+<h3>4. Player input</h3>
+
+<pre><code>
+// Handle keyboard controls
+var keysDown = {};
+
+addEventListener("keydown", function (e) {
+	keysDown[e.keyCode] = true;
+}, false);
+
+addEventListener("keyup", function (e) {
+	delete keysDown[e.keyCode];
+}, false);
+</code></pre>
+
+<p>
+	Now for input handling.
+	This is probably the first part that will trip up developers who come from a web development background.
+	The important thing to remember is that we don't necessarily want to react to an input event right when it happens.
+	In the web stack, it may be appropriate to begin animating or requesting data right when the user initiates input.
+	But in this flow, we want our game's logic to live solely in once place to retain tight control over when and if things happen.
+	For that reason we just want to store the user input for later.
+</p>
+
+<p>
+	To accomplish this we simply have a variable <code>keysDown</code> which stores any event's <code>keyCode</code>.
+	If a key code is in the object, the user is currently depressing that key. Simple!
+</p>
+
+<h3>5. New game</h3>
+
+<pre><code>
+// Reset the game when the player catches a monster
+var reset = function () {
+	hero.x = canvas.width / 2;
+	hero.y = canvas.height / 2;
+
+	// Throw the monster somewhere on the screen randomly
+	monster.x = 32 + (Math.random() * (canvas.width - 64));
+	monster.y = 32 + (Math.random() * (canvas.height - 64));
+};
+</code></pre>
+
+<p>
+	The <code>reset</code> function is called to begin a new game, or level, or whatever you'd like to call it.
+	It places the hero (the player) in the center of the screen and the monster somewhere randomly.
+</p>
+
+<h3>6. Update objects</h3>
+
+<pre><code>
+// Update game objects
+var update = function (modifier) {
+	if (38 in keysDown) { // Player holding up
+		hero.y -= hero.speed * modifier;
+	}
+	if (40 in keysDown) { // Player holding down
+		hero.y += hero.speed * modifier;
+	}
+	if (37 in keysDown) { // Player holding left
+		hero.x -= hero.speed * modifier;
+	}
+	if (39 in keysDown) { // Player holding right
+		hero.x += hero.speed * modifier;
+	}
+
+	// Are they touching?
+	if (
+		hero.x <= (monster.x + 32)
+		&& monster.x <= (hero.x + 32)
+		&& hero.y <= (monster.y + 32)
+		&& monster.y <= (hero.y + 32)
+	) {
+		++monstersCaught;
+		reset();
+	}
+};
+</code></pre>
+
+<p>
+	This is the <code>update</code> function and is called every single interval execution.
+	The first thing it does is checks the up, down, left and right arrow keys to see if the user has pressed them.
+	If so, the hero is moved in the corresponding direction.
+</p>
+
+<p>
+	What may seem odd is the <code>modifier</code> argument passed into <code>update</code>.
+	You'll see how this is referenced in the <code>main</code> function, but let me first explain it here.
+	<code>modifier</code> is a time-based number based on 1.
+	If exactly one second has passed, the value will be 1 and the hero's speed will be multiplied by 1, meaning he will have moved 256 pixels in that second.
+	If one half of a second has passed, the value will be 0.5 and the hero will have moved half of his speed in that amount of time.
+	And so forth.
+	This function gets called so rapidly that the <code>modifier</code> value will typically be very low,
+	but using this pattern will ensure that the hero will move the same speed no matter how fast (or slowly) the script is running.
+</p>
+
+<p>
+	Now that we've moved the hero according to the player's input, we can check to see what happened with that movement.
+	If there was a collision with the hero and monster, that's it! That's pretty much the game.
+	We tally the score (+1 to <code>monstersCaught</code>) and reset the game.
+</p>
+
+<h3>7. Render objects</h3>
+
+<pre><code>
+// Draw everything
+var render = function () {
+	if (bgReady) {
+		ctx.drawImage(bgImage, 0, 0);
+	}
+
+	if (heroReady) {
+		ctx.drawImage(heroImage, hero.x, hero.y);
+	}
+
+	if (monsterReady) {
+		ctx.drawImage(monsterImage, monster.x, monster.y);
+	}
+
+	// Score
+	ctx.fillStyle = "rgb(250, 250, 250)";
+	ctx.font = "24px Helvetica";
+	ctx.textAlign = "left";
+	ctx.textBaseline = "top";
+	ctx.fillText("Goblins caught: " + monstersCaught, 32, 32);
+};
+</code></pre>
+
+<p>
+	Games are more fun when you get to see the action going down, so let's draw everything to the screen.
+	First we take the background image and
+	<a href="https://developer.mozilla.org/en/Canvas_tutorial/Using_images">draw it to the canvas</a>.
+	Repeat for the hero and monster.
+	<em>Note that the order is important, as any image drawn to the surface will be drawn over the pixels under it.</em>
+</p>
+
+<p>
+	Next we change some properties on the context related to how to draw the font, and we make a call to <code>fillText</code> to display the player's score.
+	As we don't have any complicated animations or movement, we're done drawing.
+</p>
+
+<h3>8. The main game loop</h3>
+
+<pre><code>
+// The main game loop
+var main = function () {
+	var now = Date.now();
+	var delta = now - then;
+
+	update(delta / 1000);
+	render();
+
+	then = now;
+};
+</code></pre>
+
+<p>
+	The main game loop is what controls the flow of the game.
+	First we want to get the current timestamp so we can calculate the delta (how many milliseconds have passed since the last interval).
+	We get the modifier to send to <code>update</code> by dividing by 1000 (the number of milliseconds in one second).
+	Then we call <code>render</code> and record the timestamp.
+</p>
+
+<p><em>
+	See also the
+	<a href="http://www.html5rocks.com/en/tutorials/casestudies/onslaught.html#toc-the-game-loop">Onslaught! Arena Case Study</a>
+	for more on game loops.
+</em></p>
+
+<h3>9. Start the game!</h3>
+
+<pre><code>
+// Let's play this game!
+reset();
+var then = Date.now();
+setInterval(main, 1); // Execute as fast as possible
+</code></pre>
+
+<p>
+	Almost there, this is the last code snippet!
+	First we call <code>reset</code> to start a new game/level.
+	(Remember that this centers the hero and places the monster randomly for the player to find.)
+	Then we seed our timestemp (with the variable <code>then</code>) and start the interval.
+</p>
+
+<p>
+	Congraulations! You now (hopefully!) understand the basic fundamentals of game development using the canvas element in JavaScript.
+	Try it out on your own!
+	<a href="http://lostdecade.github.com/demos/simple_canvas_game/">Play the game</a> or
+	<a href="https://github.com/lostdecade/lostdecade.github.com">fork</a> the code on GitHub and get started hacking.
+</p>
+
+<h3>Got feedback?</h3>
+
+<p>
+	What did you think of this tutorial?
+	Was it helpful? Too slow, too fast, too technical, not technical enough?
+	Please let me know in the comments and I'll try to improve the next tutorial!
+	Be sure to <a href="http://twitter.com/#!/lostdecadegames">follow us on Twitter</a> to know right when the next tutorial is available.
+</p>

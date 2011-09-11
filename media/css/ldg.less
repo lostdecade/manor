@@ -1,5 +1,5 @@
 /* Reset */
-body, h1, h2, ul {
+body, h1, h2, h3, ul {
 	margin: 0;
 }
 
@@ -7,7 +7,6 @@ ul {
 	padding: 0;
 	list-style: none;
 }
-
 
 .border-box {
 	-webkit-box-sizing: border-box;
@@ -19,7 +18,7 @@ html, body {
 	background: #000;
 	color: #fff;
 	font-family: Muli, Arial, sans;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 a {
@@ -37,46 +36,90 @@ a:hover {
 }
 
 #head {
-	
-	.title {
-		display: inline-block;
-		margin: 60px 0 0 -40px;
-		vertical-align: top;
-		font-family: Prociono, Arial, sans;
-		font-size: 40px;
-		color: #fff;
-		-webkit-transition: color 350ms linear;
+	position: relative;
+
+	a {
+		text-decoration: none;
 	}
 
-	.title:hover {
-		text-decoration: none;
-		color: #808000;
+	h1 {
+		background: url(/media/images/title.png);
+
+		position: absolute;
+		top: 70px;
+
+		display: inline;
+		width: 492px;
+		height: 59px;
+	}
+	
+	.title {
+		display: none;
+		/*
 		-webkit-transition: color 350ms linear;
+		*/
+	}
+
+	em {
+		color: rgb(147, 149, 152);
+
+		position: absolute;
+		left: 310px;
+		top: 150px;
 	}
 
 	nav {
-		margin-top: 10px;
-		padding: 10px 20px;
-		background: #999;
-		border-bottom: solid 4px #666;
+		background: url(/media/images/navigation_bar.png);
+
 		a {
+			background: url(/media/images/buttons.png) 0 0;
 			color: #eee;
+			text-align: center;
 			text-shadow: 1px 1px 0 #666;
+
 			display: inline-block;
-			margin-right: 30px;
+			line-height: 42px;
+			margin-right: 10px;
+			width: 113px;
+			height: 42px;
 		}
 		a:hover {
+			background: url(/media/images/buttons.png) 0 -42px;
 			text-decoration: none;
 		}
+
+		div {
+			float: right;
+			a {
+				text-indent: -999em;
+				width: 42px;
+				height: 42px;
+			}
+			a.rss {
+				background: url(/media/images/icon_rss.png);
+			}
+			a.twitter {
+				background: url(/media/images/icon_twitter.png);
+			}
+			a:last-child {
+				margin: 0;
+			}
+		}
+
+		.border-box;
+		margin-bottom: 20px;
+		padding: 12px;
+		width: 800px;
+		height: 64px;
 	}
 	
 }
 
 #body {
 
-	background: #fff;
 	color: #000;
 	overflow: hidden;
+	margin-bottom: 20px;
 
 	a {
 		color: #008000;
@@ -84,10 +127,28 @@ a:hover {
 
 	.main {
 		.border-box;
+
 		float: left;
 		width: 500px;
-		padding: 20px;
 		text-align: justify;
+
+		.hd {
+			background: url(/media/images/scroll_hd.png);
+			width: 565px;
+			height: 95px;
+		}
+
+		.bd {
+			background: url(/media/images/scroll_bd.png);
+			padding: 20px;
+			width: 549px;
+		}
+
+		.ft {
+			background: url(/media/images/scroll_ft.png);
+			width: 574px;
+			height: 77px;
+		}
 	}
 
 	.aux {
@@ -97,6 +158,33 @@ a:hover {
 		padding: 20px;
 	}
 
+}
+
+#foot {
+	background: url(/media/images/footer.png);
+	line-height: 42px;
+	text-align: center;
+
+	.border-box;
+	margin-bottom: 20px;
+	width: 802px;
+	height: 42px;
+}
+
+#contact {
+	p {
+		overflow: hidden;
+	}
+
+	img[alt="Geoff Blair"] {
+		float: left;
+		margin-right: 20px;
+	}
+
+	img[alt="Matt Hackett"] {
+		float: right;
+		margin-left: 20px;
+	}
 }
 
 .post {
