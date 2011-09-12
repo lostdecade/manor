@@ -1,13 +1,34 @@
 ---
 layout: default
-title: Home
+title: HTML5 Game Makers
 ---
 <section>
+	<p id="welcome">
+		Welcome to the <strong>Lost Decade Games</strong> website!
+		We are a fulltime <strong>HTML5 game studio</strong> based in Mountain View, CA.
+		Please have a look at our first game,
+		<a href="/onslaught_arena/">Onslaught!</a>
+		(available for
+		<a href="http://itunes.apple.com/us/app/onslaught!/id441426241">iPad</a>,
+		<a href="https://market.android.com/details?id=com.gameclosure.tealeaf">Android tablets</a>
+		and the <a href="https://chrome.google.com/webstore/detail/khodnfbkbanejphecblcofbghjdgfaih">Chrome Webstore</a>).
+		For updates about our games
+		<a href="https://twitter.com/#!/geoffblair">follow us on Twitter</a>
+		or
+		<a href="/rss.xml">subscribe to our blog</a>.
+		More info about us is available on our <a href="/contact/">contact</a> page.
+	</p>
+
+	<h1>Recent Blogs</h1>
+
 	<ul class="post-list">
 		{% for post in site.posts %}
 		<li>
 			<a class="title" href="{{ post.url }}">{{ post.title }}</a>
-			<span class="date">{{ post.date | date_to_string }}</span>
+			<span class="date">
+				{{ post.date | date_to_string }}
+				by <strong>{{ post.post_author }}</strong>
+			</span>
 		</li>
 		{% endfor %}
 	</ul>
