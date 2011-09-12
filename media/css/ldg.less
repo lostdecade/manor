@@ -16,7 +16,7 @@ ul {
 
 html, body {
 	background: #000;
-	color: #fff;
+	color: #f1f1f2;
 	font-family: Muli, Arial, sans;
 	font-size: 16px;
 }
@@ -74,8 +74,9 @@ a:hover {
 		a {
 			background: url(/media/images/buttons.png) 0 0;
 			color: #eee;
+			font: 16px MedievalSharp;
 			text-align: center;
-			text-shadow: 1px 1px 0 #666;
+			text-shadow: 1px 1px 0 #1d1715;
 
 			display: inline-block;
 			line-height: 42px;
@@ -142,7 +143,7 @@ a:hover {
 			.border-box;
 
 			background: url(/media/images/scroll_bd.png);
-			padding: 20px;
+			padding: 30px;
 			width: 560px;
 		}
 
@@ -154,18 +155,67 @@ a:hover {
 	}
 
 	.aux {
-		.border-box;
 		float: left;
-		width: 300px;
+		text-align: center;
+
+		.border-box;
 		padding: 20px;
+		width: 240px;
+
+		p {
+			color: #f1f1f2;
+			margin-bottom: 1em;
+
+			a {
+				display: block;
+			}
+		}
+
+		ul {
+			margin-left: 28px;
+			height: 42px;
+		}
+
+		ul li {
+			display: inline;
+
+			a {
+				float: left;
+				text-indent: -999em;
+
+				display: block;
+				margin-right: 10px;
+				width: 42px;
+				height: 42px;
+			}
+		}
+
+		ul li:last-child {
+			a {
+				margin: 0;
+			}
+		}
+
+		.android {
+			background: url(/media/images/icon_android.png);
+		}
+		.apple {
+			background: url(/media/images/icon_apple.png);
+		}
+		.chrome {
+			background: url(/media/images/icon_chrome.png);
+		}
+
 	}
 
 }
 
 #foot {
 	background: url(/media/images/footer.png);
+	font-size: 75%;
 	line-height: 42px;
 	text-align: center;
+	text-shadow: 1px 1px 0 #1d1715;
 
 	.border-box;
 	margin-bottom: 20px;
@@ -192,15 +242,22 @@ a:hover {
 .post {
 
 	h1 {
+		font: 32px MedievalSharp;
 		margin-bottom: 10px;
 	}
 
-	.info {
+	.info, .share {
+
+		background: rgba(0, 0, 0, 0.25);
+		margin-bottom: 1em;
+		padding: 10px;
+		border: 1px solid rgba(0, 0, 0, 0.5);
+		border-radius: 5px;
 
 		font-size: 16px;
 
 		.avatar {
-			border: solid 2px #999;
+			border: solid 2px #1d1715;
 			float: left;
 			margin-right: 10px;
 		}
@@ -213,9 +270,18 @@ a:hover {
 		.date {
 			line-height: 22px;
 			display: block;
-			color: #666;
+			color: #4f3f38;
+			font-size: 75%;
 		}
 
+	}
+
+	p {
+		margin-bottom: 1em;
+	}
+
+	code {
+		background: rgba(0, 0, 0, 0.25);
 	}
 
 }
