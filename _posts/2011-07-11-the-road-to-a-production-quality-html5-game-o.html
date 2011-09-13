@@ -1,0 +1,157 @@
+---
+layout: post
+title: The road to a production-quality HTML5 game on iOS
+post_date: 2011-07-11
+post_author: Matt Hackett
+post_gravatar: 60fd5218fff6927c0ed376cce01c5460
+---
+<a href="http://techcrunch.com/2011/07/11/html5-game-maker-looks-to-transcend-sleepy-chrome-web-store-sales-on-ios/">
+	<img alt="Onslaught! for iPad on TechCrunch" src="http://farm7.static.flickr.com/6012/5928010148_8823671290.jpg">
+</a>
+
+<h2>
+	<a href="http://techcrunch.com/2011/07/11/html5-game-maker-looks-to-transcend-sleepy-chrome-web-store-sales-on-ios/">As seen today on TechCrunch!</a>
+</h2>
+
+<p>
+	About a year ago, Geoff and I were both senior frontend engineers working for
+	<a href="http://raptr.com/">Raptr</a>.
+	As software programmers by trade and hardcore gamers at heart,
+	we were anxious to test out this new "HTML5" buzzword to see how well it could handle game development.
+	BoingBoing happened to be running a
+	<a href="http://boingboing.net/arcade/">Games Inspired by Music</a> contest,
+	to which we submitted our <strong>first HTML5 game</strong>, an early version of
+	<a href="http://www.lostdecadegames.com/onslaught_arena">Onslaught! Arena</a>.
+</p>
+
+<a class="after" href="http://www.flickr.com/photos/50655575@N03/5252304247/in/photostream">
+	<img alt="Onslaught! Arena at the Chrome Webstore press release" src="http://farm6.static.flickr.com/5130/5252304247_0e56ef269d_m.jpg">
+</a>
+
+<p>
+	The game that we entered to
+	<a href="http://boingboing.net/arcade/">the contest</a>
+	was a quick two-week hack put together in our spare time,
+	written in <strong>JavaScript and Canvas</strong> and designed to run reasonably well in "modern browsers."
+	Making the game was extremely fast and easy, using Google Chrome and its
+	<a href="http://blog.chromium.org/2011/04/chrome-developer-tools-understanding.html">great developer tools</a>.
+	As expected, the primary issues we ran into were largely performance-related.
+	About mid-way through development, however, Chrome "unleashed"
+	<a href="http://blog.chromium.org/2010/09/unleashing-gpu-acceleration-on-web.html">GPU acceleration</a>
+	on the web, which shot our FPS (frames per second)
+	from ~30 to something more like ~200 on tested desktop computers and laptops.
+	(Basically the game ran about an <em>order of magnitude faster</em>, as browsers were improving by leaps and bounds.)
+	Like <a href="http://www.phoboslab.org/log/2011/03/the-state-of-html5-audio">other developers</a>,
+	we also had a cavalcade of <strong>nasty audio issues</strong>, ranging from latency, to format incompatiblity and stuttering playback.
+	We ended up shipping with <a href="http://www.schillmania.com/projects/soundmanager2/">SoundManager 2</a>
+	(a JavaScript-to-flash audio API), though we eventually did utilize HTML5's Audio tag.
+</p>
+
+<p>
+	Around this time, Google was coincidentally
+	<a href="http://techcrunch.com/2010/05/19/chrome-web-store/">preparing</a>
+	for the launch of its new
+	<a href="https://chrome.google.com/webstore">Chrome Web Store</a>,
+	which was a potentially exciting new platform championing HTML5 and open web standards.
+	After scrambling to polish Onslaught! Arena and wrapping a Chrome-colored bow around it,
+	<a href="http://blog.lostdecadegames.com/announcing-onslaught-arena-for-sale-in-the-go">Onslaught! Arena launched in Google's web store</a>.
+	We were invited to the press release, had a
+	<a href="http://www.flickr.com/photos/50655575@N03/5252913696/in/photostream">screenshot of our game up on a big wall</a>,
+	and were very excited to see our HTML5 creation getting
+	<a href="http://www.flickr.com/photos/50655575@N03/5673721388/in/photostream">industry attention</a>.
+</p>
+
+<a class="before" href="http://www.flickr.com/photos/50655575@N03/5517989875/in/set-72157624619472766">
+	<img alt="Onslaught! Arena in the Mac App Store" src="http://farm6.static.flickr.com/5019/5517989875_9bd2dd3820_m.jpg">
+</a>
+
+<p>
+	Despite being a featured game to launch with a brand new offering from a heavyweight like Google,
+	<a href="http://blog.lostdecadegames.com/our-first-week-in-the-chrome-webstore-the-num">sales were lackluster</a>
+	(as <a href="http://techcrunch.com/2011/01/04/sales-have-slowed-to-a-trickle-on-googles-chrome-web-store/">pointed out by TechCrunch</a>).
+	Given that part of HTML5's intended appeal is its portability,
+	we thought it was time to give it a real-world test.
+	This includes some successes, such as a
+	<a href="http://blog.lostdecadegames.com/an-html5-game-in-the-mac-app-store">release in the Mac App Store</a>,
+	but we found that our primary problem was still slow performance, particularly
+	<a href="http://blog.lostdecadegames.com/what-we-need-to-get-our-html5-game-on-ipad-sp">on iOS</a>
+	(I believe that our best benchmark was ~10 FPS, the target for any game being at <em>least</em> 30 FPS).
+	The answer to our speed woes came from
+	<a href="http://techcrunch.com/2011/02/17/game-closure-makes-it-a-breeze-to-build-multiplayer-cross-platform-games/">Game Closure</a>,
+	a small group of wickedly smart guys who put together a multi-platform HTML5 game framework.
+</p>
+
+<p>
+	Leveraging Game Closure's tech, we had a playable version of Onslaught! Arena on iPad after just a day of hacking,
+	running at an impressive 60 FPS (5x that of a simple embedded WebView).
+	Their approach is very similar to that of <a href="http://www.phoboslab.org/log/2010/10/impact-for-ios">ImpactJS</a> -- that is,
+	they have a custom JavaScript environment, accelerated with direct access to native graphics and sound.
+	The best part is that our development environment never changed;
+	we were still using Google Chrome, working in pure HTML5 and enjoying Chrome's fine developer tools.
+</p>
+
+<p>
+	We didn't just want to port the game over, however.
+	We wanted this release to be something special, so we spent a few weeks
+	stuffing it full of brand new content, including:
+</p>
+
+<a class="after" href="http://www.flickr.com/photos/50655575@N03/5841748350/in/photostream">
+	<img alt="Onslaught! for iPad: Dragon Lair" src="http://farm3.static.flickr.com/2784/5841748350_a528c99d95_m.jpg">
+</a>
+
+<ul>
+	<li>Completely redone, full soundtrack by <a href="http://jmflava.com/">Joshua Morse</a></li>
+	<li>Revamped arena, much bigger playing area</li>
+	<li><strong>Four</strong> new environments (Sewers, Dragon Lair, Sunken City and Volcano)</li>
+	<li>New <a href="http://www.flickr.com/photos/50655575@N03/5829587759/in/photostream">Stage Select screen</a> to improve the game's pacing and replayability</li>
+	<li>New weapon: <a href="http://www.flickr.com/photos/50655575@N03/5830138264/in/photostream">frostbolt</a> (stops enemies cold!)</li>
+	<li>New monsters: <a href="http://www.flickr.com/photos/50655575@N03/5830138392/in/photostream">skeleton, merman and Naga</a></li>
+	<li><a href="http://twitpic.com/56z1zw">Shop</a> (featuring an <a href="http://www.html5rocks.com/en/tutorials/casestudies/onslaught.html">HTML5 Shield</a>, Speed Boots, Gold Armor, Whet Stone and even a <a href="http://www.pixeljoint.com/pixelart/62388.htm">Dragon Familiar</a> to help you fight)</li>
+	<li><a href="http://www.flickr.com/photos/50655575@N03/5829587929/in/photostream">Two types of controls</a> (touch-to-move, dual sticks)</li>
+</ul>
+
+<h2>
+	Development take-aways
+</h2>
+
+<p>
+	We've learned dozens of lessons and have what we hope are insightful and helpful
+	take-aways about the process of bringing an HTML5 game to production-quality on iOS.
+	We'll be writing about them all in due time (<a href="http://blog.lostdecadegames.com/rss.xml">subscribe here</a>),
+	but here are a quick handful of pointers:
+</p>
+
+<a class="after" href="http://www.flickr.com/photos/50655575@N03/5673721388/in/photostream">
+	<img alt="Onslaught! Arena in Game Developer magazine" src="http://farm6.static.flickr.com/5141/5673721388_f98100ba58_m.jpg">
+</a>
+
+<ul>
+	<li>Browsers are <strong>great</strong> for prototyping and fast development. If you're used to compiling your game before being able to test out some code, you'll love moving over to an environment where you can simply reload the game with a single keystroke.</li>
+	<li>Don't worry about framerate/performance until you <strong>absolutely must</strong>. On more than one occasion, we dirtied up our game's logic with slight optimization tweaks, only to later get huge speed increases later from external sources (that didn't require code updates).</li>
+	<li>Developer tools in the browser are really great. Firebug paved the way for Web Inspector, and current versions of Chrome are a developer's dream. I have only some experience debugging in Objective-C or the Android SDK, but they feel heavy-handed in comparison.</li>
+</ul>
+
+<p>
+	We'd like to point out that even with all of this new content, Onslaught! is still a <strong>pure HTML5 game</strong>.
+	It was developed in Google Chrome, and leveraging Game Closure's SDK, required no additional iOS-specific work on our part.
+</p>
+
+<p>
+	<a href="http://itunes.apple.com/us/app/onslaught!/id441426241?ls=1&mt=8">Onslaught! is available now in the iPad App Store.</a>
+	We put a <strong>lot of love</strong> in this game; we hope you'll check it out and
+	let us know what you think in the comments or on <a href="https://twitter.com/#!/lostdecadegames">Twitter</a>. Game on!
+</p>
+
+<h2>
+	Side note: this space is blowing up
+</h2>
+
+<p>
+	HTML5 and games built on HTML5 are <strong>really hot right now</strong>.
+	If you're not convinced by our little game's story, you should know about other huge companies becoming invested
+	in the technology, including Apple, Google, Electronics Arts, and Facebook among other major players.
+	We are actively hiring across the development board, from experts in JavaScript
+	and game programming to interns looking to learn.
+	If you find this space interesting, please do <a href="mailto:hello+jobs@lostdecadegames.com">contact us</a>.
+</p>

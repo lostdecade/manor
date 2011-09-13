@@ -1,0 +1,88 @@
+---
+layout: post
+title: What we need to get our HTML5 game on iPad (Speed)
+post_date: 2011-03-17
+post_author: Matt Hackett
+post_gravatar: 60fd5218fff6927c0ed376cce01c5460
+---
+<a class="after" href="http://www.flickr.com/photos/50655575@N03/5533389193/">
+	<img alt="Onslaught! Arena on iPad" src="http://farm6.static.flickr.com/5014/5533389193_33d84a9947_m.jpg">
+</a>
+
+<p>
+	One of our attractions to HTML5 is its portability.
+	Our game <a href="http://www.lostdecadegames.com/onslaught_arena">Onslaught! Arena</a>
+	began as a browser-based app but has since
+	<a href="http://blog.lostdecadegames.com/an-html5-game-in-the-mac-app-store">moved into native land</a>
+	by embedding a WebKit Web View into
+	<a href="http://itunes.apple.com/us/app/onslaught-arena/id418268106">our OSX app</a>.
+</p>
+
+<p>
+	Given <a href="http://blog.lostdecadegames.com/how-to-embed-html5-into-a-native-mac-osx-app">how easy it was</a>
+	to get our game onto the Mac App Store, the next obvious question is, "What about iPad?"
+	We've been exploring it and are sad to report that we've hit a brick wall of sorts.
+</p>
+
+<p>
+	HTML5 Audio is a disaster on iPad; only one sound file can play at a time, in addition to latency and other issues.
+	Not to pick on iPad or Apple -- HTML5 Audio
+	<a href="http://www.phoboslab.org/log/2011/03/the-state-of-html5-audio">sucks all around</a>.
+	The good news is that it was pretty easy to hack in a fix on iPad and make audio work beautifully.
+</p>
+
+<p>
+	The trick to getting responsive audio on iPad via HTML5 was to create a bridge from JavaScript to Objective-C.
+	I'll post a more detailed tutorial in the future (here's <a href="http://blog.lostdecadegames.com/rss.xml">our RSS feed</a> to get updates), but it looks something like this:
+</p>
+
+<code><pre>
+- (BOOL) webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request
+  navigationType:(UIWebViewNavigationType)navigationType {
+	
+	NSString *requestString = [[request URL] absoluteString];
+	NSArray *components = [requestString componentsSeparatedByString:@"://"];
+	
+	if (([components count] > 1)
+		&& [(NSString *)[components objectAtIndex:0] isEqualToString:@"jsbridge"]) {
+
+		if ([(NSString *)[components objectAtIndex:1] isEqualToString:@"battle_music"]) {
+			// Play battle music here
+		}
+		return NO;
+	}
+	
+	// Let any other request through
+	return YES;
+}
+</pre></code>
+
+<p>
+	Then in your JavaScript you'd send a request to <code>"jsbridge://battle_music";</code>.
+	The device detects this request, parses it, plays an audio file and cancels the request.
+</p>
+
+<a class="before" href="http://www.flickr.com/photos/50655575@N03/5533389725/">
+	<img alt="Onslaught! Arena on iPad" src="http://farm6.static.flickr.com/5135/5533389725_9ac20fb8f8_m.jpg">
+</a>
+
+<p>
+	So there's a workaround; audio is not the bottleneck. The problem with getting <em>our</em> game onto iOS is <strong>speed</strong>.
+	As you can see in
+	<a href="http://www.flickr.com/photos/50655575@N03/sets/72157624619472766/with/5533389893/">some of these screenshots</a>
+	of our game running in the iPad simulator, the <a href="http://en.wikipedia.org/wiki/Frame_rate">frames per second</a> (FPS) is severely lacking.
+</p>
+
+<p>
+	Movies play at 24 FPS, TV plays at about 30 FPS.
+	Modern video games probably run at 60 FPS or more.
+	While taking screenshots of <strong>Onslaught! Arena</strong>, I did notice it can run as high as <a href="http://www.flickr.com/photos/50655575@N03/5533389405/">59 FPS</a>,
+	but it's bursty and doesn't last.
+	Most of the screenshots are more depressing, showing the game running at about <a href="http://www.flickr.com/photos/50655575@N03/5533972328/">7 FPS</a>, which is completely unplayable for an arcade game like ours.
+	Plus, as you can see I've removed the extra pixel drawing of the arena itself: the screen is just plain black and it's still unacceptably slow.
+</p>
+
+<p>
+	This speed problem is the <em>only</em> thing keeping us from having a playable game on any iOS device.
+	So Apple, Google, all of you WebKit supporters and browser makers: please make things run faster. Lotta love for ya, we just want more speed!
+</p>

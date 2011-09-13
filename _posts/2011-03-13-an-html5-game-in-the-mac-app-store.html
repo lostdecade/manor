@@ -1,0 +1,83 @@
+---
+layout: post
+title: An HTML5 game in the Mac App Store
+post_date: 2011-03-13
+post_author: Matt Hackett
+post_gravatar: 60fd5218fff6927c0ed376cce01c5460
+---
+<p>
+	HTML5 is the development buzzword of the moment.
+	It's the "ajax ninja" of the last few years, so naturally it comes with its fair share of skepticism.
+	Indeed, many have been writing about its seemingly
+	<a href="http://developers.slashdot.org/story/11/01/20/206206/No-More-Version-Numbers-For-HTML">never-ending spec</a>,
+	<a href="http://caniuse.com/#search=html5">inconsistent implementations</a> by browser makers,
+	and even its <a href="http://techcrunch.com/2010/04/30/joe-hewitt-web-development/">inferiority to native apps</a>.
+	All are valid arguments against betting a real business on HTML5.
+</p>
+
+<a class="after" href="http://www.flickr.com/photos/50655575@N03/5517989699/">
+	<img alt="Onslaught! Arena banner on Tech Crunch" src="http://farm6.static.flickr.com/5176/5517989699_72f3ddceec_m.jpg">
+</a>
+
+<p>
+	However, here's a hard example of why you absolutely <em>should</em> consider serious development in HTML5.
+	In December of last year,
+	<a href="/announcing-onslaught-arena-for-sale-in-the-go">we launched</a> our little pure-HTML5 game
+	<a href="http://www.lostdecadegames.com/onslaught_arena">Onslaught! Arena</a> in the Google Chrome Webstore.
+	Sales <a href="http://techcrunch.com/2011/01/04/sales-have-slowed-to-a-trickle-on-googles-chrome-web-store/">could be better</a>,
+	sure, but we also just launched the <em>exact same game</em> in the <a href="http://itunes.apple.com/us/app/onslaught-arena/id418268106">Mac App Store</a>.
+	The code is identical with negligible development time required to port it over to a completely different platform.
+</p>
+
+<p>
+	Think about the business case for that. Normally it would take considerable resources to port a game to such a different platform.
+	We know our game isn't exactly a AAA title, but if programmed from the ground up in Objective-C, our best guess is it would take a few <em>months</em> to develop.
+	That's time that we can now spend on content updates or even a sequel.
+</p>
+
+<a class="before" href="http://www.flickr.com/photos/50655575@N03/5517989549/">
+	<img alt="Onslaught! Arena running on my MacBook Pro" src="http://farm6.static.flickr.com/5254/5517989549_1916903b05_m.jpg">
+</a>
+
+<p>
+	How was it done?
+	We just <a href="http://developer.apple.com/library/mac/#documentation/Cocoa/Reference/WebKit/Classes/WebView_Class/Reference/Reference.html">embedded a WebView</a> in a native Cocoa app using Xcode.
+	Is it inferior? Not noticeably so.
+	On my MacBook Pro, the <a href="http://goo.gl/ICa5u">Chrome Web Store version</a> ranges from about 50-250 FPS (frames per second) depending on how many monsters are on the screen.
+	On the same computer, the <a href="http://itunes.apple.com/us/app/onslaught-arena/id418268106">Mac App Store version</a> ranges from 30-100 FPS.
+	(You can see this for yourself: <strong>type "lddebug"</strong> while in-game to see debug information.)
+	And despite <a href="http://www.phoboslab.org/log/2011/03/the-state-of-html5-audio">nasty HTML5 audio issues</a>, sound plays great in both versions.
+</p>
+
+<p>
+	Surprisingly, the Chrome version runs faster than the native Mac version.
+	While Safari and Chrome are both using WebKit as their rendering engines,
+	Chrome is likely faster because <a href="http://code.google.com/p/v8/">V8</a> has wicked speed and its canvas rendering is <a href="http://blog.chromium.org/2010/09/unleashing-gpu-acceleration-on-web.html">hardware-accelerated</a>.
+</p>
+
+<p>
+	Either way, it runs great on both platforms and required almost no dedicated development time to port.
+	If you're a developer, you should find this exciting. We certainly do!
+</p>
+
+<a class="after" href="http://www.flickr.com/photos/50655575@N03/5517989875/">
+	<img alt="Onslaught! Arena" src="http://farm6.static.flickr.com/5019/5517989875_9bd2dd3820_m.jpg">
+</a>
+
+<p>
+	Since you made it this far, you might like to read <a href="http://blog.lostdecadegames.com/our-first-week-in-the-chrome-webstore-the-num">"Our first week in the Chrome Webstore: the numbers"</a> if you're into graphs and sales numbers (and who isn't!).
+	If you'd like to learn more about our HTML5 development, including a tutorial on how to embed a WebView into a native Mac app,
+	<a href="http://twitter.com/lostdecadegames">follow us on Twitter</a>; we'll be writing about that soon.
+</p>
+
+<p>
+	<a href="http://itunes.apple.com/us/app/onslaught-arena/id418268106">
+		See Onslaught! Arena in the Mac App Store.
+	</a>
+</p>
+
+<p>
+	<a href="http://itunes.apple.com/us/app/onslaught-arena/id418268106">
+		<img alt="Onslaught! Arena in the Mac App Store" src="http://www.lostdecadegames.com/img/onslaught/app_store.png">
+	</a>
+</p>

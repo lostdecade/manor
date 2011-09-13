@@ -1,0 +1,149 @@
+---
+layout: post
+title: Boing Boing Contest Post Mortem -- Onslaught!
+post_date: 2010-07-20
+post_author: Geoff Blair
+post_gravatar: 76dbcc74021b8039f14c7b583978b56d
+---
+<p>
+	There are a lot of game development contests out there, and for the longest time it's felt like we kept missing them.
+	So when we heard about
+	<a href="http://www.boingboing.net/2010/06/14/games-inspired-by-mu.html">Boing Boing's Music Inspired by Games</a>
+	contest, we decided to derail our current game project a bit and dive in. Here's our postmortem on how that went.
+</p>
+
+<h3>The Game We Built</h3>
+
+<p>
+	First things first, we built a
+	<a href="http://lostdecadegamesapp.appspot.com/">game called Onslaught!</a>
+	which can be played in a
+	<a href="http://www.google.com/chrome">canvas-enabled browser</a>.
+</p>
+
+<h3>What Worked Well</h3>
+
+<a class="after" href="http://www.flickr.com/photos/50655575@N03/4812629713/" title="Games Inspired by Music by Lost Decade Games, on Flickr">
+	<img src="http://farm5.static.flickr.com/4075/4812629713_26fe9cfe4f_m.jpg" width="240" height="138" alt="Games Inspired by Music">
+</a>
+
+<ul>
+	<li>
+		We are ambitious people but we did a surprisingly good job of
+		<strong>finishing the damn thing</strong>
+		by <strong>pushing back on features</strong>.
+		There were excellent ideas such as <strong>4 playable classes</strong>
+		and <strong>multiple stages with different music</strong>,
+		but none of it seemed feasible in the 2-3 weeks of time that we had.
+		So that feels like the one thing that we did really well.
+	</li>
+	<li>
+		<a href="http://github.com/lostdecade">GitHub</a> and
+		<a href="https://www.dropbox.com/referrals/NTUxMTM0Mjk">Dropbox</a>
+		worked out very well for organization and collaboration.
+		These are such fantastic sharing services that you can use right now for free.
+	</li>
+	<li>
+		We had a good, <strong>concrete definition of our game</strong> that we could refer to often when wondering which features to include.
+		Our mantra was "a medieval fantasy Smash-TV", which helped the direction we went immensely.
+	</li>
+</ul>
+
+<h3>What Didn't Work So Well</h3>
+
+<ul>
+	<li>
+		Our
+		<a href="http://code.google.com/appengine/">Google App Engine</a>
+		account wasn't billing-enabled, so <strong>our game page went down almost <em>immediately</em></strong> after the contest began.
+		And that's a mistake that
+		<a href="/diggy-open-source-javascript-game-engine-with">Matt</a>
+		should have learned from having "launched"
+		<a href="/diggy-open-source-javascript-game-engine-with">Bombada</a>
+		just recently.
+		Lesson learned now, <strong>twice</strong>!
+	</li>
+	<li>
+		We also <strong>did not include Google Analytics</strong>.
+		We figured <em>App Engine</em> had some kind of analytics-like service for free, but nope.
+		<em>Google Analytics</em> is easy to setup and can provide invaluable feedback, and we hadn't installed it until recently, so we fucked up.
+	</li>
+	<li>
+		We <strong>didn't make it clear that flash was required for audio</strong>.
+		We received many comments about audio not working.
+		Blocking flash is common, especially for savvy Internet users.
+		And for <em>this</em> contest especially, music was integral.
+		Not letting the players know that was a mistake.
+	</li>
+	<li>
+		Should have <strong>made the keyboard controls</strong> easier to discover.
+		We did include some text on the title page of how to play, but it wasn't enough; many people said they couldn't figure out how to move or fire.
+	</li>
+	<li>
+		We should have been more clear in our email to
+		<a href="http://boingboing.net/">Boing Boing</a>
+		that this was a game by <em>Lost Decade Games</em>.
+		On the
+		<a href="http://www.boingboing.net/arcade/">arcade page</a>, it says
+		"Matt Hackett's Onslaught!" which isn't fair because
+		<a href="http://geoffblair.com/">Geoff</a> did the lion's share of the code.
+		We were pleased to see a direct link to
+		<a href="http://jmflava.com/">Joshua Morse's personal website</a>,
+		which we think everyone should check out because his music is so incredible.
+	</li>
+	<li>
+		We did not build a game that would thrive in the <strong>30 second experience</strong> domain.
+		Here's what we mean: with 9 entries, people only have a minute or two at max of patience for each game.
+		Our game was challenging immediately: you're fighting off goblins and bats with rocks.
+		That's not fun. We feel that our game can get pretty compelling for fans of the genre eventually, but only after 2-3 minutes, once you've collected
+		better weapons and are fighting cooler enemies like <em>cyclops</em> or <em>a dragon</em>.
+		<p>
+			The 30 second experience is especially important in a contest which is based on users votes rather than of a panel of judges. Random visitors aren't going to give your game a fair shot if you don't <strong>hook them within the first 30 seconds</strong>.
+		</p>
+		<p>
+			For those interested, we believe we have created a better <em>30 second experience</em>
+			by removing rocks in favor of swords, providing two weapons to start with, and getting into the action quicker (goblins instead of bats in the first wave).
+			It's now more fun to play immediately, which is great for anyone who plays.
+		</p>
+		<p>Don't take our word for it, though. <a href="http://lostdecadegamesapp.appspot.com/">Play it yourself</a> and leave your feedback here on the blog or <a href="http://forums.lostdecadegames.com">in our forums</a>.</p>
+	</li>
+	<li>
+		<strong>The URL is forever.</strong>
+		We submitted our entry at 
+		<a href="http://lostdecadegamesapp.appspot.com/">http://lostdecadegamesapp.appspot.com/</a>,
+		which we intended to use for other things as well.
+		But the game itself is in the root directory, and we've noticed that some good folks out there have 
+		<a href="http://www.retromundi.com/games/beatemup-games/onslaught.html">embedded Onslaught! as an iframe</a>,
+		which is great, but now if we ever change that page
+		we're going to be providing broken experiences for potential players and pissing some people off.
+		That won't do! So the URL is permanent and we can never have anything there but a playable version of <em>Onslaught!</em>.
+		Lesson learned.
+	</li>
+</ul>
+
+<h3>Conclusion</h3>
+
+<a class="after" href="http://www.flickr.com/photos/50655575@N03/4813905516/">
+	<img alt="Onslaught! dragon" src="http://farm5.static.flickr.com/4135/4813905516_f6e55409d4_m.jpg">
+</a>
+
+<p>
+	We made some mistakes and learned some valuable lessons.
+	And now we have something that we can (and have!) submitted to
+	<a href="http://www.freeplay.net.au/2010/06/freeplay-awards/">other contests</a>.
+	And the great thing is that, for the <em>Free Play</em> contest,
+	we were able to spend most of our time tweaking gameplay for fun factor instead of building from scratch.
+</p>
+
+<p>
+	Also, having a <strong>hard deadline that you cannot push back</strong> can be very good for productivity.
+	All in all, it was a great experience and we highly recommending entering a contest if you happen to come across one.
+</p>
+
+<h3>Links!</h3>
+
+<ul>
+	<li>Play the <a href="http://2.latest.lostdecadegamesapp.appspot.com/">version of Onslaught!</a> that we entered in the <em>Boing Boing</em> contest.</li>
+	<li>Play the <a href="http://lostdecadegamesapp.appspot.com/">latest version of Onslaught!</a>.</li>
+	<li>Play <a href="http://www.boingboing.net/arcade/">all 9 contest entries</a>.
+</ul>

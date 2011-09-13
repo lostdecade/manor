@@ -1,0 +1,141 @@
+---
+layout: post
+title: How to embed HTML5 into a native Mac OSX app
+post_date: 2011-03-15
+post_author: Matt Hackett
+post_gravatar: 60fd5218fff6927c0ed376cce01c5460
+---
+<a class="after" href="http://www.flickr.com/photos/50655575@N03/5526392241/">
+	<img alt="Onslaught! Arena" src="http://farm6.static.flickr.com/5293/5526392241_e17c988d20_m.jpg">
+</a>
+
+<p>
+	Our game <a href="http://www.lostdecadegames.com/onslaught_arena">Onslaught! Arena</a> was only available on the <a href="https://chrome.google.com/webstore/detail/khodnfbkbanejphecblcofbghjdgfaih">Chrome Webstore</a> when we first launched it.
+	We recently announced that we had also launched the game on the <a href="http://itunes.apple.com/us/app/onslaught-arena/id418268106">Mac App Store</a>, using the <a href="http://blog.lostdecadegames.com/an-html5-game-in-the-mac-app-store">exact same</a> source code.
+	Isn't HTML5 awesome?
+</p>
+
+<p>
+	Many of you expressed interest in how to embed a WebView into a Mac app, and as promised, here's a detailed tutorial.
+</p>
+
+<ol>
+	<li>
+		Download Xcode onto your Mac. I was able to
+		<a href="http://developer.apple.com/xcode/">download it from Apple</a>
+		but it's also
+		<a href="http://itunes.apple.com/us/app/xcode/id422352214?mt=12">in the Mac App Store</a>
+		for $4.99, so your mileage may vary.
+	</li>
+	<li>
+		Run Xcode. Mine is located in <code>/Developer/Applications/Xcode.app</code>.
+	</li>
+	<li>
+		Make a new project. This can be done by using the menubar: choose <code>File / New Project... / Mac OS X / Application / Cocoa Application / Choose ...</code> then select the folder to save your project into. I'll use <strong>WebViewExample</strong> as the project name in this tutorial (but you can use whatever you want).
+	</li>
+	<li>
+		In your Xcode window, under <code>Overview / Groups &amp; Files</code>, expand <code>WebViewExample / Frameworks</code> by clicking the arrow icon.
+	</li>
+	<li>
+		Right-click <strong>Other Frameworks</strong> and select <code>Add / Existing Frameworks... / Webkit.framework / Add</code>.
+	</li>
+	<li>
+		On the same level as <strong>Frameworks</strong>, expand <strong>Resources</strong> by clicking the arrow icon.
+	</li>
+	<li>
+		In a Finder window, locate your HTML5 folder (the folder containing your <code>.html</code> files, etc.) and drag it into this <strong>Resources</strong> folder in Xcode. Make sure to choose <strong>Create Folder References for any added folders</strong>.
+	</li>
+	<li>
+		On the same level as <strong>Resources</strong>, expand <strong>Classes</strong> by clicking the arrow icon.
+	</li>
+	<li>
+		Select <strong>WebViewExampleAppDelegate.h</strong> which will open it for editing in the right column.
+	</li>
+	<li>
+		Edit the file to look like this:
+		<pre><code>
+#import &lt;Cocoa/Cocoa.h&gt;
+#import &lt;WebKit/WebKit.h&gt;
+
+@interface WebViewExampleAppDelegate : NSObject <NSApplicationDelegate> {
+	NSWindow *window;
+	IBOutlet WebView *webView;
+}
+
+@property (assign) IBOutlet NSWindow *window;
+@property (nonatomic, retain) IBOutlet WebView *webView;
+
+@end
+		</code></pre>
+	</li>
+	<li>
+		Now select <strong>WebViewExampleAppDelegate.m</strong> for editing.
+		Edit the file to look like this:
+		<pre><code>
+#import "WebViewExampleAppDelegate.h"
+
+@implementation WebViewExampleAppDelegate
+
+@synthesize window;
+@synthesize webView;
+
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+}
+
+- (void)awakeFromNib {
+	NSString *resourcesPath = [[NSBundle mainBundle] resourcePath];
+	NSString *htmlPath = [resourcesPath stringByAppendingString:@"/htdocs/index.html"];
+	[[webView mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:htmlPath]]];
+}
+
+@end
+		</code></pre>
+		<em>Note: in the line <code>NSString *htmlPath = [resourcesPath stringByAppendingString:@"/htdocs/index.html"];</code>, change the string "/htdocs/index.html" to your game's <code>.html</code> file.</em>
+	</li>
+	<li>
+		Under <strong>Groups &amp; Files</strong>, select <strong>WebViewExample</strong>. Then, in the list to the right under "File Name", double-click <strong>MainMenu.xib (English)</strong>. This will open Interface Builder (which should be located in <code>/Developer/Applications/Interface Builder.app</code>).
+	</li>
+	<li>
+		In Interface Builder, find the <strong>Library</strong> window and select the <strong>Objects</strong> tab.
+	</li>
+	<li>
+		Scroll down to find a row labeled "Web View - A Coca WebView" <em>(hint: you can type "webview" into the text box at the bottom of this window to filter the results)</em> and drag it into the <strong>WebViewExample</strong> window. <em>(another hint: you can resize it and its containing window to whatever sizes you want. More info on this in future tutorials.)</em>
+	</li>
+	<li>
+		Find the "MainMenu.xib - English" window and double-click <strong>Web View Example App Delegate</strong>.
+	</li>
+	<li>
+		Find the tools window (the one with six icons at the very top, it should be labeled "Web View Example App Delegate Identity"). Switch to the "Connections" tab (by pressing the second icon from the right -- it's a blue circle with a white arrow inside).
+		Look under "Outlets". There should be only one row labeled "window". You'll come back to this in a moment.
+	</li>
+	<li>
+		Go back to Xcode and press the <strong>Build and Run</strong> button (or press command+return on your keyboard).
+	</li>
+	<li>
+		Go back to Interface Builder. In the "Outlets" section from before, you should now see a row labeled "webView" with an empty circle to the right of it. Press and hold your mouse down inside this empty circle. A blue line should begin to follow your mouse. Drag this blue line into the WebView object that you dropped into the <strong>WebViewExample</strong> window earlier. (When you hover over it, it should highlight in blue.) Release the mouse button and a connection should be established (this enables communication with your WebView).
+	</li>
+	<li>
+		Save the file (<code>File / Save</code> or command+s).
+	</li>
+	<li>
+		Return to Xode and <strong>Build and Run</strong>. You should see your app running inside the window that opens.
+	</li>
+</ol>
+
+<a class="after" href="http://www.flickr.com/photos/50655575@N03/5517989875/">
+	<img alt="Onslaught! Arena" src="http://farm6.static.flickr.com/5019/5517989875_9bd2dd3820_m.jpg">
+</a>
+
+<p>
+	This example project is available <a href="https://github.com/lostdecade/WebViewExample">on our GitHub page</a> (I've included my old game <a href="http://scriptnode.com/lab/spacius/">Spacius!</a> as an example).
+	You can also <a href="https://github.com/lostdecade/WebViewExample/blob/master/WebViewExample.app.zip">download the generated WebViewExample app</a> directly.
+</p>
+
+<p>
+	I'll post another tutorial soon on how to make a more complete app (<strong>EDIT :</strong> now available <a href="http://blog.lostdecadegames.com/completing-your-native-mac-osx-app-built-in-h">here</a>!), including adding icons, enabling <code>localStorage</code> and building a bridge from JavaScript to Objective-C.
+	<a href="http://twitter.com/lostdecadegames">Follow us on Twitter</a> to get notified when we publish that tutorial.
+</p>
+
+<p>
+	Could you get it to work? Any steps I could change to make things easier to understand? Please let me know in the comments.
+</p>

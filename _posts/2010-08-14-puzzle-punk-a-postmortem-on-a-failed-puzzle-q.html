@@ -1,0 +1,400 @@
+---
+layout: post
+title: Puzzle Punk -- a Postmortem on a Failed Puzzle Quest Clone
+post_date: 2010-08-14
+post_author: Matt Hackett
+post_gravatar: 60fd5218fff6927c0ed376cce01c5460
+---
+<h3>My vicious cycle</h3>
+
+<p>
+	Something had to give.
+	I'd been
+	<a href="http://blog.lostdecadegames.com/why-you-cant-play-matts-dream-game-yet">trying and failing</a>
+	to make my game idea a reality for years and years.
+	The vision was simple: <strong>an online, multiplayer retro <acronym title="Role-Playing Game">RPG</acronym></strong>.
+	I guess the term would have been
+	<a href="http://www.massively.com/" title="Massively Multiplayer Online Role-Playing Game">MMORPG</a>
+	but I'd been working on various implementations of this project long before the days of 
+	<a href="http://www.worldofwarcraft.com/">World of Warcraft</a>.
+</p>
+
+<p>
+	I remember being a kid and <em>longing</em> to play games
+	in the time of
+	<a href="http://www.shiningforcecentral.com/">Shining Force</a> and
+	<a href="http://shrines.rpgclassics.com/snes/som/">Secret of Mana</a>.
+	I had that same longing, but this time it was to make my own game.
+</p>
+
+<a
+	class="after"
+	href="http://www.flickr.com/photos/50655575@N03/4656666809/in/set-72157624517441461/"
+>
+	<img alt="Valadria (super alpha)" src="http://farm5.static.flickr.com/4046/4656666809_625a796787_m.jpg">
+</a>
+
+<p>
+	Eventually I started referring to my game project as <strong>Valadria</strong>.
+	Sure, I'd go off on <a href="http://olremix.org/">tangents</a>
+	and I'd sometimes work on <a href="http://scriptnode.com/lab/spacius/">other little crappy games</a>,
+	but I'd <em>always</em> come back to this core retro RPG concept.
+</p>
+
+<p>
+	<em>
+		My last iteration of <strong>Valadria</strong> is
+		<a href="http://playvaladria.appspot.com/">up on App Engine</a>.
+		It's a very early prototype, but it's playable.
+		I've also <a href="http://github.com/richtaur/Valadria">put the source on GitHub</a>
+		(something I wish I'd been able to do with each of my iterations over the years).
+	</em>
+</p>
+
+<p>
+	So I had a pretty good idea about the game I wanted to build,
+	but I'd been working on it for years with very little to show for it.
+	Here was my vicious cycle:
+</p>
+
+<ol>
+	<li>For some unexplainable reason, my dream game would pop into my head, and <strong>I'd get motivated</strong>.</li>
+	<li>
+		I'd scrounge up freetime between work, school, social life and gaming,
+		and I'd put whatever knowledge I had together towards <strong>making the game</strong>.
+	</li>
+	<li>
+		Eventually (and this was inevitable), I'd hit a hurdle and <strong>stop working</strong>.
+		Graphics, music, networking code, whatever.
+		Something would kill my motivation, most often the hopeless feeling of knowing I'd never finish what
+		I'd started.
+		This step felt like <em>getting fired or dumped</em>; it was heartbreaking.
+	</li>
+	<li>Rinse, <strong>repeat</strong>.</li>
+</ol>
+
+<a
+	class="before"
+	href="http://www.flickr.com/photos/50655575@N03/4855358427/"
+>
+	<img alt="Puzzle Punk: loading_complete" src="http://farm5.static.flickr.com/4096/4855358427_362cee4609_m.jpg">
+</a>
+
+<p>
+	<em>And</em> it should be noted that every time I went through the first step, I'd start from scratch.
+	It had been months or <em>years</em> since the last iteration,
+	so the code was gross and the ideas were stale.
+	I had been repeating this process for over 10 years.
+</p>
+
+<p>
+	It can take time to learn, especially when you're so close to something that you become blind to it.
+	I didn't notice this cycle. I just thought I liked making games in my free time.
+	What's wrong with that?
+	But it wasn't that simple and it wasn't that harmless.
+	I was suffering from a repeated, defeating, soul-crushing feeling of hopelessness every few years
+	when I'd get fed up without getting anywhere and shelve my dream game.
+	It was making me depressed and negatively affecting other areas of my life.
+	And when I finally realized this, I took action to prevent it.
+</p>
+
+<h3>My prevention plan</h3>
+
+<a
+	class="after"
+	href="http://www.flickr.com/photos/50655575@N03/4855358605/"
+>
+	<img alt="Puzzle Punk: select_a_character" src="http://farm5.static.flickr.com/4093/4855358605_7fcaf16472_m.jpg">
+</a>
+
+<p>
+	How was I going to stop this vicious cycle? 
+	I had recently read
+	<a href="http://www.amazon.com/Switch-Change-Things-When-Hard/dp/0385528752">Switch: How to Change Things When Change Is Hard</a>
+	which inspired me to fix areas of my life that felt broken.
+	And so the next time I was motivated to work on <strong>Valadria</strong>,
+	I instead focused my attention on examining why the project always failed and what to do about it.
+</p>
+
+<p>
+	After much internal debating, whiteboarding and sleepless nights, here was my plan:
+</p>
+
+<ol>
+	<li>
+		Create a JavaScript
+		<a href="http://github.com/lostdecade/diggy">game engine</a>
+		and use it to build a simple match-3 game.
+	</li>
+	<li>
+		Extend this same engine and create a
+		<a href="http://en.wikipedia.org/wiki/Puzzle_Quest:_Challenge_of_the_Warlords">Puzzle Quest</a>
+		clone.
+	</li>
+	<li>
+		Extend this new engine to build my dream game, an online
+		<a href="http://playvaladria.appspot.com/">retro RPG</a>.
+	</li>
+</ol>
+
+<p>
+	This list probably looks really unexpected for an amateur indie developer who wants to work on retro RPGs.
+	So let me explain my line of thinking &#8230;
+</p>
+
+<h4>Why a match-3 game in JavaScript?</h4>
+
+<a
+	class="before"
+	href="http://www.flickr.com/photos/50655575@N03/4855358387/"
+>
+	<img alt="Puzzle Punk: create_a_character" src="http://farm5.static.flickr.com/4081/4855358387_503a9b5ee6_m.jpg">
+</a>
+
+<p>
+	Over the years, I had tried to build <strong>Valadria</strong> in everything from 
+	<em>QBASIC</em> to <em>C++</em> to <em>Turbo Pascal</em>.
+	When I was 23, I started working as a <a href="http://php.net/">PHP programmer</a>,
+	which got me looking more seriously at <a href="http://flixel.org/">Flash</a>
+	and <a href="http://crockford.com/">JavaScript</a>.
+</p>
+
+<p>
+	<em>Flash</em> was pretty cool (<em>ActionScript 3</em> is particularly wonderful)
+	but I was learning the most about JavaScript and I felt the most comfortable with it.
+	So after a few more failures and still feeling pulled to JavaScript,
+	I just said "fuck it" and decided to use it, even though it had never really been tested as a true gaming language.
+</p>
+
+<p>
+	And I know what you may have thought: "Just what the world needs: another match-3 game."
+	I feel the same way, I do; I'll explain in the next section.
+</p>
+
+<h4>What? A <em>Puzzle Quest</em> clone?!</h4>
+
+<a
+	class="after"
+	href="http://www.flickr.com/photos/50655575@N03/4855977662/"
+>
+	<img alt="Puzzle Punk mockup" src="http://farm5.static.flickr.com/4116/4855977662_b9fb2ca61d_m.jpg">
+</a>
+
+<p>
+	You may notice I used the term <em>clone</em> here, though I am embarrassed to admit it.
+	As an amateur indie game developer, I feel that clones are wrong in so many ways.
+	They lack innovation, they are sleazy and unethical, and they are at their core lazy game design.
+	Borrowing design elements is just another part of making great software,
+	but one should not borrow too heavily.
+</p>
+
+<p>
+	So how did I arrive at the conclusion that I should work on a <em>Puzzle Quest</em> clone?
+</p>
+
+<p>
+	My desire was to make a pretty massive retro RPG. I had to, for some reason.
+	But I thought about it, and I had never even made "real" game of <em>any</em> kind.
+	Not even a <a href="http://www.tetris.com/">Tetris</a> clone or
+	a <a href="http://nifflas.ni2.se/?page=Knytt+Stories">side-scrolling platformer</a>.
+	I was untested as a game developer and so my aspirations were unreachable.
+</p>
+
+<p>
+	Enter <em>Puzzle Quest</em>.
+	I was a <a href="http://raptr.com/game/DS/Puzzle_Quest_Challenge_of_the_Warlords/review/richtaur">huge fan</a>
+	of the original and, like
+	<a href="http://www.gamespot.com/pc/puzzle/galactrix/review.html">many</a>
+	<a href="http://www.gamerevolution.com/review/ds/puzzle-quest-galactrix">others</a>,
+	was very disappointed with <a href="http://www.playpuzzlequestgalactrix.com/">the next Puzzle Quest</a> game.
+</p>
+
+<a
+	class="before"
+	href="http://www.flickr.com/photos/50655575@N03/4855976904/"
+>
+	<img alt="Puzzle Punk: battle_local" src="http://farm5.static.flickr.com/4079/4855976904_837b9a6805_m.jpg">
+</a>
+
+<p>
+	I really <strong>wanted</strong> to play an online version of <em>PQ</em> with my friends,
+	but the developer of the original did not choose to go that route.
+	Plus, I knew I couldn't get motivated to work on something like
+	<a href="http://www.bobpitch.com/zookeeper/zk.html">ZooKeeper</a>;
+	I'm just too much of a medieval fantasy geek to get excited about much else.
+	But I could get behind something like <em>Puzzle Quest</em>,
+	so I came up with what I called <strong>Puzzle Punk</strong>:
+	a game similar to <em>Puzzle Quest</em> in a steampunk world with online multiplayer capabilities.
+</p>
+
+<p>
+	But even this game was far too complicated.
+	I was an untested game developer, after all, and had never shipped a single finished game.
+	So the plan was to first make a match-3 game.
+	That would be my baby step.
+	I'd make a solid, stable match-3 game and then use that core framework to build <strong>Puzzle Punk</strong>.
+</p>
+
+<h4>Connecting the pieces</h4>
+
+<p>
+	My end goal was not to make <strong>Puzzle Punk</strong>.
+	That was not the desire that was keeping me up all night and defeating me every year or so.
+	Indeed, I beat myself up a lot over the last few months for having such a stupid idea as
+	a clone in the first place.
+	I'd second guess my plan and consider scratching it, but then I'd remember how I arrived at this plan,
+	and the soul-crushing defeat was pending again,
+	so I just got back on track for finishing <strong>Bombada</strong>.
+	I wasn't really happy with my plan but at least I finally <em>had</em> one.
+</p>
+
+<h3>So what happened?</h3>
+
+<a
+	class="before"
+	href="http://www.flickr.com/photos/50655575@N03/4855977452/"
+>
+	<img alt="Puzzle Punk: shop_modal" src="http://farm5.static.flickr.com/4114/4855977452_b2d638cc8d_m.jpg">
+</a>
+
+<p>
+	This plan failed.
+	But that's ok.
+	I actually did finish the match-3 game; it's called <strong>Bombada</strong>.
+	It's <a href="http://playbombada.appspot.com/">playable in your browser right now</a>
+	and I put the <a href="http://github.com/lostdecade/bombada">source code up on GitHub</a>.
+	So I finished one step out of three.
+</p>
+
+<p>
+	And as you can see from the
+	<a href="http://www.flickr.com/photos/50655575@N03/sets/72157624517441461/">many images</a>
+	of the game's development sprinkled about,
+	I did make some progress on <strong>Puzzle Punk</strong> (step 2).
+</p>
+
+<p>
+	The reason I shelved development on <strong>Puzzle Punk</strong> is because
+	I started working with Geoff.
+	We had met some time before and had mutual friends but never seriously talked about collaborating.
+	He had some of his own ideas and his own engine he was working on,
+	and all that stuff sounded way more fun than what I was doing.
+	I guess if we had not decided to work together (or never met),
+	it's conceivable that I could still be working on <strong>Puzzle Punk</strong>,
+	but I doubt it.
+</p>
+
+<p>
+	I guess the reason I think that is because I didn't even attempt to try to get Geoff on board
+	for my <strong>Puzzle Punk</strong> idea. I wanted to be working on something else.
+</p>
+
+<a
+	class="after"
+	href="http://www.flickr.com/photos/50655575@N03/4855977580/"
+>
+	<img alt="Puzzle Punk: shop_phase_2" src="http://farm5.static.flickr.com/4121/4855977580_9f604de3d8_m.jpg">
+</a>
+
+<h3>What was good</h3>
+
+<p>
+	It wasn't all bad: I learned some extremely valuable lessons from all this.
+</p>
+
+<ul>
+	<li>
+		Having a plan at all made me feel in control and empowered me,
+		adding to my motivation at a time when I otherwise felt powerless.
+		<strong>Plans can go to shit over time but it's important to have one anyway.</strong>
+	</li>
+	<li>
+		Having a <em>small</em> project to work on first
+		(<strong>Bombada</strong>, the match-3 game) also helped to remove my feeling of hopelessness.
+		When thinking about how far I had to go in the long run, it was overwhelming.
+		But it was easy to make progress on <strong>Bombada</strong>, and it was very rewarding.
+	</li>
+	<li>
+		Keeping really great records of my progress helped drive development.
+		If I would ever feel like I wasn't gaining enough ground,
+		I could dig through my
+		<a href="http://github.com/lostdecade/bombada/commits/master">git history</a>
+		and be reminded of what I <em>had</em> accomplished.
+	</li>
+</ul>
+
+<p>
+	
+</p>
+
+<h3>What was bad</h3>
+
+<ul>
+	<li>
+		I think I was on the right track using a language I know and love like JavaScript, but
+		I should have used a technology like
+		<a href="https://developer.mozilla.org/en/drawing_graphics_with_canvas">canvas</a>
+		that makes more sense for game development
+		(as opposed to <a href="http://github.com/lostdecade/bombada">DOM</a>).
+		Hearing Geoff talk about cool canvas stuff (which is so much better suited for games)
+		got me really excited; I could have used some of that motivation.
+	</li>
+	<li>
+		Instead of a match-3 game, I should have been working on a ridiculously simple medieval fantasy game.
+		This would have held my attention better and kept me motivated.
+		Cliffski of
+		<a href="http://www.positech.co.uk/">Positech Games</a>
+		has 
+		<a href="http://positech.co.uk/cliffsblog/?p=753">written about</a> this kind of thing.
+	</li>
+	<li>
+		Instead of building <strong>Puzzle Punk</strong>,
+		I should have been building a slightly more complicated version of the previously mentioned simple game.
+		Then I should have iterated on that, and continued the process.
+	</li>
+</ul>
+
+<a
+	class="before"
+	href="http://www.flickr.com/photos/50655575@N03/4855977112/"
+>
+	<img alt="Puzzle Punk: modal_stats" src="http://farm5.static.flickr.com/4136/4855977112_68a373a345_m.jpg">
+</a>
+
+<p>
+	Overall, I guess this plan was as good as any other.
+	Clearly something needed to change because what I was trying was just not working.
+	It's hard to say if the plan would have worked overall, but my single biggest takeaway from all
+	of this is: <strong>if you find you can't do it alone, it can really help to collaborate</strong>.
+</p>
+
+<p>
+	Case in point: after working just a few months together, Geoff and I have put together what we think is
+	<a href="http://lostdecadegamesapp.appspot.com/">a cool little game</a>.
+	And this is a great building block towards building bigger games.
+</p>
+
+<h3>Google Docs</h3>
+
+<p>
+	I have no idea if this will be interesting to anyone or not, but in addition to uploading
+	<a href="http://www.flickr.com/photos/50655575@N03/sets/72157624517441461/">the mocks and wireframes</a>
+	to
+	<a href="http://www.flickr.com/people/50655575@N03/">Flickr</a>,
+	I've also opened up the game documentation I was working on.
+	You can view the files below on Google Docs:
+</p>
+
+<ul>
+	<li>
+		<a href="https://docs.google.com/Doc?docid=0ARyJ8rdGusOsZGRibnNqOTVfMzRoY21zODJnMw&amp;hl=en">Puzzle Punk Economy</a>
+	</li>
+	<li>
+		<a href="https://docs.google.com/Doc?docid=0ARyJ8rdGusOsZGRibnNqOTVfMzFja2h3anBoNQ&amp;hl=en">Puzzle Punk Gameplay</a>
+	</li>
+</ul>
+
+<p>
+	Do you have any failed game projects? I can't be the only one!
+	I'd love to read about someone else's failed project as well.
+</p>

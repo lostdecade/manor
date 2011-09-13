@@ -1,0 +1,142 @@
+---
+layout: post
+title: Diggy, an open source JavaScript game engine (with example game)
+post_date: 2010-07-05
+post_author: Matt Hackett
+post_gravatar: 60fd5218fff6927c0ed376cce01c5460
+---
+<p>
+	Today I'm happy to announce <a href="http://github.com/lostdecade/diggy">Diggy</a>,
+	an open source game engine written in JavaScript.
+	Embedded below is <a href="http://playbombada.appspot.com/">Bombada</a>,
+	a game made with <em>Diggy</em>:
+</p>
+
+<iframe
+	frameborder="0"
+	src="http://playbombada.appspot.com/static/app.htm"
+	width="480"
+	height="320"
+></iframe>
+
+<p>
+	<em>(Works best in
+	<a href="http://www.google.com/chrome">Chrome</a> or
+	<a href="http://www.apple.com/safari/">Safari</a>.)</em>
+</p>
+
+<h2>More about <em>Diggy</em></h2>
+
+<p>
+	The name "Diggy" came from <acronym title="DHTML Game Engine">DGE</a>,
+	which stands for <em><acronym title="Dynamic Hypertext Markup Language">DHTML</acronym> Game Engine</em>.
+	It's a relatively full-featured game engine meant to empower developers to rapidly produce browser-based games.
+</p>
+
+<p>
+	You've already seen what <em>Diggy</em> can do, so here's what it is <strong>not</strong>:
+</p>
+
+<ul>
+	<li>A <a href="http://sizzlejs.com/"><acronym title="Document Object Model">DOM</a> selector</a>.</li>
+	<li>An event manager.</li>
+	<li>A canvas or <acronym title="Scalable Vector Graphics">SVG</acronym> library.</li>
+	<li>Useful for standard web apps.</li>
+	<li>Meant to do anything but make <acronym title="Document Object Model">DOM</a> games.</li>
+	<li>Very stable or ready to make enterprise games.</li>
+	<li>Still in development (at least by me).</li>
+</ul>
+
+<p>
+	<em>(There are also <a href="http://github.com/lostdecade/diggy">known issues</a> to be aware of.)</em>
+</p>
+
+<h2>More about <em>Bombada</em></h2>
+
+<a
+	class="after"
+	href="http://www.flickr.com/photos/50655575@N03/4758225910/"
+>
+	<img alt="Bombada" src="http://farm5.static.flickr.com/4122/4758225910_c45450a649_m.jpg">
+</a>
+
+<p>
+	As you may have
+	<a href="http://blog.lostdecadegames.com/why-you-cant-play-matts-dream-game-yet">read previously</a>,
+	I'm an amateur game developer.
+	I've never shipped a "real" game and <em>Bombada</em> is a baby step towards fixing that.
+	Here's more about the project:
+</p>
+
+<ul>
+	<li>
+		<em>Bombada</em> was orginally intended as an <strong>iPhone game</strong> (hence the 480x320 resolution).
+	</li>
+	<li>
+		<em>Bombada</em> was also intended to work with <a href="http://nodejs.org/">node</a> (hence <code>match3.js</code> being a separate file and attaching to the <code>exports</code> object).
+	</li>
+	<li>
+		99% of the code was <strong>written from scratch</strong> by me,
+		with some exceptions being the easing library
+		(borrowed from the
+		<a href="http://developer.yahoo.com/yui/animation/"><acronym title="Yahoo! User Interface">YUI2</a>
+		library)
+		and the
+		<a href="http://json.org/"><acronym title="JavaScript Object Notation">JSON</acronym> parser</a>.
+	</li>
+	<li>
+		I also made the graphics, which are <strong>free to use</strong> but have some 
+		<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">Creative Commons</a>
+		restrictions.
+	</li>
+	<li>
+		The <strong>music and sound effects</strong> were made by <a href="http://jmflava.com/">Joshua Morse</a>,
+		a freelance music composer. Hire him, he's fantastic.
+	</li>
+</ul>
+
+<p class="quote">
+	<em>Bombada</em> ended up taking about 7 months of part-time development.
+</p>
+
+<p>
+	<em>Bombada</em> ended up taking about <strong>7 months</strong> of part-time development.
+	But it's not that complex, so why did it take so long?
+	Partly because as a fulltime web developer, I don't have a lot of free time.
+	But also partly because I was building <em>Diggy</em> along with it,
+	so in theory any future games could be built much more rapidly.
+</p>
+
+<p>
+	I love postmortems, so I may write one up eventually comprised of what worked, what failed, and
+	any valuable lessons learned. If that's something that would interest you, please let me know in the comments.
+</p>
+
+<h2>Those links again please?</h2>
+
+<ul>
+	<li>
+		<em>Diggy</em> game engine <a href="http://github.com/lostdecade/diggy">source code on GitHub</a>.
+	</li>
+	<li>
+		<em>Bombada</em> puzzle game <a href="http://github.com/lostdecade/bombada">source code on GitHub</a>.
+	</li>
+	<li>
+		<a href="http://playbombada.appspot.com/">Play Bombada</a> in its own window.
+	</li>
+</ul>
+
+<p>
+	<a
+		class="after"
+		href="http://www.flickr.com/photos/50655575@N03/4768878908/"
+	>
+		<img alt="Bombada original soundtrack album cover" src="http://farm5.static.flickr.com/4096/4768878908_ed53554391_m.jpg">
+	</a>
+	<strong>Edit 7/6/2010:</strong> 
+	<em>Bombada</em> composer
+	<a href="http://jmflava.com/">Joshua Morse</a>
+	has put his excellent original soundtrack
+	<a href="http://joshuamorse.bandcamp.com/album/bombada-original-soundtrack">on sale over at Bandcamp</a>.
+	It's a steal at just $3 (or more if you're feeling generous).
+</p>

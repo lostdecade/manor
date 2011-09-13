@@ -1,0 +1,65 @@
+---
+layout: post
+title: Completing your native Mac OSX App built in HTML5
+post_date: 2011-04-17
+post_author: Matt Hackett
+post_gravatar: 60fd5218fff6927c0ed376cce01c5460
+---
+<p><em>Note: this is a continuation of <a href="http://blog.lostdecadegames.com/how-to-embed-html5-into-a-native-mac-osx-app">How to embed HTML5 into a native Mac OSX app</a>. This tutorial uses <strong>Xcode Version 4.0.1</strong>.</em></p>
+<p>So having gone through the first tutorial, you should now have a bare-bones native OSX application running your HTML5 program. Let's open that same project in Xcode (<a href="https://github.com/lostdecade/WebViewExample">example on GitHub</a>) and finish it up! I'll use <strong>WebViewExample</strong> as the name of this tutorial project, but just like last time, yours can be whatever you like.</p>
+
+<h2>Adding an icon to your app</h2>
+<p>To set the icon that appears in the dock, Finder and other views, follow these steps:</p>
+<ol>
+<li>First you need an <a href="http://en.wikipedia.org/wiki/Apple_Icon_Image_format">Apple Icon Image</a> file. To make one yourself, open up the Icon Composer application (mine is located in <code>/Developer/Applications/Utilities/Icon Composer.app</code>). For the sake of speed you can use <a href="https://github.com/lostdecade/WebViewExample/blob/master/OnslaughtArena.icns">OnslaughtArena.icns</a>.</li>
+<li>In Xcode's left sidebar, drill down into <code>WebViewExample / Resources</code>.</li>
+<li>Drag your <code>.icns</code> file into the Resources folder.</li>
+<li>Still in the Resources folder, open the <code>WebViewExample-Info.plist</code> file.</li>
+<li>In the "Key" column, find the row with the value "Icon file".</li>
+<li>Set the value of this row to the name of your <code>.icns</code> file (eg, <code>OnslaughtArena.icns</code>).</li>
+</ol>
+<h2>Closing the window should close the application</h2>
+<p>For those unfamiliar with OSX, I'll quickly describe what this means. In OSX, you can have an application open without any windows. This is very different from Microsoft's Windows operating system where if all the windows are closed, the application is no longer running. This can create an awkward user experience, so there must be a way to bring windows back. This flow doesn't really make much sense for games, so a good workaround is to close the application when all windows are closed.</p>
+<p><strong>Be sure to do this</strong>; we got rejected the first time we submitted because we did not enable this feature! Here's the reason from Apple:</p>
+<blockquote>
+<p>We have found that if the user closes the app window, there is no way for the user to reopen the app without having to quit and relaunch the app.</p>
+</blockquote>
+<p>Fortunately the fix is easy.</p>
+<ol>
+<li>In Xcode's left sidebar, drill down into <code>WebViewExample / Classes / WebViewExampleAppDelegate.m</code>.</li>
+<li>In the <code>awakeFromNib</code> method, add this line just above the closing bracket: <code>[window setDelegate:self];</code>.</li>
+<li>Add this method after the <code>awakeFromNib</code> method:</li>
+</ol>
+<pre><code>
+- (void)windowWillClose:(NSNotification *)aNotification {
+<span style="white-space: pre;">	</span>[NSApp terminate:self];
+}
+</code></pre>
+<p>That's it! Now when you close your application's main window, the application should quit. <em>Note: this works great but it generates the warnings "notice: Semantic Issue: Passing argument to parameter 'anObject' here" as well as "Class 'WebViewExampleAppDelegate' does not implement the 'NSWindowDelegate' protocol".</em></p>
+
+<h2 style="font-size: 1.5em;">Logging errors</h2>
+<p>Xcode can be a bit daunting to newcomers, but fortunately it's very easy to send messages to the log. It can be done with code like this:</p>
+<pre><code>NSLog(@"example message");</code></pre>
+<p>(These messages should appear in the main Xcode window, in the very bottom.)</p>
+<h2>Enabling localStorage</h2>
+<p>It seems that, by default, <code>localStorage</code> will not persist data in an embedded WebView as expected. Here's how to enable it:</p>
+<ol>
+<li>In Xcode's left sidebar, drill down into&nbsp;<code>WebViewExample / Classes / WebViewExampleAppDelegate.m</code>.</li>
+<li>Add this code to the top of the awakeFromNib method: <code>WebPreferences *prefs = [webView preferences];</code>.</li>
+<li>Then add this line just below that: <code>[prefs _setLocalStorageDatabasePath:@"~/Library/YourProjectName/LocalStorage"];</code>. <em>(Be sure to use the name of your project intead of "YourProjectName".)</em></li>
+</ol>
+
+<p>
+	It's important to name the folder that <code>localStorage</code> saves to with the same name as your application (eg, Onslaught! Arena saves to <code>"~/Library/OnslaughtArena/LocalStorage"</code>)! Apple will reject your app if it puts data somewhere unexpected.
+</p>
+
+<p><em>Note: this may generate the warning "'WebPreferences' may not respond to '-_setLocalStorageDatabasePath:'".</em></p>
+
+<h2>Summary</h2>
+
+<a class="after" href="http://www.flickr.com/photos/50655575@N03/5517989875/">
+	<img alt="Onslaught! Arena" src="http://farm6.static.flickr.com/5019/5517989875_9bd2dd3820_m.jpg">
+</a>
+
+<p>Your application should now meet the bare essentials for submission to the Mac App Store, and you could be reaching a wider audience with your HTML5 app in no time (pending Apple's approval &hellip;). Did I miss anything you were hoping to know about? Any steps not work for you? Please let me know.</p>
+<p><strong>Bonus:r</strong> if you want to see what kind of quality you can get out of a native OSX HTML5 app, we just dropped the price of <a href="http://www.lostdecadegames.com/onslaught_arena">Onslaught! Arena</a> in the <a href="http://itunes.apple.com/us/app/onslaught-arena/id418268106?mt=12">Mac App Store to $1.99</a>! See HTML5 in action for yourself.</p>

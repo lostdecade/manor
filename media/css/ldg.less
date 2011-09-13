@@ -7,7 +7,7 @@ body, p, h1, h2, h3, ul, blockquote {
 
 @black: #1d1715;
 @transparent_black: rgba(0, 0, 0, 0.25);
-@green: #008000;
+@green: #0b521f;
 @grey: #4f3f38;
 @orange: #f68b1f;
 @white: #f1f1f2;
@@ -49,11 +49,11 @@ html, body {
 
 a {
 	color: @orange;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .page {
@@ -148,6 +148,9 @@ a:hover {
 
 	a {
 		color: @green;
+	}
+	a:hover {
+		color: @black;
 	}
 
 	.main {
@@ -322,14 +325,25 @@ a:hover {
 
 	}
 
-	code {
+	.before {
+		float: left;
+		margin-right: @standard_padding;
+	}
+	.after {
+		float: right;
+		margin-left: @standard_padding;
+	}
+
+	pre {
+		display: block;
 		background: @transparent_black;
+		overflow: auto;
 	}
 
 	blockquote {
 		color: lighten(@black, 20%);
 		border-left: 10px solid @transparent_black;
-		margin-left: @standard_padding;
+		margin: 0 0 @standard_padding @standard_padding;
 		padding-left: 10px;
 	}
 

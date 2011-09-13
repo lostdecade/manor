@@ -1,0 +1,80 @@
+---
+layout: post
+title: App Engine and Chrome Webstore Issues
+post_date: 2010-12-12
+post_author: Matt Hackett
+post_gravatar: 60fd5218fff6927c0ed376cce01c5460
+---
+<h2>Quick background</h2>
+
+<a class="after" href="http://www.flickr.com/photos/50655575@N03/5252913696/">
+  <img alt="Onslaught! Arena featured in the Chrome Webstore" src="http://farm6.static.flickr.com/5281/5252913696_1538e10fd7_m.jpg">
+</a>
+
+<p>
+  We recently launched <a href="http://www.lostdecadegames.com/onslaught_arena">Onslaught! Arena</a> in the <a href="https://chrome.google.com/webstore/detail/khodnfbkbanejphecblcofbghjdgfaih">Chrome Webstore</a>. We're using <a href="http://code.google.com/appengine/docs/python/gettingstarted/">App Engine (Python)</a> as our backend and we are integrated with Google Checkout's <a href="http://code.google.com/chrome/webstore/docs/get_started.html">Webstore Licensing API</a>.
+</p>
+
+<p>
+  So first off, we messed up: right when we launched, there was a bug in our app that was causing the game demo to serve even to users who had successfully paid for the game. Firstly we'd like to apologize to those users who were affected. We're happy to say that this bug got fixed the night of release.
+</p>
+
+<h2>The troubles we were (and are) having</h2>
+
+<ul>
+  <li>
+    When we first launched, the Licensing API calls were failing. We fixed this, which caused the next two issues:
+  </li>
+  <li>
+    Some users are getting served <a href="http://www.flickr.com/photos/50655575@N03/5255588472/">error pages</a> instead of the game itself.
+  </li>
+  <li>
+    Our app is asking for access to users' email addresses, which understandably makes them uncomfortable. (This is particularly frustrating to us because we neither need or want email addresses.)
+  </li>
+</ul>
+
+<h2>Licensing API calls failing</h2>
+
+<p>
+  So on the night of <a href="http://blog.lostdecadegames.com/announcing-onslaught-arena-for-sale-in-the-go">the day we launched</a>, we noticed that users who had purchased the game were still getting served the demo. That's awful! Nobody spotted it because we obviously had access to the game ourselves, and we were also allowing <strong>Google internal beta testers</strong> access (so they couldn't have found this bug either). We put the fire out quickly (by about 1am PST) and it looks like only 2-3 users even noticed, which is good. Our apologies to any users who were affected.
+</p>
+
+<p>
+  Here's why it was happening. Our Python calls to <code>user.federated_identity()</code> were returning <code>None</code> on production, invalidating our Licensing API calls (since the API requires OpenID URLs). We feel that this was really easy to miss for the following reasons:
+<p>
+
+<ul>
+  <li>Dev/local instances of App Engine do not support OpenID URLs at all (this used to be a documented exception, which I can't find anymore on the Google docs page). This makes debugging a <strong>serious time sink</strong> because we must push to production to test any fixes!</li>
+  <li>The example code (this must have also been removed because I can no longer find it) suggested the use of <code>user_id = user.federated_identity() or user.user_id()</code> which can be <a href="http://groups.google.com/a/chromium.org/group/chromium-reviews/msg/c4e98d56d02229e5">tricky to debug</a>.</li>
+  <li>Enabling OpenID support is <a href="http://code.google.com/appengine/articles/openid.html">experimental</a>.</li>
+</ul>
+
+<p>
+  Once we enabled the "Administration / Application Settings / Authentication Options / (Experimental) Federated Login" option from our App Engine dashboard, <code>user.federated_identity()</code> was returning the OpenID URL as expected and the Licensing API calls started working again.
+</p>
+
+<a class="before" href="http://www.flickr.com/photos/50655575@N03/5252304247/">
+  <img alt="Onslaught! Arena featured in the Chrome Webstore" src="http://farm6.static.flickr.com/5130/5252304247_0e56ef269d_m.jpg">
+</a>
+
+<h2>Server Error pages</h2>
+
+<p>
+  Enabling <strong>Federated Login</strong> has caused some other pretty nasty issues. One is that some users are getting stuck into <a href="http://code.google.com/appengine/articles/openid.html#su">redirect loops</a>, ultimately resulting in <a href="http://www.flickr.com/photos/50655575@N03/5255588472/">error pages</a>. We've spent a ton of time debugging, researching and otherwise trying to figure out a solution to this, with no real solid solution. There are <a href="https://github.com/sje397/Chess">pretty good examples</a> of work-arounds, but they're all kind of hack jobs and still have edge cases that result in the same error. While I freely admit I'm new to both Python and App Engine, I do not currently see a bulletproof solution to this without Google fixing their OpenID implementation.
+</p>
+
+<p>
+  This is a serious problem and if you have experienced this error in our game yourself, we've very sorry. We're trying really hard to find a fix.
+</p>
+
+<h2>Asking for email addresses</h2>
+
+<p>
+  The other issue that came up after enabling <strong>Federated Login</strong> is that the application now asks for users' email addresses when they authenticate with the app. We've seen a bunch of complaints about this in the reviews and aren't entirely sure what to do about it yet. We do not want, need or use email addresses so we'd ideally like to skip this step altogether.
+</p>
+
+<h2>Conclusion</h2>
+
+<p>
+  Many of these platforms and APIs are brand-spanking-new, so problems can be expected. But some of these issues are serious showstoppers and are causing awful user experiences and seriously depleting our already limited development resources. If you have any thoughts or ideas on solutions, we're all ears! And again, if you've been affected by any of our issues, we're sincerely sorry.
+</p>

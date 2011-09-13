@@ -1,0 +1,154 @@
+---
+layout: post
+title: What to do when your game is too easy and too hard
+post_date: 2010-08-29
+post_author: Matt Hackett
+post_gravatar: 60fd5218fff6927c0ed376cce01c5460
+---
+<p>
+	We've been preparing to release <em>version 1.0</em> of our game
+	<a href="http://lostdecadegamesapp.appspot.com/">Onslaught!</a>
+	and part of that process has included looking wherever we can for feedback on how to improve the game.
+</p>
+
+<a class="after" href="http://www.flickr.com/photos/50655575@N03/4938446723/in/set-72157624619472766/">
+	<img alt="Onslaught! preview screenshot" src="http://farm5.static.flickr.com/4118/4938446723_306ca551c5_m.jpg">
+</a>
+
+<p>
+	Luckily for us, <strong>Onslaught!</strong> has
+	<a href="http://delicious.com/lostdecadegames/onslaught+press">been talked about a little bit on the 'net</a>
+	(especially on
+	<a href="http://www.reddit.com/r/WebGames/comments/cwq66/onslaught_an_html5_medieval_fantasy_shoot_em_up/">/r/WebGames</a>;
+	thanks
+	<a href="http://www.reddit.com/">Reddit</a>!)
+	so we've been able to dig through some players' comments.
+	And we've noticed two recurring themes:
+</p>
+
+<h3>It's too easy</h3>
+
+<ul>
+	<li><a href="http://playstuff.net/showthread.php/2716-hmtl5-Onslaught-game?p=39546&viewfull=1#post39546">"lol it was easy just spam the space bar with the 3 way swords shooting at every door"</a></li>
+	<li><a href="http://www.reddit.com/r/WebGames/comments/cwq66/onslaught_an_html5_medieval_fantasy_shoot_em_up/c0vvbkp">"It would be nice is the difficulty actually ramped up past a certain point"</a></li>
+	<li><a href="http://www.reddit.com/r/WebGames/comments/cwq66/onslaught_an_html5_medieval_fantasy_shoot_em_up/c0vvgg4">"I don't want to die on purpose"</a></li>
+	<li><a href="http://playstuff.net/showthread.php/2716-hmtl5-Onslaught-game?p=39547&viewfull=1#post39547">"272,460 I'm so bored....."</a></li>
+</ul>
+
+<h3>It's too hard</h3>
+
+<ul>
+	<li><a href="http://www.canvasdemos.com/2010/08/02/onslaught/">"Too hard, I think"</a></li>
+	<li><a href="http://playstuff.net/showthread.php/2716-hmtl5-Onslaught-game?p=39581&viewfull=1#post39581">"I officially suck at this game."</a></li>
+	<li><a href="http://www.reddit.com/r/WebGames/comments/cwq66/onslaught_an_html5_medieval_fantasy_shoot_em_up/c0vvo0x">"I died when they started spawning two cyclops at a time :("</a></li>
+	<li><a href="http://www.reddit.com/r/WebGames/comments/cwq66/onslaught_an_html5_medieval_fantasy_shoot_em_up/c0vuyx8">"That game was fucking hard."</a></li>
+</ul>
+
+<h3>So, it's too easy AND too hard?</h3>
+
+<p>
+	If the feedback was consistently that <strong>Onslaught!</strong> was too easy,
+	here are some easy tweaks we could have made to help make the game more difficult:
+</p>
+
+<ul>
+	<li>Increase the number of enemies.</li>
+	<li>Increase enemy speed.</li>
+	<li>Increase enemy damage.</li>
+	<li>Decrease the hero's damage.</li>
+	<li>Decrease the hero's health.</li>
+	<li>Decrease weapon drops.</li>
+</ul>
+
+<p>
+	Likewise, we could have reversed any of those rules to make the game easier.
+	But what is a game designer supposed to do with conflicting requirements?
+</p>
+
+<h3>The difficulty curve</h3>
+
+<a class="after" href="http://www.flickr.com/photos/50655575@N03/4813905516/in/set-72157624619472766/">
+	<img alt="Onslaught! dragon boss" src="http://farm5.static.flickr.com/4135/4813905516_f6e55409d4_m.jpg">
+</a>
+
+<p>
+	The
+	<a href="http://8.latest.lostdecadegamesapp.appspot.com/">current version</a>
+	of <strong>Onslaught!</strong> has a very simple algorithm for increasing difficulty.
+	There are seven waves, the final wave consisting primarily of the
+	<a href="http://www.flickr.com/photos/50655575@N03/4813905516/in/set-72157624619472766/">dragon boss</a>.
+	After defeating this wave, the player is thrown back to the beginning of the loop with the number of enemies
+	increased steadily by 50% of the first wave (so it would go: 10 bats, 15 bats, 20 bats, 25 bats, etc.).
+</p>
+
+<p>
+	According to <a href="http://www.google.com/analytics/">Google Analytics</a>,
+	<strong>Onslaught!</strong>'s
+	10,000+ players have played the game for an average of
+	<strong>32 seconds</strong> each.
+	We mentioned previously how we had
+	<a href="http://blog.lostdecadegames.com/boing-boing-contest-post-mortem-onslaught-0">failed to make a 30 second game</a>,
+	and for the final release of <strong>Onslaught!</strong> we decided it would be good to expand on that idea.
+</p>
+
+<p>
+	What we were wanting instead of a steady climb in difficulty like this was an easy beginning with a sharp
+	increase in difficulty.
+	So after the first couple of wave cycles, the game should <em>rapidly</em> increase in difficulty,
+	providing a challenge for hardcore gamers.
+</p>
+
+<p>
+	The below graph shows the previous difficulty curve (<em>v0.2</em>, in blue),
+	and the difficulty curve we are shooting for in <em>v1.0</em> (in red):
+</p>
+
+<a href="http://www.flickr.com/photos/50655575@N03/4938960236/">
+	<img alt="Onslaught! difficulty curve" src="http://farm5.static.flickr.com/4098/4938960236_578e95dab8.jpg">
+</a>
+
+<h3>What we're going to do and why</h3>
+
+<p>
+	This is going to be a difficult (but fun!) problem to solve. Here's what we have in mind:
+</p>
+
+<ul>
+	<li>
+		We're adding <strong>four new enemies</strong>: flaming skull, flying imps, wizards and sandworms (each with new behavior).
+		These enemies will increase the length of gameplay (giving us room to play with difficulty)
+		as well as mixing up the player's strategy with varying enemy behaviors.
+	</li>
+	<li>
+		Players will battle <strong>two new classic D&D-style bosses</strong> (guess what they are!).
+		The first will be relatively easy and the second will be extremely difficult.
+	</li>
+	<li>
+		After completing a cycle of waves, traps will begin to appear in the arena!
+		The number of traps will steadily increase as the player completes cycles.
+		They do damage to the player when touched, so this will limit the area the player can navigate.
+	</li>
+	<li>
+		Complete weapon overhaul: this includes balancing current weapons as well as adding new weapons
+		(such as a <strong>bouncing battle axe</strong> and <strong>flaming sword</strong> that leaves a trail of fire in its wake)!
+	</li>
+	<li>
+		For the
+		<a href="http://www.freeplay.net.au/2010/06/freeplay-awards/">Freeplay awards</a>,
+		we
+		<a href="/onslaught-v02-freeplay-awards">did two things</a>
+		to improve the <strong>30 second experience</strong>:
+		we replaced the default weapon (rocks, which are boring) with swords (which are more fun!)
+		and we provided the player with two starting weapons.
+		These weapons were randomly generated, so players were able to reload the game
+		in order to get whatever weapons they wanted (for instance, the overpowered trident).
+		For <em>v1.0</em>, we're going to provide set weapons to balance this out (probably knives and fireballs).
+	</li>
+</ul>
+
+<p>
+	We've got these improvements and many others in mind as well!
+	Our hope is that these gameplay tweaks and content additions will make the game more enjoyable
+	for both casual and hardcore players alike.
+	What do you think? Is <strong>Onslaught!</strong> currently too easy or too hard?
+</p>
