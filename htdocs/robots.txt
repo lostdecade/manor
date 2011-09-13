@@ -1,5 +1,3 @@
 User-agent: *
 Disallow: /media
-Disallow: /CNAME
-Disallow: /README.md
 Disallow: /404.html

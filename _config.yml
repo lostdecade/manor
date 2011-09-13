@@ -1,5 +1,6 @@
 permalink: /:title
 pygments: true
+source: htdocs
 
 # Local server
 auto: true
