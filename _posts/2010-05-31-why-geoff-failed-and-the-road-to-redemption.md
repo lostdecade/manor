@@ -5,8 +5,6 @@ post_date: 2010-05-31
 post_author: Geoff Blair
 post_gravatar: 76dbcc74021b8039f14c7b583978b56d
 ---
-# Why Geoff Failed and the Road to Redemption
-
 I blame my father for my obsession with making video games. It was he that introduced me to the wonderful world of BASIC on his Commodore 64. Dad was a gamer at heart and, just like me, has a passion for tinkering with computers. The very first reason I had for learning to code was to make a game.
 
 ![Shapes](http://farm5.static.flickr.com/4051/4657126554_8313d46af9.jpg "Shapes")
