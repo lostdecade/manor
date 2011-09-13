@@ -1,5 +1,6 @@
 permalink: /:title
 pygments: true
+exclude: [CNAME, README.md]
 
 # Local server
 auto: true
