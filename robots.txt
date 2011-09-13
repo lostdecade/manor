@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /media
+Disallow: /drafts
 Disallow: /CNAME
 Disallow: /README.md
 Disallow: /404.html
