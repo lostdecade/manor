@@ -10,14 +10,15 @@ Welcome to our new website! As web developers, we've been aware that our site ha
 
 # What's different?
 
-http://developmentseed.org/blog/2011/09/09/jekyll-github-pages/
+Our new site is hosted via [GitHub Pages](http://pages.github.com/) and is powered by [Jekyll](https://github.com/mojombo/jekyll) -- a "blog-aware, static site generator." There are several benefits to this setup:
 
-* Bad news for fans of waiting! The entire site is much faster. Our pages are entirely static HTML and external files are being hosted from Google's lightning fast web servers.
-* The blog is now powered by [Jekyll](https://github.com/mojombo/jekyll) -- a "blog-aware, static site generator." This allows us more control over our content and we can write using [Markdown](http://daringfireball.net/projects/markdown/) (which makes Geoff especially happy).
-* Entire website is now running on [GitHub Pages](http://pages.github.com/) (which conveniently supports Jekyll).
-* Website is more tightly integrated with [code examples on GitHub](https://github.com/lostdecade).
-* We're using [LESS](http://lesscss.org/) to make writing CSS more awesome.
-* [Gravatar](http://en.gravatar.com/) for avatars, because Gravatar is awesome and the more stuff we host in the cloud, the easier our lives are.
+* Jekyll compiles the site once and then only static html files are served making page load times very fast.
+* We can deploy changes or make new posts just by committing to the [GitHub repo](https://github.com/lostdecade/lostdecade.github.com).
+* Better [Markdown](http://daringfireball.net/projects/markdown/) support which makes Geoff especially happy.
+
+In addition to the above changes we're using [LESS](http://lesscss.org/) to write cleaner and more easily maintained CSS.
+
+It looks like we're not the only ones migrating our site to GitHub Pages, either. Check out [this article from Development Seed](http://developmentseed.org/blog/2011/09/09/jekyll-github-pages/) for some great tips on using Jeykll.
 
 # So long, comments!
 
