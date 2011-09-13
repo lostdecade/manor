@@ -36,9 +36,8 @@ post_gravatar: 60fd5218fff6927c0ed376cce01c5460
 	I'll post a more detailed tutorial in the future (here's <a href="http://blog.lostdecadegames.com/rss.xml">our RSS feed</a> to get updates), but it looks something like this:
 </p>
 
-<code><pre>
-- (BOOL) webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request
-  navigationType:(UIWebViewNavigationType)navigationType {
+{% highlight objc %}
+- (BOOL) webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
 	
 	NSString *requestString = [[request URL] absoluteString];
 	NSArray *components = [requestString componentsSeparatedByString:@"://"];
@@ -55,7 +54,7 @@ post_gravatar: 60fd5218fff6927c0ed376cce01c5460
 	// Let any other request through
 	return YES;
 }
-</pre></code>
+{% endhighlight %}
 
 <p>
 	Then in your JavaScript you'd send a request to <code>"jsbridge://battle_music";</code>.
