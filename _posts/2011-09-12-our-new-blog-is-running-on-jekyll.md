@@ -4,7 +4,6 @@ title: Our new blog is running on Jekyll
 post_date: 2011-09-12
 post_author: Matt Hackett
 post_gravatar: 60fd5218fff6927c0ed376cce01c5460
-published: false
 ---
 Welcome to our new website! As web developers, we've been aware that our site has been a bit ... sad? For entirely too long now. So we rolled up our sleeves, made a brand new design and moved our blog off of [Posterous](http://posterous.com/).
 
@@ -19,6 +18,15 @@ Our new site is hosted via [GitHub Pages](http://pages.github.com/) and is power
 In addition to the above changes we're using [LESS](http://lesscss.org/) to write cleaner and more easily maintained CSS.
 
 It looks like we're not the only ones migrating our site to GitHub Pages, either. Check out [this article from Development Seed](http://developmentseed.org/blog/2011/09/09/jekyll-github-pages/) for some great tips on using Jeykll.
+
+# More organized GitHub repos
+
+Our demos and code samples used to all be thrown into our public [lostdecade.github.com](https://github.com/lostdecade/lostdecade.github.com) repo, but this made for awkward forking and wasn't very clean. Now we've made separate repos for our demos including:
+
+* [Analog Sticks](https://github.com/lostdecade/analog_sticks)
+* [Simple HTML5 Canvas Game](https://github.com/lostdecade/simple_canvas_game)
+
+So fork, fork away!
 
 # So long, comments!
 
