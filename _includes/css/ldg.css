@@ -10,8 +10,8 @@ a:hover{text-decoration:none;}
 #head h1{font:48px Prociono;position:absolute;left:300px;top:70px;display:inline;width:492px;height:59px;}
 #head .title{color:#fff;text-shadow:2px 2px 2px #666;-webkit-transition:color 350ms linear;}
 #head em{color:#939598;position:absolute;left:330px;top:130px;}
-#head nav{background:url(/media/images/navigation_bar.png);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-bottom:20px;padding:12px;width:800px;height:64px;}#head nav a{background:url(/media/images/buttons.png) 0 0;color:#eee;font:16px Prociono;text-align:center;text-shadow:1px 1px 0 #1d1715;display:inline-block;line-height:42px;margin-right:10px;width:113px;height:42px;}
-#head nav a:hover{background:url(/media/images/buttons.png) 0 -42px;text-decoration:none;}
+#head nav{background:url(/media/images/navigation_bar.png);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-bottom:20px;padding:12px;width:800px;height:64px;}#head nav a{background-image:url(/media/images/buttons.png);color:#eee;font:16px Prociono;text-align:center;text-shadow:1px 1px 0 #1d1715;display:inline-block;line-height:42px;margin-right:10px;width:113px;height:42px;}
+#head nav a:hover{background-position:0 -42px;text-decoration:none;}
 #head nav div{float:right;}#head nav div a{background-image:url(/media/images/buttons.png);text-indent:-999em;width:42px;height:42px;}
 #head nav div a.rss{background-position:-113px 0;}
 #head nav div a.rss:hover{background-position:-113px -42px;}
