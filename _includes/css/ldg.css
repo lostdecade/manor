@@ -54,7 +54,7 @@ a:hover{text-decoration:none;}
 .post .before{float:left;margin-right:20px;}
 .post .after{float:right;margin-left:20px;}
 .post blockquote{color:#584640;border-left:10px solid rgba(0, 0, 0, 0.25);margin:0 0 20px 20px;padding-left:10px;}
-#welcome{display:inline-block;background:rgba(0, 0, 0, 0.1);border-radius:5px;padding:10px;margin-top:10px;}
+#welcome{display:inline-block;background:rgba(0, 0, 0, 0.1);border-radius:5px;padding:10px;margin-top:10px;}#welcome img{float:left;margin:0 10px 5px 0;}
 .post-list{text-align:left;}.post-list li{margin-bottom:20px;}
 .post-list li:last-child{margin-bottom:0;}
 .post-list .title{display:inline-block;font:24px Prociono;}
