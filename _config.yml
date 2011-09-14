@@ -2,19 +2,26 @@ permalink: /:title
 pygments: true
 exclude: [CNAME, README.md]
 
+email: hello@lostdecadegames.com
+
+author_ids: [geoff, matt]
 authors:
   matt:
     display_name: Matt Hackett
     gravatar: 60fd5218fff6927c0ed376cce01c5460
     email: matt@lostdecadegames.com
+    web: http://www.richtaur.com/
     twitter: richtaur
     github: richtaur
+    bio: <strong>Matt</strong> is a retro gamer, <a href="http://www.flickr.com/photos/matthackett/3488395022/in/photostream">foosball player</a> and <a href="http://richtaur.deviantart.com/">pixel artist</a>. Also an ex-Yahoo, he built the entire frontend for <a href="http://widgets.yahoo.com/">Yahoo! Widgets</a>, followed by a 2 year stint as senior frontend engineer for <a href="http://raptr.com/richtaur">Raptr</a>.
   geoff:
     display_name: Geoff Blair
     gravatar: 76dbcc74021b8039f14c7b583978b56d
     email: geoff@lostdecadegames.com
+    web: http://www.geoffblair.com/
     twitter: geoffblair
     github: geoffb
+    bio: <strong>Geoff</strong> loves games, JavaScript, snowboarding, markdown and <a href="https://github.com/geoffb">GitHub</a>. His previous work for <a href="http://games.yahoo.com/">Yahoo! Games</a> and <a href="http://raptr.com/geoffb">Raptr</a> have left him with a passion for clean code and shipping software early.
 
 # Local server
 auto: true

@@ -7,61 +7,40 @@ title: Contact Us
 
 	<p>
 		Get in touch!
-		<a href="mailto:hello@lostdecadegames.com">hello@lostdecadegames.com</a>
+		<a href="mailto:{{ site.email }}">{{ site.email }}</a>
 	</p>
 
-	<hr>
-
-	<div id="geoff">
-		<a href="http://www.geoffblair.com/">
-			<img alt="Geoff Blair" src="/media/images/geoff.png" width="200" height="200">
-		</a>
-
-		<p>
-			<strong>Geoff</strong> loves games, JavaScript, snowboarding, markdown and <a href="https://github.com/geoffb">GitHub</a>.
-			His previous work for <a href="http://games.yahoo.com/">Yahoo! Games</a> and <a href="http://raptr.com/geoffb">Raptr</a> have left him with a passion for clean code and shipping software early.
-		</p>
-		<ul>
-			<li>
-				Email:
-				<a href="mailto:geoff@lostdecadegames.com">geoff@lostdecadegames.com</a>
-			</li>
-			<li>
-				Web:
-				<a href="http://www.geoffblair.com/">www.geoffblair.com</a>
-			</li>
-			<li>
-				Twitter:
-				<a href="https://twitter.com/#!/geoffblair">@geoffblair</a>
-			</li>
-		</ul>
+	<div class="authors">
+		{% for author_id in site.author_ids %}
+		{% assign author = site.authors[author_id] %}
+		<div id="{{ author_id }}" class="author">
+			<hr>
+			<a href="{{ author.web }}">
+				<img
+					class="avatar"
+					src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=200"
+					alt="{{ author.display_name }}"
+					width="200"
+					height="200"
+				>
+			</a>
+			<p>{{ author.bio }}</p>
+			<ul>
+				<li>
+					Email:
+					<a href="mailto:{{ author.email }}">{{ author.email }}</a>
+				</li>
+				<li>
+					Web:
+					<a href="{{ author.web }}">{{ author.web }}</a>
+				</li>
+				<li>
+					Twitter:
+					<a href="https://twitter.com/#!/{{ author.twitter }}">@{{ author.twitter }}</a>
+				</li>
+			</ul>
+		</div>
+		{% endfor %}
 	</div>
 
-	<hr>
-
-	<div id="matt">
-		<a href="http://www.richtaur.com/">
-			<img alt="Matt Hackett" src="/media/images/matt.png" width="200" height="200">
-		</a>
-
-		<p>
-			<strong>Matt</strong> is a retro gamer, <a href="http://www.flickr.com/photos/matthackett/3488395022/in/photostream">foosball player</a> and <a href="http://richtaur.deviantart.com/">pixel artist</a>.
-			Also an ex-Yahoo, he built the entire frontend for <a href="http://widgets.yahoo.com/">Yahoo! Widgets</a>, followed by a 2 year stint as senior frontend engineer for <a href="http://raptr.com/richtaur">Raptr</a>.
-		</p>
-
-		<ul>
-			<li>
-				Email:
-				<a href="mailto:matt@lostdecadegames.com">matt@lostdecadegames.com</a>
-			</li>
-			<li>
-				Web:
-				<a href="http://www.richtaur.com/">www.richtaur.com</a>
-			</li>
-			<li>
-				Twitter:
-				<a href="https://twitter.com/#!/richtaur">@richtaur</a>
-			</li>
-		</ul>
-	</div>
 </div>

@@ -291,15 +291,26 @@ a:hover {
 		margin: @standard_padding 0;
 	}
 
-	img[alt="Geoff Blair"] {
-		float: left;
-		margin-right: @standard_padding;
+	.author {
+		.avatar {
+			border: solid 2px #000;
+		}
 	}
 
-	img[alt="Matt Hackett"] {
-		float: right;
-		margin-left: @standard_padding;
+	.author:nth-child(odd) {
+		.avatar {
+			float: left;
+			margin-right: @standard_padding;
+		}
 	}
+
+	.author:nth-child(even) {
+		.avatar {
+			float: right;
+			margin-left: @standard_padding;
+		}
+	}
+
 }
 
 .post {

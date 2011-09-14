@@ -39,8 +39,9 @@ a:hover{text-decoration:none;}
 #foot{background:url(/media/images/footer.png);line-height:42px;text-align:center;text-shadow:1px 1px 0 #1d1715;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-bottom:20px;width:802px;height:42px;}
 #contact div{overflow:hidden;}
 #contact hr{border:1px solid #1d1715;margin:20px 0;}
-#contact img[alt="Geoff Blair"]{float:left;margin-right:20px;}
-#contact img[alt="Matt Hackett"]{float:right;margin-left:20px;}
+#contact .author .avatar{border:solid 2px #000;}
+#contact .author:nth-child(odd) .avatar{float:left;margin-right:20px;}
+#contact .author:nth-child(even) .avatar{float:right;margin-left:20px;}
 .post .info{margin-bottom:1em;}
 .post .share{margin-top:2em;}.post .share .title{font-weight:bold;display:block;margin-bottom:10px;text-shadow:1px 1px 1px #ccc;}
 .post .share ul{list-style:none;padding:0;margin:0;}.post .share ul li{display:inline-block;margin-right:20px;vertical-align:top;}
