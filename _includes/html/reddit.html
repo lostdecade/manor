@@ -1,0 +1,1 @@
+<script type="text/javascript" src="http://www.reddit.com/static/button/button2.js"></script>
