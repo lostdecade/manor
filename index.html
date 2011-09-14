@@ -24,11 +24,12 @@ title: HTML5 Game Makers
 
 	<ul class="post-list">
 		{% for post in site.posts %}
+		{% assign author = site.authors[post.author] %}
 		<li>
 			<a class="title" href="{{ post.url }}">{{ post.title }}</a>
 			<span class="date">
 				{{ post.date | date_to_string }}
-				by <strong>{{ post.post_author }}</strong>
+				by <strong>{{ author.display_name }}</strong>
 			</span>
 		</li>
 		{% endfor %}

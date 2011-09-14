@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Our new blog is running on Jekyll
-post_date: 2011-09-12
-post_author: Matt Hackett
-post_gravatar: 60fd5218fff6927c0ed376cce01c5460
+author: matt
 ---
 Welcome to our new website! As web developers, we've been aware that our site has been a bit ... sad? For entirely too long now. So we rolled up our sleeves, made a brand new design and moved our blog off of [Posterous](http://posterous.com/).
 
