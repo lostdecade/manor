@@ -1,6 +1,7 @@
 permalink: /:title
 pygments: true
 exclude: [CNAME, README.md]
+paginate: 10
 
 email: hello@lostdecadegames.com
 

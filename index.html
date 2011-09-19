@@ -3,6 +3,8 @@ layout: default
 title: HTML5 Game Makers
 ---
 <section>
+
+	{% if paginator.page == 1 %}
 	<p id="welcome">
 		<img src="/media/images/dragon.png" width="64" height="64" title="Dragon boss from Onslaught!">
 		Welcome to the <strong>Lost Decade Games</strong> website!
@@ -19,11 +21,12 @@ title: HTML5 Game Makers
 		<a href="/rss.xml">subscribe to our blog</a>.
 		More info about us is available on our <a href="/contact/">contact</a> page.
 	</p>
+	{% endif %}
 
-	<h1>Blogs</h1>
+	<h1 id="posts">Blogs</h1>
 
 	<ul class="post-list">
-		{% for post in site.posts %}
+		{% for post in paginator.posts %}
 		{% assign author = site.authors[post.author] %}
 		<li>
 			<a class="title" href="{{ post.url }}">{{ post.title }}</a>
@@ -34,4 +37,18 @@ title: HTML5 Game Makers
 		</li>
 		{% endfor %}
 	</ul>
+
+	<div class="pagination">
+		{% if paginator.previous_page %}
+			{% if paginator.previous_page == 1 %}
+				<a class="prev" href="/#posts">&laquo; Newer Posts</a>
+			{% else %}
+				<a class="prev" href="/page{{ paginator.previous_page }}#posts">&laquo; Newer Posts</a>
+			{% endif %}
+		{% endif %}
+		{% if paginator.next_page %}
+			<a class="next" href="/page{{ paginator.next_page }}#posts">Older Posts &raquo;</a>
+		{% endif %}
+	</div>
+
 </section>
