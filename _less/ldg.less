@@ -215,8 +215,22 @@ a:hover {
 			margin-bottom: 1em;
 
 			a {
-				color: lighten(@green, 10%);
-				display: block;
+				background-image: url(/media/images/chrome/buttons.png);
+				color: #eee;
+				font: 16px Prociono;
+				text-align: center;
+				text-decoration: none;
+				text-shadow: 1px 1px 0 @black;
+
+				display: inline-block;
+				line-height: 42px;
+				margin-right: 10px;
+				width: 113px;
+				height: 42px;
+			}
+			a:hover {
+				background-position: 0 -42px;
+				text-decoration: none;
 			}
 		}
 
