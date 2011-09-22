@@ -26,7 +26,7 @@ a:hover{text-decoration:none;}
 #body .main .bd p{margin-bottom:1em;}
 #body .main .bd p:last-child{margin-bottom:0;}
 #body .main .ft{background:url(/media/images/chrome/scroll.png) 0 -70px;width:580px;height:70px;}
-#body .aux{float:left;text-align:center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:20px;width:220px;}#body .aux p{color:#f1f1f2;margin-bottom:1em;}#body .aux p a{background-image:url(/media/images/chrome/buttons.png);color:#eee;font:16px Prociono;text-align:center;text-decoration:none;text-shadow:1px 1px 0 #1d1715;display:inline-block;line-height:42px;margin-right:10px;width:113px;height:42px;}
+#body .aux{float:left;text-align:center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:20px;width:220px;}#body .aux p{color:#f1f1f2;margin-bottom:1em;}#body .aux p a{background-image:url(/media/images/chrome/buttons.png);color:#eee;font:16px Prociono;text-align:center;text-decoration:none;text-shadow:1px 1px 0 #1d1715;display:inline-block;line-height:42px;width:113px;height:42px;}
 #body .aux p a:hover{background-position:0 -42px;text-decoration:none;}
 #body .aux ul{margin:0 0 10px 18px;height:42px;}
 #body .aux ul li{display:inline;}#body .aux ul li a{background-image:url(/media/images/chrome/buttons.png);float:left;text-indent:-999em;display:block;margin-right:10px;width:42px;height:42px;}
