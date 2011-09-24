@@ -6,13 +6,24 @@ layout: default
 	<header>
 		<h1 class="title">{{ page.title }}</h1>
 		<aside class="meta">
+			<a
+				class="twitter"
+				href="https://twitter.com/#!/{{ author.twitter }}"
+				title="Follow {{ page.author | capitalize }} on Twitter"
+			>Twitter</a>
+			<a
+				class="github"
+				href="https://github.com/{{ author.github }}"
+				title="Follow {{ page.author | capitalize }}'s code on GitHub"
+			>GitHub</a>
 			<img
 				class="avatar"
+				href="{{ author.display_name }}"
 				src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40"
 				width="40"
 				height="40"
 			>
-			<span class="author">Posted by {{ author.display_name }}</span>
+			<span class="author">Posted by <strong>{{ author.display_name }}</strong></span>
 			<span class="date">{{ page.date | date_to_long_string }}</span>
 		</aside>
 	</header>

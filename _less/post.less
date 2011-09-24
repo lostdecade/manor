@@ -40,6 +40,30 @@
 			font-size: 75%;
 		}
 
+		a {
+			background-image: url(/media/images/chrome/buttons.png);
+			float: right;
+			text-indent: -999em;
+
+			display: block;
+			margin-left: 10px;
+			width: 42px;
+			height: 42px;
+
+			&.github {
+				background-position: -323px 0;
+			}
+			&.github:hover {
+				background-position: -323px -42px;
+			}
+			&.twitter {
+				background-position: -155px 0;
+			}
+			&.twitter:hover {
+				background-position: -155px -42px;
+			}
+		}
+
 	}
 
 	// Post content, most generic text formatting should reside here

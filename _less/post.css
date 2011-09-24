@@ -13,10 +13,6 @@
 .post .meta{margin-bottom:20px;}.post .meta .avatar{border:solid 2px #1d1715;float:left;margin-right:10px;}
 .post .meta .author{line-height:22px;display:block;}
 .post .meta .date{line-height:22px;display:block;color:#4f3f38;font-size:75%;}
-.post .meta a{background-image:url(/media/images/chrome/buttons.png);float:right;text-indent:-999em;display:block;margin-left:10px;width:42px;height:42px;}.post .meta a.github{background-position:-323px 0;}
-.post .meta a.github:hover{background-position:-323px -42px;}
-.post .meta a.twitter{background-position:-155px 0;}
-.post .meta a.twitter:hover{background-position:-155px -42px;}
 .post .content{line-height:24px;text-align:justify;}.post .content h1,.post .content h2,.post .content h3,.post .content h4,.post .content h5,.post .content h6{margin:20px 0;font-family:Prociono;font-size:24px;font-weight:normal;}
 .post .content p{margin:20px 0;}.post .content p:first-child{margin-top:0;}
 .post .content ul{list-style-image:url(/media/images/chrome/bullet_sword.png);margin:0 40px;}.post .content ul li{margin-bottom:10px;}.post .content ul li:last-child{margin-bottom:0;}
