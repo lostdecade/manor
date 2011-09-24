@@ -1,0 +1,108 @@
+// Common variables and mixins
+
+// Colors
+@black: #1d1715;
+@white: #f1f1f2;
+@transparent_black: rgba(0, 0, 0, 0.25);
+@green: #0b521f;
+@grey: #4f3f38;
+@orange: #f68b1f;
+
+@standard_padding: 20px;
+
+.clear-float {
+	overflow: hidden;
+}
+
+// Sane box model
+.border-box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.rounded-corners (@radius) {
+	border-radius: @radius;
+}
+
+.tabsize (@size) {
+	-webkit-tab-size: @size; // Not yet implemented
+	-moz-tab-size: @size;
+	-o-tab-size: @size;
+	tab-size: @size;
+}
+
+// Standard button with rollover state
+.button {
+
+	display: inline-block;
+	width: 113px;
+	height: 42px;
+	background-image: url(/media/images/chrome/buttons.png);
+	font: 16px Prociono;
+	line-height: 42px;
+	text-align: center;
+	text-shadow: 1px 1px 0 @black;
+	color: #eee;
+
+	&:hover {
+		background-position: 0 -42px;
+		text-decoration: none;
+	}
+
+}
+
+// A bulleted list using Onslaught! swords as bullets
+.bullet-list {
+	list-style-image: url(/media/images/chrome/bullet_sword.png);
+	margin: 0 (@standard_padding * 2);
+	li {
+		margin-bottom: @standard_padding / 2;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+// Text formatting for blog posts and other pages
+.text-format {
+
+	line-height: 24px;
+	text-align: justify;
+
+	h1, h2, h3, h4, h5, h6 {
+		margin: @standard_padding 0;
+		font-family: Prociono;
+		font-size: 24px;
+		font-weight: normal;
+	}
+
+	p {
+		margin: @standard_padding 0;
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	ul {
+		.bullet-list;
+	}
+
+	blockquote {
+		color: lighten(@black, 20%);
+		border-left: (@standard_padding / 2) solid @transparent_black;
+		margin: 0 @standard_padding 0 (@standard_padding / 2);
+		padding-left: @standard_padding / 2;
+	}
+
+	.before {
+		float: left;
+		margin-right: @standard_padding;
+	}
+
+	.after {
+		float: right;
+		margin-left: @standard_padding;
+	}
+
+}

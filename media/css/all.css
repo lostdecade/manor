@@ -2,4 +2,11 @@
 ---
 {% include css/reset.css %}
 {% include css/syntax.css %}
+{% include css/layout.css %}
+{% include css/page_head.css %}
+{% include css/page.css %}
+{% include css/post.css %}
+{% include css/post_list.css %}
+{% include css/share.css %}
+{% include css/contact.css %}
 {% include css/ldg.css %}

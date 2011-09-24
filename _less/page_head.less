@@ -1,0 +1,88 @@
+@import "common";
+
+.page-head {
+
+	position: relative;
+
+	a {
+		text-decoration: none;
+	}
+
+	h1 {
+		font: 48px Prociono;
+
+		position: absolute;
+		left: 300px;
+		top: 70px;
+
+		display: inline;
+		width: 492px;
+		height: 59px;
+	}
+
+	.title {
+		color: #fff;
+		text-shadow: 2px 2px 2px #666;
+	}
+
+	em {
+		color: rgb(147, 149, 152);
+		position: absolute;
+		left: 330px;
+		top: 130px;
+	}
+
+	nav {
+
+		.border-box;
+		height: 64px;
+		margin-bottom: @standard_padding;
+		padding: 12px;
+		background-image: url(/media/images/chrome/navigation_bar.png);
+
+		a {
+			.button;
+			margin-right: @standard_padding / 2;
+		}
+
+		// Site navigation
+		.site {
+			float: left;
+		}
+
+		// Social navigation
+		.social {
+
+			float: right;
+
+			a {
+
+				width: 42px;
+				height: 42px;
+				text-indent: -999em;
+
+				&.twitter {
+					background-position: -155px 0;
+					&:hover {
+						background-position: -155px -42px;
+					}
+				}
+
+				&.rss {
+					background-position: -113px 0;
+					&:hover {
+						background-position: -113px -42px;
+					}
+				}
+
+				&:last-child {
+					margin-right: 0;
+				}
+
+			}
+
+		}
+
+	}
+
+}

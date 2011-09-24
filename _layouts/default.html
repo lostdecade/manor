@@ -12,67 +12,29 @@
 </head>
 <body>
 
-	<div class="page">
-		<div id="head">
-			<a href="/">
-				<img src="/media/images/logo.png" width="240" height="240">
-			</a>
-			<h1>
-				<a href="/" class="title">Lost Decade Games</a>
-			</h1>
-			<em>HTML5 game studio in Mountain View, CA</em>
+	<div class="standard-page">
 
-			<nav>
-				<a href="/">Blog</a>
-				<a href="/contact/">Contact Us</a>
-				<a href="/support/">Support</a>
-
-				<div>
-					<a class="twitter" href="https://twitter.com/#!/lostdecadegames">Twitter</a>
-					<a class="rss" href="/rss.xml">RSS</a>
-				</div>
-			</nav>
+		<div class="head">
+			{% include html/page_head.html %}
 		</div>
-		<div id="body">
+
+		<div class="body">
 			<div class="main">
 				<div class="hd"></div>
-				<div class="bd">
-					{{ content }}
-				</div>
+				<div class="bd">{{ content }}</div>
 				<div class="ft"></div>
 			</div>
 			<div class="aux">
-				<a href="/onslaught_arena/">
-					<img
-						alt="Onslaught!"
-						src="/media/images/onslaught.png"
-						width="128"
-						height="128"
-					>
-				</a>
-				<ul>
-					<li>
-						<a
-							class="android"
-							href="https://market.android.com/details?id=com.gameclosure.tealeaf"
-						>Onslaught! for Android tablets</a>
-					</li>
-					<li>
-						<a class="apple" href="http://itunes.apple.com/us/app/onslaught!/id441426241">Onslaught! for iPad</a>
-					</li>
-					<li>
-						<a class="chrome" href="https://chrome.google.com/webstore/detail/khodnfbkbanejphecblcofbghjdgfaih">Onslaught! Arena for Chrome</a>
-					</li>
-				</ul>
-				<p>
-					<a href="http://play.lostdecadegames.com/onslaught_arena/demo">Play Now</a>
-				</p>
+				{% include html/sidebar.html %}
 			</div>
 		</div>
-		<div id="foot">
-			Lost Decade Games
-			&copy; 2011
+
+		<div class="foot">
+			{% include html/page_foot.html %}
 		</div>
+
+		{% include html/github_banner.html %}
+
 	</div>
 
 	{% include html/ga.html %}

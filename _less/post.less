@@ -1,0 +1,50 @@
+@import "common";
+
+.post {
+
+	h1.title {
+		display: inline-block;
+		margin: (@standard_padding / 2) 0 @standard_padding;
+		font-family: Prociono;
+		font-size: 32px;
+		font-weight: normal;
+	}
+
+	aside {
+		padding: @standard_padding / 2;
+		border: 1px solid rgba(0, 0, 0, 0.5);
+		.rounded-corners(5px);
+		background: @transparent_black;
+	}
+
+	// Post meta data such as author, date, etc
+	.meta {
+
+		margin-bottom: @standard_padding;
+
+		.avatar {
+			border: solid 2px @black;
+			float: left;
+			margin-right: @standard_padding / 2;
+		}
+
+		.author {
+			line-height: 22px;
+			display: block;
+		}
+
+		.date {
+			line-height: 22px;
+			display: block;
+			color: @grey;
+			font-size: 75%;
+		}
+
+	}
+
+	// Post content, most generic text formatting should reside here
+	.content {
+		.text-format;
+	}
+
+}

@@ -22,7 +22,7 @@ authors:
     web: http://www.geoffblair.com/
     twitter: geoffblair
     github: geoffb
-    bio: '<strong>Geoff</strong> loves games, JavaScript, snowboarding, markdown and <a href="https://github.com/geoffb">GitHub</a>. His previous work for <a href="http://games.yahoo.com/">Yahoo! Games</a> and <a href="http://raptr.com/geoffb">Raptr</a> have left him with a passion for clean code and shipping software early.'
+    bio: '<strong>Geoff</strong> loves games, JavaScript, markdown, snowboarding, and <a href="https://github.com/geoffb">GitHub</a>. His previous work for <a href="http://games.yahoo.com/">Yahoo! Games</a> and <a href="http://raptr.com/geoffb">Raptr</a> have left him with a passion for clean code and shipping software early.'
 
 # Local server
 auto: true

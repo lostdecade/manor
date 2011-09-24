@@ -1,0 +1,43 @@
+<section class="post-list">
+
+	<header>
+		<h1 id="posts" class="title">Lost Decade Games Blog</h1>
+	</header>
+
+	<ul class="posts">
+		{% for post in paginator.posts %}
+		{% assign author = site.authors[post.author] %}
+		<li>
+			<a class="title" href="{{ post.url }}">{{ post.title }}</a>
+			<span class="meta">
+				{{ post.date | date_to_string }}
+				by <strong>{{ author.display_name }}</strong>
+			</span>
+		</li>
+		{% endfor %}
+	</ul>
+
+	<div class="pagination">
+		{% if paginator.previous_page %}
+			{% if paginator.previous_page == 1 %}
+				<a class="prev" href="/#posts">&laquo; Newer Posts</a>
+			{% else %}
+				<a
+					class="prev"
+					href="/page{{ paginator.previous_page }}#posts"
+				>
+					&laquo; Newer Posts
+				</a>
+			{% endif %}
+		{% endif %}
+		{% if paginator.next_page %}
+			<a
+				class="next"
+				href="/page{{ paginator.next_page }}#posts"
+			>
+				Older Posts &raquo;
+			</a>
+		{% endif %}
+	</div>
+
+</section>

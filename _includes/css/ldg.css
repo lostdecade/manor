@@ -1,65 +1,25 @@
-ul{padding:0;list-style:none;}
-ul.bullets{list-style-image:url(/media/images/chrome/bullet_sword.png);margin-left:40px;}ul.bullets li{margin-bottom:10px;}
-ul.bullets li:last-child{margin-bottom:0;}
+.clear-float{overflow:hidden;}
 .border-box{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
-html,body{background:#000;color:#f1f1f2;font-family:"Open Sans Condensed",Arial,sans;font-size:16px;}
+.button{display:inline-block;width:113px;height:42px;background-image:url(/media/images/chrome/buttons.png);font:16px Prociono;line-height:42px;text-align:center;text-shadow:1px 1px 0 #1d1715;color:#eee;}.button:hover{background-position:0 -42px;text-decoration:none;}
+.bullet-list{list-style-image:url(/media/images/chrome/bullet_sword.png);margin:0 40px;}.bullet-list li{margin-bottom:10px;}.bullet-list li:last-child{margin-bottom:0;}
+.text-format{line-height:24px;text-align:justify;}.text-format h1,.text-format h2,.text-format h3,.text-format h4,.text-format h5,.text-format h6{margin:20px 0;font-family:Prociono;font-size:24px;font-weight:normal;}
+.text-format p{margin:20px 0;}.text-format p:first-child{margin-top:0;}
+.text-format ul{list-style-image:url(/media/images/chrome/bullet_sword.png);margin:0 40px;}.text-format ul li{margin-bottom:10px;}.text-format ul li:last-child{margin-bottom:0;}
+.text-format blockquote{color:#584640;border-left:10px solid rgba(0, 0, 0, 0.25);margin:0 20px 0 10px;padding-left:10px;}
+.text-format .before{float:left;margin-right:20px;}
+.text-format .after{float:right;margin-left:20px;}
+ul.bullets{list-style-image:url(/media/images/chrome/bullet_sword.png);margin:0 40px;}ul.bullets li{margin-bottom:10px;}ul.bullets li:last-child{margin-bottom:0;}
+#welcome{display:inline-block;text-align:justify;background:rgba(0, 0, 0, 0.1);border-radius:5px;padding:10px;margin-top:10px;}#welcome img{float:left;margin:0 10px 5px 0;}
 a{color:#f68b1f;text-decoration:underline;}
 a:hover{text-decoration:none;}
-.page{width:800px;margin:0 auto;}
-#head{position:relative;}#head a{text-decoration:none;}
-#head h1{font:48px Prociono;position:absolute;left:300px;top:70px;display:inline;width:492px;height:59px;}
-#head .title{color:#fff;text-shadow:2px 2px 2px #666;-webkit-transition:color 350ms linear;}
-#head em{color:#939598;position:absolute;left:330px;top:130px;}
-#head nav{background:url(/media/images/chrome/navigation_bar.png);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-bottom:20px;padding:12px;width:800px;height:64px;}#head nav a{background-image:url(/media/images/chrome/buttons.png);color:#eee;font:16px Prociono;text-align:center;text-shadow:1px 1px 0 #1d1715;display:inline-block;line-height:42px;margin-right:10px;width:113px;height:42px;}
-#head nav a:hover{background-position:0 -42px;text-decoration:none;}
-#head nav div{float:right;}#head nav div a{background-image:url(/media/images/chrome/buttons.png);text-indent:-999em;width:42px;height:42px;}
-#head nav div a.rss{background-position:-113px 0;}
-#head nav div a.rss:hover{background-position:-113px -42px;}
-#head nav div a.twitter{background-position:-155px 0;}
-#head nav div a.twitter:hover{background-position:-155px -42px;}
-#head nav div a:last-child{margin:0;}
-#body{color:#000;overflow:hidden;margin-bottom:20px;}#body a{color:#0b521f;}
-#body a:hover{color:#1d1715;}
-#body .main{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;float:left;width:580px;text-align:justify;}#body .main .hd{background:url(/media/images/chrome/scroll.png);width:580px;height:70px;}
-#body .main .bd{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background:url(/media/images/chrome/scroll_repeat.png);padding:0 40px;width:580px;}#body .main .bd h1{font:32px Prociono;margin-bottom:20px;}
-#body .main .bd h2{font:26px Prociono;margin-bottom:20px;}
-#body .main .bd p{margin-bottom:1em;}
-#body .main .bd p:last-child{margin-bottom:0;}
-#body .main .ft{background:url(/media/images/chrome/scroll.png) 0 -70px;width:580px;height:70px;}
-#body .aux{float:left;text-align:center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:20px;width:220px;}#body .aux p{color:#f1f1f2;margin-bottom:1em;}#body .aux p a{background-image:url(/media/images/chrome/buttons.png);color:#eee;font:16px Prociono;text-align:center;text-decoration:none;text-shadow:1px 1px 0 #1d1715;display:inline-block;line-height:42px;width:113px;height:42px;}
-#body .aux p a:hover{background-position:0 -42px;text-decoration:none;}
-#body .aux ul{margin:0 0 10px 18px;height:42px;}
-#body .aux ul li{display:inline;}#body .aux ul li a{background-image:url(/media/images/chrome/buttons.png);float:left;text-indent:-999em;display:block;margin-right:10px;width:42px;height:42px;}
-#body .aux ul li:last-child a{margin:0;}
-#body .aux .android{background-position:-197px 0;}
-#body .aux .android:hover{background-position:-197px -42px;}
-#body .aux .apple{background-position:-239px 0;}
-#body .aux .apple:hover{background-position:-239px -42px;}
-#body .aux .chrome{background-position:-281px 0;}
-#body .aux .chrome:hover{background-position:-281px -42px;}
-#foot{background:url(/media/images/chrome/footer.png);line-height:42px;text-align:center;text-shadow:1px 1px 0 #1d1715;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-bottom:20px;width:802px;height:42px;}
-#contact div{overflow:hidden;}
-#contact hr{border:1px solid #1d1715;margin:20px 0;}
-#contact .author .avatar{border:solid 2px #000;}
-#contact .author:nth-child(odd) .avatar{float:left;margin-right:20px;}
-#contact .author:nth-child(even) .avatar{float:right;margin-left:20px;}
-.post .info{margin-bottom:1em;}
-.post .share{margin-top:2em;}.post .share .title{font-weight:bold;display:block;margin-bottom:10px;text-shadow:1px 1px 1px #ccc;}
-.post .share ul{list-style:none;padding:0;margin:0;}.post .share ul li{display:inline-block;margin-right:20px;vertical-align:top;}
-.post .share ul .facebook{margin-right:15px;}
-.post .info,.post .share{background:rgba(0, 0, 0, 0.25);padding:10px;border:1px solid rgba(0, 0, 0, 0.5);border-radius:5px;font-size:16px;}.post .info .avatar,.post .share .avatar{border:solid 2px #1d1715;float:left;margin-right:10px;}
-.post .info .author,.post .share .author{line-height:22px;display:block;}
-.post .info .date,.post .share .date{line-height:22px;display:block;color:#4f3f38;font-size:75%;}
-.post p{line-height:24px;}
-.post ul{list-style-image:url(/media/images/chrome/bullet_sword.png);margin-left:40px;padding-bottom:20px;}.post ul li{margin-bottom:10px;}
-.post ul li:last-child{margin-bottom:0;}
-.post .before{float:left;margin-right:20px;}
-.post .after{float:right;margin-left:20px;}
-.post blockquote{color:#584640;border-left:10px solid rgba(0, 0, 0, 0.25);margin:0 0 20px 20px;padding-left:10px;}
-#welcome{display:inline-block;background:rgba(0, 0, 0, 0.1);border-radius:5px;padding:10px;margin-top:10px;}#welcome img{float:left;margin:0 10px 5px 0;}
-.post-list{text-align:left;margin-bottom:20px;}.post-list li{margin-bottom:20px;}
-.post-list li:last-child{margin-bottom:0;}
-.post-list .title{display:inline-block;font:24px Prociono;}
-.post-list .date{display:block;color:#4f3f38;font-size:12px;}
-.pagination{border-top:dotted 1px #000;padding:20px 0;font-size:18px;}.pagination .prev{float:left;}
-.pagination .next{float:right;}
+.onslaught{text-align:center;}.onslaught p{color:#f1f1f2;margin-bottom:1em;}.onslaught p a{background-image:url(/media/images/chrome/buttons.png);color:#eee;font:16px Prociono;text-align:center;text-decoration:none;text-shadow:1px 1px 0 #1d1715;display:inline-block;line-height:42px;width:113px;height:42px;}
+.onslaught p a:hover{background-position:0 -42px;text-decoration:none;}
+.onslaught ul{margin:0 0 10px 18px;height:42px;}
+.onslaught ul li{display:inline;}.onslaught ul li a{background-image:url(/media/images/chrome/buttons.png);float:left;text-indent:-999em;display:block;margin-right:10px;width:42px;height:42px;}
+.onslaught ul li:last-child a{margin:0;}
+.onslaught .android{background-position:-197px 0;}
+.onslaught .android:hover{background-position:-197px -42px;}
+.onslaught .apple{background-position:-239px 0;}
+.onslaught .apple:hover{background-position:-239px -42px;}
+.onslaught .chrome{background-position:-281px 0;}
+.onslaught .chrome:hover{background-position:-281px -42px;}

@@ -1,0 +1,56 @@
+@import "common";
+
+.post-list {
+
+	text-align: left;
+
+	> header > .title {
+		display: inline-block;
+		margin: @standard_padding 0;
+		font-family: Prociono;
+		font-size: 32px;
+		font-weight: normal;
+	}
+
+	.posts {
+
+		margin-bottom: @standard_padding;
+
+		li {
+			margin-bottom: @standard_padding;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		.title {
+			display: inline-block;
+			font-size: 24px;
+		}
+
+		.meta {
+			display: block;
+			color: @grey;
+			font-size: 12px;
+			padding-top: 3px;
+		}
+
+	}
+
+	.pagination {
+
+		border-top: dotted 1px #000;
+		padding: @standard_padding 0;
+		font-size: 18px;
+
+		.prev {
+			float: left;
+		}
+
+		.next {
+			float: right;
+		}
+
+	}
+
+}
