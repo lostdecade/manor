@@ -3,6 +3,10 @@ layout: post
 title: Blog author attribution using Jekyll
 author: geoff
 ---
+{% assign lb = "{" %}
+{% assign rb = "}" %}
+{% assign lblb = "{{" %}
+{% assign rbrb = "}}" %}
 Since [converting our website/blog to use Jekyll][1] we've had a chance to dig a bit deeper into the usage of the framework. One of the first features we tackled was author attribution in blog posts. In this post I'll cover our approach in detail.
 
 Our goal was to display, at the very least, the author's name and [Gravatar][2] on each blog post. Originally, we hard-coded these values in the [YAML Front Matter][3]. For example:
@@ -20,15 +24,13 @@ This is the post content.
 Rendering this data was very straightforward:
 
 {% highlight html %}
-{% raw %}
 <div class="post">
 	<div class="meta">
-		<img src="http://www.gravatar.com/avatar/{{ page.post_gravatar }}?s=40">
-		<span class="author">{{ page.post_author }}</span>
+		<img src="http://www.gravatar.com/avatar/{{lblb}} page.post_gravatar {{rbrb}}?s=40">
+		<span class="author">{{lblb}} page.post_author {{rbrb}}</span>
 	</div>
-	{{ content }}
+	{{lblb}} content {{rbrb}}
 </div>
-{% endraw %}
 {% endhighlight %}
 
 This approach worked decently but has some obvious drawbacks. We found ourselves opening previous blog posts by the desired author and copy/pasting the author data into a new file. While this doesn't take up an extraordinary amount of time, there certainly had to be a more elegant solution.
@@ -37,9 +39,7 @@ Ideally, specifying an author would be as simple as adding a key `author: geoff`
 
 After some reading the [Jekyll wiki page on Template Data][4] I found that Jekyll exposes anything in `_config.yml` through the `site` variable:
 
-{% raw %}
-> As of 0.5.2, all data inside of your &#95;config.yml is now available through the site variable. So for example, if you have url: http://mysite.com in your configuration file, then in your posts and pages it can be used like so: {{ site.url }}.
-{% endraw %}
+> As of 0.5.2, all data inside of your &#95;config.yml is now available through the site variable. So for example, if you have url: http://mysite.com in your configuration file, then in your posts and pages it can be used like so: \{\{ site.url \}\}.
 
 With that in mind, I created a data structure in `_config.yml` to represent post authors:
 
@@ -64,16 +64,14 @@ authors:
 Rendering author information is almost as easy as before, we just need to grab a reference to the current author's data in our post template:
 
 {% highlight html %}
-{% raw %}
-{% assign author = site.authors[page.author] %}
+{{lb}}% assign author = site.authors[page.author] %{{rb}}
 <div class="post">
 	<div class="meta">
-		<img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40">
-		<span class="author">{{ author.display_name }}</span>
+		<img src="http://www.gravatar.com/avatar/{{lblb}} author.gravatar {{rbrb}}?s=40">
+		<span class="author">{{lblb}} author.display_name {{rbrb}}</span>
 	</div>
-	{{ content }}
+	{{lblb}} content {{rbrb}}
 </div>
-{% endraw %}
 {% endhighlight %}
 
 Nice and clean!
