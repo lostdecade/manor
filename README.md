@@ -31,4 +31,3 @@ All other directories and files are MIT Licensed.
 [8]: http://twitter.com/#!/lostdecadegames
 [9]: https://github.com/lostdecade/lostdecade.github.com/tree/master/_posts
 [10]: https://github.com/lostdecade/lostdecade.github.com/tree/master/media/images
-
