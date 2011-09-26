@@ -2,7 +2,6 @@
 layout: post
 title: Blog author attribution using Jekyll
 author: geoff
-published: false
 ---
 Since [converting our website/blog to use Jekyll][1] we've had a chance to dig a bit deeper into the usage of the framework. One of the first features we tackled was author attribution in blog posts. In this post I'll cover our approach in detail.
 
