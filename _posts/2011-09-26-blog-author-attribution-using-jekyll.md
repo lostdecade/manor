@@ -81,10 +81,12 @@ Nice and clean!
 
 Another benefit of this setup is that we can use the author data elsewhere, too. Take a look at [the source for our "Contact Us" page][5] for an example.
 
-We're pretty happy with this approach. Let us know on Twitter or by email if you know of a better way!
+We're pretty happy with this approach. Let us know on [Twitter][6] or by [email][7] if you know of a better way!
 
 [1]: http://www.lostdecadegames.com/our-new-blog-is-running-on-jekyll/
 [2]: http://en.gravatar.com/
 [3]: https://github.com/mojombo/jekyll/wiki/yaml-front-matter
 [4]: https://github.com/mojombo/jekyll/wiki/Template-Data
 [5]: https://github.com/lostdecade/lostdecade.github.com/blob/master/contact/index.html
+[6]: https://twitter.com/#!/lostdecadegames
+[7]: mailto:hello@lostdecadegames.com
