@@ -3,6 +3,7 @@ pygments: true
 exclude: [CNAME, README.md]
 paginate: 10
 
+base_url: "http://www.lostdecadegames.com"
 email: hello@lostdecadegames.com
 
 author_ids: [geoff, matt]
