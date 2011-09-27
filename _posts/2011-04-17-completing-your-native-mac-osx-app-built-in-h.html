@@ -16,6 +16,7 @@ author: matt
 <li>In the "Key" column, find the row with the value "Icon file".</li>
 <li>Set the value of this row to the name of your <code>.icns</code> file (eg, <code>OnslaughtArena.icns</code>).</li>
 </ol>
+
 <h2>Closing the window should close the application</h2>
 <p>For those unfamiliar with OSX, I'll quickly describe what this means. In OSX, you can have an application open without any windows. This is very different from Microsoft's Windows operating system where if all the windows are closed, the application is no longer running. This can create an awkward user experience, so there must be a way to bring windows back. This flow doesn't really make much sense for games, so a good workaround is to close the application when all windows are closed.</p>
 <p><strong>Be sure to do this</strong>; we got rejected the first time we submitted because we did not enable this feature! Here's the reason from Apple:</p>
@@ -35,7 +36,7 @@ author: matt
 </code></pre>
 <p>That's it! Now when you close your application's main window, the application should quit. <em>Note: this works great but it generates the warnings "notice: Semantic Issue: Passing argument to parameter 'anObject' here" as well as "Class 'WebViewExampleAppDelegate' does not implement the 'NSWindowDelegate' protocol".</em></p>
 
-<h2 style="font-size: 1.5em;">Logging errors</h2>
+<h2>Logging errors</h2>
 <p>Xcode can be a bit daunting to newcomers, but fortunately it's very easy to send messages to the log. It can be done with code like this:</p>
 <pre><code>NSLog(@"example message");</code></pre>
 <p>(These messages should appear in the main Xcode window, in the very bottom.)</p>
@@ -60,4 +61,4 @@ author: matt
 </a>
 
 <p>Your application should now meet the bare essentials for submission to the Mac App Store, and you could be reaching a wider audience with your HTML5 app in no time (pending Apple's approval &hellip;). Did I miss anything you were hoping to know about? Any steps not work for you? Please let me know.</p>
-<p><strong>Bonus:r</strong> if you want to see what kind of quality you can get out of a native OSX HTML5 app, we just dropped the price of <a href="http://www.lostdecadegames.com/onslaught_arena">Onslaught! Arena</a> in the <a href="http://itunes.apple.com/us/app/onslaught-arena/id418268106?mt=12">Mac App Store to $1.99</a>! See HTML5 in action for yourself.</p>
+<p><strong>Bonus:</strong> if you want to see what kind of quality you can get out of a native OSX HTML5 app, we just dropped the price of <a href="http://www.lostdecadegames.com/onslaught_arena">Onslaught! Arena</a> in the <a href="http://itunes.apple.com/us/app/onslaught-arena/id418268106?mt=12">Mac App Store to $1.99</a>! See HTML5 in action for yourself.</p>

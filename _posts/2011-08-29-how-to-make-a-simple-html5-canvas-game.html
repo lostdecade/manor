@@ -21,7 +21,7 @@ author: matt
 	<img alt="Simple game using Onslaught! graphics" src="http://farm7.static.flickr.com/6203/6084194152_35c3e3ba34_z.jpg">
 </a>
 
-<h3>1. Create the canvas</h3>
+<h2>1. Create the canvas</h2>
 
 {% highlight js %}
 // Create the canvas
@@ -40,7 +40,7 @@ document.body.appendChild(canvas);
 	set its dimensions and append it to the document's body.
 </p>
 
-<h3>2. Include images</h3>
+<h2>2. Include images</h2>
 
 {% highlight js %}
 // Background image
@@ -67,7 +67,7 @@ bgImage.src = "images/background.png";
 	and <a href="https://github.com/lostdecade/lostdecade.github.com/blob/master/demos/simple_canvas_game/images/monster.png">monster</a>.
 </p>
 
-<h3>3. Game objects</h3>
+<h2>3. Game objects</h2>
 
 {% highlight js %}
 // Game objects
@@ -90,7 +90,7 @@ var monstersCaught = 0;
 	Lastly, <code>monstersCaught</code> stores the number of monsters the player has caught.
 </p>
 
-<h3>4. Player input</h3>
+<h2>4. Player input</h2>
 
 {% highlight js %}
 // Handle keyboard controls
@@ -119,7 +119,7 @@ addEventListener("keyup", function (e) {
 	If a key code is in the object, the user is currently depressing that key. Simple!
 </p>
 
-<h3>5. New game</h3>
+<h2>5. New game</h2>
 
 {% highlight js %}
 // Reset the game when the player catches a monster
@@ -138,7 +138,7 @@ var reset = function () {
 	It places the hero (the player) in the center of the screen and the monster somewhere randomly.
 </p>
 
-<h3>6. Update objects</h3>
+<h2>6. Update objects</h2>
 
 {% highlight js %}
 // Update game objects
@@ -192,7 +192,7 @@ var update = function (modifier) {
 	We tally the score (+1 to <code>monstersCaught</code>) and reset the game.
 </p>
 
-<h3>7. Render objects</h3>
+<h2>7. Render objects</h2>
 
 {% highlight js %}
 // Draw everything
@@ -231,7 +231,7 @@ var render = function () {
 	As we don't have any complicated animations or movement, we're done drawing.
 </p>
 
-<h3>8. The main game loop</h3>
+<h2>8. The main game loop</h2>
 
 {% highlight js %}
 // The main game loop
@@ -259,7 +259,7 @@ var main = function () {
 	for more on game loops.
 </em></p>
 
-<h3>9. Start the game!</h3>
+<h2>9. Start the game!</h2>
 
 {% highlight js %}
 // Let's play this game!
@@ -282,7 +282,7 @@ setInterval(main, 1); // Execute as fast as possible
 	<a href="https://github.com/lostdecade/lostdecade.github.com">fork</a> the code on GitHub and get started hacking.
 </p>
 
-<h3>Got feedback?</h3>
+<h2>Got feedback?</h2>
 
 <p>
 	What did you think of this tutorial?
