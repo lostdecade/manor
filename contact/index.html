@@ -2,10 +2,16 @@
 layout: page
 title: Contact Us
 ---
-<p>
-	Get in touch!
-	<a href="mailto:{{ site.email }}">{{ site.email }}</a>
-</p>
+<ul>
+	<li>
+		Email:
+		<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+	</li>
+	<li>
+		Twitter:
+		<a href="https://twitter.com/#!/lostdecadegames">@lostdecadegames</a>
+	</li>
+</ul>
 
 <div class="authors">
 	{% for author_id in site.author_ids %}
