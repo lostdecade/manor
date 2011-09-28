@@ -1,0 +1,3 @@
+[submodule "demos/simple_sprite_animation"]
+	path = demos/simple_sprite_animation
+	url = git@github.com:lostdecade/simple_sprite_animation.git
