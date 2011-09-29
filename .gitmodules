@@ -1,0 +1,6 @@
+[submodule "demos/analog_sticks"]
+	path = demos/analog_sticks
+	url = git://github.com/lostdecade/analog_sticks.git
+[submodule "demos/simple_canvas_game"]
+	path = demos/simple_canvas_game
+	url = git://github.com/lostdecade/simple_canvas_game.git
