@@ -108,6 +108,8 @@ ul{padding:0;list-style:none;}
 .post .content blockquote{color:#584640;border-left:10px solid rgba(0, 0, 0, 0.25);margin:0 20px 0 10px;padding-left:10px;}
 .post .content .before{float:left;margin-right:20px;}
 .post .content .after{float:right;margin-left:20px;}
+.post .comments{border:dotted 2px #000;border-style:dotted none;margin-bottom:20px;padding-bottom:5px;}.post .comments h2{float:left;margin-top:5px;font-family:Prociono;}
+.post .comments #dsq-content #dsq-global-toolbar{margin-top:0;}
 .post-list{text-align:left;}.post-list>header>.title{display:inline-block;margin:20px 0;font-family:Prociono;font-size:32px;font-weight:normal;}
 .post-list .posts{margin-bottom:20px;}.post-list .posts li{margin-bottom:20px;}.post-list .posts li:last-child{margin-bottom:0;}
 .post-list .posts .title{display:inline-block;font-size:24px;}

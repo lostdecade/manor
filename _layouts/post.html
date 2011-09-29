@@ -29,6 +29,10 @@ layout: default
 	</header>
 	<div class="content">{{ content }}</div>
 	<footer>
+		<section class="comments">
+			<h2>Comments</h2>
+			{% include html/disqus.html %}
+		</section>
 		<aside>
 			{% include html/share.html %}
 		</aside>

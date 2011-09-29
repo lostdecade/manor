@@ -6,6 +6,8 @@ paginate: 10
 base_url: "http://www.lostdecadegames.com"
 email: hello@lostdecadegames.com
 
+disqus_shortname: lostdecadegames
+
 author_ids: [geoff, matt]
 authors:
   matt:
