@@ -2,6 +2,7 @@
 layout: post
 title: Blog author attribution using Jekyll
 author: geoff
+tags: [jekyll]
 ---
 {% assign lb = "{" %}
 {% assign rb = "}" %}

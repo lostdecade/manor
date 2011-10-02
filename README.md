@@ -21,6 +21,44 @@ The following directories and their contents are Copyright Lost Decade Games, LL
 
 All other directories and files are MIT Licensed.
 
+## Development Setup
+
+Here are the steps you'll need to take in order to get this site running locally.
+
+First, you will need to install [GSL][12] (Gnu Scientific Library) in order for the latent semantic indexing (`--lsi`) to work well. I installed it via [Homebrew][1]. The catch here is that you'll need version 1.14 in order for the Ruby gsl gem to build correctly. You can install specific versions of packages using the `brew versions` command.
+
+Follow these steps to install gsl via Homebrew:
+
+	# Go into your Homebrew folder (maybe be different if you installed Homebrew elsewhere)
+	cd /usr/local
+	
+	# List out the versions of gsl
+	brew versions gsl
+	
+	# Output will look like this:
+	# 1.15     git checkout d0dfc22 Library/Formula/gsl.rb
+	# 1.14     git checkout 83ed494 Library/Formula/gsl.rb
+	# 1.13     git checkout ea643fe Library/Formula/gsl.rb
+	
+	# Checkout and install the 1.14 version of gsl
+	git checkout 83ed494 Library/Formula/gsl.rb
+	brew install gsl
+
+Next, install the following RubyGems:
+
+* jekyll
+* pygmentize
+* gsl
+
+by using this command:
+
+	sudo gem install jekyll pygmentize gsl
+
+Now just start the `jekyll` server in the repo folder:
+
+	cd /path/to/my/copy/of/ldg/
+	jeykll
+
 [1]: http://www.lostdecadegames.com
 [2]: http://www.lostdecadegames.com/our-new-blog-is-running-on-jekyll/
 [3]: http://pages.github.com/
@@ -31,3 +69,5 @@ All other directories and files are MIT Licensed.
 [8]: http://twitter.com/#!/lostdecadegames
 [9]: https://github.com/lostdecade/lostdecade.github.com/tree/master/_posts
 [10]: https://github.com/lostdecade/lostdecade.github.com/tree/master/media/images
+[11]: https://github.com/mxcl/homebrew
+[12]: http://www.gnu.org/s/gsl/

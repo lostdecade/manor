@@ -2,6 +2,7 @@
 layout: post
 title: Our new blog is running on Jekyll
 author: matt
+tags: [jekyll]
 ---
 Welcome to our new website! As web developers, we've been aware that our site has been a bit ... sad? For entirely too long now. So we rolled up our sleeves, made a brand new design and moved our blog off of [Posterous](http://posterous.com/).
 

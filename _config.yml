@@ -1,5 +1,6 @@
 permalink: /:title
 pygments: true
+lsi: true
 exclude: [CNAME, README.md]
 paginate: 10
 
