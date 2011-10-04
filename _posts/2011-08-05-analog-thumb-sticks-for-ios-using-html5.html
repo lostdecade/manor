@@ -4,7 +4,7 @@ title: Analog thumb sticks for iOS using HTML5
 author: matt
 ---
 <h2>From mouse and keyboard to analog thumb sticks</h2>
-<p>You may have read before about some of the <a href="http://blog.lostdecadegames.com/what-we-need-to-get-our-html5-game-on-ipad-sp">difficulties of porting Onslaught! to iOS</a>. The first major hurdle we had to jump was getting a decent framerate. This and many other technical issues (including audio) were <a href="http://blog.lostdecadegames.com/the-road-to-a-production-quality-html5-game-o">solved by Game Closure's SDK</a>, but there were other critical issues to address, including a fundamental difference in user input.</p>
+<p>You may have read before about some of the <a href="http://www.lostdecadegames.com/what-we-need-to-get-our-html5-game-on-ipad-sp">difficulties of porting Onslaught! to iOS</a>. The first major hurdle we had to jump was getting a decent framerate. This and many other technical issues (including audio) were <a href="http://www.lostdecadegames.com/the-road-to-a-production-quality-html5-game-o">solved by Game Closure's SDK</a>, but there were other critical issues to address, including a fundamental difference in user input.</p>
 <p>Versions of Onslaught! Arena for&nbsp;<a href="https://chrome.google.com/webstore/detail/khodnfbkbanejphecblcofbghjdgfaih">Chrome</a> and <a href="http://itunes.apple.com/us/app/onslaught-arena/id418268106">OSX</a> rely on mouse and keyboard controls. Players can use the WASD keys (or arrow keys) to navigate, as well as the mouse for aiming and attacking. Obviously these input mechanisms are not compatible with touch devices. To make the jump to mobile as smooth as possible, we experimented with many different control schemes, and ended up providing players with two options:</p>
 <ol>
 <li><strong>Touch to move.</strong> We labeled this as the "Beginner" option, informing players to "Use one finger." This is a streamlined, AI-assisted control scheme. Players touch the device where they want their character to move, and the character automatically attacks the nearest enemy or projectile.</li>
@@ -20,7 +20,7 @@ author: matt
 <p><strong>Static thumb sticks</strong> are typically always visible and in fixed positions on the screen. We decided to go with this option for a few reasons, including what we believe to be a more robust first-time experience; players new to the game could see at a glance where to put their thumbs. Additionally, it removed issues with monsters or traps being hidden beneath players' thumbs!</p>
 
 <h2>Technical approach</h2>
-<p>We strongly believe in code reuse so we wanted something that could easily be dropped into just about any project. This led to the creation of a <a href="https://github.com/lostdecade/lostdecade.github.com/blob/master/demos/analog_stick/js/stick.js">Stick class</a> that can be used like so:</p>
+<p>We strongly believe in code reuse so we wanted something that could easily be dropped into just about any project. This led to the creation of a <a href="https://github.com/lostdecade/analog_sticks">Stick class</a> that can be used like so:</p>
 {% highlight js %}
 var stick = new Stick(40); // 40 is the size of the input
 document.addEventListener("mousemove", function (e) {
@@ -39,4 +39,4 @@ context.stroke();
 <p>Below I've embedded an example that uses this class as a&nbsp;<strong>dynamic thumbstick</strong> that should work in most browsers. The thumb stick does not appear until input begins and controls the velocity of the green circle:</p>
 <p><iframe style="background:#fff;" width="400" height="300" scrolling="no" src="http://lostdecade.github.com/demos/analog_stick/"></iframe><br /><br />Using the same class, I've embedded another example, this time as a <strong>static thumbstick</strong>. This demo also controls the velocity of the green circle but it's been augumented with base and pivot graphics (the same graphics used in Onslaught!):</p>
 <p><iframe style="background:#fff;" width="400" height="300" scrolling="no" src="http://lostdecade.github.com/demos/analog_stick/static_with_graphic.html"></iframe></p>
-<p>This code is open source, available on our <a href="http://lostdecade.github.com/">GitHub demos page</a>. For readers who would also like to see how this is accomplished on an actual iPad, load up&nbsp;<a href="http://lostdecade.github.com/demos/analog_stick/ios.html">this page</a>&nbsp;on your device.</p>
+<p>For readers who would also like to see how this is accomplished on an actual iPad, load up&nbsp;<a href="http://lostdecade.github.com/demos/analog_stick/ios.html">this page</a>&nbsp;on your device.</p>
