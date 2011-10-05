@@ -1,0 +1,3 @@
+[submodule "sandbox/simple_canvas_game"]
+	path = sandbox/simple_canvas_game
+	url = git://github.com/lostdecade/simple_canvas_game.git
