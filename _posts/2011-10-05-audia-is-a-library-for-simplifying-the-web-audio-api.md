@@ -2,7 +2,6 @@
 layout: post
 title: Audia is a library for simplifying the Web Audio API
 author: matt
-published: false
 ---
 After receiving numerous [requests on Twitter][1], I started working on a tutorial for playing sound in HTML5. You may have read about [previous frustrations with Audio][2] from the HTML5 developer community, and when I dug in recently, the situation was all-too familiar.
 
@@ -86,17 +85,17 @@ source.buffer = buffer;
 source.noteOn(0);
 {% endhighlight %}
 
-This code makes up the contents of the above `XMLHttpRequest` object's `onload` method. First we create a buffer, passing in the XHR response and `false`. (That second parameter is "mixToMono", and we don't necessarily want our sound in mono, so we pass in `false`). This buffer gets passed to the source by setting its `buffer` property.
+This code makes up the contents of the above `XMLHttpRequest` object's `onload` method. First we create a buffer, passing in the XHR response and `false`. (That second parameter is "mixToMono", and we don't necessarily want our sound in mono, so we pass in `false`.) This buffer gets passed to the source by setting its `buffer` property.
 
 Next, there's a call to the odd method `noteOn`. In simpler English, this would be `play`, but what is going on behind the scenes is much more complicated. The argument represents the time (in seconds) to begin playback. To make our playback begin immediately, we pass `0`.
 
-Pretty involved just to play a sound, right? But the reward is well worth it, because now we have low-level access to our computer's sound and can implement all kinds of goodies like panning, filters and other neat effects.
+Pretty involved just to play a sound, right? But the reward is well worth it, because now we have low-level access to our computer's sound and can implement [all kinds of goodies][5] like panning, filters and other neat effects.
 
 ## Introducing Audia
 
-_[Jump straight to the demo?][7]_
+_[Jump straight to the demo?][6]_
 
-While experimenting with this new API, I quickly discovered that a library to abstract away all this complication would be nice to have, so I wrote one. Here is what I call [Audia][5], which implements a very [straightforward API][6] while still providing some of the power of the Web Audio API. Here's an example of how it can be used:
+While experimenting with this new API, I quickly discovered that a library to abstract away all this complication would be nice to have, so I wrote one. Here is what I call [Audia][7], which implements a very [straightforward API][8] while still providing some of the power of the Web Audio API. Here's an example of how it can be used:
 
 {% highlight js %}
 if (!Audia.supported) {
@@ -120,12 +119,13 @@ var backgroundMusic = new Audia({
 });
 {% endhighlight %}
 
-Audio (especially as pertains to video games) is a little hobby of mine, so you can bet I'll be exposing more of the power behind the Web Audio API to [Audia][5]'s simple interface.
+Audio (especially as pertains to video games) is a little hobby of mine, so you can bet I'll be exposing more of the power behind the Web Audio API to [Audia][7]'s simple interface. So do [check out the demo][6] and let me know in the comments about any issues, feature requests, etc.
 
 [1]: https://twitter.com/#!/lostdecadegames
 [2]: http://www.phoboslab.org/log/2011/03/the-state-of-html5-audio
 [3]: http://www.chromium.org/getting-involved/dev-channel
 [4]: https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html
-[5]: https://github.com/lostdecade/audia
-[6]: https://github.com/lostdecade/audia#readme
-[7]: /demos/audia/examples/
+[5]: http://chromium.googlecode.com/svn/trunk/samples/audio/
+[6]: /demos/audia/examples/
+[7]: https://github.com/lostdecade/audia
+[8]: https://github.com/lostdecade/audia#readme
