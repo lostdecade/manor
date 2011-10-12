@@ -116,7 +116,7 @@ ul{padding:0;list-style:none;}
 .post-list{text-align:left;}.post-list>header>.title{display:inline-block;margin:20px 0;font-family:Prociono;font-size:32px;font-weight:normal;}
 .post-list .posts{margin-bottom:20px;}.post-list .posts li{margin-bottom:20px;}.post-list .posts li:last-child{margin-bottom:0;}
 .post-list .posts .title{display:inline-block;font-size:24px;}
-.post-list .posts .meta{display:block;color:#4f3f38;font-size:12px;padding-top:3px;}
+.post-list .posts .meta{display:block;color:#4f3f38;font-size:12px;padding-top:3px;}.post-list .posts .meta .comments{display:inline-block;margin-left:5px;padding-left:7px;border-left:solid 1px #666;}
 .post-list .pagination{border-top:dotted 1px #000;padding:20px 0;font-size:18px;}.post-list .pagination .prev{float:left;}
 .post-list .pagination .next{float:right;}
 .share .title{font-weight:bold;display:block;margin-bottom:10px;text-shadow:1px 1px 1px #ccc;}
