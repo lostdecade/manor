@@ -12,6 +12,11 @@
 			<span class="meta">
 				{{ post.date | date_to_string }}
 				by <strong>{{ author.display_name }}</strong>
+				<a
+					class="comments"
+					href="{{ post.url }}#disqus_thread"
+					data-disqus-identifier="{{ post.id }}"
+				></a>
 			</span>
 		</li>
 		{% endfor %}
