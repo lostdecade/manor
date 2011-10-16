@@ -54,11 +54,11 @@ And this is the final version of the beach scene that shipped with the updated g
 
 ## 12. Demo party
 ![Demo part](/media/images/posts/onslaught_history_in_images/12_demo_party.jpg)
-As part of [working with Game Closure's SDK][9], they graciously threw a release party for Onslaught!. Many players showed up from [StartX][10] for catered food and a brand new gaming challenge. Much useful feedback was had, as well as some shouts of victory that was a real thrill for us to experience firsthand.
+As part of [working with Game Closure's SDK][9], they graciously threw a release party for Onslaught!. Many players showed up from [StartX][10] for catered food and a brand new gaming challenge. Much useful feedback was had, as well as some shouts of victory that was a real pleasure for us to experience firsthand.
 
 ## 13. New and Noteworthy
 ![New and Noteworthy](/media/images/posts/onslaught_history_in_images/13_ipad_new_and_noteworthy.png)
-We were thrilled to see Onslaught! in the "New and Noteworthy" section in the iPad App Store. We only saw a slight boost in sales, but it was still exciting.
+We were stoked to see Onslaught! in the "New and Noteworthy" section in the iPad App Store. We only saw a slight boost in sales, but it was still exciting.
 
 ## 14. Game Developer Magazine screenshot
 ![Game Developer Magazine screenshot](/media/images/posts/onslaught_history_in_images/14_game_developer_magazine.jpg)
