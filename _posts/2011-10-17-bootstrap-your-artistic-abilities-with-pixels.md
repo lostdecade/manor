@@ -2,7 +2,7 @@
 layout: post
 title: Bootstrap your artistic abilities with pixels
 author: matt
-published: false
+published: true
 ---
 
 So you want to make a game, but maybe there are hurdles blocking you. If you're a programmer like me, you can do everything yourself (to a point) but your game must at least have graphics! This is a problem.
