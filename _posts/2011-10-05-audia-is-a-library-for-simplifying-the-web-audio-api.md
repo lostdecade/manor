@@ -127,5 +127,5 @@ Audio (especially as pertains to video games) is a little hobby of mine, so you 
 [4]: https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html
 [5]: http://chromium.googlecode.com/svn/trunk/samples/audio/
 [6]: /demos/audia/examples/
-[7]: https://github.com/lostdecade/audia
-[8]: https://github.com/lostdecade/audia#readme
+[7]: https://github.com/richtaur/audia
+[8]: https://github.com/richtaur/audia#readme
