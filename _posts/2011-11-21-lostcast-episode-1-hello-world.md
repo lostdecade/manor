@@ -2,7 +2,6 @@
 layout: post
 title: "Lostcast Episode 1: Hello World"
 author: matt
-published: false
 ---
 **Lostcast** is the name of our new podcast! In this first episode we introduce ourselves, chat a little bit about **Lost Decade Games**, talk about the history of [Onslaught!](/onslaught_arena/), and discuss HTML5 games in general. We're not sure yet if it will be weekly, or monthly, or what. We'll figure that stuff out eventually.
 
