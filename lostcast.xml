@@ -13,22 +13,25 @@
 		<description>
 			Geoff Blair and Matt Hackett discuss making HTML5 games for a living.
 		</description>
+		<itunes:category text="Games &amp; Hobbies">
+			<itunes:category text="Video Games"/>
+		</itunes:category>
 		<itunes:owner>
 			<itunes:name>Lost Decade Games</itunes:name>
 			<itunes:email>hello@lostdecadegames.com</itunes:email>
 		</itunes:owner>
 		<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 		<itunes:explicit>yes</itunes:explicit>
+		<item>
+			<title>Lostcast » Lost Decade Games Podcast</title>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>HTML5 Game Development Podcast</itunes:subtitle>
+			<itunes:summary>Geoff Blair and Matt Hackett discuss making HTML5 games for a living.</itunes:summary>
+			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_eposide_1_hello_world.mp3" length="2711" type="audio/mpeg"/>
+			<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_eposide_1_hello_world.mp3</guid>
+			<pubDate>Tue, 15 Nov 2011 00:00:00 GMT</pubDate>
+			<itunes:duration>46:11</itunes:duration>
+			<itunes:keywords>html5, games</itunes:keywords>
+		</item>
 	</channel>
-	<item>
-		<title>Lostcast » Lost Decade Games Podcast</title>
-		<itunes:author>Lost Decade Games</itunes:author>
-		<itunes:subtitle>HTML5 Game Development Podcast</itunes:subtitle>
-		<itunes:summary>Geoff Blair and Matt Hackett discuss making HTML5 games for a living.</itunes:summary>
-		<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_eposide_1_hello_world.mp3" length="2711" type="audio/mpeg"/>
-		<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_eposide_1_hello_world.mp3</guid>
-		<pubDate>Tue, 15 Nov 2011 00:00:00 GMT</pubDate>
-		<itunes:duration>46:11</itunes:duration>
-		<itunes:keywords>html5, games</itunes:keywords>
-	</item>
 </rss>
