@@ -23,9 +23,11 @@ published: false
 * [/r/gamedev][8]
 * [Simple Canvas Game tutorial on our blog][9]
 * [appMobi][10]
-* [We're hiring game artists, contact us!][11]
+* [GameClosure][11]
+* [New Game Conference][12]
+* [We're hiring game artists, contact us!][13]
 
-Thanks for listening! Next week we'll hopefully be interviewing Louis Stowasser of [Crafty][12] fame. Tune in!
+Thanks for listening! Next week we'll hopefully be interviewing Louis Stowasser of [Crafty][14] fame. Tune in!
 
 [1]: http://richtaur.github.com/demos/spacius/
 [2]: https://developer.mozilla.org/en/Canvas_tutorial
@@ -33,9 +35,11 @@ Thanks for listening! Next week we'll hopefully be interviewing Louis Stowasser 
 [4]: http://www.lostdecadegames.com/the-road-to-a-production-quality-html5-game-o/
 [5]: http://jmflava.com/
 [6]: http://www.mapeditor.org/
-[7]: http://reddit.com/r/gamedev/
-[8]: http://www.melonjs.org/
+[7]: http://www.melonjs.org/
+[8]: http://reddit.com/r/gamedev/
 [9]: http://www.lostdecadegames.com/how-to-make-a-simple-html5-canvas-game/
 [10]: http://www.appmobi.com/
-[11]: http://www.lostdecadegames.com/contact/
-[12]: http://craftyjs.com/
+[11]: http://gameclosure.com/
+[12]: http://www.newgameconf.com/
+[13]: http://www.lostdecadegames.com/contact/
+[14]: http://craftyjs.com/
