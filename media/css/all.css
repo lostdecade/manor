@@ -131,14 +131,16 @@ ul.bullets{list-style-image:url(/media/images/chrome/bullet_sword.png);margin:0 
 #welcome{display:inline-block;text-align:justify;background:rgba(0, 0, 0, 0.1);border-radius:5px;padding:10px;margin-top:10px;}#welcome img{float:left;margin:0 10px 5px 0;}
 a{color:#f68b1f;text-decoration:underline;}
 a:hover{text-decoration:none;}
-.onslaught{text-align:center;}.onslaught p{color:#f1f1f2;margin-bottom:1em;}.onslaught p a{background-image:url(/media/images/chrome/buttons.png);color:#eee;font:16px Prociono;text-align:center;text-decoration:none;text-shadow:1px 1px 0 #1d1715;display:inline-block;line-height:42px;width:113px;height:42px;}
-.onslaught p a:hover{background-position:0 -42px;text-decoration:none;}
-.onslaught ul{margin:0 0 10px 18px;height:42px;}
-.onslaught ul li{display:inline;}.onslaught ul li a{background-image:url(/media/images/chrome/buttons.png);float:left;text-indent:-999em;display:block;margin-right:10px;width:42px;height:42px;}
-.onslaught ul li:last-child a{margin:0;}
-.onslaught .android{background-position:-197px 0;}
-.onslaught .android:hover{background-position:-197px -42px;}
-.onslaught .apple{background-position:-239px 0;}
-.onslaught .apple:hover{background-position:-239px -42px;}
-.onslaught .chrome{background-position:-281px 0;}
-.onslaught .chrome:hover{background-position:-281px -42px;}
+.onslaught{margin-bottom:2em;}
+.lostcast img{margin-bottom:10px;}
+.onslaught,.lostcast{text-align:center;}.onslaught p,.lostcast p{color:#f1f1f2;margin-bottom:1em;}.onslaught p a,.lostcast p a{background-image:url(/media/images/chrome/buttons.png);color:#eee;font:16px Prociono;text-align:center;text-decoration:none;text-shadow:1px 1px 0 #1d1715;display:inline-block;line-height:42px;width:113px;height:42px;}
+.onslaught p a:hover,.lostcast p a:hover{background-position:0 -42px;text-decoration:none;}
+.onslaught ul,.lostcast ul{margin:0 0 10px 18px;height:42px;}
+.onslaught ul li,.lostcast ul li{display:inline;}.onslaught ul li a,.lostcast ul li a{background-image:url(/media/images/chrome/buttons.png);float:left;text-indent:-999em;display:block;margin-right:10px;width:42px;height:42px;}
+.onslaught ul li:last-child a,.lostcast ul li:last-child a{margin:0;}
+.onslaught .android,.lostcast .android{background-position:-197px 0;}
+.onslaught .android:hover,.lostcast .android:hover{background-position:-197px -42px;}
+.onslaught .apple,.lostcast .apple{background-position:-239px 0;}
+.onslaught .apple:hover,.lostcast .apple:hover{background-position:-239px -42px;}
+.onslaught .chrome,.lostcast .chrome{background-position:-281px 0;}
+.onslaught .chrome:hover,.lostcast .chrome:hover{background-position:-281px -42px;}
