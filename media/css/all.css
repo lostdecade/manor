@@ -145,3 +145,4 @@ a:hover{text-decoration:none;}
 .onslaught .apple:hover,.lostcast .apple:hover{background-position:-239px -42px;}
 .onslaught .chrome,.lostcast .chrome{background-position:-281px 0;}
 .onslaught .chrome:hover,.lostcast .chrome:hover{background-position:-281px -42px;}
+.lostcast p a.rss{background-position:-113px 0;text-indent:-999em;width:42px;height:42px;}.lostcast p a.rss:hover{background-position:-113px -42px;}
