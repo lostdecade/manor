@@ -12,6 +12,7 @@ ul{padding:0;list-style:none;}
 .text-format .before{float:left;margin-right:20px;}
 .text-format .after{float:right;margin-left:20px;}
 .text-format .full-frame{text-align:center;}
+.subtext{text-align:center;}
 @font-face{font-family:'Prociono';font-style:normal;font-weight:400;src:local('Prociono'),local('Prociono-Regular'),url(/media/fonts/prociono.woff) format('woff');}html,body{background:#000;color:#f1f1f2;font-family:Arial, sans;font-size:16px;}
 .standard-page{width:800px;margin:0 auto;}.standard-page>.body{overflow:hidden;margin-bottom:20px;}.standard-page>.body>.main{float:left;width:580px;color:#1d1715;}.standard-page>.body>.main a{color:#0b521f;text-decoration:underline;}.standard-page>.body>.main a:hover{color:#117f30;text-decoration:underline;}
 .standard-page>.body>.main>.hd,.standard-page>.body>.main>.ft{height:70px;background-image:url(/media/images/chrome/scroll.png);}

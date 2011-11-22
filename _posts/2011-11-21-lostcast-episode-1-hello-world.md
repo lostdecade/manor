@@ -9,6 +9,10 @@ author: matt
 	Download Lostcast episode 1 (46:11, 45MB)
 </a>
 
+<p class="subtext">
+	(or <a href="{{ site.lostcast_itunes_url }}">subscribe via iTunes</a>)
+</p>
+
 ## Links mentioned in the show
 
 * [Spacius!][1]
