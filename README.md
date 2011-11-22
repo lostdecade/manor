@@ -19,9 +19,9 @@ The following directories and their contents are Copyright Lost Decade Games, LL
 * [_posts][9]
 * [media/images][10]
 
-All other directories and files are MIT Licensed.
+All other directories and files are [MIT Licensed][11].
 
-[1]: http://www.lostdecadegames.com
+[1]: http://www.lostdecadegames.com/
 [2]: http://www.lostdecadegames.com/our-new-blog-is-running-on-jekyll/
 [3]: http://pages.github.com/
 [4]: https://github.com/mojombo/jekyll/wiki
@@ -31,3 +31,4 @@ All other directories and files are MIT Licensed.
 [8]: http://twitter.com/#!/lostdecadegames
 [9]: https://github.com/lostdecade/lostdecade.github.com/tree/master/_posts
 [10]: https://github.com/lostdecade/lostdecade.github.com/tree/master/media/images
+[11]: http://www.opensource.org/licenses/mit-license.php
