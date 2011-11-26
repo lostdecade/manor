@@ -8,10 +8,10 @@
 		<itunes:subtitle>HTML5 Game Development Podcast</itunes:subtitle>
 		<itunes:author>Lost Decade Games</itunes:author>
 		<itunes:summary>
-			Geoff Blair and Matt Hackett discuss making HTML5 games for a living.
+			Geoff Blair and Matt Hackett discuss the business, tech and creativity of HTML5 games.
 		</itunes:summary>
 		<description>
-			Geoff Blair and Matt Hackett discuss making HTML5 games for a living.
+			Geoff Blair and Matt Hackett discuss the business, tech and creativity of HTML5 games.
 		</description>
 		<itunes:category text="Games &amp; Hobbies">
 			<itunes:category text="Video Games"/>
@@ -40,7 +40,7 @@
 			<title>Lostcast Episode 2: Code Like a Fox</title>
 			<link>http://www.lostdecadegames.com/</link>
 			<itunes:author>Lost Decade Games</itunes:author>
-			<itunes:subtitle>Introduction and Onslaught! development</itunes:subtitle>
+			<itunes:subtitle>Interview with Louis Stowasser of Crafty HTML5 game engine</itunes:subtitle>
 			<itunes:summary>Matt and Geoff talk with HTML5 game developer Louis Stowasser about his Crafty game engine.</itunes:summary>
 			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_episode_2_code_like_a_fox.mp3" length="3303" type="audio/mpeg"/>
 			<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_episode_2_code_like_a_fox.mp3</guid>
