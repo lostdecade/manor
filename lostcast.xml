@@ -50,5 +50,19 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
+		<item>
+			<title>Lostcast Episode 3: Ramble On</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>Join us as we ramble on about locking down your HTML5 game's source code</itunes:subtitle>
+			<itunes:summary>Join us as we ramble on about locking down your HTML5 game's source code</itunes:summary>
+			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_episode_3_ramble_on.mp3" length="1479" type="audio/mpeg"/>
+			<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_episode_3_ramble_on.mp3</guid>
+			<pubDate>Fri, 9 Dec 2011 12:28:00 +0000</pubDate>
+			<itunes:duration>24:39</itunes:duration>
+			<itunes:keywords>html5, games, closure</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
 	</channel>
 </rss>
