@@ -62,7 +62,7 @@
 			<itunes:duration>24:39</itunes:duration>
 			<itunes:keywords>html5, games, closure</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
-			<itunes:explicit>no</itunes:explicit>
+			<itunes:explicit>yes</itunes:explicit>
 		</item>
 	</channel>
 </rss>
