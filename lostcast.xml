@@ -64,5 +64,19 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
+		<item>
+			<title>Lostcast Episode 4: native Coffee</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>What's NaCl and why does it kind of scare us?</itunes:subtitle>
+			<itunes:summary>What's NaCl and why does it kind of scare us?</itunes:summary>
+			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_episode_4_native_coffee.mp3" length="2182" type="audio/mpeg"/>
+			<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_episode_4_native_coffee.mp3</guid>
+			<pubDate>Fri, 16 Dec 2011 12:00:00 +0000</pubDate>
+			<itunes:duration>46:22</itunes:duration>
+			<itunes:keywords>html5, games, nacl, native client, coffeescript</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:explicit>yes</itunes:explicit>
+		</item>
 	</channel>
 </rss>
