@@ -65,7 +65,7 @@
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
 		<item>
-			<title>Lostcast Episode 4: native Coffee</title>
+			<title>Lostcast Episode 4: Native Coffee</title>
 			<link>http://www.lostdecadegames.com/</link>
 			<itunes:author>Lost Decade Games</itunes:author>
 			<itunes:subtitle>What's NaCl and why does it kind of scare us?</itunes:subtitle>
@@ -75,6 +75,20 @@
 			<pubDate>Fri, 16 Dec 2011 12:00:00 +0000</pubDate>
 			<itunes:duration>46:22</itunes:duration>
 			<itunes:keywords>html5, games, nacl, native client, coffeescript</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:explicit>yes</itunes:explicit>
+		</item>
+		<item>
+			<title>Lostcast Episode 5: Left 4 Questions</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>EMAIL!</itunes:subtitle>
+			<itunes:summary>We answer 4 HTML5 game dev questions from a listener.</itunes:summary>
+			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_episode_5_left_4_questions.mp3" length="2471" type="audio/mpeg"/>
+			<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_episode_5_left_4_questions.mp3</guid>
+			<pubDate>Sat, 31 Dec 2011 12:00:00 +0000</pubDate>
+			<itunes:duration>41:11</itunes:duration>
+			<itunes:keywords>html5, games, questions</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
