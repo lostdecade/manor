@@ -16,7 +16,7 @@ In episode 5, we answer a list of questions sent in by Jarrod Oberto, one of our
 
 _Also, I used Logic Pro 9 (yay shiny new Xmas toy!) to edit this episode, and I'm brand new to it, so please do let me know about any issues, like editing or volume woes._
 
-<a class="download-podcast" href="/media/lostcast/lostcast_episode_5_.mp3">
+<a class="download-podcast" href="/media/lostcast/lostcast_episode_5_left_4_questions.mp3">
 	Download Lostcast episode 5 (41:11, 47MB)
 </a>
 
