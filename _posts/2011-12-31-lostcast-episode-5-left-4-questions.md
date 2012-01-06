@@ -4,7 +4,7 @@ title: "Lostcast Episode 5: Left 4 Questions"
 author: matt
 ---
 **Lostcast** is our podcast about HTML5 games.
-In episode 5, we answer a list of questions sent in by Jarrod Oberto, one of our readers. Here are the questions he sent us:
+In episode 5, we answer a list of questions sent in by Jarrod Oberto, one of our listeners. Here are the questions he sent us:
 
 > 1) Setting your frame rate: So in the attached code I use setInterval(main, 20); Now I have an idea what this means but have not fully wrapped my head around it. I see in your tutorial you set this value to 1 (so it runs as fast as possible) and then control the speed with your "modifier" value? I tried your method and it killed my performance in Firefox. Could you explain the pros/cons in the two different techniques?
 
