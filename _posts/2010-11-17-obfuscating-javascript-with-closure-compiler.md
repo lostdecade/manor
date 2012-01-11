@@ -61,7 +61,7 @@ The list of properties such as in this example is pretty long and many of them a
 Here's an (incomplete!) list of properties that won't be obfuscated:
 
 {% highlight js %}
-add, create, direction, display, execute, height, history, images, layers, left, load, map, normalize, now, paused, play, position, reset, scale, setInterval, setTimeout, size, start, stop, top, type, update, view, width, x, y
+add, canvas, create, data, direction, display, execute, height, history, images, layers, left, load, loop, map, normalize, now, paused, play, position, reset, scale, setInterval, setTimeout, size, start, stop, style, top, type, update, view, width, x, y
 {% endhighlight %}
 
 These are the lessons we've learned while obfuscating our code as much as possible to help protect our work. Can you think of any additional best practices to assist in this process?
