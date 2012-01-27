@@ -92,5 +92,19 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
+		<item>
+			<title>Lostcast Episode 6: A Wild Tom Appears</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>Interview with Tom Fairfield of Game Closure.</itunes:subtitle>
+			<itunes:summary>Tom discusses xcjs, Game Closure and HTML5 tech.</itunes:summary>
+			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_episode_6_a_wild_tom_appears.mp3" length="1667" type="audio/mpeg"/>
+			<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_episode_6_a_wild_tom_appears.mp3</guid>
+			<pubDate>Fri, 27 Jan 2012 12:00:00 +0000</pubDate>
+			<itunes:duration>27:47</itunes:duration>
+			<itunes:keywords>html5, games, game closure, tom fairfield</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
 	</channel>
 </rss>
