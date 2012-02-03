@@ -4,12 +4,12 @@ title: Contact Us
 ---
 <ul>
 	<li>
-		Email:
-		<a href="mailto:{{ site.email }}">{{ site.email }}</a>
-	</li>
-	<li>
 		Twitter:
 		<a href="https://twitter.com/#!/lostdecadegames">@lostdecadegames</a>
+	</li>
+	<li>
+		Email:
+		<a href="mailto:{{ site.email }}">{{ site.email }}</a>
 	</li>
 </ul>
 
@@ -31,16 +31,16 @@ title: Contact Us
 		<p>{{ author.bio }}</p>
 		<ul>
 			<li>
-				Email:
-				<a href="mailto:{{ author.email }}">{{ author.email }}</a>
+				Twitter:
+				<a href="https://twitter.com/#!/{{ author.twitter }}">@{{ author.twitter }}</a>
 			</li>
 			<li>
 				Web:
 				<a href="{{ author.web }}">{{ author.web }}</a>
 			</li>
 			<li>
-				Twitter:
-				<a href="https://twitter.com/#!/{{ author.twitter }}">@{{ author.twitter }}</a>
+				Email:
+				<a href="mailto:{{ author.email }}">{{ author.email }}</a>
 			</li>
 		</ul>
 	</div>
