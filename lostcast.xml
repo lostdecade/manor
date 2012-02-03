@@ -106,5 +106,19 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
+		<item>
+			<title>Lostcast Episode 7: HTML5 The Bad Parts</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>What sucks about HTML5?</itunes:subtitle>
+			<itunes:summary>We collected things devs hate about HTML5 via Twitter and talk all about them!</itunes:summary>
+			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_episode_7_html5_the_bad_parts.mp3" length="4257" type="audio/mpeg"/>
+			<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_episode_7_html5_the_bad_parts.mp3</guid>
+			<pubDate>Fri, 02 Feb 2012 12:00:00 +0000</pubDate>
+			<itunes:duration>1:10:57</itunes:duration>
+			<itunes:keywords>html5, games, suck, sucks, sucking, sucky</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
 	</channel>
 </rss>
