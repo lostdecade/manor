@@ -118,7 +118,21 @@
 			<itunes:duration>1:10:57</itunes:duration>
 			<itunes:keywords>html5, games, suck, sucks, sucking, sucky</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
-			<itunes:explicit>no</itunes:explicit>
+			<itunes:explicit>yes</itunes:explicit>
+		</item>
+		<item>
+			<title>Lostcast Episode 8: Attack of the Clones!</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>The clones! They're at the door!</itunes:subtitle>
+			<itunes:summary>With so many companies cloning out companies' games, why don't we talk this out?</itunes:summary>
+			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_episode_8_attack_of_the_clones.mp3" length="3883" type="audio/mpeg"/>
+			<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_episode_8_attack_of_the_clones.mp3</guid>
+			<pubDate>Sun, 12 Feb 2012 12:00:00 +0000</pubDate>
+			<itunes:duration>1:04:43</itunes:duration>
+			<itunes:keywords>html5, games, clones</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:explicit>yes</itunes:explicit>
 		</item>
 	</channel>
 </rss>
