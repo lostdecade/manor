@@ -10,7 +10,7 @@ This is the source code for the [Lost Decade Games website][1]. Our site is open
 ## Contact Us
 
 * Email us: [hello@lostdecadegames.com][7]
-* Follow us on Twitter: [@lostdecadegames][8]
+* Follow us on Twitter: [@LostDecadeGames][8]
 
 ## License
 
