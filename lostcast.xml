@@ -134,5 +134,19 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
+		<item>
+			<title>Lostcast Episode 9: That's Rich</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>Flash or HTML5?</itunes:subtitle>
+			<itunes:summary>Rich Davey is a veteran flash game developer and is really excited about HTML5. Let's talk it out!</itunes:summary>
+			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_episode_9_thats_rich.mp3" length="3822" type="audio/mpeg"/>
+			<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_episode_9_thats_rich.mp3</guid>
+			<pubDate>Thu, 23 Feb 2012 12:00:00 +0000</pubDate>
+			<itunes:duration>1:03:42</itunes:duration>
+			<itunes:keywords>html5, games, flash, comparison, rich davey, photonstorm</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
 	</channel>
 </rss>
