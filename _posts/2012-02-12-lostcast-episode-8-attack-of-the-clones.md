@@ -28,7 +28,7 @@ So we do bring it back home to HTML5 a little, but this episode is a bit light o
 	<img alt="/r/html5games" src="http://s3.amazonaws.com/sp.reddit.com/reddit2008_03_05.png">
 </a>
 
-Wait, that's not a game! Sorry, but we dropped the ball here and did not pick a game this week. To solve this problem for the future, I've created an [HTML5 Games subreddit][4]. It'd be awesome if you'd submit any cool HTML5 games you come across. I'm not entirely sure how this will work yet, but we _might_ just start spotlighting the game with the most upvote that week.
+Wait, that's not a game! Sorry, but we dropped the ball here and did not pick a game this week. To solve this problem for the future, I've created an [HTML5 Games subreddit][4]. It'd be awesome if you'd submit any cool HTML5 games you come across. I'm not entirely sure how this will work yet, but we _might_ just start spotlighting the game with the most upvotes that week.
 
 _If you were hoping for a game to play, try last week's spotlight [Faerie Alchemy](http://subsoap.com/games/faerie-alchemy/html5/)._
 
