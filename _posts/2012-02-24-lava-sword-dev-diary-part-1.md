@@ -4,6 +4,8 @@ title: "Lava Sword Dev Diary (part 1)"
 author: matt
 ---
 
+<div class="full-frame"><img alt="Lava Sword environment #2" src="/media/images/posts/lava_sword/lava_sword_02.png"></div>
+
 So I'm working on a new game tentatively titled **Lava Sword**. The goals of the game are pretty specific: we want an **arcade-style action game optimized for mobile browsers**. I've been thinking about [Jeff Vogel's recent blog][1] about how indie game devs should be looking at some of their favorite games for inspiration, so I decided to revisit some of mine.
 
 ## Influence
@@ -20,13 +22,11 @@ That's's the **first screenshot**, taken as early as there was anything to to ta
 
 ## Spriting
 
-<div class="full-frame"><img alt="Lava Sword environment #1" src="/media/images/posts/lava_sword/lava_sword_01.png"></div>
-
 After finding the fun, I started working on some basic graphics. Nothing too complicated like animations and stuff; I'm not ready for that yet. For the time being, I mostly wanted to see about getting **parralax scrolling** into the mix, because if I run into some brick wall along the way, the game's basically a no-go. (…though mostly I just love parralax scrolling and couldn't resist.) I also wanted to make sure I wouldn't hit an inspirational brick wall, and graphics really help with that.
 
-<div class="full-frame"><img alt="Lava Sword environment #2" src="/media/images/posts/lava_sword/lava_sword_02.png"></div>
+<div class="full-frame"><img alt="Lava Sword environment #1" src="/media/images/posts/lava_sword/lava_sword_01.png"></div>
 
-Above is a relatively final environment for the game (though both characters are placeholders). It would be cool if eventually there were many environments, but this is adequate for now. And that's all I've got so far! So what's next for **Lava Sword**? Let's take a look at the ol' TODO list:
+It would be cool if eventually there were many environments, but this is adequate for now. And that's all I've got so far! So what's next for **Lava Sword**? Let's take a look at the ol' TODO list:
 
 * Implement player/monster health
 * Item/weapon drops
