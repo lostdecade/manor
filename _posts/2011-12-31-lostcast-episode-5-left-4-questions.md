@@ -2,6 +2,7 @@
 layout: post
 title: "Lostcast Episode 5: Left 4 Questions"
 author: matt
+tags: [lostcast]
 ---
 **Lostcast** is our podcast about HTML5 games.
 In episode 5, we answer a list of questions sent in by Jarrod Oberto, one of our listeners. Here are the questions he sent us:

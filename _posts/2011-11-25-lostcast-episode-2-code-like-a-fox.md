@@ -2,6 +2,7 @@
 layout: post
 title: "Lostcast Episode 2: Code Like a Fox"
 author: matt
+tags: [lostcast]
 ---
 **Lostcast** is our podcast about HTML5 games.
 In episode 2, we talk with [Louis Stowasser][1] about his game engine, [Crafty][2], among many other things HTML5-game related. Have a listen!

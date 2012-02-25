@@ -2,6 +2,7 @@
 layout: post
 title: "Lostcast Episode 3: Ramble On"
 author: matt
+tags: [lostcast]
 ---
 **Lostcast** is our podcast about HTML5 games.
 In episode 3, we ramble incoherently about ways to help lock down your HTML5 game's source code.

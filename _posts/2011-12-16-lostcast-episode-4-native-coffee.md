@@ -2,6 +2,7 @@
 layout: post
 title: "Lostcast Episode 4: Native Coffee"
 author: matt
+tags: [lostcast]
 ---
 **Lostcast** is our podcast about HTML5 games.
 In episode 4, we talk about Native Client and other cool HTML5-related stuff. We also answer our first listener email! Check out the show notes for links.
