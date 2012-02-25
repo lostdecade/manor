@@ -9,6 +9,7 @@ ul{padding:0;list-style:none;}
 .text-format p{margin:20px 0;}.text-format p:first-child{margin-top:0;}
 .text-format p img{float:left;margin-right:10px;}
 .text-format ul{list-style-image:url(/media/images/chrome/bullet_sword.png);margin:0 40px;}.text-format ul li{margin-bottom:10px;}.text-format ul li:last-child{margin-bottom:0;}
+.text-format ul{margin-top:20px;margin-bottom:20px;}
 .text-format blockquote{color:#584640;border-left:10px solid rgba(0, 0, 0, 0.25);margin:0 20px 0 10px;padding-left:10px;}
 .text-format .before{float:left;margin-right:20px;}
 .text-format .after{float:right;margin-left:20px;}
@@ -87,6 +88,7 @@ ul{padding:0;list-style:none;}
 .page .content p{margin:20px 0;}.page .content p:first-child{margin-top:0;}
 .page .content p img{float:left;margin-right:10px;}
 .page .content ul{list-style-image:url(/media/images/chrome/bullet_sword.png);margin:0 40px;}.page .content ul li{margin-bottom:10px;}.page .content ul li:last-child{margin-bottom:0;}
+.page .content ul{margin-top:20px;margin-bottom:20px;}
 .page .content blockquote{color:#584640;border-left:10px solid rgba(0, 0, 0, 0.25);margin:0 20px 0 10px;padding-left:10px;}
 .page .content .before{float:left;margin-right:20px;}
 .page .content .after{float:right;margin-left:20px;}
@@ -113,6 +115,7 @@ ul{padding:0;list-style:none;}
 .post .content p{margin:20px 0;}.post .content p:first-child{margin-top:0;}
 .post .content p img{float:left;margin-right:10px;}
 .post .content ul{list-style-image:url(/media/images/chrome/bullet_sword.png);margin:0 40px;}.post .content ul li{margin-bottom:10px;}.post .content ul li:last-child{margin-bottom:0;}
+.post .content ul{margin-top:20px;margin-bottom:20px;}
 .post .content blockquote{color:#584640;border-left:10px solid rgba(0, 0, 0, 0.25);margin:0 20px 0 10px;padding-left:10px;}
 .post .content .before{float:left;margin-right:20px;}
 .post .content .after{float:right;margin-left:20px;}
