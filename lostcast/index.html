@@ -1,0 +1,25 @@
+---
+layout: page
+title: "Lostcast: HTML5 Games Podcast"
+---
+<p class="clear-float">
+	<a href="{{ site.lostcast_itunes_url }}">
+		<img
+			alt="Lostcast: HTML5 games podcast"
+			src="/media/images/lostcast_200x200.jpg"
+			width="200"
+			height="200"
+		>
+	</a>
+	Lostcast is our podcast about HTML5 games! In this mostly-weekly show, Geoff Blair and Matt Hackett talk shop, ranging from technically advanced engineering discussions to interviews with industry pioneers. Keep up with the latest episodes via <a href="{{ site.lostcast_itunes_url }}">iTunes</a> or <a href="/lostcast.xml">RSS</a>!
+</p>
+
+<h3>Episodes</h3>
+
+<ul class="posts">
+	{% for post in site.tags.lostcast %}
+	<li>
+		<a class="title" href="{{ post.url }}">{{ post.title }}</a>
+	</li>
+	{% endfor %}
+</ul>

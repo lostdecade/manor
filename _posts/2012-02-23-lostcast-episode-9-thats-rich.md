@@ -2,6 +2,7 @@
 layout: post
 title: "Lostcast Episode 9: That's Rich"
 author: matt
+tags: [lostcast]
 ---
 
 **Lostcast** is our podcast about HTML5 games. In episode 9, we talk with flash developer and HTML5 games advocate [Rich Davey](http://www.photonstorm.com/). He's got years of flash game development experience under his belt, so we discuss in great detail the differences between these two similar yet very different development platorms.

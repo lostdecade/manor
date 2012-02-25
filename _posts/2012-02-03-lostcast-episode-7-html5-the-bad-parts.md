@@ -2,6 +2,7 @@
 layout: post
 title: "Lostcast Episode 7: HTML5, The Bad Parts"
 author: matt
+tags: [lostcast]
 ---
 
 <a href="/media/images/posts/lostcast_07/matt_and_geoff_podcasting.jpg">

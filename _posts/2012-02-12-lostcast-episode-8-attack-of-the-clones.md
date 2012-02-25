@@ -2,6 +2,7 @@
 layout: post
 title: "Lostcast Episode 8: Attack of the Clones!"
 author: matt
+tags: [lostcast]
 ---
 
 <a href="/media/images/posts/lostcast_08/zelda_vs_golden_axe_warrior.png">
