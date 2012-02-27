@@ -41,7 +41,7 @@ So, first things first: if you haven't already, you should go slay monsters for 
 
 [Onslaught! Arena][2] is now also [open source][4] on the [Lost Decade Games GitHub page][12]. **Warning!** The code is pretty old at this point and we're both embarrassed by the bad quality of it. But there's still tons of great object and math code in there to read and learn from if you're new to JavaScript or game dev.
 
-We've chosen a GPL (General Public License) for **Onslaught! Arena**. This means you can [fork it][4] and make whatever you want, but it can't be commercial and must also be open source. We also retain the rights to all game assets. **tl;dr: make whatever you want with it but you can't sell it.**
+We've chosen a GPL (General Public License) for **Onslaught! Arena**. This means you can [fork it][4] and make whatever you want, but it must also be open source. We also retain the rights to all game assets. **tl;dr: make whatever you want with it but you can't sell it.**
 
 _Note that only **Onslaught! Arena** (and not **Onslaught!**) is open source. While the games are just slightly different, **Onslaught!** was built using the [Game Closure][13] SDK and cannot be shared just yet._
 
