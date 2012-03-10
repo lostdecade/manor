@@ -13,7 +13,7 @@ ul{padding:0;list-style:none;}
 .text-format blockquote{color:#584640;border-left:10px solid rgba(0, 0, 0, 0.25);margin:0 20px 0 10px;padding-left:10px;}
 .text-format .before{float:left;margin-right:20px;}
 .text-format .after{float:right;margin-left:20px;}
-.text-format .full-frame{text-align:center;}
+.text-format .full-frame{text-align:center;}.text-format .full-frame em{font-style:italic;font-weight:bold;}
 .subtext{text-align:center;}
 .ad{text-align:center;margin:10px 0;}
 @font-face{font-family:'Prociono';font-style:normal;font-weight:400;src:local('Prociono'),local('Prociono-Regular'),url(/media/fonts/prociono.woff) format('woff');}html,body{background:#000;color:#f1f1f2;font-family:Arial, sans;font-size:16px;}
@@ -92,7 +92,7 @@ ul{padding:0;list-style:none;}
 .page .content blockquote{color:#584640;border-left:10px solid rgba(0, 0, 0, 0.25);margin:0 20px 0 10px;padding-left:10px;}
 .page .content .before{float:left;margin-right:20px;}
 .page .content .after{float:right;margin-left:20px;}
-.page .content .full-frame{text-align:center;}
+.page .content .full-frame{text-align:center;}.page .content .full-frame em{font-style:italic;font-weight:bold;}
 .page-head{position:relative;}.page-head a{text-decoration:none;}
 .page-head h1{font:48px Prociono;position:absolute;left:300px;top:70px;display:inline;width:492px;height:59px;}
 .page-head .title{color:#fff;text-shadow:2px 2px 2px #666;}
@@ -119,7 +119,7 @@ ul{padding:0;list-style:none;}
 .post .content blockquote{color:#584640;border-left:10px solid rgba(0, 0, 0, 0.25);margin:0 20px 0 10px;padding-left:10px;}
 .post .content .before{float:left;margin-right:20px;}
 .post .content .after{float:right;margin-left:20px;}
-.post .content .full-frame{text-align:center;}
+.post .content .full-frame{text-align:center;}.post .content .full-frame em{font-style:italic;font-weight:bold;}
 .post .comments{border:dotted 2px #000;border-style:dotted none;margin-bottom:20px;padding-bottom:5px;}.post .comments h2{float:left;margin-top:5px;font-family:Prociono;}
 .post .comments #dsq-content #dsq-global-toolbar{margin-top:0;}
 .post-list{text-align:left;}.post-list>header>.title{display:inline-block;margin:20px 0;font-family:Prociono;font-size:32px;font-weight:normal;}
