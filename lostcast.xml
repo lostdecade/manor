@@ -28,8 +28,8 @@
 			<itunes:author>Lost Decade Games</itunes:author>
 			<itunes:subtitle>Introduction and Onslaught! development</itunes:subtitle>
 			<itunes:summary>Matt and Geoff discuss their backgrounds and various aspects of Onslaught! development.</itunes:summary>
-			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_episode_1_hello_world.mp3" length="2711" type="audio/mpeg"/>
-			<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_episode_1_hello_world.mp3</guid>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_1_hello_world.mp3" length="2711" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_1_hello_world.mp3</guid>
 			<pubDate>Tue, 15 Nov 2011 12:12:12 +0000</pubDate>
 			<itunes:duration>46:11</itunes:duration>
 			<itunes:keywords>html5, games</itunes:keywords>
@@ -42,8 +42,8 @@
 			<itunes:author>Lost Decade Games</itunes:author>
 			<itunes:subtitle>Interview with Louis Stowasser of Crafty HTML5 game engine</itunes:subtitle>
 			<itunes:summary>Matt and Geoff talk with HTML5 game developer Louis Stowasser about his Crafty game engine.</itunes:summary>
-			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_episode_2_code_like_a_fox.mp3" length="3303" type="audio/mpeg"/>
-			<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_episode_2_code_like_a_fox.mp3</guid>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_2_code_like_a_fox.mp3" length="3303" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_2_code_like_a_fox.mp3</guid>
 			<pubDate>Fri, 25 Nov 2011 12:28:00 +0000</pubDate>
 			<itunes:duration>55:03</itunes:duration>
 			<itunes:keywords>html5, games, crafty</itunes:keywords>
@@ -56,8 +56,8 @@
 			<itunes:author>Lost Decade Games</itunes:author>
 			<itunes:subtitle>Join us as we ramble on about locking down your HTML5 game's source code</itunes:subtitle>
 			<itunes:summary>Join us as we ramble on about locking down your HTML5 game's source code</itunes:summary>
-			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_episode_3_ramble_on.mp3" length="1479" type="audio/mpeg"/>
-			<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_episode_3_ramble_on.mp3</guid>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_3_ramble_on.mp3" length="1479" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_3_ramble_on.mp3</guid>
 			<pubDate>Fri, 9 Dec 2011 12:28:00 +0000</pubDate>
 			<itunes:duration>24:39</itunes:duration>
 			<itunes:keywords>html5, games, closure</itunes:keywords>
@@ -154,7 +154,7 @@
 			<itunes:author>Lost Decade Games</itunes:author>
 			<itunes:subtitle>We've gone indie!</itunes:subtitle>
 			<itunes:summary>LDG is now a full-on indie game company and we celebrate by open sourcing our flagship product.</itunes:summary>
-			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_episode_10_indiependence_day.mp3" length="2534" type="audio/mpeg"/>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_1_hello_world.mp3" length="2534" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_1_hello_world.mp3</guid>
 			<pubDate>Fri, 2 Mar 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>42:14</itunes:duration>

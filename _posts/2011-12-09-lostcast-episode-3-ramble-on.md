@@ -8,7 +8,7 @@ tags: [lostcast]
 In episode 3, we ramble incoherently about ways to help lock down your HTML5 game's source code.
 You may notice that this episode is significantly shorter than the previous two: this is based on popular feedback from [Twitter](https://twitter.com/#!/lostdecadegames). Also based on feedback, we did not include background music this time around.
 
-<a class="download-podcast" href="/media/lostcast/lostcast_episode_3_ramble_on.mp3">
+<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_3_ramble_on.mp3">
 	Download Lostcast episode 3 (24:39, 20MB)
 </a>
 

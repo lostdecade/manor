@@ -7,7 +7,7 @@ tags: [lostcast]
 **Lostcast** is our podcast about HTML5 games.
 In episode 2, we talk with [Louis Stowasser][1] about his game engine, [Crafty][2], among many other things HTML5-game related. Have a listen!
 
-<a class="download-podcast" href="/media/lostcast/lostcast_episode_2_code_like_a_fox.mp3">
+<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_2_code_like_a_fox.mp3">
 	Download Lostcast episode 2 (55:03, 55MB)
 </a>
 

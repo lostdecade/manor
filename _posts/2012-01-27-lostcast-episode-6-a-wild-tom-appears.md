@@ -7,7 +7,7 @@ tags: [lostcast]
 **Lostcast** is our podcast about HTML5 games.
 In episode 6, we interview Tom Fairfield of Game Closure, the company that helped us launch Onslaught! on iPad and Android tablets.
 
-<a class="download-podcast" href="/media/lostcast/lostcast_episode_6_a_wild_tom_appears.mp3">
+<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_6_a_wild_tom_appears.mp3">
 	Download Lostcast episode 6 (27:47, 32MB)
 </a>
 
