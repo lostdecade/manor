@@ -70,8 +70,8 @@
 			<itunes:author>Lost Decade Games</itunes:author>
 			<itunes:subtitle>What's NaCl and why does it kind of scare us?</itunes:subtitle>
 			<itunes:summary>What's NaCl and why does it kind of scare us?</itunes:summary>
-			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_episode_4_native_coffee.mp3" length="2182" type="audio/mpeg"/>
-			<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_episode_4_native_coffee.mp3</guid>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_4_native_coffee.mp3" length="2182" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_4_native_coffee.mp3</guid>
 			<pubDate>Fri, 16 Dec 2011 12:00:00 +0000</pubDate>
 			<itunes:duration>46:22</itunes:duration>
 			<itunes:keywords>html5, games, nacl, native client, coffeescript</itunes:keywords>
@@ -84,8 +84,8 @@
 			<itunes:author>Lost Decade Games</itunes:author>
 			<itunes:subtitle>EMAIL!</itunes:subtitle>
 			<itunes:summary>We answer 4 HTML5 game dev questions from a listener.</itunes:summary>
-			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_episode_5_left_4_questions.mp3" length="2471" type="audio/mpeg"/>
-			<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_episode_5_left_4_questions.mp3</guid>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_5_left_4_questions.mp3" length="2471" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_5_left_4_questions.mp3</guid>
 			<pubDate>Sat, 31 Dec 2011 12:00:00 +0000</pubDate>
 			<itunes:duration>41:11</itunes:duration>
 			<itunes:keywords>html5, games, questions</itunes:keywords>
@@ -98,8 +98,8 @@
 			<itunes:author>Lost Decade Games</itunes:author>
 			<itunes:subtitle>Interview with Tom Fairfield of Game Closure.</itunes:subtitle>
 			<itunes:summary>Tom discusses xcjs, Game Closure and HTML5 tech.</itunes:summary>
-			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_episode_6_a_wild_tom_appears.mp3" length="1667" type="audio/mpeg"/>
-			<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_episode_6_a_wild_tom_appears.mp3</guid>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_6_a_wild_tom_appears.mp3" length="1667" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_6_a_wild_tom_appears.mp3</guid>
 			<pubDate>Fri, 27 Jan 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>27:47</itunes:duration>
 			<itunes:keywords>html5, games, game closure, tom fairfield</itunes:keywords>
@@ -112,8 +112,8 @@
 			<itunes:author>Lost Decade Games</itunes:author>
 			<itunes:subtitle>What sucks about HTML5?</itunes:subtitle>
 			<itunes:summary>We collected things devs hate about HTML5 via Twitter and talk all about them!</itunes:summary>
-			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_episode_7_html5_the_bad_parts.mp3" length="4257" type="audio/mpeg"/>
-			<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_episode_7_html5_the_bad_parts.mp3</guid>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_7_html5_the_bad_parts.mp3" length="4257" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_7_html5_the_bad_parts.mp3</guid>
 			<pubDate>Fri, 02 Feb 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>1:10:57</itunes:duration>
 			<itunes:keywords>html5, games, suck, sucks, sucking, sucky</itunes:keywords>
@@ -126,8 +126,8 @@
 			<itunes:author>Lost Decade Games</itunes:author>
 			<itunes:subtitle>The clones! They're at the door!</itunes:subtitle>
 			<itunes:summary>With so many companies cloning out companies' games, why don't we talk this out?</itunes:summary>
-			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_episode_8_attack_of_the_clones.mp3" length="3883" type="audio/mpeg"/>
-			<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_episode_8_attack_of_the_clones.mp3</guid>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_8_attack_of_the_clones.mp3" length="3883" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_8_attack_of_the_clones.mp3</guid>
 			<pubDate>Sun, 12 Feb 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>1:04:43</itunes:duration>
 			<itunes:keywords>html5, games, clones</itunes:keywords>
@@ -140,29 +140,27 @@
 			<itunes:author>Lost Decade Games</itunes:author>
 			<itunes:subtitle>Flash or HTML5?</itunes:subtitle>
 			<itunes:summary>Rich Davey is a veteran flash game developer and is really excited about HTML5. Let's talk it out!</itunes:summary>
-			<enclosure url="http://www.lostdecadegames.com/media/lostcast/lostcast_episode_9_thats_rich.mp3" length="3822" type="audio/mpeg"/>
-			<guid>http://www.lostdecadegames.com/media/lostcast/lostcast_episode_9_thats_rich.mp3</guid>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_9_thats_rich.mp3" length="3822" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_9_thats_rich.mp3</guid>
 			<pubDate>Thu, 23 Feb 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>1:03:42</itunes:duration>
 			<itunes:keywords>html5, games, flash, comparison, rich davey, photonstorm</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
-		<!--
 		<item>
 			<title>Lostcast Episode 10: Indiependence Day</title>
 			<link>http://www.lostdecadegames.com/</link>
 			<itunes:author>Lost Decade Games</itunes:author>
 			<itunes:subtitle>We've gone indie!</itunes:subtitle>
 			<itunes:summary>LDG is now a full-on indie game company and we celebrate by open sourcing our flagship product.</itunes:summary>
-			<enclosure url="" length="2534" type="audio/mpeg"/>
-			<guid></guid>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_10_indiependence_day.mp3" length="2534" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_10_indiependence_day.mp3</guid>
 			<pubDate>Fri, 2 Mar 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>42:14</itunes:duration>
 			<itunes:keywords>html5, games, indie, onslaught, onslaught arena, open source</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
-		-->
 	</channel>
 </rss>
