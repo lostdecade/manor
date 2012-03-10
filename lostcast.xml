@@ -148,19 +148,21 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
+		<!--
 		<item>
 			<title>Lostcast Episode 10: Indiependence Day</title>
 			<link>http://www.lostdecadegames.com/</link>
 			<itunes:author>Lost Decade Games</itunes:author>
 			<itunes:subtitle>We've gone indie!</itunes:subtitle>
 			<itunes:summary>LDG is now a full-on indie game company and we celebrate by open sourcing our flagship product.</itunes:summary>
-			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_1_hello_world.mp3" length="2534" type="audio/mpeg"/>
-			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_1_hello_world.mp3</guid>
+			<enclosure url="" length="2534" type="audio/mpeg"/>
+			<guid></guid>
 			<pubDate>Fri, 2 Mar 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>42:14</itunes:duration>
 			<itunes:keywords>html5, games, indie, onslaught, onslaught arena, open source</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
+		-->
 	</channel>
 </rss>
