@@ -2,6 +2,7 @@
 layout: post
 title: "Lostcast Episode 10: Indiependence Day"
 author: matt
+tags: [lostcast]
 ---
 
 **Lostcast** is our podcast about HTML5 games. Join us in episode 10 as we celebrate our **indiependence**! (Bad pun, I know.) So we've gone indie and we talk a little bit about what this entails.
