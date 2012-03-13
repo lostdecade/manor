@@ -19,7 +19,7 @@ I myself was working on a ["clone" of Puzzle Quest](/puzzle-punk-a-postmortem-on
 
 So we do bring it back home to HTML5 a little, but this episode is a bit light on the HTML5 side.
 
-<a class="download-podcast" href="/media/lostcast/lostcast_episode_8_attack_of_the_clones.mp3">
+<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_8_attack_of_the_clones.mp3">
 	Download Lostcast episode 8 (1:04:43, 74MB)
 </a>
 
