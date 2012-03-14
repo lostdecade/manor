@@ -9,7 +9,7 @@ In episode 4, we talk about Native Client and other cool HTML5-related stuff. We
 
 _Note: our apologies for the poorer-than-usual recording quality. You can hear a dude blowing leaves outside... We'll find a quieter location._
 
-<a class="download-podcast" href="/media/lostcast/lostcast_episode_4_native_coffee.mp3">
+<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_4_native_coffee.mp3">
 	Download Lostcast episode 4 (46:22, 41MB)
 </a>
 

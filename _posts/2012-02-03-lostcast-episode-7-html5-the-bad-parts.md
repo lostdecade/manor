@@ -14,7 +14,7 @@ tags: [lostcast]
 **Lostcast** is our podcast about HTML5 games.
 In episode 7, **we hate HTML5**! … Ok, maybe we actually love it a little _too_ hard, but in this episode we go over all the stuff that developers (via [Twitter](https://twitter.com/#!/lostdecadegames) and live conversations) told us that they hate about working with HTML5.
 
-<a class="download-podcast" href="/media/lostcast/lostcast_episode_7_html5_the_bad_parts.mp3">
+<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_7_html5_the_bad_parts.mp3">
 	Download Lostcast episode 7 (1:10:57, 81MB)
 </a>
 

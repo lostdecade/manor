@@ -9,7 +9,7 @@ tags: [lostcast]
 
 Rich is a fascinating guy with a delightful accent so you should totally have a listen!
 
-<a class="download-podcast" href="/media/lostcast/lostcast_episode_9_thats_rich.mp3">
+<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_9_thats_rich.mp3">
 	Download Lostcast episode 9 (1:03:42, 73MB)
 </a>
 
