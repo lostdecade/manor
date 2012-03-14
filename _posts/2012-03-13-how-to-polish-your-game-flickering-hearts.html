@@ -1,0 +1,82 @@
+---
+layout: post
+title: "How to polish your game: flickering hearts"
+author: matt
+---
+<p>
+	If you follow our blog you've probably read
+	<a href="http://www.lostdecadegames.com/how-to-make-a-simple-html5-canvas-game/">some</a>
+	<a href="http://www.lostdecadegames.com/blog-author-attribution-using-jekyll/">of</a>
+	<a href="http://www.lostdecadegames.com/how-to-embed-html5-into-a-native-mac-osx-app/">our</a>
+	<a href="http://www.lostdecadegames.com/obfuscating-javascript-with-closure-compiler/">tutorials</a>
+	by now. One common request is how to polish your game. Since this is such an amorphous thing, and varies from project to project, we'll probably be doing several tutorials on how to polish various games.
+</p>
+
+<h2>Video speaks louder than words</h3>
+
+<p>
+	So here's our first of an eventual series of polish tutorials: adding flickering hearts to our mobile browser game <a href="http://m.lostdecadegames.com/onslaught_defense/">Onslaught! Defense</a>.
+</p>
+
+<iframe width="500" height="284" src="http://www.youtube.com/embed/ZYJ9k1efPak" frameborder="0" allowfullscreen></iframe>
+
+<p>
+	<em><a href="http://www.youtube.com/watch?v=ZYJ9k1efPak">Need the YouTube URL?</a></em>
+</p>
+
+<p>
+	When developing a feature for a game, it's important to first get the core functionality in place, and then to add polish later. For example, let's say we want monsters to spawn heart containers. The implementation steps might look something like this:
+</p>
+
+<ol>
+	<li>A heart container may now appear randomly after killing a monster</li>
+	<li>If the player shoots a heart container, the player "collects" it and regains lost health</li>
+	<li>Heart containers will now <strong>disappear</strong> after 3 seconds</li>
+	<li>Heart containers will now <strong>fade out</strong> instead of instantly disappearing</li>
+	<li>Heart containers will now <strong>flicker out</strong> instead of fading out</li>
+</ol>
+
+<p>
+	Here's what the code in our game looks like:
+</p>
+
+<div class="highlight"><pre><code class="js">// Have the heart container "pop" in
+polish.popIn(this, bind(this, function () {
+	// Wait a moment, then start to flicker away… then disappear
+	var numFlashes = 20;
+	this.numFlashes = 1;
+
+	// Wait 1 second
+	this.delayTween(1000);
+
+	// Add flashes to the queue
+	for (var i = 0; i < numFlashes; ++i) {
+		this.delayTween((30 - i) * 6, bind(this, function () {
+			// Toggle opacity
+			this.opacity = this.opacity == 1 ? 0 : 1;
+
+			// Gone through all the flashes? Then remove it
+			if (++this.numFlashes == numFlashes) {
+				this.remove();
+			}
+		}));
+	}
+}));
+</code></pre></div>
+
+<p>
+	<em><a href="https://gist.github.com/2034407">Might be easier to read in this gist…</a></em>
+</p>
+
+<p>
+	Basically it adds visibilty toggling to a tweening queue, decreasing the time between toggles as it goes through the queue. Then it removes itself when it's gone through them all.
+	<em>(Sorry, no, it's not open source yet.)</em>
+</p>
+
+<p>
+	If you've got a really polished game, you might not stop there. You might have the most polished damn heart containers you've ever seen! That explode into tiny red birds that fly away while singing a synchronized song. While on fire.
+</p>
+	
+<p>
+	But that's for <a href="/rss.xml">future tutorials</a>…
+</p>
