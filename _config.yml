@@ -1,6 +1,6 @@
 permalink: /:title
 pygments: true
-exclude: [CNAME, README.md]
+exclude: [README.md]
 paginate: 10
 
 base_url: "http://www.lostdecadegames.com"
