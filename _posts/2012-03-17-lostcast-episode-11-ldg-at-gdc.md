@@ -19,5 +19,6 @@ tags: [lostcast]
 * Two new games in the works! [Lava Sword](http://www.lostdecadegames.com/lava-sword-dev-diary-part-1/) and Lunchbug (TBD)!
 * [Onslaught! Defense](http://m.lostdecadegames.com/onslaught_defense/) utilizes [audio sprites](http://remysharp.com/2010/12/23/audio-sprites/)
 * [cfxr](http://thirdcog.eu/apps/cfxr)
+* [Get the Onslaught! OST!](http://joshuamorse.bandcamp.com/album/onslaught-ost)
 
 Thanks for listening! We love getting questions and comments, so please [email us](mailto:hello@lostdecadegames.com) if you have any.

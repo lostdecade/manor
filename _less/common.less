@@ -8,6 +8,8 @@
 @grey: #4f3f38;
 @orange: #f68b1f;
 
+@standard_font: Arial;
+@heading_font: Prociono;
 @standard_padding: 20px;
 
 .clear-float {
@@ -39,7 +41,7 @@
 	width: 113px;
 	height: 42px;
 	background-image: url(/media/images/chrome/buttons.png);
-	font-family: Arial;
+	font-family: @standard_font;
 	font-size: 16px;
 	line-height: 42px;
 	text-align: center;
@@ -90,7 +92,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		margin: @standard_padding 0;
-		font-family: Prociono;
+		font-family: @heading_font;
 		font-size: 24px;
 		font-weight: normal;
 	}
