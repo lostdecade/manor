@@ -17,9 +17,11 @@ Before long we started hitting some walls with GitHub & Pages.
 
 For starters, GitHub's pricing model is ruthless. $25 a month gets you 10 private repos, which I feel is a complete ripoff. Want more repos? The next plan is $50/month for 20 private repos! Even as a two-person indie shop we hit the 10 private repo limit quite quickly.
 
-In response, we started moving our inactive private repos to [BitBucket][4] which boasts unlimited private repos and monetizes on collaborator count. BitBucket is basically a bad clone of GitHub, but more importantly it's extremely annoying to deal with two separate repo hosts.
+In response, we started moving our inactive private repos to [BitBucket][4] which boasts unlimited private repos and monetizes on collaborator count. BitBucket is basically a bad clone of GitHub, which is fine, but we ended up having to deal with two separate repository hosts, and that was too painful to put up with.
 
-Pages is semi-unreliable, as well. This isn't a direct criticism of GitHub, I know that keeping services up while under DDoS is tough. But the fact of the matter is that too often we couldn't update our website because Pages was down. We also ran into build a timeout issue. Pages will timeout after 5 minutes if your Jekyll build hasn't completed. No error notifications. No push. Nothing.
+Pages is semi-unreliable, as well. This isn't a direct criticism of GitHub; we're aware that keeping services up while [under DDoS attacks][12] is tough. But the fact of the matter is that too often we couldn't update our website because Pages was down.
+
+One day pushes to our website repo stopped working. No error notifications. No push. Nothing. Turns out that if your build doesn't complete within 5 minutes, it fails silently. Bugs happen of course, but I'd much rather be able to jump on the server and figure things out than fire off emails to support and hope for a prompt response.
 
 There are a few other nit-picky issues, but by this time we had decided that we were in dire need of a new solution for our git repo and website hosting.
 
@@ -46,9 +48,15 @@ Hosting the website on S3 is great for a couple big reasons:
 * No need to run Apache on an EC2 instance. Less complication and less expensive!
 * Scaling is taken care of by S3, no messing around with EC2 load balancers, etc.
 
-Our main website (this blog) is now hosted on S3 and if you're reading this post things are holding together pretty well. :)
+## Looking Ahead
 
-GitHub is a great product but it's not geared towards small businesses. We'll still be posting our public code there, but I'm much happier with our new tech stack.
+Our website is now hosted out of S3 and if you're reading this post things are holding together pretty well!
+
+GitHub is a great product but it's not geared towards a small business like ours. We'll still be hosting [our public code][13] there, but I'm much happier with our new stack.
+
+All that said, there are bound to be issues with AWS which I'll likely blog about in the future as we encounter them.
+
+Do you have a preferred setup for hosting static websites? Let us know in the comments!
 
 
 [1]: https://github.com/
@@ -62,3 +70,5 @@ GitHub is a great product but it's not geared towards small businesses. We'll st
 [9]: http://aws.amazon.com/s3/
 [10]: http://aws.typepad.com/aws/2011/02/host-your-static-website-on-amazon-s3.html
 [11]: https://github.com/mojombo/jekyll/wiki/Deployment
+[12]: https://github.com/blog/1036-about-this-week-s-availability
+[13]: https://github.com/lostdecade
