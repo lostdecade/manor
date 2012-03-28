@@ -176,5 +176,19 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
+		<item>
+			<title>Lostcast Episode 12: Arnother Interview</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>Another interview! This time with Arno van der Vegt.</itunes:subtitle>
+			<itunes:summary>Geoff and Matt talk shop with HTML5 performance expert and Game Closure employee Arno van der Vegt.</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_12_arnother_interview.mp3" length="3309" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_12_arnother_interview.mp3</guid>
+			<pubDate>Tue, 27 Mar 2012 12:00:00 +0000</pubDate>
+			<itunes:duration>55:09</itunes:duration>
+			<itunes:keywords>html5, games, indie, arno, tankworld</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:explicit>yes</itunes:explicit>
+		</item>
 	</channel>
 </rss>
