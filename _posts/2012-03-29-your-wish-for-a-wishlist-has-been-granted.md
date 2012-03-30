@@ -7,7 +7,7 @@ Some of you fine, wonderful people have reached out to us via [email](/contact/)
 
 While I feel a little weird accepting straight-up donations, we _have_ created an [Amazon Wishlist](http://www.amazon.com/M-Audio-Track-Ultra-Speed-Interface/dp/B005KYRA36/) for [Lostcast](/lostcast/) hardware (at the suggestion of our awesome listener [Joseph Huckaby](http://www.facebook.com/jhuckaby)).
 
-## The things on the wishlist
+## Making Lostcast sound better
 
 So we hit a brick wall in how good our in-person interviews can sound. Since we only have two microphones, some participants must share a microphone. I think this is really clear in our recent [interview with Arno van der Vegt](http://www.lostdecadegames.com/lostcast-episode-12-arnother-interview/). To me the quality of Arno's voice is great, and ours is terrible (since we were sharing a mic).
 
