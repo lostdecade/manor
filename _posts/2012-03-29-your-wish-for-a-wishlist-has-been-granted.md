@@ -5,7 +5,7 @@ author: matt
 ---
 Some of you fine, wonderful people have reached out to us via [email](/contact/), blog comments and [Twitterwebs](https://twitter.com/#!/lostdecadegames) about supporting us via PayPal or similar services. First off, you're awesome and that's really appreciated!
 
-While I feel a little weird accepting straight-up donations, we _have_ created an [Amazon Wishlist](http://www.amazon.com/M-Audio-Track-Ultra-Speed-Interface/dp/B005KYRA36/) for [Lostcast](/lostcast/) hardware (at the suggestion of our awesome listener [Joseph Huckaby](http://www.facebook.com/jhuckaby)).
+While I feel a little weird accepting straight-up donations, we _have_ created an [Amazon Wishlist](http://amzn.com/w/TYFGK8Q3QZE8) for [Lostcast](/lostcast/) hardware (at the suggestion of our awesome listener [Joseph Huckaby](http://www.facebook.com/jhuckaby)).
 
 ## Making Lostcast sound better
 
