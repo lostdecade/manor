@@ -3,7 +3,9 @@ layout: post
 title: "Announcing OnslaughtVille!"
 author: geoff
 ---
-It's no secret that we at Lost Decade Games love playing social games on Facebook. In fact, our dream for this company was to one day build an amazing, innovative game experience woven with social fabric. That day has come as we're proud to announce **OnslaughtVille**!
+It's no secret that we at Lost Decade Games love playing social games on Facebook. In fact, our dream for this company was to one day build an amazing, innovative game experience woven with social fabric.
+
+Friends, that day has come.
 
 ## Announcing OnslaughtVille!
 
