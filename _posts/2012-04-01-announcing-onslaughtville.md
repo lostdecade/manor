@@ -3,16 +3,18 @@ layout: post
 title: "Announcing OnslaughtVille!"
 author: geoff
 ---
-Many readers might not know this, but Matt and I are huge fans of social games on Facebook. When we started LDG, we had a game vision in mind but opted to shelve it until the right time. Things are going so well for us lately that we've decided that now is the time to work on our dream game: OnslaughtVille!
+It's no secret that we at Lost Decade Games love playing social games on Facebook. In fact, our dream for this company was to one day build an amazing, innovative game experience woven with social fabric. That day has come as we're proud to announce **OnslaughtVille**!
 
 ## Announcing OnslaughtVille!
 
+<img src="/media/images/posts/misc/lolslaught2.png" width="500" height="395">
+
 Have you ever wondered what it would be like to manage your own medieval fantasy village? Wonder no more!
 
-OnslaughtVille offers many rewarding gameplay challenges:
+OnslaughtVille offers hours of engaging gameplay:
 
-* Build shacks, horse stables and more as you expand your village!
-* Clean chamber pots before your village becomes overwhelmed with the plague!
-* Throw goblins at your friends!
+* Build shacks, horse stables, outhouses and more as you expand your village!
+* Clean chamber pots before your village becomes overwhelmed by the plague!
+* Throw goblins at your friend's village!
 
-OnslaughtVille will be built on next generation browser technology such as Adobe Flash. We've come around to the notion that a closed, proprietary system is much better for the web and we're migrating our entire tech stack away from HTML5.
+OnslaughtVille will be built from the ground up on next generation browser technology -- Java Applets. Everyone knows that HTML5 is just a fad.
