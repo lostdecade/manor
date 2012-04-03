@@ -190,5 +190,19 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
+		<item>
+			<title>Lostcast Episode 13: OS Xcellence</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>Why is Geoff's OS X developer experience so great?</itunes:subtitle>
+			<itunes:summary>Matt and Geoff talk about pimping out OS X and HTML games and all that!</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_13_os_xcellence.mp3" length="3461" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_13_os_xcellence.mp3</guid>
+			<pubDate>Tue, 03 Apr 2012 12:00:00 +0000</pubDate>
+			<itunes:duration>57:41</itunes:duration>
+			<itunes:keywords>html5, games, indie, os x, browserquest, open source</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:explicit>yes</itunes:explicit>
+		</item>
 	</channel>
 </rss>
