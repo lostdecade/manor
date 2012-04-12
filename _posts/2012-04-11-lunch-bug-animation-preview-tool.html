@@ -1,0 +1,234 @@
+---
+layout: post
+title: "Play around with the Lunch Bug animation preview tool"
+author: matt
+---
+<p>
+	I've been heads-down on art for our upcoming free-to-play game <strong>Lunch Bug</strong> and I thought I'd take a break to show you a little tool I just put together to improve my process. Have a look:
+</p>
+
+<div class="full-frame">
+	<iframe frameborder="0" src="/demos/lunch_bug_animation_preview/" width="400" height="300"></iframe>
+</div>
+
+<p>
+	<em>Please note that this is just the first draft of animations. Improvements are on the way!</em>
+</p>
+
+<h2>
+	Interact with it
+</h2>
+
+<p>
+	In the center of the canvas is a game piece from <strong>Lunch Bug</strong>. The text in the upper-left can be pressed to play animations:
+</p>
+
+<ul>
+	<li><strong>Put</strong>: this is the animation that will play when the user puts a new piece on the board.</li>
+	<li><strong>Idle</strong>: "idle" is what we're calling animations that will play randomly when no user interaction has happened for a while. Think Sonic the Hedgehog tapping his foot!</li>
+	<li><strong>Grow</strong>: seedlings and bulbs can grow into <strong>berries</strong>, which are worth the most points in the game.</li>
+	<li><strong>Shrink</strong>: berries and bulbs can be shrunk (shrank? shrenk?) into pieces worth fewer points if players aren't careful!</li>
+</ul>
+
+<p>
+	In <strong>Lunch Bug</strong>, pieces can be "captured" by being surrounded, which changes their appearance.
+	Normally I could just have had a giant sprite sheet with all the images for the various types of plants, but we can't have any images larger than 1024x1024 pixels due to <strong>mobile memory restraints</strong>, which meant breaking them up into multiple files.
+</p>
+	
+<p>
+	The complication of switching the image file part-way through the animations made using traditional animation tools difficult.
+	That's why I built this tool!
+	Now that I've got it, I'll be going back and iterating a few more times before the final version, so at this point <a href="/contact/">feedback</a> is especially valuable.
+</p>
+
+<h2>
+	Where's the code?
+</h2>
+
+<p>
+	Normally I'd be open sourcing this on the <a href="https://github.com/lostdecade">Lost Decade Games GitHub account</a> but it's tightly coupled to our internal game engine. We may open source the engine and its tools eventually but it's getting bulldozed too often to even consider it at the moment. What I <em>can</em> do is copypasta the code so you can get a general idea:
+</p>
+
+{% highlight javascript %}
+define([
+	"djinn/Game",
+	"djinn/assets",
+	"djinn/Sprite",
+	"djinn/TextView",
+	"djinn/utils/viewEffects"
+], function (Game, assets, Sprite, TextView, effects) {
+
+	return Game.extend({
+
+		init: function (conf) {
+			// Conf
+			this._super(conf);
+			this.view.backgroundColor = "white";
+
+			// Pull in the assets we need
+			assets.load([
+				"media/images/seedling.png",
+				"media/images/bulb.png",
+				"media/images/berry.png"
+			]);
+
+			// Create the sprite subject
+			var state = "seedling";
+			var w = 100;
+			var h = 100;
+			this.sprite = new Sprite({
+				parent: this.view,
+				image: "media/images/seedling.png",
+				x: 0,
+				y: 0,
+				width: w,
+				height: h,
+				animations: {
+					"default": {
+						frames: [
+							[0, 0]
+						]
+					},
+					"put": {
+						frameRate: 5,
+						frames: [
+							[w * 4, 0],
+							[w * 3, 0],
+							[w * 2, 0],
+							[w, 0],
+							[0, 0]
+						],
+						loop: false
+					},
+					"idle": {
+						frameRate: 12,
+						frames: [
+							[0, h],
+							[w, h],
+							[w * 2, h],
+							[w * 3, h],
+							[w * 4, h]
+						],
+						loop: false
+					},
+					"grow": {
+						frameRate: 8,
+						frames: [
+							[0, h * 2],
+							[w, h * 2],
+							[w * 2, h * 2],
+							[w * 3, h * 2],
+							[w * 4, h * 2]
+						],
+						loop: false
+					},
+					"shrink": {
+						frameRate: 8,
+						frames: [
+							[w * 4, h * 2],
+							[w * 3, h * 2],
+							[w * 2, h * 2],
+							[w, h * 2],
+							[0, h * 2]
+						],
+						loop: false
+					}
+				}
+			}).align("center", "center");
+
+			var x = 10;
+			var height = TextView.defaults.fontSize = 32;
+
+			// Put
+			var putView = new TextView({
+				parent: this.view,
+				text: "Put",
+				x: x,
+			}).align("center").on("inputStart", this, function () {
+				// Setup
+				this.sprite.completeTween();
+				this.sprite.opacity = 0;
+
+				// Execute
+				this.sprite.playAnimation("put");
+				effects.fadeIn(this.sprite, {
+					duration: 500
+				});
+			});
+
+			// Idle
+			var idleView = new TextView({
+				parent: this.view,
+				text: "Idle",
+				x: x,
+				y: height
+			}).align("center").on("inputStart", this, function () {
+				this.sprite.playAnimation("idle");
+			});
+
+			// Grow
+			var growView = new TextView({
+				parent: this.view,
+				text: "Grow",
+				x: x,
+				y: height * 2
+			}).align("center").on("inputStart", this, function () {
+				if (state == "berry") { return; }
+
+				var onAnimationEnd = function () {
+					this.sprite.off("animationEnd", this, onAnimationEnd);
+
+					if (state == "seedling") {
+						state = "bulb";
+						this.sprite.image = "media/images/bulb.png";
+					} else {
+						state = "berry";
+						this.sprite.image = "media/images/berry.png";
+					}
+					this.sprite.playAnimation("default");
+				};
+
+				this.sprite.on("animationEnd", this, onAnimationEnd);
+				this.sprite.playAnimation("grow");
+			});
+
+			// Shrink
+			var shrinkView = new TextView({
+				parent: this.view,
+				text: "Shrink",
+				x: x,
+				y: height * 3
+			}).align("center").on("inputStart", this, function () {
+				if (state == "seedling") { return; }
+
+				if (state == "berry") {
+					state = "bulb";
+					this.sprite.image = "media/images/bulb.png";
+				} else {
+					state = "seedling";
+					this.sprite.image = "media/images/seedling.png";
+				}
+
+				var onAnimationEnd = function () {
+					this.sprite.off("animationEnd", this, onAnimationEnd);
+
+					this.sprite.playAnimation("default");
+				};
+
+				this.sprite.on("animationEnd", this, onAnimationEnd);
+				this.sprite.playAnimation("shrink");
+			});
+		}
+
+	});
+
+});
+{% endhighlight %}
+
+<p>
+	<em>Might be easier to read in <a href="https://gist.github.com/2364515">this gist</a>.</em> Note that the tool is not very robust as I didn't want to spend too much time on it…
+</p>
+	
+<p>
+	More <strong>Lunch Bug</strong> news is just around the corner (can you say playable prototype?!) so be sure to <a href="/rss.xml">subscribe</a> to get it when it's hot. Thanks for reading!
+</p>
