@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 	<channel>
+
 		<title>Lostcast</title>
 		<link>http://www.lostdecadegames.com/</link>
 		<language>en-us</language>
-		<copyright>© 2011 Lost Decade Games</copyright>
+		<copyright>© 2012 Lost Decade Games</copyright>
+
 		<itunes:subtitle>HTML5 Game Development Podcast</itunes:subtitle>
 		<itunes:author>Lost Decade Games</itunes:author>
 		<itunes:summary>
@@ -22,6 +24,7 @@
 		</itunes:owner>
 		<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 		<itunes:explicit>yes</itunes:explicit>
+
 		<item>
 			<title>Lostcast Episode 1: Hello World</title>
 			<link>http://www.lostdecadegames.com/</link>
@@ -36,6 +39,7 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
+
 		<item>
 			<title>Lostcast Episode 2: Code Like a Fox</title>
 			<link>http://www.lostdecadegames.com/</link>
@@ -50,6 +54,7 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
+
 		<item>
 			<title>Lostcast Episode 3: Ramble On</title>
 			<link>http://www.lostdecadegames.com/</link>
@@ -64,6 +69,7 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
+
 		<item>
 			<title>Lostcast Episode 4: Native Coffee</title>
 			<link>http://www.lostdecadegames.com/</link>
@@ -92,6 +98,7 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
+
 		<item>
 			<title>Lostcast Episode 6: A Wild Tom Appears</title>
 			<link>http://www.lostdecadegames.com/</link>
@@ -106,6 +113,7 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
+
 		<item>
 			<title>Lostcast Episode 7: HTML5 The Bad Parts</title>
 			<link>http://www.lostdecadegames.com/</link>
@@ -120,6 +128,7 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
+
 		<item>
 			<title>Lostcast Episode 8: Attack of the Clones!</title>
 			<link>http://www.lostdecadegames.com/</link>
@@ -134,6 +143,7 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
+
 		<item>
 			<title>Lostcast Episode 9: That's Rich</title>
 			<link>http://www.lostdecadegames.com/</link>
@@ -148,6 +158,7 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
+
 		<item>
 			<title>Lostcast Episode 10: Indiependence Day</title>
 			<link>http://www.lostdecadegames.com/</link>
@@ -162,6 +173,7 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
+
 		<item>
 			<title>Lostcast Episode 11: LDG @ GDC</title>
 			<link>http://www.lostdecadegames.com/</link>
@@ -176,6 +188,7 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
+
 		<item>
 			<title>Lostcast Episode 12: Arnother Interview</title>
 			<link>http://www.lostdecadegames.com/</link>
@@ -190,6 +203,7 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
+
 		<item>
 			<title>Lostcast Episode 13: OS Xcellence</title>
 			<link>http://www.lostdecadegames.com/</link>
@@ -204,5 +218,6 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
+
 	</channel>
 </rss>
