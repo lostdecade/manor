@@ -48,5 +48,5 @@ If you find this kind of stuff interesting, you should [subscribe to our blog][6
 [3]: http://www.youtube.com/watch?v=9N93qVpk1Wc
 [4]: http://www.youtube.com/watch?v=SKRXg0AISG4
 [5]: http://www.youtube.com/watch?v=wrp5gsfqckU
-[6]: /rss.xml
+[6]: {{ site.blog_feed_url }}
 [7]: https://twitter.com/#!/LostDecadeGames

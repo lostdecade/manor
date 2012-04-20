@@ -26,4 +26,4 @@ _Note: our apologies for the poorer-than-usual recording quality. You can hear a
 * [GamePad API](https://wiki.mozilla.org/GamepadAPI)
 * [World of Goo](http://2dboy.com/games.php), [Plants VS Zombies](http://www.popcap.com/games/plants-vs-zombies/online)
 
-Thanks for listening! Don't forget to [subscribe](http://www.lostdecadegames.com/lostcast.xml) and [feedback](mailto:hello@lostdecadegames.com) is super awesome.
+Thanks for listening! Don't forget to [subscribe]({{ site.lostcast_feed_url }}) and [feedback](mailto:hello@lostdecadegames.com) is super awesome.

@@ -66,5 +66,5 @@ _One final note: if you are one of the fine human beings who purchased the game 
 [11]: http://jmflava.com/
 [12]: https://github.com/lostdecade
 [13]: http://gameclosure.com/
-[14]: /rss.xml
+[14]: {{ site.blog_feed_url }}
 [15]: https://twitter.com/#!/LostDecadeGames
