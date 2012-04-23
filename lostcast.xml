@@ -219,5 +219,20 @@
 			<itunes:explicit>yes</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast Episode 14: Quite an Impact</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>The Onslaught! guys and the Biolab guy!</itunes:subtitle>
+			<itunes:summary>Geoff and Matt interview Impact game engine creator Dominic Szablewski.</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_14_quite_an_impact.mp3" length="2689" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_14_quite_an_impact.mp3</guid>
+			<pubDate>Sun, 22 Apr 2012 12:00:00 +0000</pubDate>
+			<itunes:duration>44:49</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, impact, game engine, biolab disaster, interview, gamedev</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/logos/impact.png"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
