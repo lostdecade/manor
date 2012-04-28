@@ -35,4 +35,4 @@ You'll have to [purchase a license](http://impactjs.com/buy-impact) to use Impac
 	View the source code
 </a>
 
-The code is MIT-licensed and the graphics are "use-for-whatever-but-not-commercially". Boy I need to read more about licenses soemday… Enjoy!
+The code is MIT-licensed and the graphics are "use-for-whatever-but-not-commercially". Boy I need to read more about licenses someday… Enjoy!
