@@ -21,7 +21,7 @@ But some prototypes have survived from our earlier days that we thought ImpactJS
 	</a>
 </div>
 
-You'll have to [purchase a license](http://impactjs.com/buy-impact) to use ImpactJS, but once you do, you can [fork the Onslaught! 2 source](https://github.com/lostdecade/onslaught2_impact) and go to town!
+You'll have to [purchase a license](http://impactjs.com/buy-impact) to use ImpactJS, but once you do, you can [fork the Onslaught! 2 source](https://github.com/lostdecade/onslaught2_impact) and go to town (literally)!
 
 <a class="download-podcast" href="http://www.lostdecadegames.com/demos/onslaught2/">
 	Play the demo
