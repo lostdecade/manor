@@ -15,6 +15,7 @@ author_ids: [geoff, matt]
 authors:
   matt:
     display_name: Matt Hackett
+    job_title: Co-founder
     gravatar: 60fd5218fff6927c0ed376cce01c5460
     email: matt@lostdecadegames.com
     web: http://www.richtaur.com/
@@ -23,6 +24,7 @@ authors:
     bio: '<strong>Matt</strong> is a retro gamer, <a href="http://www.flickr.com/photos/matthackett/3488395022/in/photostream">foosball player</a> and <a href="http://richtaur.deviantart.com/">pixel artist</a>. A seasoned web developer, he built the entire frontend for <a href="http://widgets.yahoo.com/">Yahoo! Widgets</a> and architected the new <a href="http://raptr.com/richtaur">Raptr.com</a>.'
   geoff:
     display_name: Geoff Blair
+    job_title: Co-founder
     gravatar: 76dbcc74021b8039f14c7b583978b56d
     email: geoff@lostdecadegames.com
     web: http://www.geoffblair.com/

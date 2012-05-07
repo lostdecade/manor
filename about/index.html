@@ -1,0 +1,41 @@
+---
+layout: page
+title: About Lost Decade Games
+---
+<p>
+	<strong>Lost Decade Games</strong> is an <a href="/onslaught-arena-takes-3rd-place-in-the-pokki-1up-game-developer-contest/">award-winning</a> independent game studio based in San Mateo, CA. We make <a href="/games/">HTML5 games</a>. If this interests you, please <a href="/contact">get in touch</a>.
+</p>
+
+<div class="authors">
+	{% for author_id in site.author_ids %}
+	{% assign author = site.authors[author_id] %}
+	<div id="{{ author_id }}" class="author">
+		<hr>
+		<a href="{{ author.web }}">
+			<img
+				class="avatar"
+				src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=150"
+				alt="{{ author.display_name }}"
+				width="150"
+				height="150"
+			>
+		</a>
+		<h2>{{ author.display_name }}, {{ author.job_title }}</h2>
+		<p>{{ author.bio }}</p>
+		<ul>
+			<li>
+				Twitter:
+				<a href="https://twitter.com/#!/{{ author.twitter }}">@{{ author.twitter }}</a>
+			</li>
+			<li>
+				Web:
+				<a href="{{ author.web }}">{{ author.web }}</a>
+			</li>
+			<li>
+				Email:
+				<a href="mailto:{{ author.email }}">{{ author.email }}</a>
+			</li>
+		</ul>
+	</div>
+	{% endfor %}
+</div>
