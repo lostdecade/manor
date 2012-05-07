@@ -27,7 +27,20 @@ layout: default
 			<span class="date">{{ page.date | date_to_long_string }}</span>
 		</aside>
 	</header>
-	<div class="content">{{ content }}</div>
+	<div class="content">
+		{{ content }}
+
+		<h2>Related articles</h2>
+		<ul>
+			{% for post in site.related_posts %}
+				{% if forloop.index < 4 %}
+				<li>
+					<a class="title" href="{{ post.url }}">{{ post.title }}</a>
+				</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
 	<footer>
 		<section class="comments">
 			<h2>Comments</h2>

@@ -30,8 +30,3 @@ Thanks for listening! We love getting questions and comments, so please [email u
 <div class="full-frame">
 	<img alt="VidProz?" src="/media/images/posts/lostcast/vidpros.png">
 </div>
-
-## Most popular episodes
-
-* [HTML5, The Bad Parts](/lostcast-episode-7-html5-the-bad-parts/)
-* [Interview with ImpactJS creator](/lostcast-episode-14-quite-an-impact/)
