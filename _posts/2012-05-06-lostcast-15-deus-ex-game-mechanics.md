@@ -13,7 +13,7 @@ tags: [lostcast]
 
 ## Show notes
 
-* [Heroica by LEGA](http://heroica.lego.com/en-us/Default.aspx)
+* [Heroica by LEGO](http://heroica.lego.com/en-us/Default.aspx)
 * [Descent](http://boardgamegeek.com/boardgame/17226/descent-journeys-in-the-dark), [Hero Quest](http://boardgamegeek.com/boardgame/699/heroquest)
 * [Onslaught! 2 prototype](/play-the-onslaught-2-prototype-from-late-2010/)
 * [Ask Axe Battler](http://www.lasertimepodcast.com/tag/ask-ax-battler/)
