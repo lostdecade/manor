@@ -3,6 +3,8 @@ layout: post
 title: Your wish for a wishlist has been granted
 author: matt
 ---
+**Update:** amazing listener <a href="http://www.goldcartridge.com/">Joseph Huckaby</a> has cleared out the wishlist! Thank you so much Joe!
+
 Some of you fine, wonderful people have reached out to us via [email](/contact/), blog comments and [Twitterwebs](https://twitter.com/#!/lostdecadegames) about supporting us via PayPal or similar services. First off, you're awesome and that's really appreciated!
 
 While I feel a little weird accepting straight-up donations, we _have_ created an [Amazon Wishlist](http://amzn.com/w/TYFGK8Q3QZE8) for [Lostcast](/lostcast/) hardware (at the suggestion of our awesome listener [Joseph Huckaby](http://www.facebook.com/jhuckaby)).
