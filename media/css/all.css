@@ -22,7 +22,7 @@ ul{padding:0;list-style:none;}
 .standard-page>.body>.main>.ft{background-position:0 -70px;}
 .standard-page>.body>.main>.bd{padding:0 40px 1px;background:url(/media/images/chrome/scroll_repeat.png);}
 .standard-page>.body>.aux{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;float:left;width:220px;padding:20px;}
-.standard-page>.foot{margin-bottom:20px;height:42px;line-height:42px;text-align:center;text-shadow:1px 1px 0 #1d1715;background:url(/media/images/chrome/footer.png);}
+.standard-page>.foot{margin-bottom:20px;height:42px;line-height:42px;text-align:center;text-shadow:1px 1px 0 #1d1715;background:url(/media/images/chrome/footer.png);}.standard-page>.foot a{color:#f1f1f2;text-decoration:none;}.standard-page>.foot a:hover{text-decoration:underline;}
 .highlight{margin:1em 0;border:solid 1px #000;background:rgba(250, 250, 250, 0.5);}.highlight pre{margin:0;display:block;overflow:auto;padding:10px;-webkit-tab-size:4;-moz-tab-size:4;-o-tab-size:4;tab-size:4;}
 .highlight .c{color:#999988;font-style:italic;}
 .highlight .err{color:#a61717;background-color:#e3d2d2;}
