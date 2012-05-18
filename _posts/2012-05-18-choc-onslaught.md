@@ -11,7 +11,7 @@ author: geoff
 	</a>
 </div>
 
-My girlfriend, Melissa, is studying to be a [Pasty Chef][1]. One of her recent projects was to create a chocolate box (A box made of chocolate which contains chocolate truffles).
+My girlfriend, Melissa, is studying to be a [Pastry Chef][1]. One of her recent projects was to create a chocolate box (A box made of chocolate which contains chocolate truffles).
 
 Since she's a big fan of our game [Onslaught! Arena][2], she decorated her chocolate box with characters from the game alongside an awesome looking chocolate LDG axe!
 
