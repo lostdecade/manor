@@ -249,5 +249,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast Episode 16: We Heart Huckaby</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>We Heart Huckaby</itunes:subtitle>
+			<itunes:summary>Geoff and Matt talk with HTML5 game pioneer Joseph Huckaby, creator of Effect Games.</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_16_we_heart_huckaby.mp3" length="6549" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_16_we_heart_huckaby.mp3</guid>
+			<pubDate>Sun, 20 May 2012 12:00:00 +0000</pubDate>
+			<itunes:duration>1:49:09</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, joseph huckaby, effect games</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/logos/impact.png"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
