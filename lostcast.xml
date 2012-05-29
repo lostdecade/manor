@@ -23,7 +23,7 @@
 			<itunes:email>hello@lostdecadegames.com</itunes:email>
 		</itunes:owner>
 		<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
-		<itunes:explicit>yes</itunes:explicit>
+		<itunes:explicit>no</itunes:explicit>
 
 		<item>
 			<title>Lostcast Episode 1: Hello World</title>
@@ -37,7 +37,7 @@
 			<itunes:duration>46:11</itunes:duration>
 			<itunes:keywords>html5, games</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
-			<itunes:explicit>yes</itunes:explicit>
+			<itunes:explicit>no</itunes:explicit>
 		</item>
 
 		<item>
@@ -52,7 +52,7 @@
 			<itunes:duration>55:03</itunes:duration>
 			<itunes:keywords>html5, games, crafty</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
-			<itunes:explicit>yes</itunes:explicit>
+			<itunes:explicit>no</itunes:explicit>
 		</item>
 
 		<item>
@@ -67,7 +67,7 @@
 			<itunes:duration>24:39</itunes:duration>
 			<itunes:keywords>html5, games, closure</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
-			<itunes:explicit>yes</itunes:explicit>
+			<itunes:explicit>no</itunes:explicit>
 		</item>
 
 		<item>
@@ -82,7 +82,7 @@
 			<itunes:duration>46:22</itunes:duration>
 			<itunes:keywords>html5, games, nacl, native client, coffeescript</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
-			<itunes:explicit>yes</itunes:explicit>
+			<itunes:explicit>no</itunes:explicit>
 		</item>
 		<item>
 			<title>Lostcast Episode 5: Left 4 Questions</title>
@@ -96,7 +96,7 @@
 			<itunes:duration>41:11</itunes:duration>
 			<itunes:keywords>html5, games, questions</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
-			<itunes:explicit>yes</itunes:explicit>
+			<itunes:explicit>no</itunes:explicit>
 		</item>
 
 		<item>
@@ -126,7 +126,7 @@
 			<itunes:duration>1:10:57</itunes:duration>
 			<itunes:keywords>html5, games, suck, sucks, sucking, sucky</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
-			<itunes:explicit>yes</itunes:explicit>
+			<itunes:explicit>no</itunes:explicit>
 		</item>
 
 		<item>
@@ -141,7 +141,7 @@
 			<itunes:duration>1:04:43</itunes:duration>
 			<itunes:keywords>html5, games, clones</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
-			<itunes:explicit>yes</itunes:explicit>
+			<itunes:explicit>no</itunes:explicit>
 		</item>
 
 		<item>
@@ -171,7 +171,7 @@
 			<itunes:duration>42:14</itunes:duration>
 			<itunes:keywords>html5, games, indie, onslaught, onslaught arena, open source</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
-			<itunes:explicit>yes</itunes:explicit>
+			<itunes:explicit>no</itunes:explicit>
 		</item>
 
 		<item>
@@ -186,7 +186,7 @@
 			<itunes:duration>46:46</itunes:duration>
 			<itunes:keywords>html5, games, indie, gdc, lava sword</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
-			<itunes:explicit>yes</itunes:explicit>
+			<itunes:explicit>no</itunes:explicit>
 		</item>
 
 		<item>
@@ -201,7 +201,7 @@
 			<itunes:duration>55:09</itunes:duration>
 			<itunes:keywords>html5, games, indie, arno, tankworld</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
-			<itunes:explicit>yes</itunes:explicit>
+			<itunes:explicit>no</itunes:explicit>
 		</item>
 
 		<item>
@@ -216,7 +216,7 @@
 			<itunes:duration>57:41</itunes:duration>
 			<itunes:keywords>html5, games, indie, os x, browserquest, open source</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
-			<itunes:explicit>yes</itunes:explicit>
+			<itunes:explicit>no</itunes:explicit>
 		</item>
 
 		<item>
