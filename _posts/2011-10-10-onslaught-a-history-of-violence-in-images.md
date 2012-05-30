@@ -75,7 +75,7 @@ We're not totally sure just yet, but we'll be announcing something soon. Stay tu
 [1]: /onslaught_arena/
 [2]: /announcing-onslaught-arena-for-sale-in-the-go/
 [3]: http://itunes.apple.com/us/app/onslaught!/id441426241
-[4]: https://market.android.com/details?id=com.gameclosure.tealeaf
+[4]: /onslaught/
 [5]: http://www.wacom.com/en/Products/Cintiq/Cintiq12WX.aspx
 [6]: http://raptr.com/
 [7]: /lava-background-sprite-creation-timelapse/

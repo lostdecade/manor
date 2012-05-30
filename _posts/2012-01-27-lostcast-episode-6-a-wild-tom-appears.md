@@ -27,7 +27,7 @@ Thanks for listening! If you have any HTML5 game development questions, please [
 [2]: http://www.getxc.org/
 [3]: http://www.lostdecadegames.com/onslaught_arena/
 [4]: http://itunes.apple.com/us/app/onslaught!/id441426241?mt=8
-[5]: https://market.android.com/details?id=com.gameclosure.tealeaf&hl=en
+[5]: /onslaught/
 [6]: https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html
 [7]: http://hashbbg.com/
 [8]: http://gameclosure.com/contact/

@@ -58,7 +58,7 @@ _One final note: if you are one of the fine human beings who purchased the game 
 [3]: http://ubiktune.org/releases/ubi040-joshua-morse-onslaught-ost
 [4]: https://github.com/lostdecade/onslaught_arena
 [5]: /onslaught-a-history-of-violence-in-images/
-[6]: https://market.android.com/details?id=com.gameclosure.tealeaf
+[6]: /onslaught/
 [7]: http://itunes.apple.com/us/app/onslaught!/id441426241?mt=8
 [8]: https://chrome.google.com/webstore/detail/khodnfbkbanejphecblcofbghjdgfaih
 [9]: http://itunes.apple.com/us/app/onslaught-arena/id418268106
