@@ -264,5 +264,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast Episode 17: Vincent Priceless</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>Vincent Priceless</itunes:subtitle>
+			<itunes:summary>Geoff and Matt talk with veteran game and Chrome developer Vincent Scheib.</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_17_vincent_priceless.mp3" length="6549" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_17_vincent_priceless.mp3</guid>
+			<pubDate>Sun, 10 June 2012 12:00:00 +0000</pubDate>
+			<itunes:duration>1:05:09</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, vincent sheib, chrome</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/logos/impact.png"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
