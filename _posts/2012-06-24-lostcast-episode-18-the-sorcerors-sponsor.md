@@ -13,7 +13,7 @@ tags: [lostcast]
 
 We also announce our new sponsor, [Pokki](http://pokki.com/)! Very exciting news, as it allows us to develop bigger, more awesome games. Please do check them out and be sure to get the high score on [Onslaught! Arena on Pokki](https://www.pokki.com/app/Onslaught-Arena).
 
-<a class="download-podcast" href="">
+<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_18_the_sorcerors_sponsor.mp3">
 	Download Lostcast episode 18 (56:16, 47MB)
 </a>
 
