@@ -245,7 +245,7 @@
 			<pubDate>Sun, 6 May 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>1:04:25</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, mechanics, gamedev, podcast</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/logos/impact.png"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/logos/itunes_logo.png"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -260,7 +260,7 @@
 			<pubDate>Sun, 20 May 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>1:49:09</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, joseph huckaby, effect games</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/logos/impact.png"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/logos/itunes_logo.png"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -275,7 +275,22 @@
 			<pubDate>Sun, 10 June 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>1:05:09</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, vincent sheib, chrome</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/logos/impact.png"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/logos/itunes_logo.png"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
+		<item>
+			<title>Lostcast Episode 18: The Sorceror's Sponsor</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>The Sorceror's Sponsor</itunes:subtitle>
+			<itunes:summary>Announcing our first sponsor: Pokki! Geoff and Matt talk about how awesome HTML5 gaming is right now.</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_18_the_sorcerors_sponsor.mp3" length="3376" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_18_the_sorcerors_sponsor.mp3</guid>
+			<pubDate>Sun, 24 June 2012 12:00:00 +0000</pubDate>
+			<itunes:duration>56:16</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, pokki</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/logos/itunes_logo.png"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
