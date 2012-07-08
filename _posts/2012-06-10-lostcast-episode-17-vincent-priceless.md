@@ -5,7 +5,7 @@ author: matt
 tags: [lostcast]
 ---
 <div class="full-frame">
-	<img alt="Lostcast logo" src="/media/images/lostcast/logo_500x500.jpg">
+	<img alt="Lostcast logo" src="/media/images/lostcast/500x500.jpg">
 </div>
 
 **Lostcast** is our podcast about HTML5 games. In episode 17, we interview game veteran and Google software developer [Vincent Scheib](http://scheib.net/). We talk about all kinds of new features in Chrome, including the Mouse Lock API, which is very important for some types of games. Be sure to check out the [Google Game Developers](https://developers.google.com/games/) group to let Vincent and other Chrome developers know how they can help your game be successful!

@@ -6,7 +6,7 @@ tags: [lostcast]
 ---
 
 <div class="full-frame">
-	<img alt="Lostcast: now sponsored by Pokki!" src="/media/images/lostcast/logos/pokki.png">
+	<img alt="Lostcast: now sponsored by Pokki!" src="/media/images/lostcast/custom/pokki.png">
 </div>
 
 **Lostcast** is our podcast about HTML5 games. In episode 18, we answer a listener email about the great **DOM VS Canvas** debate, talk about getting your games out there into HTML5 land, and chat about our next game **Lava Blade**.

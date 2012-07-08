@@ -3,17 +3,17 @@
 	<channel>
 
 		<title>Lostcast</title>
-		<link>http://www.lostdecadegames.com/</link>
+		<link>http://www.lostcast.fm/</link>
 		<language>en-us</language>
 		<copyright>© 2012 Lost Decade Games</copyright>
 
 		<itunes:subtitle>HTML5 Game Development Podcast</itunes:subtitle>
 		<itunes:author>Lost Decade Games</itunes:author>
 		<itunes:summary>
-			Geoff Blair and Matt Hackett discuss the business, tech and creativity of HTML5 games.
+			Geoff Blair and Matt Hackett discuss the business, tech, and creativity of HTML5 games.
 		</itunes:summary>
 		<description>
-			Geoff Blair and Matt Hackett discuss the business, tech and creativity of HTML5 games.
+			Geoff Blair and Matt Hackett discuss the business, tech, and creativity of HTML5 games.
 		</description>
 		<itunes:category text="Games &amp; Hobbies">
 			<itunes:category text="Video Games"/>
@@ -22,7 +22,7 @@
 			<itunes:name>Lost Decade Games</itunes:name>
 			<itunes:email>hello@lostdecadegames.com</itunes:email>
 		</itunes:owner>
-		<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+		<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 		<itunes:explicit>no</itunes:explicit>
 
 		<item>
@@ -36,7 +36,7 @@
 			<pubDate>Tue, 15 Nov 2011 12:12:12 +0000</pubDate>
 			<itunes:duration>46:11</itunes:duration>
 			<itunes:keywords>html5, games</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -51,7 +51,7 @@
 			<pubDate>Fri, 25 Nov 2011 12:28:00 +0000</pubDate>
 			<itunes:duration>55:03</itunes:duration>
 			<itunes:keywords>html5, games, crafty</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -66,7 +66,7 @@
 			<pubDate>Fri, 9 Dec 2011 12:28:00 +0000</pubDate>
 			<itunes:duration>24:39</itunes:duration>
 			<itunes:keywords>html5, games, closure</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -81,7 +81,7 @@
 			<pubDate>Fri, 16 Dec 2011 12:00:00 +0000</pubDate>
 			<itunes:duration>46:22</itunes:duration>
 			<itunes:keywords>html5, games, nacl, native client, coffeescript</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 		<item>
@@ -95,7 +95,7 @@
 			<pubDate>Sat, 31 Dec 2011 12:00:00 +0000</pubDate>
 			<itunes:duration>41:11</itunes:duration>
 			<itunes:keywords>html5, games, questions</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -110,7 +110,7 @@
 			<pubDate>Fri, 27 Jan 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>27:47</itunes:duration>
 			<itunes:keywords>html5, games, game closure, tom fairfield</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -125,7 +125,7 @@
 			<pubDate>Fri, 02 Feb 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>1:10:57</itunes:duration>
 			<itunes:keywords>html5, games, suck, sucks, sucking, sucky</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -140,7 +140,7 @@
 			<pubDate>Sun, 12 Feb 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>1:04:43</itunes:duration>
 			<itunes:keywords>html5, games, clones</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -155,7 +155,7 @@
 			<pubDate>Thu, 23 Feb 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>1:03:42</itunes:duration>
 			<itunes:keywords>html5, games, flash, comparison, rich davey, photonstorm</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -170,7 +170,7 @@
 			<pubDate>Fri, 2 Mar 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>42:14</itunes:duration>
 			<itunes:keywords>html5, games, indie, onslaught, onslaught arena, open source</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -185,7 +185,7 @@
 			<pubDate>Sun, 18 Mar 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>46:46</itunes:duration>
 			<itunes:keywords>html5, games, indie, gdc, lava sword</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -200,7 +200,7 @@
 			<pubDate>Tue, 27 Mar 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>55:09</itunes:duration>
 			<itunes:keywords>html5, games, indie, arno, tankworld</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -215,7 +215,7 @@
 			<pubDate>Tue, 03 Apr 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>57:41</itunes:duration>
 			<itunes:keywords>html5, games, indie, os x, browserquest, open source</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast.jpg"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -230,7 +230,7 @@
 			<pubDate>Sun, 22 Apr 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>44:49</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, impact, game engine, biolab disaster, interview, gamedev</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/logos/impact.png"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/custom/impact.png"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -245,7 +245,7 @@
 			<pubDate>Sun, 6 May 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>1:04:25</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, mechanics, gamedev, podcast</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/logos/itunes_logo.png"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -260,7 +260,7 @@
 			<pubDate>Sun, 20 May 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>1:49:09</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, joseph huckaby, effect games</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/logos/itunes_logo.png"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -275,7 +275,7 @@
 			<pubDate>Sun, 10 June 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>1:05:09</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, vincent sheib, chrome</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/logos/itunes_logo.png"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -290,12 +290,12 @@
 			<pubDate>Sun, 24 June 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>56:16</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, pokki</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/logos/itunes_logo.png"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/custom/pokki.png"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
 		<item>
-			<title>Lostcast Episode 10: Canvas Story</title>
+			<title>Lostcast Episode 19: Canvas Story</title>
 			<link>http://www.lostdecadegames.com/</link>
 			<itunes:author>Lost Decade Games</itunes:author>
 			<itunes:subtitle>Canvas Story</itunes:subtitle>
@@ -305,7 +305,7 @@
 			<pubDate>Sun, 8 July 2012 12:00:00 +0000</pubDate>
 			<itunes:duration>39:47</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, canvas, pokki</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/logos/itunes_logo.png"/>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/custom/pokki.png"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 

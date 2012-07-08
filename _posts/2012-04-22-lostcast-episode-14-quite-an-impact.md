@@ -6,7 +6,7 @@ tags: [lostcast]
 ---
 
 <div class="full-frame">
-	<img alt="Lostcast talks with Impact/Biolab creator Dominic Szablewski" src="/media/images/lostcast/logos/impact.png">
+	<img alt="Lostcast talks with Impact/Biolab creator Dominic Szablewski" src="/media/images/lostcast/custom/impact.png">
 </div>
 
 **Lostcast** is our podcast about HTML5 games. In **episode 14**, we talk with [Impact](http://impactjs.com/) creator [Dominic Szablewski](http://www.phoboslab.org/) about [all kinds of interesting things](https://twitter.com/#!/LostDecadeGames/status/194178727083642881), including what awesome new features to look for in **Impact 2**!
