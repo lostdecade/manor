@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Firefox Audio canplay bugs</title>
+	</head>
+	<body>
+		<h1>Firefox Audio canplay bugs</h1>
+		<p>
+			This is a demonstration of two bugs in Firefox (13.0.1 on Mac OS X 10.7.4).
+		</p>
+
+		<hr>
+
+		<h2>1. Multiple canplay events</h2>
+		<p>
+			<strong>Bug:</strong> When loading an audio file, Firefox throws <code>canplay</code> and <code>canplaythrough</code> events twice each. (Mac only.)
+		</p>
+		<p>
+			<strong>Solution:</strong> Firefox should only throw the <code>canplay</code> and <code>canplaythrough</code> events once each.
+		</p>
+		<p>
+			<button id="canplay">Log canplay</button>
+			<button id="canplaythrough">Log canplaythrough</button>
+		</p>
+		<h3>Notifications</h3>
+		<textarea id="notifications1" cols="40" rows="5"></textarea>
+		<script>(function () {
+			// Initialize
+			var audio = new Audio();
+			var notifications = document.getElementById("notifications1");
+			notifications.value = "";
+
+			// Attach button events
+			document.getElementById("canplay").addEventListener("click", function () {
+				loadAudio("canplay");
+			}, false);
+			document.getElementById("canplaythrough").addEventListener("click", function () {
+				loadAudio("canplaythrough");
+			}, false);
+
+			// Notifications
+			var output = function (message) {
+				notifications.value += message + "\n";
+			};
+
+			// Load the audio file and play it
+			var loadAudio = function (eventName) {
+				audio.addEventListener(eventName, function () {
+					output(eventName + " event fired " + Date.now());
+					audio.play();
+				}, false);
+				audio.src = "lunch_bug_gameplay1.ogg";
+			};
+		})();</script>
+
+		<hr>
+
+		<h2>2. Setting currentTime triggers canplay events</h2>
+		<p>
+			<strong>Bug:</strong> when the <code>currentTime</code> property is set on an audio intance, it causes the <code>canplay</code> and <code>canplaythrough</code> events to fire. (Replicated on Mac and Windows.)
+		</p>
+		<p>
+			<strong>Solution:</strong> these <code>canplay</code> and <code>canplaythrough</code> events should only fire once each, when the audio can play at all, and when the audio can play all the way through (respectively).
+		</p>
+		<h3>Notifications</h3>
+		<p>
+			<button id="canplay2">Log canplay</button>
+			<button id="canplaythrough2">Log canplaythrough</button>
+		</p>
+		<textarea id="notifications2" cols="40" rows="5"></textarea>
+		<script>(function () {
+			// Initialize
+			var audio = new Audio();
+			var notifications = document.getElementById("notifications2");
+			notifications.value = "";
+
+			// Attach button events
+			document.getElementById("canplay2").addEventListener("click", function () {
+				loadAudio("canplay");
+			}, false);
+			document.getElementById("canplaythrough2").addEventListener("click", function () {
+				loadAudio("canplaythrough");
+			}, false);
+
+			// Notifications
+			var output = function (message) {
+				notifications.value += message + "\n";
+			};
+
+			// Load the audio file and play it
+			var loadAudio = function (eventName) {
+				audio.addEventListener(eventName, function () {
+					audio.currentTime = 0;
+					output(eventName + " event fired " + Date.now());
+					audio.play();
+				}, false);
+				audio.src = "lunch_bug_gameplay2.ogg";
+			};
+		})();</script>
+
+		<hr>
+
+		<p>
+			All the code is here. View source or <a href="">view it on GitHub</a>.
+		</p>
+		<p>
+			Music by <a href="http://jmflava.com/">Joshua Morse</a>.
+		</p>
+	</body>
+</html>
