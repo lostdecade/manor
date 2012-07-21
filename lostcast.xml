@@ -309,5 +309,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast Episode 20: OUYA or Ooh, no?</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>OUYA or Ooh, no?</itunes:subtitle>
+			<itunes:summary>In episode 20, we discuss the much buzzed-about OUYA, Onslaught! Arena on Brass Monkey, and the launch of our new game Lunch Bug.</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_20_ouya_or_ooh_no.mp3" length="3113" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_20_ouya_or_ooh_no.mp3</guid>
+			<pubDate>Sun, 22 July 2012 12:00:00 +0000</pubDate>
+			<itunes:duration>51:53</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, pokki, ouya, brass monkey, stream greenlight</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/custom/pokki.png"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
