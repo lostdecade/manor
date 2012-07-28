@@ -2,14 +2,11 @@
 layout: post
 title: "Lostcast Episode : "
 author: matt
-published: false
 tags: [lostcast]
 ---
 
 <div class="full-frame">
-	<a href="">
-		<img alt="" src="">
-	</a>
+	<img alt="Lostcast logo" src="/media/images/lostcast/custom/pokki.png">
 </div>
 
 **Lostcast** is our podcast about HTML5 games. In episode ,
@@ -23,5 +20,3 @@ tags: [lostcast]
 * []()
 
 Thanks for listening! We love getting questions and comments, so please [email us](mailto:hello@lostdecadegames.com) if you have any.
-
-[1]: 
