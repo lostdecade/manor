@@ -324,5 +324,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast Episode 21: What Windows?</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>What Windows?</itunes:subtitle>
+			<itunes:summary>In episode 21, talk about an arcade convention, the WHATWG/W3C split and more!</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_21_what_windows.mp3" length="3212" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_21_what_windows.mp3</guid>
+			<pubDate>Sun, 5 Aug 2012 12:00:00 +0000</pubDate>
+			<itunes:duration>53:32</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, pokki, ca extreme, whatwg, w3c, windows 8, metro, lava blade, joshua morse</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/custom/pokki.png"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
