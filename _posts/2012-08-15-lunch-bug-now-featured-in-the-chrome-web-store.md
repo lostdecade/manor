@@ -25,5 +25,5 @@ Please note that if you are one of the intelligent, attractive players who have 
 [2]: https://chrome.google.com/webstore/detail/hnoafdaceebmnoannffpabnhpkdollho
 [3]: https://chrome.google.com/webstore/category/home
 [4]: https://chrome.google.com/webstore/category/app/3-games
-[5]: http://lunchbug.lostdecadegames.com/
-[6]: https://www.pokki.com/app/Lunch-Bug
+[5]: https://www.pokki.com/app/Lunch-Bug
+[6]: http://lunchbug.lostdecadegames.com/
