@@ -339,5 +339,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast Episode 22: HTMLd5</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>HTMLd5</itunes:subtitle>
+			<itunes:summary>In episode 22, we talk about all kinds of goings-on in the HTML5 games space, including the Dragons Gameboard kickstarter, and the tools used to make HTML5 games. Don’t forget to comment if you want Geoff to blog more!</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_22_htmld5.mp3" length="3308" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_22_htmld5.mp3</guid>
+			<pubDate>Sun, 19 Aug 2012 12:00:00 +0000</pubDate>
+			<itunes:duration>55:08</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, pokki, ca extreme, whatwg, w3c, windows 8, metro, lava blade, joshua morse, dragons gameboard, brass monkey, cocoonjs</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/custom/pokki.png"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
