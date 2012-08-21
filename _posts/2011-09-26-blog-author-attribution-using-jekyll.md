@@ -84,6 +84,6 @@ We're pretty happy with this approach. Let us know on [Twitter][6] or by [email]
 [2]: http://en.gravatar.com/
 [3]: https://github.com/mojombo/jekyll/wiki/yaml-front-matter
 [4]: https://github.com/mojombo/jekyll/wiki/Template-Data
-[5]: https://github.com/lostdecade/lostdecade.github.com/blob/master/contact/index.html
+[5]: https://github.com/lostdecade/manor/blob/master/contact/index.html
 [6]: https://twitter.com/#!/lostdecadegames
 [7]: mailto:hello@lostdecadegames.com
