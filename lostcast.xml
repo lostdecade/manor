@@ -354,5 +354,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast Episode 23: HTML5.blur()</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>HTML5.blur()</itunes:subtitle>
+			<itunes:summary>In episode 23, we talk about HTML5 and how sometimes it doesn't have anything to do with the success of your game. That said, the industry is in love with HTML5 right now, with lots of new companies and money being injected into it.</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_23_html5_blur.mp3" length="3010" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_23_html5_blur.mp3</guid>
+			<pubDate>Sun, 9 Sep 2012 12:00:00 +0000</pubDate>
+			<itunes:duration>50:10</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, pokki</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/custom/pokki.png"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
