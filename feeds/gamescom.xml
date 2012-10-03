@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gs:gamesFeed xmlns:gs="http://api.games.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://api.games.com/games_feed.xsd">
+
+	<game>
+		<partnerGameId>lunchBug</partnerGameId>
+		<gameName>Lunch Bug</gameName>
+		<descriptionShort>Lunch Bug is a unique turn-based puzzle game with advanced strategy and endless gameplay!</descriptionShort>
+		<descriptionLong>Lunch Bug is a unique turn-based puzzle game with advanced strategy and endless gameplay! Score points by feeding delicious berries to hungry Lunch Bugs and improve your score with masterful combos.</descriptionLong>
+		<developer>Lost Decade Games</developer>
+		<publisher>Lost Decade Games</publisher>
+		<gamePageUrl>http://www.lunchbug.com</gamePageUrl>
+		<smallImage>http://www.lostdecadegames.com/feeds/images/lunchBug/icons/28x28.png</smallImage>
+		<mediumImage>http://www.lostdecadegames.com/feeds/images/lunchBug/promo/178x188.png</mediumImage>
+		<largeImage>http://www.lostdecadegames.com/feeds/images/lunchBug/promo/278x188.png</largeImage>
+		<featureImage>http://www.lostdecadegames.com/feeds/images/lunchBug/promo/598x158.png</featureImage>
+		<screenshots>
+			<screenshotUrl>http://www.lostdecadegames.com/feeds/images/lunchBug/screenshots/292x162_title.png</screenshotUrl>
+			<screenshotUrl>http://www.lostdecadegames.com/feeds/images/lunchBug/screenshots/292x162_gameplay.png</screenshotUrl>
+			<screenshotUrl>http://www.lostdecadegames.com/feeds/images/lunchBug/screenshots/292x162_levelSelect.png</screenshotUrl>
+			<screenshotUrl>http://www.lostdecadegames.com/feeds/images/lunchBug/screenshots/292x162_store.png</screenshotUrl>
+		</screenshots>
+		<gamescomGenre>PUZZLE:BRAIN_GAMES</gamescomGenre>
+		<onlineGameInfo>
+			<onlineEmbeddedGameUrl>http://lunchbug.lostdecadegames.com/?iap=0</onlineEmbeddedGameUrl>
+			<onlineGameCodeLanguage>HTML5</onlineGameCodeLanguage>
+			<iframeWidth>1024</iframeWidth>
+			<iframeHeight>768</iframeHeight>
+		</onlineGameInfo>
+	</game>
+
+</gs:gamesFeed>
