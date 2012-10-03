@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gamesFeed xmlns:gs="http://api.games.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://api.games.com/games_feed.xsd">
+<gs:gamesFeed xmlns:gs="http://api.games.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://api.games.com/games_feed.xsd">
 
 	<game>
 		<partnerGameId>lunchBug</partnerGameId>
@@ -28,4 +28,4 @@
 		</onlineGameInfo>
 	</game>
 
-</gamesFeed>
+</gs:gamesFeed>
