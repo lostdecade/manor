@@ -21,15 +21,10 @@
 		</screenshots>
 		<gamescomGenre>PUZZLE:BRAIN_GAMES</gamescomGenre>
 		<onlineGameInfo>
-			<onlineEmbeddedGameUrl>http://lunchbug.lostdecadegames.com/?iap=0</onlineEmbeddedGameUrl>
+			<onlineEmbeddedGameUrl>http://lunchbug.lostdecadegames.com/?iap=0&amp;hd=1</onlineEmbeddedGameUrl>
 			<onlineGameCodeLanguage>HTML5</onlineGameCodeLanguage>
-			<iframeWidth>1024</iframeWidth>
-			<iframeHeight>768</iframeHeight>
-			<iframeFluid>true</iframeFluid>
-			<iframeWidthMin>512</iframeWidthMin>
-			<iframeHeightMin>384</iframeHeightMin>
-			<iframeWidthMax>1024</iframeWidthMax>
-			<iframeHeightMax>768</iframeHeightMax>
+			<iframeWidth>740</iframeWidth>
+			<iframeHeight>555</iframeHeight>
 		</onlineGameInfo>
 	</game>
 
