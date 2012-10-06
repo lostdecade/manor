@@ -25,6 +25,11 @@
 			<onlineGameCodeLanguage>HTML5</onlineGameCodeLanguage>
 			<iframeWidth>1024</iframeWidth>
 			<iframeHeight>768</iframeHeight>
+			<iframeFluid>true</iframeFluid>
+			<iframeWidthMin>512</iframeWidthMin>
+			<iframeHeightMin>384</iframeHeightMin>
+			<iframeWidthMax>1024</iframeWidthMax>
+			<iframeHeightMax>768</iframeHeightMax>
 		</onlineGameInfo>
 	</game>
 
