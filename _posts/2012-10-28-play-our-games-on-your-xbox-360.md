@@ -30,7 +30,7 @@ First, download Internet Explorer onto your console. Then, open Internet Explore
 First, I recommend a quick game of [Onslaught! Defense](http://arcade.lostdecadegames.com/onslaught_defense/). I played a game and happily got my highest score ever! Fair warning, there is some awkwardness with the controls: you'll need to move Internet Explorer's cursor to the directional slider at the bottom of the screen. Hold down the A button and you should be able to control the character.
 
 <div class="full-frame">
-	<a href="">
+	<a href="http://arcade.lostdecadegames.com/">
 		<img alt="" src="/media/images/posts/ieXbox/odResults.jpg">
 	</a>
 </div>
@@ -38,7 +38,7 @@ First, I recommend a quick game of [Onslaught! Defense](http://arcade.lostdecade
 Onslaught! Defense isn't a terribly deep game, so next up how about some [Lunch Bug](http://www.lunchbug.com/)? It feels best with a touch or click interface, but Internet Explorer's cursor is good enough. Of course, like in many other browsers, the sound playback is buggy and unreliable, but the game runs pretty smoothly and the graphics look great on a big TV.
 
 <div class="full-frame">
-	<a href="">
+	<a href="http://arcade.lostdecadegames.com/">
 		<img alt="" src="/media/images/posts/ieXbox/lbTitle.jpg">
 	</a>
 </div>
