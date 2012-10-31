@@ -369,5 +369,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast Episode 24: Return of the Geoff-and-I</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>Return of the Geoff-and-I</itunes:subtitle>
+			<itunes:summary>We're back! And talking about the disaster-in-progress that is Lava Blade, as well as our next game, project codename: Warhead!</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_24_return_of_the_geoff_and_i.mp3" length="2937" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_24_return_of_the_geoff_and_i.mp3</guid>
+			<pubDate>Tue, 30 Oct 2012 12:00:00 +0000</pubDate>
+			<itunes:duration>48:57</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
