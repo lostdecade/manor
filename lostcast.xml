@@ -384,5 +384,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast Episode 25: 11001</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>11001</itunes:subtitle>
+			<itunes:summary>Entity/component systems and lots of rambly independent game dev stuff.</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_25_11001.mp3" length="4026" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_25_11001.mp3</guid>
+			<pubDate>Tue, 6 Nov 2012 12:00:00 +0000</pubDate>
+			<itunes:duration>1:07:06</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
