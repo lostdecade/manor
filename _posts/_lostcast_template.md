@@ -6,7 +6,7 @@ tags: [lostcast]
 ---
 
 <div class="full-frame">
-	<img alt="Lostcast logo" src="/media/images/lostcast/custom/pokki.png">
+	<img alt="Lostcast logo" src="/media/images/lostcast/500x500.jpg">
 </div>
 
 **Lostcast** is our podcast about HTML5 games. In episode ,
