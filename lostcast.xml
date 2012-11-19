@@ -403,8 +403,8 @@
 			<title>Lostcast Episode 26: 11001</title>
 			<link>http://www.lostdecadegames.com/</link>
 			<itunes:author>Lost Decade Games</itunes:author>
-			<itunes:subtitle>11001</itunes:subtitle>
-			<itunes:summary>Entity/component systems and lots of rambly independent game dev stuff.</itunes:summary>
+			<itunes:subtitle>Foreach Episode</itunes:subtitle>
+			<itunes:summary>Geoff and Matt go through each and every one of the previous 25 episodes!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_26_foreach_episode.mp3" length="5940" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_26_foreach_episode.mp3</guid>
 			<pubDate>Sun, 18 Nov 2012 12:00:00 +0000</pubDate>
