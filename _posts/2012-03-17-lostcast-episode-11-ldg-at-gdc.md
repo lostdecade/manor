@@ -17,7 +17,7 @@ tags: [lostcast]
 * [Four Horsemen](http://www.pokki.com/1up/#4horsemen)
 * [PlayCanvas](http://playcanvas.com/)
 * Two new games in the works! [Lava Sword](http://www.lostdecadegames.com/lava-sword-dev-diary-part-1/) and Lunchbug (TBD)!
-* [Onslaught! Defense](http://m.lostdecadegames.com/onslaught_defense/) utilizes [audio sprites](http://remysharp.com/2010/12/23/audio-sprites/)
+* [Onslaught! Defense](http://arcade.lostdecadegames.com/onslaught_defense/) utilizes [audio sprites](http://remysharp.com/2010/12/23/audio-sprites/)
 * [cfxr](http://thirdcog.eu/apps/cfxr)
 * [Get the Onslaught! OST!](http://joshuamorse.bandcamp.com/album/onslaught-ost)
 

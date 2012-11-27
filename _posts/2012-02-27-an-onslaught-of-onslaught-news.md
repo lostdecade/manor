@@ -18,7 +18,7 @@ _Not familiar with the **Onslaught!** games? Check out our post [Onslaught! -- a
 
 So, first things first: if you haven't already, you should go slay monsters for **free** on one of these fine platforms right now: [Android tablets][6], [iPad][7], [Chrome Web Store][8], [Mac App Store][9] or…
 
-<a class="download-podcast" href="http://play.lostdecadegames.com/onslaught_arena/">Play Onslaught! Arena in your browser</a>
+<a class="download-podcast" href="http://arcade.lostdecadegames.com/onslaught_arena/">Play Onslaught! Arena in your browser</a>
 
 ## 2. Onslaught! OST
 
@@ -62,7 +62,7 @@ _One final note: if you are one of the fine human beings who purchased the game 
 [7]: http://itunes.apple.com/us/app/onslaught!/id441426241?mt=8
 [8]: https://chrome.google.com/webstore/detail/khodnfbkbanejphecblcofbghjdgfaih
 [9]: http://itunes.apple.com/us/app/onslaught-arena/id418268106
-[10]: http://play.lostdecadegames.com/onslaught_arena/
+[10]: http://arcade.lostdecadegames.com/onslaught_arena/
 [11]: http://jmflava.com/
 [12]: https://github.com/lostdecade
 [13]: http://gameclosure.com/

@@ -23,7 +23,7 @@ There was also [big Onslaught/Arena news][3] this week and we talk all about tha
 * [Brief history of LDG][2]
 * [Onslaught! Arena is now open source][3]
 * [Lost Decade Games github page][4]
-* [m.lostdecadegames.com][5]
+* [arcade.lostdecadegames.com][5]
 * [Onslaught! Defense][6]
 * [MUME][7]
 * [Onslaught! Arena OST][8]
@@ -34,7 +34,7 @@ Thanks for listening! We love getting questions and comments, so please [email u
 [2]: http://www.lostdecadegames.com/lostcast-episode-1-hello-world/
 [3]: http://www.lostdecadegames.com/an-onslaught-of-onslaught-news/
 [4]: https://github.com/lostdecade
-[5]: http://m.lostdecadegames.com/
-[6]: http://m.lostdecadegames.com/onslaught_defense/
+[5]: http://arcade.lostdecadegames.com/
+[6]: http://arcade.lostdecadegames.com/onslaught_defense/
 [7]: http://mume.org/
 [8]: http://joshuamorse.bandcamp.com/album/onslaught-ost
