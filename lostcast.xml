@@ -414,5 +414,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast Episode 27: Entity/Component Proponents</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>Entity/Component Proponents</itunes:subtitle>
+			<itunes:summary></itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_27_entity_component_proponents.mp3" length="3855" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_27_entity_component_proponents.mp3</guid>
+			<pubDate>Wed, 28 Nov 2012 12:00:00 +0000</pubDate>
+			<itunes:duration>1:04:15</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, lostcast</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
