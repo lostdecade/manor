@@ -1,0 +1,22 @@
+{
+	"targets": {
+		"production": {
+			"auth": "lostdecadegames",
+			"bucket": "www.lostdecadegames.com",
+			"region": "us-west-2"
+		},
+		"stage": {
+			"auth": "lostdecadegames",
+			"bucket": "stage.www.lostdecadegames.com",
+			"region": "us-west-2"
+		}
+	},
+	"headers": {
+		"(jpg|jpeg|png|mp3)$": {
+			"Cache-control": "max-age=31536000"
+		},
+		"(html|htm)$": {
+			"Cache-control": "max-age=172800, must-revalidate"
+		}
+	}
+}
