@@ -75,6 +75,6 @@ On the plus side, I think we were able to deliver a very playable game in the al
 	</a>
 </div>
 
-As a young independent company, we need to be frugal with regards to how we spend our time. We literally wouldn't have been able to afford to dedicate a couple of days to Indie Speed Run if we didn't think we could use the game to help pay our bills. With that in mind, we designed Asylum Night from the ground up to be mobile-friendly so that we could add it to our growing portfolio of HTML5 portal games. If you've got an Android or iOS device, [play Asylum Night](allotted) in the browser -- it runs surprisingly well!
+As a young independent company, we need to be frugal with regards to how we spend our time. We literally wouldn't have been able to afford to dedicate a couple of days to Indie Speed Run if we didn't think we could use the game to help pay our bills. With that in mind, we designed Asylum Night from the ground up to be mobile-friendly so that we could add it to our growing portfolio of HTML5 portal games. If you've got an Android or iOS device, [play Asylum Night](http://www.escapistmagazine.com/content/indie-speed-run/?game=209) in the browser -- it runs surprisingly well!
 
 Additionally, designing for mobile will make it easy for us to launch the game natively on Android and iOS using Ludei's [CocoonJS](http://www.ludei.com/tech/cocoonjs) platform, so the next time you see Asylum Night, hopefully it will be in the App Store and Google Play.
