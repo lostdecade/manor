@@ -435,10 +435,10 @@
 			<itunes:author>Lost Decade Games</itunes:author>
 			<itunes:subtitle>IndieHub Speed Run</itunes:subtitle>
 			<itunes:summary>Geoff and Matt talk about Indie Speed Run and GitHub Game Off and other fun stuff.</itunes:summary>
-			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_28.mp3" length="" type="audio/mpeg"/>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_28.mp3" length="3552" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_28.mp3</guid>
 			<pubDate>Tue, 22 Jan 2013 12:00:00 +0000</pubDate>
-			<itunes:duration></itunes:duration>
+			<itunes:duration>59:12</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, lostcast, indie speed run, github</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
