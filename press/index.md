@@ -9,6 +9,7 @@ News and reviews about Lost Decade Games from around the web.
 * [HTML5 Game Maker Looks To Transcend Sleepy Chrome Web Store Sales On iOS][1] (TechCrunch)
 * [Ludei can convert HTML5 apps into speedy mobile apps in minutes][2] (VentureBeat)
 * [Indie Game Studio ‘Lost Decade Games’ Launches New HTML5 Game, Lunch Bug][6] (Pokki)
+* [Even As HTML5 Gaming Skepticism Remains, Ludei Pushes An App To Seven Stores Simultaneously][9] (TechCrunch)
 
 ## Interviews
 
@@ -29,3 +30,4 @@ News and reviews about Lost Decade Games from around the web.
 [6]: http://blog.pokki.com/2012/07/indie-game-studio-lost-decade-games-launches-new-html5-game-lunch-bug/
 [7]: http://creativejs.com/2012/07/get-bitten-by-the-lunch-bug/
 [8]: http://www.nineoverten.com/2012/08/22/indie-game-developer-interview-geoff-blair-lost-decade-games/
+[9]: http://techcrunch.com/2013/02/22/ludei/
