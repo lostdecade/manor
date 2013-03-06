@@ -3,6 +3,10 @@ pygments: true
 exclude: [README.md]
 paginate: 10
 
+meta:
+  description: "Official website of Lost Decade Games, an independent HTML5 game company in Silicon Valley, CA."
+  keywords: "html5 games, javascript, chrome webstore, game dev, open source, blog, git, github, lost decade games, matt hackett, richtaur, geoff blair, gosub, zylo"
+
 base_url: "http://www.lostdecadegames.com"
 email: hello@lostdecadegames.com
 lostcast_itunes_url: http://itunes.apple.com/us/podcast/lostcast/id481950724

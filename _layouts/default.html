@@ -1,43 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>{{ page.title }} - Lost Decade Games</title>
-	<meta name="description" content="Official website of Lost Decade Games, an independent HTML5 game company in Silicon Valley, CA.">
-	<meta name="keywords" content="html5 games, javascript, chrome webstore, game dev, open source, blog, git, github, lost decade games, matt hackett, richtaur, geoff blair, gosub, zylo">
-	<link rel="alternate" type="application/atom+xml" title="ATOM Feed for Lost Decade Games" href="{{ site.blog_feed_url }}">
-	<link rel="shortcut icon" href="/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="/media/css/all.css">
-</head>
-<body>
+---
+layout: base
+---
+<div class="standard-page">
 
-	<div class="standard-page">
-
-		<div class="head">
-			{% include html/page_head.html %}
-		</div>
-
-		<div class="body">
-			<div class="main">
-				<div class="hd"></div>
-				<div class="bd">{{ content }}</div>
-				<div class="ft"></div>
-			</div>
-			<div class="aux">
-				{% include html/sidebar.html %}
-			</div>
-		</div>
-
-		{% include html/ad_footer.html %}
-
-		<div class="foot">
-			{% include html/page_foot.html %}
-		</div>
-
+	<div class="head">
+		{% include html/page_head.html %}
 	</div>
 
-	{% include html/ga.html %}
-	{% include html/gplus.html %}
+	<div class="body">
+		<div class="main">
+			<div class="hd"></div>
+			<div class="bd">{{ content }}</div>
+			<div class="ft"></div>
+		</div>
+		<div class="aux">
+			{% include html/sidebar.html %}
+		</div>
+	</div>
 
-</body>
-</html>
+	{% include html/ad_footer.html %}
+
+	<div class="foot">
+		{% include html/page_foot.html %}
+	</div>
+
+</div>
