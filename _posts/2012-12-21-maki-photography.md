@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Indie life: high quality photos of us making games"
 author: matt
 ---

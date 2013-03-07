@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Polishing a Level Select screen: process and implementation"
 author: matt
 ---

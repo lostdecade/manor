@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Blog author attribution using Jekyll
 author: geoff
 ---
@@ -13,7 +13,7 @@ Our goal was to display, at the very least, the author's name and [Gravatar][2] 
 
 {% highlight yaml %}
 ---
-layout: post
+layout: article
 title: Catchy blog post title
 post_author: Geoff Blair
 post_gravatar: 76dbcc74021b8039f14c7b583978b56d

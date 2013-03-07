@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: article
 title: "Press Room"
+comments: hidden
 ---
 News and reviews about Lost Decade Games from around the web.
 

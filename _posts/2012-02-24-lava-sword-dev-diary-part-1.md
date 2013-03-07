@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lava Sword Dev Diary (part 1)"
 author: matt
 ---

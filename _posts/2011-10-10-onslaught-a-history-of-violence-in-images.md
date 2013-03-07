@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Onslaught! -- a history of violence (in images)"
 author: matt
 ---

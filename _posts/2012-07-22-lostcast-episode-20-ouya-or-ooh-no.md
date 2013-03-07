@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lostcast Episode 20: OUYA or Ooh, no?"
 author: matt
 tags: [lostcast]

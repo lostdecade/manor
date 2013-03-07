@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Our simple new business cards
 author: matt
 ---

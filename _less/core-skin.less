@@ -1,0 +1,57 @@
+@green: #0b521f;
+
+@bg-color: #151515;
+@text-color: #a8a8a8;
+
+html, body {
+	background: @bg-color;
+	color: @text-color;
+	font-family: sans-serif;
+}
+
+.head > .nav a {
+	color: @text-color;
+	text-decoration: none;
+
+	&:hover {
+		color: cyan;
+		background: #222;
+	}
+}
+
+.foot {
+	font-size: 12px;
+
+	.more-info a {
+		color: @text-color;
+		text-decoration: none;
+
+		&:hover {
+			color: cyan;
+		}
+	}
+}
+
+.article {
+	> .title {
+		background: #333;
+		color: #ededed;
+	}
+
+	> .body > .main {
+		background: #eee;
+		color: #000;
+	}
+}
+
+.author-info {
+	> .avatar {
+		border: solid 1px #ccc;
+	}
+
+	> .who {
+		> em {
+			font-weight: bold;
+		}
+	}
+}

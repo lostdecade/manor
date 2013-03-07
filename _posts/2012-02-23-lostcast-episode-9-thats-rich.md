@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lostcast Episode 9: That's Rich"
 author: matt
 tags: [lostcast]

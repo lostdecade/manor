@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Firefox Audio canplay bugs"
 author: matt
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lostcast Episode 6: A Wild Tom Appears"
 author: matt
 tags: [lostcast]

@@ -1,9 +1,5 @@
 <section class="post-list">
 
-	<header>
-		<h1 id="posts" class="title">Blog</h1>
-	</header>
-
 	<ul class="posts">
 		{% for post in paginator.posts %}
 		{% assign author = site.authors[post.author] %}

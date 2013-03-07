@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lostcast Episode 11: LDG @ GDC"
 author: matt
 tags: [lostcast]

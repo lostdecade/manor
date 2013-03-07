@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Asylum Night: making a tower defense game in 48 hours"
 author: matt
 ---

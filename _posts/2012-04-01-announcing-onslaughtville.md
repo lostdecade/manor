@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Announcing OnslaughtVille!"
 author: geoff
 ---

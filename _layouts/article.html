@@ -1,0 +1,35 @@
+---
+layout: new
+---
+<div class="article">
+	<div class="title">
+		<h1>{{ page.title }}</h1>
+	</div>
+	<div class="body">
+		<div class="main">
+			<div class="module">{{ content }}</div>
+
+			{% unless page.comments == "hidden" %}
+				{% include widgets/comments.html %}
+			{% endunless %}
+		</div>
+		<div class="aux">
+
+			{% if page.author %}
+				{% assign author = site.authors[page.author] %}
+				{% include widgets/author-info.html %}
+			{% endif %}
+
+			{% include ads/mrec-aux.html %}
+
+			{% if site.related_posts %}
+				{% include widgets/related-posts.html %}
+			{% endif %}
+
+			<!--
+			Featured Posts
+			Related Posts (blog post only?)
+			-->
+		</div>
+	</div>
+</div>

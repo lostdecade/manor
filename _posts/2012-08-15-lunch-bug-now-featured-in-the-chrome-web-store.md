@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lunch Bug now featured in the Chrome Web Store!"
 author: matt
 ---

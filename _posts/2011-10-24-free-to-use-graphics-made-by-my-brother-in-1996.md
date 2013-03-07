@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Free-to-use graphics made by my brother in 1996"
 author: matt
 ---

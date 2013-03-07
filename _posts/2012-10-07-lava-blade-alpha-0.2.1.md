@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lava Blade alpha 0.2.1"
 author: matt
 ---

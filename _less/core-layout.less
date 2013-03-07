@@ -1,0 +1,195 @@
+@page-width: 1000px;
+@padding: 20px;
+
+@head-height: 90px;
+
+// Clear floated divs
+.clear-float {
+	overflow: hidden;
+}
+
+// Sane box model
+.border-box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.ad {
+	text-align: center;
+}
+
+.section {
+	.clear-float;
+	.border-box;
+
+	width: @page-width;
+	margin: 0 auto;
+}
+
+.text-format {
+
+	line-height: 24px;
+	text-align: justify;
+
+	h1, h2, h3, h4, h5, h6 {
+		margin: @padding 0;
+		font-size: 24px;
+		font-weight: normal;
+	}
+
+	p {
+		margin: @padding 0;
+		&:first-child {
+			margin-top: 0;
+		}
+		img {
+			float: left;
+			margin-right: 10px;
+		}
+	}
+
+	ul {
+		//.bullet-list;
+	}
+
+	ul {
+		margin-top: @padding;
+		margin-bottom: @padding;
+	}
+
+	blockquote {
+		color: lighten(#000, 20%);
+		border-left: (@padding / 2) solid #000;
+		margin: 0 @padding 0 (@padding / 2);
+		padding-left: @padding / 2;
+	}
+
+	.before {
+		float: left;
+		margin-right: @padding;
+	}
+
+	.after {
+		float: right;
+		margin-left: @padding;
+	}
+
+	.full-frame {
+		text-align: center;
+		em {
+			font-style: italic;
+			font-weight: bold;
+		}
+	}
+
+}
+
+
+.head {
+	.section;
+
+	> .logo {
+		float: left;
+		display: block;
+		height: @head-height;
+	}
+
+	> .nav {
+		float: right;
+		margin-right: @padding;
+
+		> li {
+			float: left;
+
+			> a {
+				display: block;
+				height: 20px;
+				font-size: 18px;
+				padding: 35px 15px;
+				text-align: center;
+			}
+		}
+	}
+}
+
+.foot {
+	.section;
+
+	padding: @padding;
+
+	.more-info {
+		float: left;
+
+		> li {
+			float: left;
+			padding: 0 (@padding / 2);
+			border-right: solid 1px;
+
+			&:last-child {
+				border-right: none;
+			}
+		}
+	}
+
+	.copyright {
+		float: right;
+	}
+}
+
+.article {
+
+	> .title {
+		.section;
+
+		font-size: 40px;
+		padding: @padding;
+	}
+
+	> .body {
+		.section;
+
+		> .main {
+			.text-format;
+
+			width: 600px;
+			float: left;
+		}
+
+		> .aux {
+			width: 400px;
+			float: left;
+		}
+	}
+}
+
+.module {
+	.clear-float;
+	padding: @padding;
+}
+
+.author-info {
+	.module;
+
+	.avatar {
+		float: left;
+		margin-right: (@padding / 2);
+	}
+
+	.who {
+		font-size: 18px;
+		margin-bottom: (@padding / 4);
+	}
+
+	.when {
+		font-size: 14px;
+		margin-bottom: (@padding / 4);
+	}
+
+	.external {
+		> li {
+			float: left;
+			margin-right: (@padding / 2);
+		}
+	}
+}

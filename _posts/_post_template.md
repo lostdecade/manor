@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: ""
 author: matt
 ---
@@ -10,8 +10,8 @@ author: matt
 	</a>
 </div>
 
-## 
+##
 
 * []()
 
-[1]: 
+[1]:

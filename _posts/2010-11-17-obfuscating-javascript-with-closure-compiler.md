@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Obfuscating JavaScript with Closure Compiler Advanced Optimizations
 author: geoff
 ---

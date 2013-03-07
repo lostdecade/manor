@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: article
 title: "How to edit Lostcast"
-author: matt
+comments: hidden
 ---
 <div class="full-frame">
 	<img alt="Lostcast logo" src="/media/images/lostcast/custom/pokki.png">

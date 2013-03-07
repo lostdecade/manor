@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lostcast Episode 19: Canvas Story"
 author: matt
 tags: [lostcast]

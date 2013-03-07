@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "The Wii U web browser's HTML5 gaming capabilities"
 author: matt
 ---

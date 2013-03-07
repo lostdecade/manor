@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lostcast Episode 8: Attack of the Clones!"
 author: matt
 tags: [lostcast]

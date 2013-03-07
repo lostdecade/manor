@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lostcast Episode 18: The Sorceror's Sponsor"
 author: matt
 tags: [lostcast]

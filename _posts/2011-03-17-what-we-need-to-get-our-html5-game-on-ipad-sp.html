@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: What we need to get our HTML5 game on iPad (Speed)
 author: matt
 ---
@@ -36,10 +36,10 @@ author: matt
 
 {% highlight objc %}
 - (BOOL) webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
-	
+
 	NSString *requestString = [[request URL] absoluteString];
 	NSArray *components = [requestString componentsSeparatedByString:@"://"];
-	
+
 	if (([components count] > 1)
 		&& [(NSString *)[components objectAtIndex:0] isEqualToString:@"jsbridge"]) {
 
@@ -48,7 +48,7 @@ author: matt
 		}
 		return NO;
 	}
-	
+
 	// Let any other request through
 	return YES;
 }

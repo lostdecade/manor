@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Join the Lava Blade alpha test!"
 author: geoff
 ---

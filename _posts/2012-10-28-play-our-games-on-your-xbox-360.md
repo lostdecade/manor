@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Play our HTML5 games on your Xbox 360"
 author: matt
 ---

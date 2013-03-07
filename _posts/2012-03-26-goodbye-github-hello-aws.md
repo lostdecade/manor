@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Goodbye GitHub, Hello AWS"
 author: geoff
 ---

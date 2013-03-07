@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lava Blade art assets and concepts"
 author: matt
 ---

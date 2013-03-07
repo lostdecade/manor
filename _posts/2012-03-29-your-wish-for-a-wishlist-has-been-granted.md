@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Your wish for a wishlist has been granted
 author: matt
 ---

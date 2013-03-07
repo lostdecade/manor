@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lostcast Episode 4: Native Coffee"
 author: matt
 tags: [lostcast]

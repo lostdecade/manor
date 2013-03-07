@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lostcast Episode 7: HTML5, The Bad Parts"
 author: matt
 tags: [lostcast]

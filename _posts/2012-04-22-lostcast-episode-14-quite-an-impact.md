@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lostcast Episode 14: Quite an Impact"
 author: matt
 tags: [lostcast]

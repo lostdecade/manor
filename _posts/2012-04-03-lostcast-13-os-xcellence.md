@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lostcast Episode 13: OS Xcellence"
 author: matt
 tags: [lostcast]

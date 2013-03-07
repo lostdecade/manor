@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lunch Bug now available on Google Play"
 author: matt
 ---

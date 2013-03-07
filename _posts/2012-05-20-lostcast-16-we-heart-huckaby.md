@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lostcast Episode 16: We Heart Huckaby"
 author: matt
 tags: [lostcast]

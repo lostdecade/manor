@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "An onslaught of Onslaught! news"
 author: matt
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Our new blog is running on Jekyll
 author: matt
 ---
