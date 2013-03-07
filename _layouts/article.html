@@ -10,26 +10,24 @@ layout: new
 			<div class="module">{{ content }}</div>
 
 			{% unless page.comments == "hidden" %}
-				{% include widgets/comments.html %}
+				{% include modules/comments.html %}
 			{% endunless %}
 		</div>
 		<div class="aux">
 
 			{% if page.author %}
 				{% assign author = site.authors[page.author] %}
-				{% include widgets/author-info.html %}
+				{% include modules/author-info.html %}
 			{% endif %}
+
+			{% include modules/feature-articles.html %}
 
 			{% include ads/mrec-aux.html %}
 
 			{% if site.related_posts %}
-				{% include widgets/related-posts.html %}
+				{% include modules/related-articles.html %}
 			{% endif %}
 
-			<!--
-			Featured Posts
-			Related Posts (blog post only?)
-			-->
 		</div>
 	</div>
 </div>
