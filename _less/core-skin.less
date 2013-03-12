@@ -1,20 +1,41 @@
-@bg-color: #151515;
-@text-color: #a8a8a8;
-@link-hover-color: #ec6c3f;
+// Colors /////////////////////////////////////////////////////////////////////
+@page-background: #151515;
+@page-text: #a8a8a8;
+@page-highlight: #dc3d24;
+@page-highlight-background: #222;
 
+@article-head-background: #333;
+@article-head-text: #ededed;
+
+@article-background: #eee;
+@article-text: #000;
+@article-highlight: green;
+
+@aux-text: #ccc;
+@aux-highlight: @page-highlight;
+
+// Styles /////////////////////////////////////////////////////////////////////
 html, body {
-	background: @bg-color;
-	color: @text-color;
+	background: @page-background;
+	color: @page-text;
 	font-family: sans-serif;
 }
 
-.head > .nav a {
-	color: @text-color;
-	text-decoration: none;
+.head {
 
-	&:hover {
-		color: @link-hover-color;
-		background: #222;
+	> .logo {
+		text-indent: -999em;
+		background: url(/media/images/logo-new.png) no-repeat top left;
+	}
+
+	> .nav a {
+		color: @page-text;
+		text-decoration: none;
+
+		&:hover {
+			color: @page-highlight;
+			background: @page-highlight-background;
+		}
 	}
 }
 
@@ -22,30 +43,45 @@ html, body {
 	font-size: 12px;
 
 	.more-info a {
-		color: @text-color;
+		color: @page-text;
 		text-decoration: none;
 
 		&:hover {
-			color: @link-hover-color;
+			color: @page-highlight;
 		}
 	}
 }
 
 .article {
 	> .title {
-		background: #333;
-		color: #ededed;
+		background: @article-head-background;
+		color: @article-head-text;
 	}
 
-	> .body > .main {
-		background: #eee;
-		color: #000;
+	> .body {
+
+		> .main {
+			background: @article-background;
+			color: @article-text;
+
+			a {
+				color: @article-highlight;
+			}
+		}
+
+		> .aux {
+
+			a {
+				color: @page-highlight;
+			}
+
+		}
 	}
 }
 
 .author-info {
 	> .avatar {
-		border: solid 1px #ccc;
+		border: solid 1px @aux-text;
 	}
 
 	> .who {
