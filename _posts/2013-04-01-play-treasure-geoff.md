@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Play our new game Treasure Geoff"
+title: "Play our new new game Treasure Geoff"
 author: matt
 ---
 
@@ -10,7 +10,7 @@ author: matt
 	</a>
 </div>
 
-Today we're happy to announce our new game [Treasure Geoff](http://treasuregoblin.lostdecadegames.com/?geoff=1), also available on the [Chrome Web Store](https://chrome.google.com/webstore/detail/treasure-goblin/jgjgnceamhgknelfkpbhebhnphaeefho)!
+Today we're happy to announce our new new game [Treasure Geoff](http://treasuregoblin.lostdecadegames.com/?geoff=1), also available on the [Chrome Web Store](https://chrome.google.com/webstore/detail/treasure-goblin/jgjgnceamhgknelfkpbhebhnphaeefho)!
 
 **Treasure Geoff** is a free, gamepad-enabled, side-scrolling platformer built in HTML5. Players control a nimble [Geoff](/about/#geoff) who explores dangerous caves in search of treasure. The game features tight controls, procedurally generated levels, achievements, and of course, lots of treasure!
 
