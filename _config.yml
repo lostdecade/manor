@@ -36,6 +36,25 @@ authors:
     github: geoffb
     bio: '<strong>Geoff</strong> loves games, JavaScript, markdown, snowboarding, and <a href="https://github.com/geoffb">GitHub</a>. His previous work for <a href="http://games.yahoo.com/">Yahoo! Games</a> and <a href="http://raptr.com/geoffb">Raptr</a> have left him with a passion for clean code and shipping software early.'
 
+# Game detail data
+# Custom info and descriptions are found in /games/game-name/index.md
+games:
+    lunchbug:
+        title: "Lunch Bug"
+        platforms:
+            web: "http://lunchbug.lostdecadegames.com"
+            cws: "https://chrome.google.com/webstore/detail/lunch-bug/hnoafdaceebmnoannffpabnhpkdollho"
+            android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.lunchbug"
+            pokki: "https://www.pokki.com/app/lunch-bug"
+    lavablade:
+        title: "Lava Blade"
+        platforms:
+            web: "http://lavablade.lostdecadegames.com"
+    onslaughtarena:
+        title: "Onslaught! Arena"
+        platforms:
+            web: "http://arcade.lostdecadegames.com/onslaught_arena"
+
 # Local server
 auto: true
 server: true

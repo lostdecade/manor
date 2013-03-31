@@ -19,6 +19,16 @@
 	text-align: center;
 }
 
+.button {
+	display: block;
+	background: #ccc;
+	font-size: 20px;
+	text-align: center;
+	padding: (@padding / 2);
+	margin-bottom: @padding;
+	text-decoration: none;
+}
+
 .section {
 	.clear-float;
 	.border-box;
@@ -113,6 +123,31 @@
 	}
 }
 
+.feature-games {
+	.clear-float;
+	margin: @padding 0;
+
+	li {
+		float: left;
+		margin-right: @padding;
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		a {
+			display: block;
+			width: 320px;
+			height: 200px;
+		}
+
+		h3 {
+			font-size: 18px;
+			margin-top: (@padding / 2);
+		}
+	}
+}
+
 .foot {
 	.section;
 
@@ -139,35 +174,41 @@
 	}
 }
 
-.article {
+.page-title {
+	.section;
 
-	> .title {
-		.section;
+	font-size: 40px;
+	padding: @padding;
+}
 
-		font-size: 40px;
-		padding: @padding;
+.column-2 {
+	.section;
+
+	> .main {
+		.text-format;
+
+		width: 600px;
+		float: left;
 	}
 
-	> .body {
-		.section;
-
-		> .main {
-			.text-format;
-
-			width: 600px;
-			float: left;
-		}
-
-		> .aux {
-			width: 400px;
-			float: left;
-		}
+	> .aux {
+		width: 400px;
+		float: left;
 	}
 }
 
 .module {
 	.clear-float;
 	padding: @padding;
+
+	> h2 {
+		font-size: 18px;
+		margin-bottom: (@padding / 2);
+	}
+
+	> ul > li {
+		margin-bottom: (@padding / 2);
+	}
 }
 
 .author-info {

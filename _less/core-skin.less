@@ -1,8 +1,8 @@
 // Colors /////////////////////////////////////////////////////////////////////
-@page-background: #151515;
-@page-text: #a8a8a8;
-@page-highlight: #dc3d24;
-@page-highlight-background: #222;
+@page-background: #140c1c;
+@page-text: #8595a0;
+@page-highlight: #ce474b;
+@page-highlight-background: #4e4a4e;
 
 @article-head-background: #333;
 @article-head-text: #ededed;
@@ -52,29 +52,39 @@ html, body {
 	}
 }
 
-.article {
-	> .title {
-		background: @article-head-background;
-		color: @article-head-text;
+.module {
+	> h2 {
+		font-weight: bold;
+	}
+}
+
+.button {
+	font-weight: bold;
+	color: #fff !important;
+	background: green;
+
+	border-radius: 12px;
+}
+
+.page-title {
+	background: @article-head-background;
+	color: @article-head-text;
+}
+
+.column-2 {
+
+	> .main {
+		background: @article-background;
+		color: @article-text;
+
+		a {
+			color: @article-highlight;
+		}
 	}
 
-	> .body {
-
-		> .main {
-			background: @article-background;
-			color: @article-text;
-
-			a {
-				color: @article-highlight;
-			}
-		}
-
-		> .aux {
-
-			a {
-				color: @page-highlight;
-			}
-
+	> .aux {
+		a {
+			color: @page-highlight;
 		}
 	}
 }

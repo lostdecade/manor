@@ -2,7 +2,7 @@
 layout: article
 title: "Onslaught! -- a history of violence (in images)"
 author: matt
-tags: [feature]
+tags: [feature, onslaughtarena]
 ---
 [Onslaught!][1] is a medieval fantasy arcade shoot 'em up. It was one of the very first commercial HTML5 games available to the world, launching on [December 7, 2010][2] with the Chrome Webstore and has since launched on [iPad][3] and [Android tablets][4].
 

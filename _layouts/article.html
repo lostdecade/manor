@@ -1,33 +1,35 @@
 ---
-layout: new
+layout: default
 ---
-<div class="article">
-	<div class="title">
-		<h1>{{ page.title }}</h1>
+<div class="page-title">
+	<h1>{{ page.title }}</h1>
+</div>
+
+<div class="column-2">
+
+	<div class="main">
+		<div class="module">{{ content }}</div>
+
+		{% unless page.comments == "hidden" %}
+			{% include modules/comments.html %}
+		{% endunless %}
 	</div>
-	<div class="body">
-		<div class="main">
-			<div class="module">{{ content }}</div>
 
-			{% unless page.comments == "hidden" %}
-				{% include modules/comments.html %}
-			{% endunless %}
-		</div>
-		<div class="aux">
+	<div class="aux">
 
-			{% if page.author %}
-				{% assign author = site.authors[page.author] %}
-				{% include modules/author-info.html %}
-			{% endif %}
+		{% if page.author %}
+			{% assign author = site.authors[page.author] %}
+			{% include modules/author-info.html %}
+		{% endif %}
 
-			{% include modules/feature-articles.html %}
+		{% include modules/feature-articles.html %}
 
-			{% include ads/mrec-aux.html %}
+		{% include ads/mrec-aux.html %}
 
-			{% if site.related_posts %}
-				{% include modules/related-articles.html %}
-			{% endif %}
+		{% if site.related_posts %}
+			{% include modules/related-articles.html %}
+		{% endif %}
 
-		</div>
 	</div>
+
 </div>

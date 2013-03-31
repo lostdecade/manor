@@ -1,27 +1,22 @@
 ---
 layout: base
 ---
-<div class="standard-page">
+<div class="head">
+	<a class="logo" href="/">Lost Decade Games</a>
+	<ul class="nav">
+		<li><a href="/games/">Games</a></li>
+		<li><a href="/about/">About</a></li>
+		<li><a href="/lostcast/">Lostcast</a></li>
+		<li><a href="/blog/">Blog</a></li>
+	</ul>
+</div>
 
-	<div class="head">
-		{% include html/page_head.html %}
-	</div>
+{{ content }}
 
-	<div class="body">
-		<div class="main">
-			<div class="hd"></div>
-			<div class="bd">{{ content }}</div>
-			<div class="ft"></div>
-		</div>
-		<div class="aux">
-			{% include html/sidebar.html %}
-		</div>
-	</div>
-
-	{% include html/ad_footer.html %}
-
-	<div class="foot">
-		{% include html/page_foot.html %}
-	</div>
-
+<div class="foot">
+	<ul class="more-info">
+		<li><a href="/about/privacy/">Privacy Policy</a></li>
+		<li><a href="/about/tos/">Terms of Service</a></li>
+	</ul>
+	<p class="copyright">© Lost Decade Games, LLC 2010-2013</p>
 </div>

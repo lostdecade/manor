@@ -1,0 +1,8 @@
+<div class="module">
+	<h2>Related Articles</h2>
+	<ul>
+	{% for post in site.tags[page.gamekey] %}
+		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ul>
+</div>

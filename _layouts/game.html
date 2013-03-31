@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{% assign game = site.games[page.gamekey] %}
+
+<div class="page-title">
+	<h1>{{ game.title }}</h1>
+</div>
+
+<div class="column-2">
+	<div class="main">
+		<div class="module">{{ content }}</div>
+	</div>
+	<div class="aux">
+		{% include modules/game-platforms.html %}
+		{% include modules/game-related-articles.html %}
+	</div>
+</div>
