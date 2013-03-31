@@ -14,6 +14,8 @@ Features include:
 * 20 challenging levels
 * Unlockable Endless Mode
 * In-game store
-* Original soundtrack by Joshua Morse
+* Original soundtrack by [Joshua Morse][1]
 
 Looking for a unique challenge? Play Lunch Bug!
+
+[1]: http://jmflava.com/
