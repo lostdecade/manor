@@ -1,0 +1,24 @@
+// Clear floated divs
+.clear-float {
+	overflow: hidden;
+}
+
+// Sane box model
+.border-box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+// Everyone loves some rounded corners!
+.rounded-corners (@radius) {
+	border-radius: @radius;
+}
+
+// Indenting for <pre> blocks
+.tabsize (@size) {
+	-webkit-tab-size: @size; // Not yet implemented
+	-moz-tab-size: @size;
+	-o-tab-size: @size;
+	tab-size: @size;
+}

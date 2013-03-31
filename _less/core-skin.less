@@ -1,23 +1,9 @@
-// Colors /////////////////////////////////////////////////////////////////////
-@page-background: #140c1c;
-@page-text: #8595a0;
-@page-highlight: #ce474b;
-@page-highlight-background: #4e4a4e;
+@import "palette";
+@import "utils";
 
-@article-head-background: #333;
-@article-head-text: #ededed;
-
-@article-background: #eee;
-@article-text: #000;
-@article-highlight: green;
-
-@aux-text: #ccc;
-@aux-highlight: @page-highlight;
-
-// Styles /////////////////////////////////////////////////////////////////////
 html, body {
-	background: @page-background;
-	color: @page-text;
+	background: @black;
+	color: @white;
 	font-family: sans-serif;
 }
 
@@ -29,12 +15,12 @@ html, body {
 	}
 
 	> .nav a {
-		color: @page-text;
+		color: @white;
 		text-decoration: none;
 
 		&:hover {
-			color: @page-highlight;
-			background: @page-highlight-background;
+			color: @red-orange;
+			background: @dark-grey;
 		}
 	}
 }
@@ -43,11 +29,11 @@ html, body {
 	font-size: 12px;
 
 	.more-info a {
-		color: @page-text;
+		color: @white;
 		text-decoration: none;
 
 		&:hover {
-			color: @page-highlight;
+			color: @red-orange;
 		}
 	}
 }
@@ -59,39 +45,52 @@ html, body {
 }
 
 .button {
+	.rounded-corners(12px);
 	font-weight: bold;
-	color: #fff !important;
-	background: green;
+}
 
-	border-radius: 12px;
+.action-accept {
+	background: @light-green;
+	color: @white !important;
+}
+
+.action-negate {
+	background: @red-orange;
+	color: @white !important;
+}
+
+// Legacy style hook for article calls to action
+.download-podcast {
+	.button;
+	.action-accept;
 }
 
 .page-title {
-	background: @article-head-background;
-	color: @article-head-text;
+	background: @light-grey;
+	color: @black;
 }
 
 .column-2 {
 
 	> .main {
-		background: @article-background;
-		color: @article-text;
+		background: @white;
+		color: @black;
 
 		a {
-			color: @article-highlight;
+			color: @dark-green;
 		}
 	}
 
 	> .aux {
 		a {
-			color: @page-highlight;
+			color: @red-orange;
 		}
 	}
 }
 
 .author-info {
 	> .avatar {
-		border: solid 1px @aux-text;
+		border: solid 1px @light-grey;
 	}
 
 	> .who {

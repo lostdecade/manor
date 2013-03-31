@@ -1,19 +1,7 @@
-@page-width: 1000px;
-@padding: 20px;
-
-@head-height: 90px;
-
-// Clear floated divs
-.clear-float {
-	overflow: hidden;
-}
-
-// Sane box model
-.border-box {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
+@import "reset";
+@import "sizes";
+@import "utils";
+@import "text-format";
 
 .ad {
 	text-align: center;
@@ -21,7 +9,6 @@
 
 .button {
 	display: block;
-	background: #ccc;
 	font-size: 20px;
 	text-align: center;
 	padding: (@padding / 2);
@@ -35,62 +22,6 @@
 
 	width: @page-width;
 	margin: 0 auto;
-}
-
-.text-format {
-
-	line-height: 24px;
-	text-align: justify;
-
-	h1, h2, h3, h4, h5, h6 {
-		margin: @padding 0;
-		font-size: 24px;
-		font-weight: normal;
-	}
-
-	p {
-		margin: @padding 0;
-		&:first-child {
-			margin-top: 0;
-		}
-		img {
-			float: left;
-			margin-right: 10px;
-		}
-	}
-
-	ul {
-		list-style-position: inside;
-		list-style-type: square;
-		margin: @padding 0;
-		padding-left: @padding;
-	}
-
-	blockquote {
-		color: lighten(#000, 20%);
-		border-left: (@padding / 2) solid #000;
-		margin: 0 @padding 0 (@padding / 2);
-		padding-left: @padding / 2;
-	}
-
-	.before {
-		float: left;
-		margin-right: @padding;
-	}
-
-	.after {
-		float: right;
-		margin-left: @padding;
-	}
-
-	.full-frame {
-		text-align: center;
-		em {
-			font-style: italic;
-			font-weight: bold;
-		}
-	}
-
 }
 
 .head {
@@ -185,12 +116,12 @@
 	> .main {
 		.text-format;
 
-		width: 600px;
+		width: @column-2-main-width;
 		float: left;
 	}
 
 	> .aux {
-		width: 400px;
+		width: @column-2-aux-width;
 		float: left;
 	}
 }
