@@ -22,7 +22,7 @@
 			<itunes:name>Lost Decade Games</itunes:name>
 			<itunes:email>hello@lostdecadegames.com</itunes:email>
 		</itunes:owner>
-		<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+		<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/1400x1400.jpg"/>
 		<itunes:explicit>no</itunes:explicit>
 
 		<item>
@@ -444,5 +444,19 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast Episode 29: New New</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>New New</itunes:subtitle>
+			<itunes:summary>Geoff and Matt talk about what they been up to for da last 2 months?!</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_29.mp3" length="3234" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_29.mp3</guid>
+			<pubDate>Wed, 13 Mar 2013 12:00:00 +0000</pubDate>
+			<itunes:duration>53:54</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, lostcast</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
 	</channel>
 </rss>
