@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Play our new game Treasure Goblin"
 author: matt
 ---
