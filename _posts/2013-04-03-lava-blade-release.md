@@ -14,8 +14,9 @@ Today we're pleased to announce the release of [Lava Blade][1], our new tactical
 
 * [Visit the official Lava Blade website][1]
 * [Play the browser-based Lava Blade demo][2]
-* [Play Lava Blade on the Chrome Web Store][3]
-* [Play Lava Blade in the Mozilla Marketplace][4]
+* [Buy Lava Blade on the Chrome Web Store][3]
+* [Buy Lava Blade in the Mozilla Marketplace][4]
+* [Play Lava Blade on Pokki (FREE with unique content!)][8]
 * [Download the Lava Blade media kit][5]
 
 This is our third major game, and we invested about six months of development into it, so we really hope you enjoy it.
@@ -53,6 +54,16 @@ This is our third major game, and we invested about six months of development in
 
 For high resolution screenshots, please [download the Lava Blade media kit][5].
 
+## Unique content on the Pokki Platform
+
+On the popular Windows desktop platform [Pokki][7], Lava Blade is both free-to-play and has unique content: players begin with Pokurt, a character reference of Pokki’s own squirrel logo.
+
+<div class="full-frame">
+	<a href="http://www.lavablade.com/">
+		<img alt="Lava Blade" src="/media/images/posts/lava_blade/screenshots/pokurt.png">
+	</a>
+</div>
+
 ## Coming soon to another platform near you
 
 We're working hard on getting [Lava Blade][1] on more platforms including Android, iPhone, Windows desktop, and OS X.
@@ -67,3 +78,5 @@ Please feel free to [contact us][6] with any questions, and we'd love to hear yo
 [4]: TBD
 [5]: http://www.lavablade.com/media/lavaBladeMediaKit.zip
 [6]: /contact/
+[7]: http://www.pokki.com/
+[8]: TBD
