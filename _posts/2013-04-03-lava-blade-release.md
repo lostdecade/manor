@@ -53,6 +53,10 @@ This is our third major game, and we invested about six months of development in
 
 For high resolution screenshots, please [download the Lava Blade media kit][5].
 
+## Coming soon to another platform near you
+
+We're working hard on getting [Lava Blade][1] on more platforms including Android, iPhone, Windows desktop, and OS X.
+
 ## Questions?
 
 Please feel free to [contact us][6] with any questions, and we'd love to hear your thoughts in the comments section below.
