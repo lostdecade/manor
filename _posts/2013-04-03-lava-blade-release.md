@@ -64,6 +64,14 @@ On the popular Windows desktop platform [Pokki][7], Lava Blade is both free-to-p
 	</a>
 </div>
 
+## Get the Lava Blade OST
+
+<a class="before" href="http://joshuamorse.bandcamp.com/album/lava-blade-original-soundtrack">
+	<img alt="Lava Blade OST" src="/media/images/posts/lava_blade/ost.jpg">
+</a>
+
+The Lava Blade Original Soundtrack is [available for purchase on Bandcamp][9] for the low, low price of $3. Support independent musicians and get an amazing soundtrack for cheap!
+
 ## Coming soon to another platform near you
 
 We're working hard on getting [Lava Blade][1] on more platforms including Android, iPhone, Windows desktop, and OS X.
@@ -80,3 +88,4 @@ Please feel free to [contact us][6] with any questions, and we'd love to hear yo
 [6]: /contact/
 [7]: http://www.pokki.com/
 [8]: TBD
+[9]: http://joshuamorse.bandcamp.com/album/lava-blade-original-soundtrack
