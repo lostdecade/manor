@@ -15,7 +15,6 @@ Today we're pleased to announce the release of [Lava Blade][1], our new tactical
 * [Visit the official Lava Blade website][1]
 * [Play the browser-based Lava Blade demo][2]
 * [Buy Lava Blade on the Chrome Web Store][3]
-* [Buy Lava Blade in the Mozilla Marketplace][4]
 * [Play Lava Blade on Pokki (FREE with unique content!)][8]
 * [Download the Lava Blade media kit][5]
 
@@ -82,8 +81,8 @@ Please feel free to [contact us][6] with any questions, and we'd love to hear yo
 
 [1]: http://www.lavablade.com/
 [2]: http://lavablade.lostdecadegames.com/
-[3]: TBD
-[4]: TBD
+[3]: https://chrome.google.com/webstore/detail/lava-blade/ijpimhdpcjdmokpmpahbnfigfdfmcgmn
+[4]: unused
 [5]: http://www.lavablade.com/media/lavaBladeMediaKit.zip
 [6]: /contact/
 [7]: http://www.pokki.com/
