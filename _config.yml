@@ -40,6 +40,12 @@ authors:
 # List of all game IDs (drives /games listing and maybe more)
 games_list: [lavablade, lunchbug, onslaughtarena]
 
+# Spotlight game - a single game which is spotlighted on the home page
+spotlight_game: lavablade
+
+# Games featured on the home page (always 3 games!)
+feature_games_list: [lavablade, lunchbug, onslaughtarena]
+
 # Game detail data
 # Custom info and descriptions are found in /games/game-name/index.md
 games:
@@ -63,11 +69,19 @@ games:
   onslaughtarena:
     title: "Onslaught! Arena"
     tagline: "Slay hordes of monsters in this twitch based shoot-em-up!"
-    promo_url: "/games/onslaught-arena"
+    promo_url: "/games/onslaught-arena/"
     platforms:
       web: "http://arcade.lostdecadegames.com/onslaught_arena"
       cws: "https://chrome.google.com/webstore/detail/onslaught-arena/khodnfbkbanejphecblcofbghjdgfaih"
+      mas: "https://itunes.apple.com/us/app/onslaught-arena/id418268106"
       pokki: "https://www.pokki.com/app/Onslaught-Arena"
+  onslaughtdefense:
+    title: "Onslaught! Defense"
+    tagline: "Defend your castle from wave after wave of blood-thirsty monsters!"
+    promo_url: "/games/onslaught-defense/"
+    platforms:
+      web: "http://arcade.lostdecadegames.com/onslaught_defense"
+      android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.onslaughtdefense"
 
 # Local server
 auto: true

@@ -2,6 +2,7 @@
 layout: article
 title: "The Wii U web browser's HTML5 gaming capabilities"
 author: matt
+tags: [lunchbug, onslaughtdefense]
 ---
 <div class="full-frame">
 	<img alt="HTML5 games on Wii U" src="/media/images/posts/wiiu/header.png" width="500" height="264">

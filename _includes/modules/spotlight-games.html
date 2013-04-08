@@ -1,0 +1,8 @@
+<div class="spotlight-games">
+	{% assign gamekey = site.spotlight_game %}
+	{% assign game = site.games[gamekey] %}
+	<a
+		href="{{ game.promo_url }}"
+		style="background-image: url(/media/images/games/{{ gamekey }}/promo-2000x400.jpg)"
+	>{{ game.title }}</a>
+</div>

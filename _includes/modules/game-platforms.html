@@ -18,6 +18,10 @@
 			<li><a href="{{ game.platforms.android }}">Google Play (Android)</a></li>
 		{% endif %}
 
+		{% if game.platforms.mas %}
+			<li><a href="{{ game.platforms.mas }}">Mac App Store</a></li>
+		{% endif %}
+
 		{% if game.platforms.pokki %}
 			<li><a href="{{ game.platforms.pokki }}">Pokki</a></li>
 		{% endif %}
