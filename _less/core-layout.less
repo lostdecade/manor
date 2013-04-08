@@ -12,8 +12,12 @@
 	font-size: 20px;
 	text-align: center;
 	padding: (@padding / 2);
-	margin-bottom: @padding;
+	margin: @padding 0;
 	text-decoration: none;
+
+	&:first-child {
+		margin-top: 0;
+	}
 }
 
 .section {
@@ -52,27 +56,17 @@
 	}
 }
 
-.feature-games {
-	.clear-float;
-	margin: @padding 0;
+.article-list {
+	list-style-type: none !important;
+	padding-left: 0 !important;
+	margin-top: 0 !important;
 
-	li {
-		float: left;
-		margin-right: @padding;
-
-		&:last-child {
-			margin-right: 0;
-		}
-
-		a {
-			display: block;
-			width: 320px;
-			height: 200px;
-		}
-
-		h3 {
+	> li {
+		> .title {
 			font-size: 18px;
-			margin-top: (@padding / 2);
+		}
+		> .meta {
+			font-size: 12px;
 		}
 	}
 }
@@ -137,31 +131,5 @@
 
 	> ul > li {
 		margin-bottom: (@padding / 2);
-	}
-}
-
-.author-info {
-	.module;
-
-	.avatar {
-		float: left;
-		margin-right: (@padding / 2);
-	}
-
-	.who {
-		font-size: 18px;
-		margin-bottom: (@padding / 4);
-	}
-
-	.when {
-		font-size: 14px;
-		margin-bottom: (@padding / 4);
-	}
-
-	.external {
-		> li {
-			float: left;
-			margin-right: (@padding / 2);
-		}
 	}
 }

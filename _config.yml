@@ -1,7 +1,8 @@
 permalink: /:title
 pygments: true
 exclude: [README.md]
-paginate: 10
+
+#paginate: 10
 
 meta:
   description: "Official website of Lost Decade Games, an independent HTML5 game company in Silicon Valley, CA."
@@ -39,21 +40,25 @@ authors:
 # Game detail data
 # Custom info and descriptions are found in /games/game-name/index.md
 games:
-    lunchbug:
-        title: "Lunch Bug"
-        platforms:
-            web: "http://lunchbug.lostdecadegames.com"
-            cws: "https://chrome.google.com/webstore/detail/lunch-bug/hnoafdaceebmnoannffpabnhpkdollho"
-            android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.lunchbug"
-            pokki: "https://www.pokki.com/app/lunch-bug"
-    lavablade:
-        title: "Lava Blade"
-        platforms:
-            web: "http://lavablade.lostdecadegames.com"
-    onslaughtarena:
-        title: "Onslaught! Arena"
-        platforms:
-            web: "http://arcade.lostdecadegames.com/onslaught_arena"
+  lunchbug:
+    title: "Lunch Bug"
+    promo_url: "http://www.lunchbug.com"
+    platforms:
+      web: "http://lunchbug.lostdecadegames.com"
+      cws: "https://chrome.google.com/webstore/detail/lunch-bug/hnoafdaceebmnoannffpabnhpkdollho"
+      mozmarket: "https://marketplace.firefox.com/app/lunch-bug/"
+      android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.lunchbug"
+      pokki: "https://www.pokki.com/app/lunch-bug"
+  lavablade:
+    title: "Lava Blade"
+    promo_url: "http://www.lavablade.com"
+    platforms:
+      web: "http://lavablade.lostdecadegames.com"
+      android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.lavablade"
+  onslaughtarena:
+    title: "Onslaught! Arena"
+    platforms:
+      web: "http://arcade.lostdecadegames.com/onslaught_arena"
 
 # Local server
 auto: true

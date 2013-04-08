@@ -1,22 +1,16 @@
 <div class="section">
-	<ul class="feature-games">
+	<ul>
 		<li>
-			<a href="/games/lunch-bug/" title="Lunch Bug">
-				<img src="/media/images/games/lunch-bug/promo-320x200.png">
-			</a>
-			<h3>Lunch Bug</h3>
+			{% assign gamekey = "lunchbug" %}
+			{% include widgets/game-feature-card.html %}
 		</li>
 		<li>
-			<a href="/games/lava-blade/" title="Lava Blade">
-				<img src="/media/images/games/lava-blade/promo-320x200.png">
-			</a>
-			<h3>Lava Blade</h3>
+			{% assign gamekey = "lavablade" %}
+			{% include widgets/game-feature-card.html %}
 		</li>
 		<li>
-			<a href="/games/onslaught-arena/" title="Onslaught! Arena">
-				<img src="/media/images/games/onslaught-arena/promo-320x200.png">
-			</a>
-			<h3>Onslaught! Arena</h3>
+			{% assign gamekey = "onslaughtarena" %}
+			{% include widgets/game-feature-card.html %}
 		</li>
 	</ul>
 </div>
