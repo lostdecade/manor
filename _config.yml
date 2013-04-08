@@ -37,11 +37,15 @@ authors:
     github: geoffb
     bio: '<strong>Geoff</strong> loves games, JavaScript, markdown and snowboarding. His previous work for <a href="http://games.yahoo.com/">Yahoo! Games</a> and <a href="http://raptr.com/geoffb">Raptr</a> have left him with a passion for clean code and shipping software early.'
 
+# List of all game IDs (drives /games listing and maybe more)
+games_list: [lavablade, lunchbug, onslaughtarena]
+
 # Game detail data
 # Custom info and descriptions are found in /games/game-name/index.md
 games:
   lunchbug:
     title: "Lunch Bug"
+    tagline: "Grow delicous berries and feed cute bugs in this sweet puzzle game!"
     promo_url: "http://www.lunchbug.com"
     platforms:
       web: "http://lunchbug.lostdecadegames.com"
@@ -51,15 +55,18 @@ games:
       pokki: "https://www.pokki.com/app/lunch-bug"
   lavablade:
     title: "Lava Blade"
+    tagline: "Embark on an epic adventure of tactical combat in this RPG!"
     promo_url: "http://www.lavablade.com"
     platforms:
       web: "http://lavablade.lostdecadegames.com"
       android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.lavablade"
   onslaughtarena:
     title: "Onslaught! Arena"
+    tagline: "Slay hordes of monsters in this twitch based shoot-em-up!"
     promo_url: "/games/onslaught-arena"
     platforms:
       web: "http://arcade.lostdecadegames.com/onslaught_arena"
+      cws: "https://chrome.google.com/webstore/detail/onslaught-arena/khodnfbkbanejphecblcofbghjdgfaih"
       pokki: "https://www.pokki.com/app/Onslaught-Arena"
 
 # Local server
