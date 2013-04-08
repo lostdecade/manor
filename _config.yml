@@ -35,7 +35,7 @@ authors:
     web: http://www.geoffblair.com/
     twitter: geoffblair
     github: geoffb
-    bio: '<strong>Geoff</strong> loves games, JavaScript, markdown, snowboarding, and <a href="https://github.com/geoffb">GitHub</a>. His previous work for <a href="http://games.yahoo.com/">Yahoo! Games</a> and <a href="http://raptr.com/geoffb">Raptr</a> have left him with a passion for clean code and shipping software early.'
+    bio: '<strong>Geoff</strong> loves games, JavaScript, markdown and snowboarding. His previous work for <a href="http://games.yahoo.com/">Yahoo! Games</a> and <a href="http://raptr.com/geoffb">Raptr</a> have left him with a passion for clean code and shipping software early.'
 
 # Game detail data
 # Custom info and descriptions are found in /games/game-name/index.md
@@ -57,8 +57,10 @@ games:
       android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.lavablade"
   onslaughtarena:
     title: "Onslaught! Arena"
+    promo_url: "/games/onslaught-arena"
     platforms:
       web: "http://arcade.lostdecadegames.com/onslaught_arena"
+      pokki: "https://www.pokki.com/app/Onslaught-Arena"
 
 # Local server
 auto: true

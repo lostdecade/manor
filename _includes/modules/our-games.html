@@ -1,0 +1,10 @@
+{% assign games = "lavablade,lunchbug,onslaughtarena" | split: "," %}
+<div class="module">
+	<ul>
+		{% for gamekey in games %}
+			<li>
+				{% include widgets/game-feature-card.html %}
+			</li>
+		{% endfor %}
+	</ul>
+</div>
