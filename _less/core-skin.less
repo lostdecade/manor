@@ -4,7 +4,8 @@
 html, body {
 	background: @black;
 	color: @white;
-	font-family: sans-serif;
+	font-family: "Droid Sans", Sans-Serif;
+	font-size: 18px;
 }
 
 .head {
@@ -12,6 +13,10 @@ html, body {
 	> .logo {
 		text-indent: -999em;
 		background: url(/media/images/logo-new.png) no-repeat top left;
+
+		&:hover {
+			opacity: 0.75;
+		}
 	}
 
 	> .nav a {
@@ -19,21 +24,23 @@ html, body {
 		text-decoration: none;
 
 		&:hover {
-			color: @red-orange;
-			background: @dark-grey;
+			color: @orange;
+			background: @black-grey;
+			text-shadow: 0px 1px 0px @black;
 		}
 	}
 }
 
 .foot {
+	color: @light-grey;
 	font-size: 12px;
 
 	.more-info a {
-		color: @white;
+		color: @light-grey;
 		text-decoration: none;
 
 		&:hover {
-			color: @red-orange;
+			color: @orange;
 		}
 	}
 }
@@ -57,6 +64,11 @@ html, body {
 .action-accept {
 	background: @light-green;
 	color: @white !important;
+	text-shadow: 0px 1px 0px @black;
+
+	&:hover {
+		background: @dark-green;
+	}
 }
 
 .action-negate {
@@ -71,8 +83,10 @@ html, body {
 }
 
 .page-title {
-	background: @light-grey;
-	color: @black;
+	background: @dark-grey;
+	color: @white;
+	font-family: "Averia Libre", Serif;
+	text-shadow: 0px 1px 0px @black;
 }
 
 .column-2 {
@@ -83,12 +97,20 @@ html, body {
 
 		a {
 			color: @dark-green;
+
+			&:hover {
+				color: @orange;
+			}
 		}
 	}
 
 	> .aux {
 		a {
-			color: @red-orange;
+			color: @orange;
+
+			&:hover {
+				color: @yellow;
+			}
 		}
 	}
 }

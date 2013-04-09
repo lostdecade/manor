@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Our Games
+title: Games
 ---
 <div class="page-title">
 	<h1>{{ page.title }}</h1>
@@ -13,11 +13,11 @@ title: Our Games
 			{% for gamekey in site.games_list %}
 				{% assign game = site.games[gamekey] %}
 				<li class="module">
-					<a href="{{ game.promo_url }}">
-						<img src="/media/images/games/{{ gamekey }}/promo-560x180.png" width="560" height="180">
-					</a>
 					<div class="text-format">
 						<h2>{{ game.title }}</h2>
+						<a href="{{ game.promo_url }}">
+							<img alt="{{ game.title }}" src="/media/images/games/{{ gamekey }}/promo-560x180.png" width="560" height="180">
+						</a>
 						<p>{{ game.tagline }}</p>
 					</div>
 				</li>
@@ -25,9 +25,13 @@ title: Our Games
 		</ul>
 
 		<div class="text-format module">
-			<h2>White-label</h2>
-			<p>Additionally, we have an assortment of mobile-optimized HTML5 games ready to license to portal providers.</p>
-			<p>Want to know more? <a href="/contact/">Get in touch!</a></p>
+			<h2>White-label Licenses</h2>
+			<p>
+				We also have several mobile-optimized games that were made to license to HTML5 game portals. Some examples of these games include and <a href="http://asylumnight.lostdecadegames.com/">Asylum Night</a> and <a href="http://turkeyhunt.lostdecadegames.com/">Turkey Hunt</a>.
+			</p>
+			<p>
+				Want to know more? <a href="/contact/">Get in touch!</a>
+			</p>
 		</div>
 
 	</div>

@@ -61,14 +61,14 @@ games:
       pokki: "https://www.pokki.com/app/lunch-bug"
   lavablade:
     title: "Lava Blade"
-    tagline: "Embark on an epic adventure of tactical combat in this RPG!"
+    tagline: "Embark on an epic adventure of tactical combat in this strategy RPG!"
     promo_url: "http://www.lavablade.com"
     platforms:
       web: "http://lavablade.lostdecadegames.com"
       android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.lavablade"
   onslaughtarena:
     title: "Onslaught! Arena"
-    tagline: "Slay hordes of monsters in this twitch based shoot-em-up!"
+    tagline: "Slay hordes of monsters in this action-packed shoot-em-up!"
     promo_url: "/games/onslaught-arena/"
     platforms:
       web: "http://arcade.lostdecadegames.com/onslaught_arena"
