@@ -2,7 +2,6 @@
 layout: article
 title: "Announcing OnslaughtVille!"
 author: geoff
-tags: [onslaughtarena]
 ---
 It's no secret that we at Lost Decade Games love playing social games on Facebook. In fact, our dream for this company was to one day build an amazing, innovative game experience woven with social fabric.
 
