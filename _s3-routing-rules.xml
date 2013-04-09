@@ -1,0 +1,33 @@
+<RoutingRules>
+
+	<RoutingRule>
+		<Condition>
+			<KeyPrefixEquals>press/</KeyPrefixEquals>
+		</Condition>
+		<Redirect>
+			<ReplaceKeyPrefixWith>about/press/</ReplaceKeyPrefixWith>
+			<HttpRedirectCode>301</HttpRedirectCode>
+		</Redirect>
+	</RoutingRule>
+
+	<RoutingRule>
+		<Condition>
+			<KeyPrefixEquals>onslaught_arena/</KeyPrefixEquals>
+		</Condition>
+		<Redirect>
+			<ReplaceKeyPrefixWith>games/onslaught-arena/</ReplaceKeyPrefixWith>
+			<HttpRedirectCode>301</HttpRedirectCode>
+		</Redirect>
+	</RoutingRule>
+
+	<RoutingRule>
+		<Condition>
+			<KeyPrefixEquals>onslaught/</KeyPrefixEquals>
+		</Condition>
+		<Redirect>
+			<ReplaceKeyPrefixWith>games/onslaught/</ReplaceKeyPrefixWith>
+			<HttpRedirectCode>301</HttpRedirectCode>
+		</Redirect>
+	</RoutingRule>
+
+</RoutingRules>
