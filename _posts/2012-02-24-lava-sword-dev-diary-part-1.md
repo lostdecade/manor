@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Lava Sword Dev Diary (part 1)"
+title: "Lava Sword Dev Diary"
 author: matt
 ---
 
@@ -16,7 +16,7 @@ Is there another approach I could take? Essentially I want to **capture the spir
 
 ## Prototyping
 
-<img alt="First pass: rectangles!" src="/media/images/posts/lava_sword/rectangles.png">
+<div class="full-frame"><img alt="First pass: rectangles!" src="/media/images/posts/lava_sword/rectangles.png"></div>
 
 That's's the **first screenshot**, taken as early as there was anything to to take a screenshot of. As you can see, the game starts very simple. On a plain green background, I represent the player with a blue rectangle and monsters with red rectangles. Gold and other treasures are represented by yellow rectangles. This is the prototyping stage of game development where your game should **begin to be fun**. _If you can't find something entertaining at this stage, you shouldn't move on to the next stage._ You should **focus on making it fun**.
 
@@ -37,7 +37,7 @@ It would be cool if eventually there were many environments, but this is adequat
 
 Lots more graphics are in the works too! None of them has been "final" so far (especially the warrior, he needs a new approach). Here's where I'm currently at:
 
-<img alt="More Lava Sword graphics coming" src="/media/images/posts/lava_sword/more_gfx_coming.png">
+<div class="full-frame"><img alt="More Lava Sword graphics coming" src="/media/images/posts/lava_sword/more_gfx_coming.png"></div>
 
 ## More to come
 

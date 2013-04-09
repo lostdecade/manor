@@ -2,6 +2,7 @@
 layout: article
 title: "Lunch Bug now featured in the Chrome Web Store!"
 author: matt
+tags: [lunchbug]
 ---
 We just received notification from a kindly Googler that [Lunch Bug][1] is now featured in the [Chrome Web Store][2]! It can be seen here on the [homepage][3]:
 

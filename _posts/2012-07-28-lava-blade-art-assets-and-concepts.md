@@ -2,6 +2,7 @@
 layout: article
 title: "Lava Blade art assets and concepts"
 author: matt
+tags: [lavablade]
 ---
 We're deep into production on **Lava Blade**, our combat-centric platformer game with procedural content generation, and I thought I'd take a break to share some of the early art concepts.
 

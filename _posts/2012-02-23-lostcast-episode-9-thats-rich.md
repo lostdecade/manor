@@ -15,9 +15,11 @@ Rich is a fascinating guy with a delightful accent so you should totally have a 
 
 ## HTML5 Game Spotlight: Pixel Blast
 
-<a href="http://cryset.co.uk/home/p/playgame.php?id=61">
-	<img alt="Pixel Blast" src="/media/images/posts/spotlights/pixel_blast.png">
-</a>
+<div class="full-frame">
+	<a href="http://cryset.co.uk/home/p/playgame.php?id=61">
+		<img alt="Pixel Blast" src="/media/images/posts/spotlights/pixel_blast.png">
+	</a>
+</div>
 
 [Pixel Blast](http://cryset.co.uk/home/p/playgame.php?id=61) is a fun, polished HTML5 game which is pretty interesting because it's made by ["one man games development company"](http://nocturnegames.webs.com/), and also leverages [GameMaker to output to HTML5](http://www.yoyogames.com/gamemaker/html5).
 

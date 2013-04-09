@@ -2,6 +2,7 @@
 layout: article
 title: "Asylum Night: making a tower defense game in 48 hours"
 author: matt
+tags: [asylumnight]
 ---
 <div class="full-frame">
 	<a href="http://www.escapistmagazine.com/content/indie-speed-run/?game=209">

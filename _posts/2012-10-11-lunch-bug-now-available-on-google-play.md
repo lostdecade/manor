@@ -2,9 +2,10 @@
 layout: article
 title: "Lunch Bug now available on Google Play"
 author: matt
+tags: [lunchbug]
 ---
 <div class="full-frame">
-	<a class="after" href="https://play.google.com/store/apps/details?id=com.lostdecadegames.lunchbug">
+	<a href="https://play.google.com/store/apps/details?id=com.lostdecadegames.lunchbug">
 		<img alt="Lunch Bug on Google Play" src="/media/images/posts/lunch_bug/android_landscape.png">
 	</a>
 </div>
@@ -18,7 +19,7 @@ As always, we're happy to hear what you think! If you experience any issues with
 ## CocoonJS
 
 <div class="full-frame">
-	<a class="after" href="https://play.google.com/store/apps/details?id=com.lostdecadegames.lunchbug">
+	<a href="https://play.google.com/store/apps/details?id=com.lostdecadegames.lunchbug">
 		<img alt="Geoff and Ludei" src="/media/images/posts/lunch_bug/geoff_and_ludei.jpg">
 	</a>
 </div>

@@ -5,9 +5,11 @@ author: matt
 tags: [lostcast]
 ---
 
-<a href="/media/images/posts/lostcast_08/zelda_vs_golden_axe_warrior.png">
-	<img alt="Zelda Vs. Golden Axe Warrior" src="/media/images/posts/lostcast_08/zelda_vs_golden_axe_warrior_thumbnail.png">
-</a>
+<div class="full-frame">
+	<a href="/media/images/posts/lostcast_08/zelda_vs_golden_axe_warrior.png">
+		<img alt="Zelda Vs. Golden Axe Warrior" src="/media/images/posts/lostcast_08/zelda_vs_golden_axe_warrior_thumbnail.png">
+	</a>
+</div>
 
 (Click to [enlarge][1] the above screenshots. It's crazy how similar these games are…)
 

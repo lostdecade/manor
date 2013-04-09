@@ -2,6 +2,7 @@
 layout: article
 title: "Announcing OnslaughtVille!"
 author: geoff
+tags: [onslaughtarena]
 ---
 It's no secret that we at Lost Decade Games love playing social games on Facebook. In fact, our dream for this company was to one day build an amazing, innovative game experience woven with social fabric.
 
@@ -9,7 +10,9 @@ Friends, that day has come.
 
 ## Announcing OnslaughtVille!
 
-<img src="/media/images/posts/misc/lolslaught2.png" width="500" height="395">
+<div class="full-frame">
+	<img alt="Onslaughtville!" src="/media/images/posts/misc/lolslaught2.png" width="500" height="395">
+</div>
 
 Have you ever wondered what it would be like to manage your own medieval fantasy village? Wonder no more!
 

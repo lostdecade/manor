@@ -2,6 +2,7 @@
 layout: article
 title: "Lava Blade alpha 0.2.1"
 author: matt
+tags: [lavablade]
 ---
 <div class="full-frame">
 	<a href="http://goo.gl/3Iaku">

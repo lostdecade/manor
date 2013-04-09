@@ -2,6 +2,7 @@
 layout: article
 title: "Help fund Dragons Gameboard, get new Onslaught!-style pixel art"
 author: matt
+tags: [onslaughtarena]
 ---
 The awesome team over at [Brass Monkey][1] has just launched a really interesting kickstarter called [Dragons Gameboard][2]. It's an open source, virtualized role-playing game mat that allows up to 16 simultaneous players. Instead of role-playing on a tabletop, imagine lounging around on your couch, with the gameboard visible on your television set, and everyone interacting with their mobile phones. Sounds cool to me!
 

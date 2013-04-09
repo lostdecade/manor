@@ -8,6 +8,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		margin: @padding 0;
+		font-family: "Averia Libre", Serif;
 		font-size: 24px;
 		font-weight: normal;
 	}
@@ -30,9 +31,14 @@
 		padding-left: @padding;
 	}
 
+	ol {
+		list-style: decimal;
+		margin-left: 2em;
+	}
+
 	blockquote {
 		color: lighten(@black, 20%);
-		border-left: (@padding / 2) solid @black;
+		border-left: (@padding / 2) solid lighten(@dark-grey, 20%);
 		margin: 0 @padding 0 (@padding / 2);
 		padding-left: @padding / 2;
 	}

@@ -2,9 +2,10 @@
 layout: article
 title: "An onslaught of Onslaught! news"
 author: matt
+tags: [onslaughtarena]
 ---
 
-<img class="after" src="/media/images/posts/onslaught_news/icon.png">
+<img alt="Onslaught! icon" class="after" src="/media/images/posts/onslaught_news/icon.png">
 
 Big things going on with [Onslaught!][1] and [Onslaught! Arena][2] today:
 
@@ -22,9 +23,11 @@ So, first things first: if you haven't already, you should go slay monsters for 
 
 ## 2. Onslaught! OST
 
-<a href="http://ubiktune.org/releases/ubi040-joshua-morse-onslaught-ost">
-	<img alt="Onslaught! OST cover" src="/media/images/posts/onslaught_news/ost.png">
-</a>
+<div class="full-frame">
+	<a href="http://ubiktune.org/releases/ubi040-joshua-morse-onslaught-ost">
+		<img alt="Onslaught! OST cover" src="/media/images/posts/onslaught_news/ost.png">
+	</a>
+</div>
 
 **Onslaught!**'s music composer [Joshua Morse][11] has released the [Onslaught! OST][3] and it's really awesome. You should absolutely go pick it up on Bandcamp right now. Need more evidence? Check out the promo video below:
 
