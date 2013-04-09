@@ -7,9 +7,11 @@ title: Onslaught! Arena
 
 It was our first game, initially released with the [Chrome Web Store][1] on December 7th, 2010, and is now also available in the [Mac App Store][2].
 
-TODO:
-* Games inspired by music, etc
-* Award winning in Pokki 1up
+## Let's play!
+
+You can [play Onslaught! Arena][3] in your browser or watch the [gameplay video][4].
 
 [1]: https://chrome.google.com/webstore/detail/khodnfbkbanejphecblcofbghjdgfaih
 [2]: http://itunes.apple.com/us/app/onslaught-arena/id418268106
+[3]: http://arcade.lostdecadegames.com/onslaught_arena/
+[4]: http://www.youtube.com/watch?v=AJscBSbc-aA

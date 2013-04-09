@@ -75,6 +75,12 @@ games:
       cws: "https://chrome.google.com/webstore/detail/onslaught-arena/khodnfbkbanejphecblcofbghjdgfaih"
       mas: "https://itunes.apple.com/us/app/onslaught-arena/id418268106"
       pokki: "https://www.pokki.com/app/Onslaught-Arena"
+  onslaught:
+    title: "Onslaught!"
+    tagline: "Slay hordes of monsters in this action-packed shoot-em-up!"
+    promo_url: "/games/onslaught/"
+    platforms:
+      ios: "http://itunes.apple.com/us/app/onslaught!/id441426241"
   onslaughtdefense:
     title: "Onslaught! Defense"
     tagline: "Defend your castle from wave after wave of blood-thirsty monsters!"

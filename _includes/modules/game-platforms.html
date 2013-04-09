@@ -14,6 +14,10 @@
 			<li><a href="{{ game.platforms.mozmarket }}">Mozilla Marketplace</a></li>
 		{% endif %}
 
+		{% if game.platforms.ios %}
+			<li><a href="{{ game.platforms.ios }}">iOS App Store</a></li>
+		{% endif %}
+
 		{% if game.platforms.android %}
 			<li><a href="{{ game.platforms.android }}">Google Play (Android)</a></li>
 		{% endif %}
