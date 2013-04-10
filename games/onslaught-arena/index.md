@@ -3,6 +3,12 @@ layout: game
 gamekey: onslaughtarena
 title: Onslaught! Arena
 ---
+{% assign game = site.games[page.gamekey] %}
+
+<a href="http://arcade.lostdecadegames.com/onslaught_arena/">
+	<img alt="{{ game.title }}" src="/media/images/games/{{ page.gamekey }}/promo-560x180.png" width="560" height="180">
+</a>
+
 **Onslaught! Arena** is a fast-paced medieval fantasy shoot 'em up, often compared to classics like Smash TV or Gauntlet.
 
 It was our first game, initially released with the [Chrome Web Store][1] on December 7th, 2010, and is now also available in the [Mac App Store][2].
