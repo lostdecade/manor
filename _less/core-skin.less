@@ -1,0 +1,121 @@
+@import "palette";
+@import "utils";
+
+html, body {
+	background: @black;
+	color: @white;
+	font-family: "Droid Sans", Sans-Serif;
+	font-size: 18px;
+}
+
+.head {
+
+	> .logo {
+		text-indent: -999em;
+		background: url(/media/images/ui/logo-new.png) no-repeat top left;
+
+		&:hover {
+			opacity: 0.75;
+		}
+	}
+
+	> .nav a {
+		color: @white;
+		text-decoration: none;
+
+		&:hover {
+			color: @orange;
+			background: @black-grey;
+			text-shadow: 0px 1px 0px @black;
+		}
+	}
+}
+
+.foot {
+	color: @light-grey;
+	font-size: 12px;
+
+	.more-info a {
+		color: @light-grey;
+		text-decoration: none;
+
+		&:hover {
+			color: @orange;
+		}
+	}
+}
+
+.module {
+	> h2 {
+		font-weight: bold;
+	}
+}
+
+.button {
+	.rounded-corners(12px);
+	font-weight: bold;
+	text-shadow: 0px 1px 0px @black;
+}
+
+.action-default {
+	background: @blue;
+	color: @white !important;
+	text-shadow: 0px 1px 0px @black;
+
+	&:hover {
+		background: @dark-blue;
+	}
+}
+
+.action-accept {
+	background: @light-green;
+	color: @white !important;
+
+	&:hover {
+		background: @dark-green;
+	}
+}
+
+.action-negate {
+	background: @red-orange;
+	color: @white !important;
+}
+
+// Legacy style hook for article calls to action
+.download-podcast {
+	.button;
+	.action-accept;
+}
+
+.page-title {
+	background: @dark-grey;
+	color: @white;
+	font-family: "Averia Libre", Serif;
+	text-shadow: 0px 1px 0px @black;
+}
+
+.column-2 {
+
+	> .main {
+		background: @white;
+		color: @black;
+
+		a {
+			color: @dark-green;
+
+			&:hover {
+				color: @orange;
+			}
+		}
+	}
+
+	> .aux {
+		a {
+			color: @orange;
+
+			&:hover {
+				color: @yellow;
+			}
+		}
+	}
+}

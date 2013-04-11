@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Free Art Friday: Lemcraft"
 author: matt
 ---

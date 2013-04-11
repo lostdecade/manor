@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Why Geoff Failed and the Road to Redemption
 author: geoff
 ---
@@ -21,12 +21,12 @@ Although I've not shipped any games, I have spent the last decade writing lots a
 
 ## Creepy features
 
-Feature creep isn't just a problem for game programmers; it's one that I struggle with on a regular basis. I've found that feature creep is especially nasty for a lone developer working on a game in their spare time. There are so many cool things that can go into games that it can be overwhelming at times. 
+Feature creep isn't just a problem for game programmers; it's one that I struggle with on a regular basis. I've found that feature creep is especially nasty for a lone developer working on a game in their spare time. There are so many cool things that can go into games that it can be overwhelming at times.
 
 **Solution: I will endeavor to keep it simple, release early and iterate often.**
 
 ## The one man army
 
-Trying to wear every hat in the game development cycle can be daunting. In addition, developing in a vacuum robs you of the valuable feedback from others. Sometimes, just the mere fact that someone will be [reading my code](http://github.com/geoffb "My github page.") forces me to avoid shortcuts and bad design. I've also found that I really need teammates to help motivate me and to excel in areas where I am weak. 
+Trying to wear every hat in the game development cycle can be daunting. In addition, developing in a vacuum robs you of the valuable feedback from others. Sometimes, just the mere fact that someone will be [reading my code](http://github.com/geoffb "My github page.") forces me to avoid shortcuts and bad design. I've also found that I really need teammates to help motivate me and to excel in areas where I am weak.
 
 **Solution: I will surround myself with passionate developers who share my vision for games.**

@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: article
 title: "Join the Lava Blade alpha test!"
 author: geoff
+tags: [lavablade]
 ---
 
 <div class="full-frame">

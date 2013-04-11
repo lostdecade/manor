@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Geoff Lava Bladed"
 author: matt
 ---

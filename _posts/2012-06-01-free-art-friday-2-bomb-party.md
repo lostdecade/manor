@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Free Art Friday 2: Bomb Party"
 author: matt
 ---

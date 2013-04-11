@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: article
 title: "Play our new game Treasure Goblin"
 author: matt
+tags: [treasuregoblin]
 ---
 
 <div class="full-frame">

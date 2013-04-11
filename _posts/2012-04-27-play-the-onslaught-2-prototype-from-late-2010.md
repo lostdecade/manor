@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Play the Onslaught! 2 prototype from late 2010"
 author: matt
 ---

@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: article
 title: "Lava Blade alpha 0.5.44"
 author: matt
+tags: [lavablade]
 ---
 <div class="full-frame">
 	<a href="http://goo.gl/3Iaku">

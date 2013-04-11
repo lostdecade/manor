@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: article
 title: "Get the Lunch Bug OST for just two bucks"
 author: matt
+tags: [lunchbug]
 ---
 <div class="full-frame">
 	<a href="http://joshuamorse.bandcamp.com/album/lunch-bug-ost" width="500" height="500">

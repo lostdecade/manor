@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lostcast Episode 3: Ramble On"
 author: matt
 tags: [lostcast]

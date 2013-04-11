@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lostcast Episode 12: Arnother Interview"
 author: matt
 tags: [lostcast]
@@ -9,6 +9,9 @@ tags: [lostcast]
 	<a href="/media/images/posts/arno/arno.jpg">
 		<img alt="Arno and Geoff making Lostcast" src="/media/images/posts/arno/arno_thumb.jpg">
 	</a>
+</div>
+
+<div class="full-frame">
 	<em>Arno and Geoff have drinks before the show.</em>
 </div>
 

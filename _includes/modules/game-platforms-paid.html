@@ -1,0 +1,27 @@
+<div class="module">
+
+	{% if game.platforms.web %}
+		<a class="button action-default" href="{{ game.platforms.web }}">Play Demo</a>
+	{% endif %}
+
+	{% if game.platforms.osx %}
+		<a class="button action-accept" href="{{ game.platforms.osx }}">Buy (Mac OS X)</a>
+	{% endif %}
+
+	{% if game.platforms.cws %}
+		<a class="button action-accept" href="{{ game.platforms.cws }}">Buy (Chrome Web Store)</a>
+	{% endif %}
+
+	{% if game.platforms.android %}
+		<a class="button action-accept" href="{{ game.platforms.android }}">Buy (Android)</a>
+	{% endif %}
+
+	{% if game.platforms.ios %}
+		<a class="button action-accept" href="{{ game.platforms.ios }}">Buy (iOS)</a>
+	{% endif %}
+
+	{% if game.platforms.mas %}
+		<a class="button action-accept" href="{{ game.platforms.mas }}">Buy (Mac App Store)</a>
+	{% endif %}
+
+</div>

@@ -1,13 +1,15 @@
 ---
-layout: post
+layout: article
 title: "Lostcast Episode 7: HTML5, The Bad Parts"
 author: matt
 tags: [lostcast]
 ---
 
-<a href="/media/images/posts/lostcast_07/matt_and_geoff_podcasting.jpg">
-	<img alt="Matt and Geoff making Lostcast" src="/media/images/posts/lostcast_07/matt_and_geoff_podcasting_small.jpg">
-</a>
+<div class="full-frame">
+	<a href="/media/images/posts/lostcast_07/matt_and_geoff_podcasting.jpg">
+		<img alt="Matt and Geoff making Lostcast" src="/media/images/posts/lostcast_07/matt_and_geoff_podcasting_small.jpg">
+	</a>
+</div>
 
 (That's Matt on the left, Geoff on the right… and Mojito below!)
 
@@ -20,9 +22,11 @@ In episode 7, **we hate HTML5**! … Ok, maybe we actually love it a little _too
 
 ## HTML5 Game of the Week: Faerie Alchemy
 
-<a href="http://subsoap.com/games/faerie-alchemy/html5/">
-	<img alt="Faerie Alchemy" src="/media/images/posts/spotlights/faerie_alchemy.jpg">
-</a>
+<div class="full-frame">
+	<a href="http://subsoap.com/games/faerie-alchemy/html5/">
+		<img alt="Faerie Alchemy" src="/media/images/posts/spotlights/faerie_alchemy.jpg">
+	</a>
+</div>
 
 We're going to start spotlighting one HTML5 game each week, starting things off with [Faerie Alchemy](http://subsoap.com/games/faerie-alchemy/html5/) by [Subsoap](http://www.subsoap.com/). We discuss the game in more detail in the 'cast, but the gist is that it's a solid HTML5 game, very appropriate for the platform and quite polished. Check it out!
 

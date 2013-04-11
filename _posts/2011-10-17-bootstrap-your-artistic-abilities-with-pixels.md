@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Bootstrap your artistic abilities with pixels
 author: matt
 published: true

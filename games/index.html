@@ -1,30 +1,42 @@
 ---
-layout: page
+layout: default
 title: Games
 ---
-<p>
-	We have three games that are ready to play, including:
-</p>
+<div class="page-title">
+	<h1>{{ page.title }}</h1>
+</div>
 
-<ul>
-	<li>
-		<a href="http://www.lunchbug.com">Lunch Bug</a> (a free-to-play strategy puzzle game)
-	</li>
-	<li>
-		<a href="/onslaught_arena/">Onslaught! Arena</a> (our very first, <a href="/onslaught-arena-takes-3rd-place-in-the-pokki-1up-game-developer-contest/">award-winning</a> game, available on <a href="https://chrome.google.com/webstore/detail/khodnfbkbanejphecblcofbghjdgfaih">Chrome Web Store</a>, <a href="http://itunes.apple.com/us/app/onslaught-arena/id418268106">Mac App Store</a>, <a href="https://www.pokki.com/app/Onslaught-Arena">Pokki</a> and the <a href="http://arcade.lostdecadegames.com/onslaught_arena/">open web</a>)
-	</li>
-	<li>
-		<a href="/onslaught/">Onslaught!</a> (available only on <a href="http://itunes.apple.com/us/app/onslaught!/id441426241">iPad</a>)
-	</li>
-</ul>
+<div class="column-2">
 
-<p>
-	Our next game is a tactical strategy game called <a href="http://www.lavablade.com/">Lava Blade</a>, coming in <strong>Q1 2013</strong>.
-	After that is <a href="http://www.cryptrun.com/">Crypt Run</a>, a roguelike?!
-</p>
+	<div class="main">
+		<ul>
+			{% for gamekey in site.games_list %}
+				{% assign game = site.games[gamekey] %}
+				<li class="module">
+					<div class="text-format">
+						<h2>{{ game.title }}</h2>
+						<a href="{{ game.promo_url }}">
+							<img alt="{{ game.title }}" src="/media/images/games/{{ gamekey }}/promo-560x180.png" width="560" height="180">
+						</a>
+						<p>{{ game.tagline }}</p>
+						<p><a href="/games/{{ game.url_key }}/">More Info</a></p>
+					</div>
+				</li>
+			{% endfor %}
+		</ul>
 
-<h2>Portal Games</h2>
+		<div class="text-format module">
+			<h2>White-label Licenses</h2>
+			<p>
+				We also have a portfolio of mobile-browser games that were developed specifically for HTML5 game portals. Some examples of these games include <a href="http://asylumnight.lostdecadegames.com/">Asylum Night</a> and <a href="http://turkeyhunt.lostdecadegames.com/">Turkey Hunt</a>.
+				Want to know more? <a href="/contact/">Get in touch!</a>
+			</p>
+		</div>
 
-<p>
-	Additionally, we have an assortment of mobile-optimized HTML5 games ready to license to portal providers. <a href="/contact/">Want to know more?</a>
-</p>
+	</div>
+
+	<div class="aux">
+		{% include modules/feature-articles.html %}
+	</div>
+
+</div>

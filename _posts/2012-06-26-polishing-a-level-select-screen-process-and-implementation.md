@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: article
 title: "Polishing a Level Select screen: process and implementation"
 author: matt
+tags: [lunchbug]
 ---
 We're just about ready to launch **Lunch Bug**, which means I've been polishing every rough edge until it shines. One of the roughest edges until just recently was the "level select" screen, where players progress through the game.
 

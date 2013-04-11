@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Audia is a library for simplifying the Web Audio API
 author: matt
 ---

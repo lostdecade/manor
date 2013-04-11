@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: article
 title: "Lava Blade feedback word clouds"
 author: matt
+tags: [lavablade]
 ---
 Yes indeed, the [Lava Blade alpha](/join-the-lava-blade-alpha-test/) is still going on. We're swamped with other projects, but we're eager to dive back into the game, especially after having received so much excellent feedback.
 

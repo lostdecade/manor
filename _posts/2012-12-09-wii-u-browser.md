@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "The Wii U web browser's HTML5 gaming capabilities"
 author: matt
 ---
@@ -17,7 +17,9 @@ This isn't the first time web browsers have been available on gaming consoles. N
 
 ## The GOOD
 
-<img alt="Onslaught! Arena" src="/media/images/posts/wiiu/oa.jpg">
+<div class="full-frame">
+	<img alt="Onslaught! Arena" src="/media/images/posts/wiiu/oa.jpg">
+</div>
 
 In the Wii U's browser, I visited the [Lost Decade Games arcade](http://arcade.lostdecadegames.com/) and was pleased that at least two of our games are playable out of the box. Here are some of the positive take-aways:
 
@@ -29,7 +31,9 @@ Remarkably, the browser also [aced the Acid3 Test](https://twitter.com/richtaur/
 
 ## The BAD
 
-<img alt="Wii U browser's HTML5 Test score" src="/media/images/posts/wiiu/html5test/score.jpg">
+<div class="full-frame">
+	<img alt="Wii U browser's HTML5 Test score" src="/media/images/posts/wiiu/html5test/score.jpg">
+</div>
 
 Using the online [HTML5 Test][4] tool (as well as a few of my own scripts), I compiled the capabilities of the Wii U browser. Here are some of those results:
 
@@ -44,7 +48,9 @@ An `Audio` object exists but it doesn't support any standard audio formats (such
 
 # It DOES play games!
 
-<img alt="Onslaught! Defense" src="/media/images/posts/wiiu/od.jpg">
+<div class="full-frame">
+	<img alt="Onslaught! Defense" src="/media/images/posts/wiiu/od.jpg">
+</div>
 
 Although there's no audio, you can't save your game, and the framerate is terrible, two of our games are playable. [Lunch Bug](http://www.lunchbug.com/) is even monetized via Google Wallet, though without a working local storage, there's really no point in buying anything.
 

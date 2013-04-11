@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% assign game = site.games[page.gamekey] %}
+
+<div class="page-title">
+	<h1>{{ game.title }}</h1>
+</div>
+
+<div class="column-2">
+	<div class="main text-format">
+		<div class="module">{{ content }}</div>
+	</div>
+	<div class="aux">
+		{% if game.paywall == true %}
+			{% include modules/game-platforms-paid.html %}
+		{% else %}
+			{% include modules/game-platforms-free.html %}
+		{% endif %}
+
+		{% include modules/game-related-articles.html %}
+	</div>
+</div>

@@ -1,0 +1,60 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.sitemaps.org/schemas/sitemap-image/1.1" xmlns:video="http://www.sitemaps.org/schemas/sitemap-video/1.1">
+	<url>
+		<loc>{{ site.base_url }}/games/</loc>
+	</url>
+	<url>
+		<loc>{{ site.base_url }}/games/lava-blade/</loc>
+	</url>
+	<url>
+		<loc>{{ site.base_url }}/games/lunch-bug/</loc>
+	</url>
+	<url>
+		<loc>{{ site.base_url }}/games/onslaught-arena/</loc>
+	</url>
+	<url>
+		<loc>{{ site.base_url }}/games/onslaught/</loc>
+	</url>
+	<url>
+		<loc>{{ site.base_url }}/games/onslaught-defense/</loc>
+	</url>
+	<url>
+		<loc>{{ site.base_url }}/lostcast/</loc>
+	</url>
+	<url>
+		<loc>{{ site.base_url }}/blog/</loc>
+	</url>
+	<url>
+		<loc>{{ site.base_url }}/contact/</loc>
+	</url>
+	<url>
+		<loc>{{ site.base_url }}/support/</loc>
+	</url>
+	<url>
+		<loc>{{ site.base_url }}/about/</loc>
+	</url>
+	<url>
+		<loc>{{ site.base_url }}/about/privacy/</loc>
+	</url>
+	<url>
+		<loc>{{ site.base_url }}/about/tos/</loc>
+	</url>
+	<url>
+		<loc>{{ site.base_url }}/about/press/</loc>
+	</url>
+	{% for post in site.posts %}
+		{% unless post.hide %}
+			<url>
+				<loc>{{ site.base_url }}{{ post.url }}</loc>
+				{% if post.lastmod %}
+				<lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+				{% else %}
+				<lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+				{% endif %}
+			</url>
+		{% endunless %}
+	{% endfor %}
+</urlset>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Help fund Dragons Gameboard, get new Onslaught!-style pixel art"
 author: matt
 ---

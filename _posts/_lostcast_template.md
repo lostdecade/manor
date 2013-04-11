@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lostcast : "
 author: matt
 tags: [lostcast]

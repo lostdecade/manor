@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Our mobile-optimized HTML5 game Lava Sword is looking for sponsors"
 author: matt
 ---

@@ -1,10 +1,22 @@
 ---
-layout: default
+layout: article
 title: Blog
+comments: hidden
 ---
-<section>
-	{% include html/post_list.html %}
-</section>
-
-{% include html/disqus_comment_count.html %}
-
+<ul class="article-list">
+	{% for post in site.posts %}
+	{% assign author = site.authors[post.author] %}
+		<li>
+			<a class="title" href="{{ post.url }}">{{ post.title }}</a>
+			<div class="meta">
+				{{ post.date | date_to_string }}
+				by <strong>{{ author.display_name }}</strong>
+				<a
+					class="comments"
+					href="{{ post.url }}#disqus_thread"
+					data-disqus-identifier="{{ post.id }}"
+				></a>
+			</div>
+		</li>
+	{% endfor %}
+</ul>

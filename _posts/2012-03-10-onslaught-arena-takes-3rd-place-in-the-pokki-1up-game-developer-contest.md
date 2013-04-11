@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: article
 title: Onslaught! Arena takes 3rd place in the Pokki 1up Game Developer Contest
 author: matt
+tags: [onslaughtarena]
 ---
 <div class="full-frame">
 	<a href="/media/images/posts/pokki/announcement.jpg"><img alt="Onslaught! Arena up on the big screen" src="/media/images/posts/pokki/thumbnails/announcement.jpg"></a>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Announcing OnslaughtVille!"
 author: geoff
 ---
@@ -9,7 +9,9 @@ Friends, that day has come.
 
 ## Announcing OnslaughtVille!
 
-<img src="/media/images/posts/misc/lolslaught2.png" width="500" height="395">
+<div class="full-frame">
+	<img alt="Onslaughtville!" src="/media/images/posts/misc/lolslaught2.png" width="500" height="395">
+</div>
 
 Have you ever wondered what it would be like to manage your own medieval fantasy village? Wonder no more!
 

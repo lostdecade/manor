@@ -1,0 +1,7 @@
+<ul class="feature-games">
+	{% for gamekey in site.feature_games_list %}
+		<li>
+			{% include widgets/game-feature-card.html %}
+		</li>
+	{% endfor %}
+</ul>

@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: article
 title: How to make a simple HTML5 Canvas game
 author: matt
+tags: [feature]
 ---
 <p>
 	Since releasing <a href="http://www.lostdecadegames.com/onslaught_arena/">Onslaught! Arena</a>,
@@ -17,9 +18,11 @@ author: matt
 	You can also <a href="http://www.lostdecadegames.com/demos/simple_canvas_game/">play the game right here</a>.
 </p>
 
-<a href="http://www.flickr.com/photos/50655575@N03/6084194152/in/photostream">
-	<img alt="Simple game using Onslaught! graphics" src="http://farm7.static.flickr.com/6203/6084194152_35c3e3ba34_z.jpg">
-</a>
+<div class="full-frame">
+	<a href="http://www.flickr.com/photos/50655575@N03/6084194152/in/photostream">
+		<img alt="Simple game using Onslaught! graphics" src="http://farm7.static.flickr.com/6203/6084194152_35c3e3ba34_z.jpg">
+	</a>
+</div>
 
 <h2>1. Create the canvas</h2>
 
@@ -36,8 +39,8 @@ document.body.appendChild(canvas);
 	The first thing we need to do is create a
 	<a href="https://developer.mozilla.org/en/canvas_tutorial">canvas element</a>.
 	I did this in JavaScript instead of HTML to demonstrate how easily it is accomplished.
-	Once we have the element we get a reference to its context,
-	set its dimensions and append it to the document's body.
+	Once we have the element, we get a reference to its context,
+	set its dimensions, and append it to the document's body.
 </p>
 
 <h2>2. Include images</h2>
@@ -53,7 +56,7 @@ bgImage.src = "images/background.png";
 {% endhighlight %}
 
 <p>
-	A game needs graphics! So let's load up some images.
+	A game needs graphics, so let's load up some images!
 	I wanted to do this as simply as possible so it's just an <code>Image</code> instead of being wrapped up in a nice Class or something.
 	<code>bgReady</code> is used to let the canvas
 	know when it's safe to draw it, as trying to
@@ -107,16 +110,15 @@ addEventListener("keyup", function (e) {
 
 <p>
 	Now for input handling.
-	This is probably the first part that will trip up developers who come from a web development background.
-	The important thing to remember is that we don't necessarily want to react to an input event right when it happens.
+	(This is probably the first part that will trip up developers who come from a web development background.)
 	In the web stack, it may be appropriate to begin animating or requesting data right when the user initiates input.
 	But in this flow, we want our game's logic to live solely in once place to retain tight control over when and if things happen.
-	For that reason we just want to store the user input for later.
+	For that reason we just want to store the user input for later instead of acting on it immediately.
 </p>
 
 <p>
 	To accomplish this we simply have a variable <code>keysDown</code> which stores any event's <code>keyCode</code>.
-	If a key code is in the object, the user is currently depressing that key. Simple!
+	If a key code is in the object, the user is currently pressing that key. Simple!
 </p>
 
 <h2>5. New game</h2>
@@ -183,11 +185,11 @@ var update = function (modifier) {
 	If one half of a second has passed, the value will be 0.5 and the hero will have moved half of his speed in that amount of time.
 	And so forth.
 	This function gets called so rapidly that the <code>modifier</code> value will typically be very low,
-	but using this pattern will ensure that the hero will move the same speed no matter how fast (or slowly) the script is running.
+	but using this pattern will ensure that the hero will move the same speed no matter how fast (or slowly!) the script is running.
 </p>
 
 <p>
-	Now that we've moved the hero according to the player's input, we can check to see what happened with that movement.
+	Now that we've moved the hero according to the player's input, we can check to see if it caused anything to happen.
 	If there was a collision with the hero and monster, that's it! That's pretty much the game.
 	We tally the score (+1 to <code>monstersCaught</code>) and reset the game.
 </p>
@@ -272,7 +274,7 @@ setInterval(main, 1); // Execute as fast as possible
 	Almost there, this is the last code snippet!
 	First we call <code>reset</code> to start a new game/level.
 	(Remember that this centers the hero and places the monster randomly for the player to find.)
-	Then we seed our timestemp (with the variable <code>then</code>) and start the interval.
+	Then we seed our timestamp (with the variable <code>then</code>) and start the interval.
 </p>
 
 <p>
@@ -282,11 +284,13 @@ setInterval(main, 1); // Execute as fast as possible
 	<a href="https://github.com/lostdecade/simple_canvas_game">fork</a> the code on GitHub and get started hacking.
 </p>
 
-<h2>Got feedback?</h2>
+<h2>Follow us for more</h2>
+
+<div class="full-frame">
+	<a href="http://www.lavablade.com/"><img alt="Lava Blade" src="/media/images/games/lavablade/promo-560x180.png"></a>
+</div>
 
 <p>
-	What did you think of this tutorial?
-	Was it helpful? Too slow, too fast, too technical, not technical enough?
-	Please let me know and I'll try to improve the next tutorial!
-	Be sure to <a href="http://twitter.com/#!/lostdecadegames">follow us on Twitter</a> to know right when the next tutorial is available.
+	Be sure to <a href="http://twitter.com/LostDecadeGames">follow us on Twitter</a> to know right when the next tutorial is available!
+	But in the meantime, how about a game of <a href="http://www.lavablade.com/">Lava Blade</a>?
 </p>

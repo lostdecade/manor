@@ -1,7 +1,12 @@
 permalink: /:title
 pygments: true
 exclude: [README.md]
-paginate: 10
+
+#paginate: 10
+
+meta:
+  description: "Official website of Lost Decade Games, an independent HTML5 game company in Silicon Valley, CA."
+  keywords: "html5 games, javascript, chrome webstore, game dev, open source, blog, git, github, lost decade games, matt hackett, richtaur, geoff blair, gosub, zylo"
 
 base_url: "http://www.lostdecadegames.com"
 email: hello@lostdecadegames.com
@@ -30,7 +35,67 @@ authors:
     web: http://www.geoffblair.com/
     twitter: geoffblair
     github: geoffb
-    bio: '<strong>Geoff</strong> loves games, JavaScript, markdown, snowboarding, and <a href="https://github.com/geoffb">GitHub</a>. His previous work for <a href="http://games.yahoo.com/">Yahoo! Games</a> and <a href="http://raptr.com/geoffb">Raptr</a> have left him with a passion for clean code and shipping software early.'
+    bio: '<strong>Geoff</strong> loves games, JavaScript, markdown and snowboarding. His previous work for <a href="http://games.yahoo.com/">Yahoo! Games</a> and <a href="http://raptr.com/geoffb">Raptr</a> have left him with a passion for clean code and shipping software early.'
+
+# List of all game IDs (drives /games listing and maybe more)
+games_list: [lavablade, lunchbug, onslaughtarena]
+
+# Spotlight game - a single game which is spotlighted on the home page
+spotlight_game: lavablade
+
+# Games featured on the home page (always 3 games!)
+feature_games_list: [lavablade, lunchbug, onslaughtarena]
+
+# Game detail data
+# Custom info and descriptions are found in /games/game-name/index.md
+games:
+  lunchbug:
+    url_key: "lunch-bug"
+    title: "Lunch Bug"
+    tagline: "Grow delicous berries and feed cute bugs in this sweet puzzle game!"
+    promo_url: "http://www.lunchbug.com"
+    platforms:
+      web: "http://lunchbug.lostdecadegames.com"
+      cws: "https://chrome.google.com/webstore/detail/lunch-bug/hnoafdaceebmnoannffpabnhpkdollho"
+      mozmarket: "https://marketplace.firefox.com/app/lunch-bug/"
+      android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.lunchbug"
+      pokki: "https://www.pokki.com/app/lunch-bug"
+  lavablade:
+    paywall: true
+    url_key: "lava-blade"
+    title: "Lava Blade"
+    tagline: "Embark on an epic adventure of tactical combat in this strategy RPG!"
+    promo_url: "http://www.lavablade.com"
+    platforms:
+      web: "http://lavablade.lostdecadegames.com"
+      cws: "https://chrome.google.com/webstore/detail/lava-blade/ijpimhdpcjdmokpmpahbnfigfdfmcgmn"
+      #android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.lavablade"
+      #osx: "https://secure.bmtmicro.com/servlets/Orders.ShoppingCart?CID=8107&PRODUCTID=81070001"
+  onslaughtarena:
+    url_key: "onslaught-arena"
+    title: "Onslaught! Arena"
+    tagline: "Slay hordes of monsters in this action-packed shoot-em-up!"
+    promo_url: "/games/onslaught-arena/"
+    platforms:
+      web: "http://arcade.lostdecadegames.com/onslaught_arena"
+      cws: "https://chrome.google.com/webstore/detail/onslaught-arena/khodnfbkbanejphecblcofbghjdgfaih"
+      mas: "https://itunes.apple.com/us/app/onslaught-arena/id418268106"
+      pokki: "https://www.pokki.com/app/Onslaught-Arena"
+  onslaught:
+    url_key: "onslaught"
+    title: "Onslaught!"
+    tagline: "Slay hordes of monsters in this action-packed shoot-em-up!"
+    promo_url: "/games/onslaught/"
+    platforms:
+      ios: "http://itunes.apple.com/us/app/onslaught!/id441426241"
+  onslaughtdefense:
+    url_key: "onslaught-defense"
+    title: "Onslaught! Defense"
+    tagline: "Defend your castle from wave after wave of blood-thirsty monsters!"
+    promo_url: "/games/onslaught-defense/"
+    platforms:
+      web: "http://arcade.lostdecadegames.com/onslaught_defense"
+      android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.onslaughtdefense"
 
 # Local server
 auto: true

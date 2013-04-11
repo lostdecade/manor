@@ -1,0 +1,34 @@
+<div class="module">
+
+	{% if game.platforms.web %}
+		<a class="button action-accept" href="{{ game.platforms.web }}">Play Now</a>
+	{% endif %}
+
+	<h2>More Platforms</h2>
+	<ul>
+		{% if game.platforms.cws %}
+			<li><a href="{{ game.platforms.cws }}">Chrome Web Store</a></li>
+		{% endif %}
+
+		{% if game.platforms.mozmarket %}
+			<li><a href="{{ game.platforms.mozmarket }}">Mozilla Marketplace</a></li>
+		{% endif %}
+
+		{% if game.platforms.ios %}
+			<li><a href="{{ game.platforms.ios }}">iOS App Store</a></li>
+		{% endif %}
+
+		{% if game.platforms.android %}
+			<li><a href="{{ game.platforms.android }}">Google Play (Android)</a></li>
+		{% endif %}
+
+		{% if game.platforms.mas %}
+			<li><a href="{{ game.platforms.mas }}">Mac App Store</a></li>
+		{% endif %}
+
+		{% if game.platforms.pokki %}
+			<li><a href="{{ game.platforms.pokki }}">Pokki</a></li>
+		{% endif %}
+
+	</ul>
+</div>

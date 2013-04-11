@@ -1,0 +1,15 @@
+<aside class="author-info">
+	<img
+		class="avatar"
+		href="{{ author.display_name }}"
+		src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=80"
+		width="80"
+		height="80"
+	>
+	<p class="who">Posted by <em>{{ author.display_name }}</em></p>
+	<p class="when">{{ page.date | date_to_long_string }}</p>
+	<ul class="external">
+		<li><a href="https://twitter.com/#!/{{ author.twitter }}" title="Follow {{ page.author | capitalize }} on Twitter">Twitter</a></li>
+		<li><a href="https://github.com/{{ author.github }}" title="Follow {{ page.author | capitalize }}'s code on GitHub">GitHub</a></li>
+	</ul>
+</aside>

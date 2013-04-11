@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: article
 title: "Indie life: high quality photos of us making games"
 author: matt
+tags: [feature]
 ---
 
 Recently a [friend][1] of a [friend][2] contacted me about doing a photoshoot with us. She's a local photographer and was looking for subjects that would fit a "startups in startup environments" kind of vibe. Naturally, we were game!

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Lostcast Episode 17: Vincent Priceless"
 author: matt
 tags: [lostcast]

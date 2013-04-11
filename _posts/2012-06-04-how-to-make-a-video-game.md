@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "How to Make a Video Game on Laser Time Podcast"
 author: matt
 ---
