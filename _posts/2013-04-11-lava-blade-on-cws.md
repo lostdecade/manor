@@ -21,7 +21,7 @@ Today we're pleased to announce [Lava Blade][1], our new tactical strategy RPG, 
 * Three environments to explore
 * Three unique boss encounters
 
-<a class="button action-accept" href="http://lavablade.lostdecadegames.com/">Buy on Chrome Web Store</a>
+<a class="button action-accept" href="https://chrome.google.com/webstore/detail/lava-blade/ijpimhdpcjdmokpmpahbnfigfdfmcgmn">Buy on Chrome Web Store</a>
 <a class="button action-default" href="http://lavablade.lostdecadegames.com/">Play the demo</a>
 
 ## Screenshots
