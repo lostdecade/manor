@@ -54,17 +54,21 @@ html, body {
 .button {
 	.rounded-corners(12px);
 	font-weight: bold;
+	text-shadow: 0px 1px 0px @black;
 }
 
 .action-default {
 	background: @blue;
 	color: @white !important;
+
+	&:hover {
+		background: @dark-blue;
+	}
 }
 
 .action-accept {
 	background: @light-green;
 	color: @white !important;
-	text-shadow: 0px 1px 0px @black;
 
 	&:hover {
 		background: @dark-green;
