@@ -61,13 +61,16 @@ games:
       android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.lunchbug"
       pokki: "https://www.pokki.com/app/lunch-bug"
   lavablade:
+    paywall: true
     url_key: "lava-blade"
     title: "Lava Blade"
     tagline: "Embark on an epic adventure of tactical combat in this strategy RPG!"
     promo_url: "http://www.lavablade.com"
     platforms:
       web: "http://lavablade.lostdecadegames.com"
-      android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.lavablade"
+      cws: "https://chrome.google.com/webstore/detail/lava-blade/ijpimhdpcjdmokpmpahbnfigfdfmcgmn"
+      #android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.lavablade"
+      osx: "https://secure.bmtmicro.com/servlets/Orders.ShoppingCart?CID=8107&PRODUCTID=81070001"
   onslaughtarena:
     url_key: "onslaught-arena"
     title: "Onslaught! Arena"
