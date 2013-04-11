@@ -12,7 +12,12 @@ layout: default
 		<div class="module">{{ content }}</div>
 	</div>
 	<div class="aux">
-		{% include modules/game-platforms.html %}
+		{% if game.paywall == true %}
+			{% include modules/game-platforms-paid.html %}
+		{% else %}
+			{% include modules/game-platforms-free.html %}
+		{% endif %}
+
 		{% include modules/game-related-articles.html %}
 	</div>
 </div>
