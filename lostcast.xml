@@ -458,5 +458,20 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
+
+		<item>
+			<title>Lostcast Episode 30: Launchcast</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>Launchcast</itunes:subtitle>
+			<itunes:summary>Geoff and Matt are FINALLY launching Lava Blade and they're so excited that this podcast is now called LAUNCHCAST! (not really)</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_30.mp3" length="3828" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_30.mp3</guid>
+			<pubDate>Thu, 11 Apr 2013 12:00:00 +0000</pubDate>
+			<itunes:duration>1:03:48</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, lostcast, lava blade</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
 	</channel>
 </rss>
