@@ -4,6 +4,10 @@
 		<a class="button action-default" href="{{ game.platforms.web }}">Play Demo</a>
 	{% endif %}
 
+	{% if game.platforms.win %}
+		<a class="button action-accept" href="{{ game.platforms.win }}">Buy (Windows)</a>
+	{% endif %}
+
 	{% if game.platforms.osx %}
 		<a class="button action-accept" href="{{ game.platforms.osx }}">Buy (Mac OS X)</a>
 	{% endif %}
