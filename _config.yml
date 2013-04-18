@@ -69,8 +69,9 @@ games:
     platforms:
       web: "http://lavablade.lostdecadegames.com"
       cws: "https://chrome.google.com/webstore/detail/lava-blade/ijpimhdpcjdmokpmpahbnfigfdfmcgmn"
+      osx: "https://secure.bmtmicro.com/servlets/Orders.ShoppingCart?CID=8107&PRODUCTID=81070001"
+      #win: "https://secure.bmtmicro.com/servlets/Orders.ShoppingCart?CID=8107&PRODUCTID=81070000"
       #android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.lavablade"
-      #osx: "https://secure.bmtmicro.com/servlets/Orders.ShoppingCart?CID=8107&PRODUCTID=81070001"
   onslaughtarena:
     url_key: "onslaught-arena"
     title: "Onslaught! Arena"
