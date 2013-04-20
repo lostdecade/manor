@@ -25,17 +25,17 @@ At the end of the day, you'll want to be using whatever framework fits your part
 
 > The canvas object is featured very heavily in your games.  I played about with canvas coding in 2010(ish) and was put off by the very limited support in some browsers.  I know that the baseline browser has significantly improved but does the canvas offer that much improvement over moving elements on the page?  Generally I will change the position of a div element (or similar) to move something but know the canvas can do this.
 
-Canvas support and performance is definitely much better these days. The canvas API has always been pretty straight-forward which makes browser differences less likely. At it's core, canvas is all about copying pixel data from images to the canvas and isn't as affected by the DOM box model or other browser specific layout quirks.
+Canvas support and performance is definitely much better these days. The canvas API has always been pretty straight-forward which makes browser differences less likely. At its core, canvas is all about copying pixel data from images to the canvas and isn't as affected by the DOM box model or other browser specific layout quirks.
 
-I find JavaScript to be a very elegant langauge sans the DOM. Instead of our games consisting of a bunch of code spread out across HTML, CSS and JavaScript we have almost no HTML and CSS code to deal with and maintain.
+I find JavaScript to be a very elegant language (sans the DOM). Instead of our games consisting of a bunch of code spread out across HTML, CSS and JavaScript we have almost no HTML and CSS code to deal with and maintain.
 
 I personally like the canvas approach more because the concepts are closer to traditional game development. Some developers choose to go a hybrid route with canvas and DOM, but I prefer to keep our stack homogeneous. One benefit of that choice is that all our UI elements can be layered and animated in the same way as our in-game sprites.
 
 Canvas also has a bunch of cool features including [filling and stroking paths][5] and [compositing operations][6]. Some of these can be replicated in DOM, but not as cleanly.
 
-A downside to canvas is that being so low-level, you'll have to handle certain tasks yourself that the DOM would provide for free. For example, when rendering text in canvas you'll need to handle text wrapping explicity. User input controls is another area where DOM gives you a leg up, but in my experience it's been pretty easy to create re-usable canvas based input controls with our framework.
+A downside to canvas is that being so low-level, you'll have to handle certain tasks yourself that the DOM would provide for free. For example, when rendering text in canvas you'll need to handle text wrapping explicitly. User input controls is another area where DOM gives you a leg up, but in my experience it's been pretty easy to create re-usable canvas based input controls with our framework.
 
-I believe that canvas based JavaScript code is more portable as well. There are quite a few native wrappers out there (such as [CocoonJS][8] or [Game Closure][7]) which simply excute your code inside one of the various JavaScript virtual machines (V8, SpiderMonkey, JavaScriptCore, etc) and implement the canvas calls behind the scenes using OpenGL or whatever graphics engine exists on that platform.
+I believe that canvas based JavaScript code is more portable as well. There are quite a few native wrappers out there (such as [CocoonJS][8] or [Game Closure][7]) which simply execute your code inside one of the various JavaScript virtual machines (V8, SpiderMonkey, JavaScriptCore, etc.) and implement the canvas calls behind the scenes using OpenGL or whatever graphics engine exists on that platform.
 
 Again, using canvas, DOM or both definitely comes down to personal preference and project needs. The closer your game is to a tradional web app, the more you are likely to lean towards the DOM.
 
@@ -43,13 +43,17 @@ Again, using canvas, DOM or both definitely comes down to personal preference an
 
 > Finally I read the post about using the Game Closure framework to get Onslaught! Arena running on an iPad.  At the end of last year I had to develop my iPad orientated first web app (an interactive publication for a customer) and although I got quite a few things working OK such as finger swipes and similar, developing for the iPad clearly requires a slightly different approach to a regular web app.  To this end it’s an area that I’m really trying to push myself to learn more and possibly start developing some native apps.  Looking at the Game Closure site, it appears to basically be a development server for static html5 applications and a fully fledged JS framework, plus a compiler.  Did you have to recode parts of your game using their framework or did it largely just import in OK?  Are there any pitfalls you found when using it?
 
-Integrating [Onslaught! Arena][9] with [Game Closure][7]'s tech was pretty easy. We had developed the game with a few main entry points such as handling input, updating the game world and rendering the game. Game Closure's framework took a similar approach so we simply wired up their handlers up to ours and everything mostly just worked.
+Integrating [Onslaught! Arena][9] with [Game Closure][7]'s tech was pretty easy. We had developed the game with a few main entry points such as handling input, updating the game world and rendering the game. Game Closure's framework took a similar approach so we simply wired up their handlers to ours and everything mostly just worked.
 
 While it was easy to wire up our existing game code, the end result wasn't extremely maintainable or able to leverage the advanced features of Game Closure's stack. To get the most benefit out of any JavaScript framework or development environment you should really build your game from the ground up on that platform.
 
 I think the primary selling point of using Game Closure would be that it solves the framework, IDE and deployment hurdles in a single tool.
 
 There are some framework agnostic solutions out there as well, such as [CocoonJS][8] or [PhoneGap][10] which will natively wrap pretty much any JavaScript game. My understanding is that PhoneGap embeds a browser which means it can handle CSS and DOM based games, while CocoonJS is better for primarily canvas based games as it maps canvas calls to OpenGL behind the scenes instead of relying on browser rendering.
+
+## Got questions?
+
+Ask your own questions by [contacting us][11] or posting a question in the comments section below!
 
 [1]: http://impactjs.com/
 [2]: /lostcast-episode-14-quite-an-impact/
@@ -61,3 +65,4 @@ There are some framework agnostic solutions out there as well, such as [CocoonJS
 [8]: http://www.ludei.com/tech/cocoonjs
 [9]: /games/onslaught-arena
 [10]: http://phonegap.com/
+[11]: /contact/
