@@ -17,7 +17,7 @@ Enough talk! Here is my list of awesome OS X apps, in alphabetical order:
 
 ## [1Password][1]
 
-1Password is an excellent password manager and one the apps that I don't know how I ever lived without. It has  great organizational features and can store other bits of sensative information such as credit card numbers and software licenses.
+1Password is an excellent password manager and one the apps that I don't know how I ever lived without. It has  great organizational features and can store other bits of sensitive information such as credit card numbers and software licenses.
 
 I create unique, complex passphrases for various sites so that if any particular service is hacked I don't need to change a bunch of different passwords.
 
@@ -77,7 +77,7 @@ I personally cannot stand reading source code diffs in Terminal. Kaleidoscope is
 
 ## [Less.app][14]
 
-CSS sucks. [LESS][27] makes it suck a little less. Less.app is a handy tools that scans LESS files and automatically compliles them into CSS on the fly.
+CSS sucks. [LESS][27] makes it suck a little less. Less.app is a handy tools that scans LESS files and automatically compiles them into CSS on the fly.
 
 There's also [CodeKit][28] from the same developer, which compiles many more types as well as LESS.
 
