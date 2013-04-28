@@ -45,6 +45,9 @@ layout: nil
 	<url>
 		<loc>{{ site.base_url }}/about/press/</loc>
 	</url>
+	<url>
+		<loc>{{ site.base_url }}/mailing-list/</loc>
+	</url>
 	{% for post in site.posts %}
 		{% unless post.hide %}
 			<url>
