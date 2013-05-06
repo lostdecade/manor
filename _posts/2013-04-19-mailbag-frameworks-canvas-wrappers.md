@@ -3,6 +3,7 @@ layout: article
 title: "Mailbag: Frameworks, Canvas vs DOM, Native mobile"
 author: geoff
 ---
+<img alt="Mailbag" class="after" src="/media/images/posts/mailbag/treasureGoblin.png" width="150" height="255">
 We often get email from readers or podcast listeners asking to expand on certain topics. Many of these questions can be of value to all our readers so I'm going to start posting them Q&A style on the blog now and then. So, without further ado, on to this installment of LDG Mailbag!
 
 ## JavaScript Frameworks
