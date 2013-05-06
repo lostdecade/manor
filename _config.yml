@@ -75,7 +75,7 @@ games:
   onslaughtarena:
     url_key: "onslaught-arena"
     title: "Onslaught! Arena"
-    tagline: "Slay hordes of monsters in this action-packed shoot-em-up!"
+    tagline: "Slay hordes of monsters in this action-packed shoot 'em up!"
     promo_url: "/games/onslaught-arena/"
     platforms:
       web: "http://arcade.lostdecadegames.com/onslaught_arena"

@@ -9,17 +9,19 @@ title: Games
 <div class="column-2">
 
 	<div class="main">
-		<ul>
+		<ul class="games-list module">
 			{% for gamekey in site.games_list %}
 				{% assign game = site.games[gamekey] %}
-				<li class="module">
+				<li>
 					<div class="text-format">
 						<h2>{{ game.title }}</h2>
 						<a href="{{ game.promo_url }}">
 							<img alt="{{ game.title }}" src="/media/images/games/{{ gamekey }}/promo-560x180.png" width="560" height="180">
 						</a>
-						<p>{{ game.tagline }}</p>
-						<p><a href="/games/{{ game.url_key }}/">More Info</a></p>
+						<p>
+							{{ game.tagline }}
+							<a href="/games/{{ game.url_key }}/">Learn more</a>
+						</p>
 					</div>
 				</li>
 			{% endfor %}
