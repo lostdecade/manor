@@ -98,8 +98,3 @@ games:
     platforms:
       web: "http://arcade.lostdecadegames.com/onslaught_defense"
       android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.onslaughtdefense"
-
-# Local server
-auto: true
-server: true
-server_port: 4000
