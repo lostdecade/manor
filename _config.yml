@@ -26,7 +26,6 @@ authors:
     web: http://www.richtaur.com/
     twitter: richtaur
     github: richtaur
-    bio: '<strong>Matt</strong> is a retro gamer, <a href="http://www.flickr.com/photos/matthackett/3488395022/in/photostream">foosball player</a> and <a href="http://richtaur.deviantart.com/">pixel artist</a>. A seasoned web developer, he built the entire frontend for <a href="http://widgets.yahoo.com/">Yahoo! Widgets</a> and architected the new <a href="http://raptr.com/richtaur">Raptr.com</a>.'
   geoff:
     display_name: Geoff Blair
     job_title: Co-founder
@@ -35,7 +34,6 @@ authors:
     web: http://www.geoffblair.com/
     twitter: geoffblair
     github: geoffb
-    bio: '<strong>Geoff</strong> loves games, JavaScript, markdown and snowboarding. His previous work for <a href="http://games.yahoo.com/">Yahoo! Games</a> and <a href="http://raptr.com/geoffb">Raptr</a> have left him with a passion for clean code and shipping software early.'
 
 # List of all game IDs (drives /games listing and maybe more)
 games_list: [lavablade, lunchbug, onslaughtarena]

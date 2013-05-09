@@ -43,9 +43,6 @@ layout: nil
 		<loc>{{ site.base_url }}/about/tos/</loc>
 	</url>
 	<url>
-		<loc>{{ site.base_url }}/about/press/</loc>
-	</url>
-	<url>
 		<loc>{{ site.base_url }}/mailing-list/</loc>
 	</url>
 	{% for post in site.posts %}

@@ -3,28 +3,26 @@ layout: article
 title: About
 comments: hidden
 ---
-<p>
-	<strong>Lost Decade Games</strong> is an <a href="/onslaught-arena-takes-3rd-place-in-the-pokki-1up-game-developer-contest/">award-winning</a> independent game studio based in San Mateo, CA. We make <a href="/games/">HTML5 games</a>. If this interests you, please <a href="/contact">get in touch</a>.
-</p>
-
 <div class="full-frame">
 	<img alt="Lost Decade Games is Geoff Blair and Matt Hackett" src="/media/images/photos/portrait.jpg" width="500" height="317">
 </div>
 
 <p>
-	We currently have two full-time employees, co-founders <a href="http://www.geoffblair.com/">Geoff Blair</a> and <a href="http://www.richtaur.com/">Matt Hackett</a>. The fantastic composer <a href="http://jmflava.com/">Joshua Morse</a> provides our games with amazing music and sound effects.
+	<strong>Lost Decade Games</strong> is an award-winning independent game company founded by <a href="http://www.geoffblair.com/">Geoff Blair</a> and <a href="https://twitter.com/richtaur">Matt Hackett</a> in 2010. Their first game <a href="http://www.lostdecadegames.com/games/onslaught-arena/">Onslaught! Arena</a> established them as early pioneers of HTML5 gaming. With their tactical strategy RPG <a href="">Lava Blade</a> and castle defense shoot 'em up <a href="">Rampart Rush</a>, Lost Decade Games aims to create great experiences for gamers with a passion for solid gameplay and carefully crafted game designs.
 </p>
 
-<p>Read more about us in the <a href="/about/press/">Press Room</a>.</p>
+<h2>Contact</h2>
+<p>
+	For support, questions, or to provide feedback, please email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+</p>
 
 <div class="authors">
 	{% for author_id in site.author_ids %}
 	{% assign author = site.authors[author_id] %}
 	<div id="{{ author_id }}" class="author">
-		<hr>
 		<a href="{{ author.web }}">
 			<img
-				class="after"
+				class="before"
 				src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=150"
 				alt="{{ author.display_name }}"
 				width="150"
@@ -32,11 +30,10 @@ comments: hidden
 			>
 		</a>
 		<h2>{{ author.display_name }}, {{ author.job_title }}</h2>
-		<p>{{ author.bio }}</p>
 		<ul>
 			<li>
 				Twitter:
-				<a href="https://twitter.com/#!/{{ author.twitter }}">@{{ author.twitter }}</a>
+				<a href="https://twitter.com/{{ author.twitter }}">@{{ author.twitter }}</a>
 			</li>
 			<li>
 				Web:
@@ -50,3 +47,13 @@ comments: hidden
 	</div>
 	{% endfor %}
 </div>
+
+<h2>Press</h2>
+<p>
+	For press inquiries, please <a href="/contact/">contact us</a> and download our <a href="/media/lostDecadeGamesPressKit.zip">press kit</a>. Below is a sampling of the notable Lost Decade Games press coverage:
+</p>
+<ul>
+	<li><a href="http://techcrunch.com/2011/07/11/html5-game-maker-looks-to-transcend-sleepy-chrome-web-store-sales-on-ios/">HTML5 Game Maker Looks To Transcend Sleepy Chrome Web Store Sales On iOS</a> (TechCrunch)</li>
+	<li><a href="http://venturebeat.com/2012/09/18/simplifying-mobile-app-development-ludei-says-it-can-convert-html5-apps-into-hybrid-native-apps-in-minutes/">Ludei can convert HTML5 apps into speedy mobile apps in minutes</a> (VentureBeat)</li>
+	<li><a href="http://techcrunch.com/2013/02/22/ludei/">Even As HTML5 Gaming Skepticism Remains, Ludei Pushes An App To Seven Stores Simultaneously</a> (TechCrunch)</li>
+</ul>
