@@ -7,7 +7,7 @@ author: geoff
 	<img alt="Lava Blade" src="/media/images/games/lavablade/promo-560x180.png" width="560" height="180">
 </a>
 
-Hot on the heels of [our initial release of Lava Blade][5], we've just pushed out the first content and bug fix patch! Lava Blade 1.1 is now available on all 3 of the currently released platforms, [Chrome Web Store][2], [PC][3], and [Mac][4]. CWS users should see the update automatically while PC & Mac users can download the new version via their original download link from BMT Micro.
+Hot on the heels of [our initial release of Lava Blade][5], we've just pushed out the first content and bug fix patch! Lava Blade 1.1 is now available on all 3 of the currently released platforms: [Chrome Web Store][2], [PC][3], and [Mac][4]. CWS users should see the update automatically while PC & Mac users can download the new version via their original download link from BMT Micro.
 
 The 1.1 update includes:
 
