@@ -7,6 +7,9 @@ layout: nil
 		<loc>{{ site.base_url }}/games/</loc>
 	</url>
 	<url>
+		<loc>{{ site.base_url }}/games/rampart-rush/</loc>
+	</url>
+	<url>
 		<loc>{{ site.base_url }}/games/lava-blade/</loc>
 	</url>
 	<url>

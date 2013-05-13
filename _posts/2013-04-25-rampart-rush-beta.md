@@ -2,6 +2,7 @@
 layout: article
 title: "Rampart Rush Beta"
 author: matt
+tags: [rampartrush]
 ---
 <div class="full-frame">
 	<a href="http://goo.gl/3Iaku">

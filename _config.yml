@@ -73,6 +73,15 @@ games:
       win: "https://secure.bmtmicro.com/servlets/Orders.ShoppingCart?CID=8107&PRODUCTID=81070000"
       steam_greenlight: http://steamcommunity.com/sharedfiles/widget/143588739
       #android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.lavablade"
+  rampartrush:
+    paywall: true
+    url_key: "rampart-rush"
+    title: "Rampart Rush"
+    tagline: "A shoot ‘em up castle defense game!"
+    promo_url: "http://www.rampartrush.com"
+    platforms:
+      web: "http://rampartrush.lostdecadegames.com"
+      android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.rampartrush"
   onslaughtarena:
     url_key: "onslaught-arena"
     title: "Onslaught! Arena"
