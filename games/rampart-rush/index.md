@@ -9,6 +9,8 @@ title: Rampart Rush
 	<img alt="{{ game.title }}" src="/media/images/games/{{ page.gamekey }}/promo-560x180.png" width="560" height="180">
 </a>
 
+Rampart Rush is a shoot ‘em up castle defense game. In Rampart Rush, players control a warrior defending a town from hordes of monsters. Players can build weapon shops, magic schools, and more, enabling them to purchase weapons, cast magical spells, and upgrade their defenses!
+
 ## Features
 
 * Action-packed shoot ‘em up gameplay
@@ -18,24 +20,10 @@ title: Rampart Rush
 * Three unique boss encounters
 * Infinite gameplay
 
-## Screenshots
-
-You can also download the [Lava Blade media kit](http://www.lavablade.com/media/lavaBladeMediaKit.zip).
-
 <div class="full-frame">
 	<a href="{{ game.promo_url }}">
-		<img alt="{{ game.title }}" src="/media/images/posts/lava_blade/screenshots/volcanoBattle.png" width="500" height="333">
+		<img alt="{{ game.title }}" src="/media/images/posts/rampart/lightningBolt.png" width="500" height="751">
 	</a>
 </div>
 
-<div class="full-frame">
-	<a href="{{ game.promo_url }}">
-		<img alt="{{ game.title }}" src="/media/images/posts/lava_blade/screenshots/overworldForest.png" width="500" height="333">
-	</a>
-</div>
-
-<div class="full-frame">
-	<a href="{{ game.promo_url }}">
-		<img alt="{{ game.title }}" src="/media/images/posts/lava_blade/screenshots/title.png" width="500" height="333">
-	</a>
-</div>
+For screenshots, banners, icons, and more, please download the [Rampart Rush media kit](http://www.rampartrush.com/media/rampartRushMediaKit.zip).
