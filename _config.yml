@@ -52,6 +52,7 @@ games:
     title: "Lunch Bug"
     tagline: "Grow delicous berries and feed cute bugs in this sweet puzzle game!"
     promo_url: "http://www.lunchbug.com"
+    ost_url: "http://joshuamorse.bandcamp.com/album/lunch-bug-original-soundtrack"
     platforms:
       web: "http://lunchbug.lostdecadegames.com"
       cws: "https://chrome.google.com/webstore/detail/lunch-bug/hnoafdaceebmnoannffpabnhpkdollho"
@@ -64,6 +65,7 @@ games:
     title: "Lava Blade"
     tagline: "Embark on an epic adventure of tactical combat in this strategy RPG!"
     promo_url: "http://www.lavablade.com"
+    ost_url: "http://joshuamorse.bandcamp.com/album/lava-blade-original-soundtrack"
     platforms:
       web: "http://lavablade.lostdecadegames.com"
       cws: "https://chrome.google.com/webstore/detail/lava-blade/ijpimhdpcjdmokpmpahbnfigfdfmcgmn"
@@ -86,6 +88,7 @@ games:
     title: "Onslaught!"
     tagline: "Slay hordes of monsters in this action-packed shoot-em-up!"
     promo_url: "/games/onslaught/"
+    ost_url: "http://joshuamorse.bandcamp.com/album/onslaught-original-soundtrack"
     platforms:
       ios: "http://itunes.apple.com/us/app/onslaught!/id441426241"
   onslaughtdefense:
