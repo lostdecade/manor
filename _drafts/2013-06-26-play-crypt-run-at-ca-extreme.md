@@ -32,7 +32,7 @@ California Extreme takes place at the [Hyatt Regency Santa Clara][3] in Santa Cl
 
 # Registration
 
-If you're interested in going, you can [register online][4] or buy tickets at the door. Looks like it's $40 for Saturday, $30 for Sunday, or $60 for the whole weekend.
+If you're interested in going, you can [register online][4] or buy tickets at the door. Looks like it's $40 for Saturday, $30 for Sunday, or $60 for the whole weekend. My wife and I go every year and it's always a ton of fun.
 
 We hope to see you there!
 
