@@ -15,9 +15,11 @@ Want to play our upcoming game [Crypt Run][1]? Then you should come to our <stro
 
 This year, we'll have an 8-foot table (that's ~2.5 meters for our Metric friends) with at least one computer set up to play an early preview of [Crypt Run][1]. We'll be giving out stickers, high-fives, and possibly some other cool stuff.
 
+<img alt="Crypt Run stickers" class="after" src="/media/images/posts/cryptRun/sticker3.png">
+
 # When?
 
-California Extreme 2013 takes place July 13-14. Their hours are:
+California Extreme 2013 lasts two days:
 
 1. Saturday July 13th: 11am - 2am PST
 2. Sunday July 14th: 11am - 9pm PST
