@@ -42,7 +42,7 @@ games_list: [cryptrun, lavablade, lunchbug, onslaughtarena]
 spotlight_game: cryptrun
 
 # Games featured on the home page (always 3 games!)
-feature_games_list: [cryptrun, lavablade, lunchbug]
+feature_games_list: [lavablade, lunchbug, onslaughtarena]
 
 # Game detail data
 # Custom info and descriptions are found in /games/game-name/index.md
