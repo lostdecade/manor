@@ -2,7 +2,7 @@
 	<h2>Featured Articles</h2>
 	<ul>
 	{% for post in site.tags.feature %}
-		{% if forloop.index < 4 %}
+		{% if forloop.index < 6 %}
 			<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 		{% endif %}
 	{% endfor %}

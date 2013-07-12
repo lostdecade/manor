@@ -2,7 +2,7 @@
 layout: article
 title: "Announcing Crypt Run on Kickstarter"
 author: matt
-tags: [cryptrun]
+tags: [cryptrun, feature]
 ---
 <div class="full-frame">
 	<a href="http://www.kickstarter.com/projects/richtaur/crypt-run-death-is-just-the-beginning">
