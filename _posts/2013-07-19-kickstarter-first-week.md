@@ -49,6 +49,7 @@ Crypt Run hasn't had a ton of coverage yet, but it's only been a week, and I thi
 * [Gamezebo](http://www.gamezebo.com/news/2013/07/19/kickstarter-picks-precinct-codename-cygnus-and-more)
 * [IGameResponsibly](http://www.igameresponsibly.com/2013/07/kickstarter-projects-you-should-pay-attention-to-718/)
 * [Rawket Launcher](http://rawketlawncher.tumblr.com/post/55803295666/crypt-run)
+* [Worthplaying](http://worthplaying.com/article/2013/7/18/news/89970/)
 
 (Please [contact me][9] if you have a URL to add to this list!)
 
