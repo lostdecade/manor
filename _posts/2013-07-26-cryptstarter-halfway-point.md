@@ -47,4 +47,4 @@ Oh man, it's so hard to watch someone playing your unfinished game! But I'm stil
 
 Lastly, good news for [Lostcast fans](/lostcast/): we were on another podcast called [DarkCast](http://www.darkstation.com/darkcast/)! It's over an hour of Crypt Run and general gaming chat, [have a listen](http://www.darkstation.com/darkcast/dci-ep-02-how-to-loose-a-decade/)!
 
-I think that's everything, at least for now. Thanks for reading, and YOU! You have yourself a great weekend! Thanks again for your support!
+I think that's everything, at least for now. Thanks for reading, and YOU! You have yourself a great weekend. Thanks again for your support!
