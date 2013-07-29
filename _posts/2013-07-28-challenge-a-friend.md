@@ -16,7 +16,7 @@ You can now challenge a friend to see who's better at [Crypt Run](http://www.cry
 3. At the [Game Over screen](/media/images/posts/cryptRun/gameOver.jpg), copy the text in the "Challenge URL" input box.
 4. Send that URL to a friend via email, Twitter, or carrier pigeon.
 
-Your friend will play the **exact same dungeon you played**, and your two scores are compared at the end. Instant bragging rights!
+Your friend will play the **exact same procedurally-generated dungeon you played**, and your two scores are compared at the end. Instant bragging rights!
 
 ## Video tutorial
 
