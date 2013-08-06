@@ -549,5 +549,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast 36: CRYPTSTARTED</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>QuickCrypt</itunes:subtitle>
+			<itunes:summary>Crypt Run is FUNDED! Let's talk about Casual Connect, Indie Prize, Nintendo Wii U, Linux, and more!</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_36.mp3" length="4025" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_36.mp3</guid>
+			<pubDate>Tue, 6 August 2013 12:00:00 +0000</pubDate>
+			<itunes:duration>1:07:05</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, kickstarter, casual connect, joshua morse, kickstarter</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
