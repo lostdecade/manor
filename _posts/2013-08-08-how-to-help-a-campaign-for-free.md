@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "How to support a crowd-funding campaign without spending any money"
+title: "How to help a crowd-funding campaign without spending any money"
 author: matt
 ---
 <div class="full-frame">
