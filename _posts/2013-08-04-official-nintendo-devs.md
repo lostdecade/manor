@@ -2,6 +2,7 @@
 layout: article
 title: "Nintendo approves Lost Decade as official developer, Crypt Run sets Wii U stretch goal"
 author: matt
+tags: [cryptrun, feature]
 ---
 <div class="full-frame">
 	<a href="http://www.kickstarter.com/projects/richtaur/crypt-run-death-is-just-the-beginning">

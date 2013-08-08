@@ -2,6 +2,7 @@
 layout: article
 title: "Join us for the Crypt Run Kickstarter live countdown"
 author: matt
+tags: [cryptrun]
 ---
 <div class="full-frame">
 	<a href="https://www.facebook.com/events/1399990470218151/">

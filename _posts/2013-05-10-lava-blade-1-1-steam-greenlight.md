@@ -2,6 +2,7 @@
 layout: article
 title: "Lava Blade 1.1 and Steam Greenlight"
 author: geoff
+tags: [lavablade]
 ---
 <a href="http://www.lavablade.com">
 	<img alt="Lava Blade" src="/media/images/games/lavablade/promo-560x180.png" width="560" height="180">
