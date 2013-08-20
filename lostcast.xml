@@ -572,8 +572,23 @@
 			<itunes:summary>Geoff 'n Matt riff about Kickstarter, live streaming, Spelunky, leaderboars, and more!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_37.mp3" length="3291" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_37.mp3</guid>
-			<pubDate>Tue, 12 August 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 13 August 2013 12:00:00 +0000</pubDate>
 			<itunes:duration>54:51</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, kickstarter, casual connect, joshua morse, kickstarter</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
+		<item>
+			<title>Lostcast 38: Crypt Cross Country</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>Crypt Cross Country</itunes:subtitle>
+			<itunes:summary>Geoff 'n Matt go in-depth about last week's changes to the Crypt Run alpha!</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_38.mp3" length="4434" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_38.mp3</guid>
+			<pubDate>Tue, 20 August 2013 12:00:00 +0000</pubDate>
+			<itunes:duration>1:13:54</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, kickstarter, casual connect, joshua morse, kickstarter</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
