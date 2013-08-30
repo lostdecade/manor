@@ -7,7 +7,7 @@ _From time to time, we get reader or listener email asking about various aspects
 
 Transformations in canvas can be tricky to understand at first. Conceptally, most people tend to think about rotating and scaling individual images. They're often surprised and confused when the canvas API transforms their entire game when calling `.rotate` or `.scale`.
 
-The only way to transform images in canvas is by modifying the entrie canvas. The trick is that you need to modify the canvas context just before you draw a transformed image and reset it right after. This is where the `.save` and `.restore` methods come in.
+The only way to transform images in canvas is by modifying the entire canvas. The trick is that you need to modify the canvas context just before you draw a transformed image and reset it right after. This is where the `.save` and `.restore` methods come in.
 
 Saving a canvas context stores the current configuration, including transformations (or lack thereof). Restoring a canvas context does just the opposite, resetting the current configuration to the last saved state.
 
@@ -16,7 +16,8 @@ Another gotcha for transformation is that by default, all transformations occur 
 Let's take a look at how we'd achieve a simple rotation of a rectangle. Inline comments in the code explain what's happening in more detail.
 
 {% highlight js %}
-// Create our canvas and append it to the document body
+// Create our canvas
+// Append it to the document body
 var stage = document.createElement("canvas");
 stage.width = 320;
 stage.height = 240;
@@ -29,35 +30,37 @@ var ctx = stage.getContext("2d");
 ctx.fillStyle = "cornflowerblue";
 ctx.fillRect(0, 0, stage.width, stage.height);
 
-// Draw an non-transformed red rectangle on the left
+// Draw a non-transformed red rectangle on the left
 ctx.fillStyle = "red";
 ctx.fillRect(40, 80, 80, 80);
 
-// Now, let's draw a rotated yellow rectangle on the right
-// First, let's save our canvas context in order to easily restore
-// it after our transformations
+// Now, let's draw a rotated
+// yellow rectangle on the right
+// First, let's save our canvas context in order to
+// easily restore it after our transformations
 ctx.save();
 
-// Next, we'll translate (move the origin) to the center
-// of where we'll be drawing the rectangle
+// Next, we'll translate (move the origin) to the
+// center of where we'll be drawing the rectangle
 ctx.translate(240, 120);
 
-// Any transformations applied from here on out will be
-// relative to the origin of 240, 120
-// Note that we're using radians, not degrees to specify rotation
+// Any transformations applied from here on out
+// will be relative to the origin of 240, 120
+// Note that we're using radians to specify rotation
 ctx.rotate(Math.PI / 4); // 45 degrees
 
-// If we desired to scale the rectangle as well, we'd do that here:
-// ctx.scale(1.5, 1.5); // 1.5x normal size on both the x and y axis
+// If we desired to scale the rectangle
+// 1.5x normal size on both the x and y axis
+// ctx.scale(1.5, 1.5);
 
 // Now we're ready to draw our rectangle
-// The diffence this time is that our coordinates are relative
-// to the origin, just like the .rotate call
+// The difference this time is that our coordinates
+// are relative to the origin, just like .rotate
 ctx.fillStyle = "yellow";
 ctx.fillRect(-40, -40, 80, 80);
 
-// Finally, we restore our canvas context so that subsequent draws
-// are not transformed
+// Finally, we restore our canvas context so
+// that subsequent draws are not transformed
 ctx.restore();
 {% endhighlight %}
 
@@ -69,6 +72,7 @@ Tada! A rotated rectangle without rotating the entire canvas.
 		src="/media/images/posts/canvasTransform/simpleCanvasTransform.png">
 </div>
 
-Check out this [canvas graphics article on MDN][1] for more information.
+Here's a [gist of the entire sample code][2]. Check out this [canvas graphics article on MDN][1] for more information.
 
 [1]: https://developer.mozilla.org/en-US/docs/Web/Guide/Graphics/Drawing_graphics_with_canvas#Graphics_State
+[2]: https://gist.github.com/geoffb/6392450
