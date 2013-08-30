@@ -5,7 +5,7 @@ author: geoff
 ---
 _From time to time, we get reader or listener email asking about various aspects of developing games in HTML5. Instead of responding directly, we prefer to put the answers up on our blog in case the information can help other developers._
 
-Transformations in canvas can be tricky to understand at first. Conceptally, most people tend to think about rotating and scaling individual images. They're often surprised and confused when the canvas API transforms their entire game when calling `.rotate` or `.scale`.
+Transformations in canvas can be tricky to understand at first. Conceptually, most people tend to think about rotating and scaling individual images. They're often surprised and confused when the canvas API transforms their entire game when calling `.rotate` or `.scale`.
 
 The only way to transform images in canvas is by modifying the entire canvas. The trick is that you need to modify the canvas context just before you draw a transformed image and reset it right after. This is where the `.save` and `.restore` methods come in.
 
