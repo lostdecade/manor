@@ -2,6 +2,7 @@
 layout: article
 title: "Crypt Run 180% funded"
 author: matt
+tags: [feature]
 ---
 <div class="full-frame">
 	<a href="http://www.cryptrun.com/">
