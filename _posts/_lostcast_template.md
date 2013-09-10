@@ -21,4 +21,4 @@ tags: [lostcast]
 * []()
 * []()
 
-Thanks for listening! You should subscribe on [iTunes](http://itunes.apple.com/us/podcast/lostcast/id481950724) or [RSS](http://belmont.local:4000/lostcast.xml).
+Thanks for listening! Don't forget to subscribe on [iTunes](http://itunes.apple.com/us/podcast/lostcast/id481950724) or [RSS](http://belmont.local:4000/lostcast.xml).

@@ -624,5 +624,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast 41: Forumty-One</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>Forumty-One</itunes:subtitle>
+			<itunes:summary>Matt 'n Geoff talk about their new FORUM as well as Crypt Run, Indie Speed Run, and more!</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_41.mp3" length="4055" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_41.mp3</guid>
+			<pubDate>Tue, 10 September 2013 12:00:00 +0000</pubDate>
+			<itunes:duration>1:07:35</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, joshua morse, indie speed run</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
