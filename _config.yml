@@ -97,7 +97,7 @@ games:
     tagline: "Slay hordes of monsters in this action-packed shoot 'em up!"
     promo_url: "/games/onslaught-arena/"
     platforms:
-      web: "http://arcade.lostdecadegames.com/onslaught_arena"
+      web: "http://arcade.lostdecadegames.com/onslaught_arena/"
       cws: "https://chrome.google.com/webstore/detail/onslaught-arena/khodnfbkbanejphecblcofbghjdgfaih"
       mas: "https://itunes.apple.com/us/app/onslaught-arena/id418268106"
       pokki: "https://www.pokki.com/app/Onslaught-Arena"
@@ -115,5 +115,5 @@ games:
     tagline: "Defend your castle from wave after wave of blood-thirsty monsters!"
     promo_url: "/games/onslaught-defense/"
     platforms:
-      web: "http://arcade.lostdecadegames.com/onslaught_defense"
+      web: "http://arcade.lostdecadegames.com/onslaught_defense/"
       android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.onslaughtdefense"
