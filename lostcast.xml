@@ -654,5 +654,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast 43: Grand Cryptacular</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>Grand Cryptacular</itunes:subtitle>
+			<itunes:summary>Matt 'n Geoff talk about Crypt Run, books, Crypt Run, independence, and Crypt RUn!</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_43.mp3" length="5145" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_43.mp3</guid>
+			<pubDate>Tue, 24 September 2013 12:00:00 +0000</pubDate>
+			<itunes:duration>1:25:45</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, joshua morse, masters of the arena</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
