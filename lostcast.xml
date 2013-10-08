@@ -684,5 +684,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast 45: Return to the Crypt</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>Return to the Crypt</itunes:subtitle>
+			<itunes:summary>Return to the Crypt Run development changelog discussion!</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_45.mp3" length="4496" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_45.mp3</guid>
+			<pubDate>Tue, 8 October 2013 12:00:00 +0000</pubDate>
+			<itunes:duration>1:14:56</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, joshua morse</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
