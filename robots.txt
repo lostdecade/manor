@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /media
 Disallow: /error.html
+Disallow: /sandbox
