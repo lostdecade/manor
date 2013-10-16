@@ -699,5 +699,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast 46: Retreat to the HTML5 Dev Conf</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>Retreat to the HTML5 Dev Conf</itunes:subtitle>
+			<itunes:summary></itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_46.mp3" length="3018" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_46.mp3</guid>
+			<pubDate>Tue, 15 October 2013 12:00:00 +0000</pubDate>
+			<itunes:duration>50:18</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, joshua morse</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
