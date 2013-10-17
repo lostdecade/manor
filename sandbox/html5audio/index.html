@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 Audio Test</title>
+</head>
+<body>
+
+	<h1>HTML5 Audio Test</h1>
+
+	<button id="play-music">Play Music</button>
+	<button id="play-effect">Play Effect</button>
+
+	<script>
+		var playMusic = document.getElementById("play-music");
+		var playEffect = document.getElementById("play-effect");
+
+		playMusic.addEventListener("click", function () {
+			playMusic.disabled = true;
+			var music = new Audio();
+			music.addEventListener("canplay", function () {
+				music.play();
+				playMusic.disabled = false;
+			}, false);
+			music.src = "overworld.mp3";
+			music.load();
+		}, false);
+
+		playEffect.addEventListener("click", function () {
+			playEffect.disabled = true;
+			var effect = new Audio();
+			effect.addEventListener("canplay", function () {
+				effect.play();
+				playEffect.disabled = false;
+			}, false);
+			effect.src = "larsAction.mp3";
+			effect.load();
+		}, false);
+	</script>
+
+</body>
+</html>
