@@ -36,10 +36,10 @@ authors:
     github: geoffb
 
 # List of all game IDs (drives /games listing and maybe more)
-games_list: [cryptrun, lavablade, lunchbug, onslaughtarena]
+games_list: [wizardslizard, lavablade, lunchbug, onslaughtarena]
 
 # Spotlight game - a single game which is spotlighted on the home page
-spotlight_game: cryptrun
+spotlight_game: wizardslizard
 
 # Games featured on the home page (always 3 games!)
 feature_games_list: [lavablade, lunchbug, onslaughtarena]
@@ -47,14 +47,13 @@ feature_games_list: [lavablade, lunchbug, onslaughtarena]
 # Game detail data
 # Custom info and descriptions are found in /games/game-name/index.md
 games:
-  cryptrun:
-    url_key: "crypt-run"
-    title: "Crypt Run"
-    tagline: "Crypt Run is an ever-changing medieval fantasy hack 'n slash game that isn't over when you lose your life."
-    promo_url: "http://www.cryptrun.com"
+  wizardslizard:
+    url_key: "a-wizards-lizard"
+    title: "A Wizard's Lizard"
+    tagline: "A Wizard's Lizard is an ever-changing medieval action RPG that isn't over when you lose your life."
+    promo_url: "http://www.wizardslizard.com/"
     paywall: true
     platforms:
-      web: "http://cryptrun.lostdecadegames.com"
   lunchbug:
     url_key: "lunch-bug"
     title: "Lunch Bug"
