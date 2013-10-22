@@ -2,7 +2,7 @@
 layout: article
 title: "Play Crypt Run at California Extreme July 13-14"
 author: matt
-tags: [cryptrun]
+tags: [wizardslizard]
 ---
 <div class="full-frame">
 	<img alt="Crypt Run at California Extreme" src="/media/images/posts/cryptRun/cae.jpg" width="500" height="182">

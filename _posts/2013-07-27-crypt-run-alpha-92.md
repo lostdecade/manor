@@ -2,7 +2,7 @@
 layout: article
 title: "Crypt Run alpha 0.0.95"
 author: matt
-tags: [cryptrun]
+tags: [wizardslizard]
 ---
 <div class="full-frame">
 	<a href="http://www.cryptrun.com/">

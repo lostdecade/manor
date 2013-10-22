@@ -2,7 +2,7 @@
 layout: article
 title: "Our first week on Kickstarter: The Numbers"
 author: matt
-tags: [cryptrun]
+tags: [wizardslizard]
 ---
 <div class="full-frame">
 	<iframe width="480" height="360" src="http://www.kickstarter.com/projects/richtaur/crypt-run-death-is-just-the-beginning/widget/video.html" frameborder="0"> </iframe>

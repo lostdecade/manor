@@ -2,7 +2,7 @@
 layout: article
 title: "Challenge a friend to a game of Crypt Run"
 author: matt
-tags: [cryptrun]
+tags: [wizardslizard]
 ---
 <div class="full-frame">
 	<a href="http://cryptrun.lostdecadegames.com/">

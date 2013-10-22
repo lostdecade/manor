@@ -3,8 +3,8 @@ layout: article
 title: "ALL THE GAMES!"
 comments: hidden
 ---
-1. [Crypt Run](http://www.cryptrun.com/) (in development)
-1. Retreat to the Jeep!
+1. [A Wizard's Lizard](http://www.wizardslizard.com/) (in development)
+1. [Retreat to the Jeep!](http://www.escapistmagazine.com/content/indie-speed-run/?game=250)
 1. [Asylum Night](http://asylumnight.lostdecadegames.com/)
 1. [Turkey Hunt](http://turkeyhunt.lostdecadegames.com/)
 1. [Lava Blade](http://www.lavablade.com/)
