@@ -714,5 +714,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast 47: A Wizard's Rename</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>A Wizard's Rename</itunes:subtitle>
+			<itunes:summary>Geoff 'n Matt talk about allll kinds of stuff including their HTML5 Dev Conf keynote participation and renaming Crypt Run to A Wizard's Lizard!</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_47.mp3" length="4633" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_47.mp3</guid>
+			<pubDate>Tue, 29 October 2013 12:00:00 +0000</pubDate>
+			<itunes:duration>1:17:13</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
