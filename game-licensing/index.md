@@ -26,6 +26,20 @@ Feed delicious berries to hungry Lunch Bugs in this strategic puzzle game. Each 
 
 <hr style="clear: both;">
 
+## [Lava Blade][7]
+
+<img src="/media/images/games/lavablade/icon-150x150.png" style="float: right; margin-left: 20px; margin-bottom: 10px">
+Lava Blade is a tactical strategy RPG. In Lava Blade, players control the mighty warrior Lars as he ventures towards a dangerous volcano to retrieve the sacred Lava Blade!
+
+<hr style="clear: both;">
+
+## [Rampart Rush][8]
+
+<img src="/media/images/games/rampartrush/icon-150x150.png" style="float: right; margin-left: 20px; margin-bottom: 10px">
+Rampart Rush is a shoot ‘em up castle defense game. In Rampart Rush, players control a warrior defending a town from hordes of monsters. Players can build weapon shops, magic schools, and more, enabling them to purchase weapons, cast magical spells, and upgrade their defenses!
+
+<hr style="clear: both;">
+
 ## [Asylum Night][3]
 
 <img src="/media/images/games/asylumnight/icon-150x150.png" style="float: right; margin-left: 20px; margin-bottom: 10px">
@@ -58,3 +72,5 @@ Deftly guide your bandit through the enchanted forest collecting as much gold as
 [4]: http://arcade.lostdecadegames.com/onslaught_defense/
 [5]: http://turkeyhunt.lostdecadegames.com
 [6]: http://banditblitz.lostdecadegames.com
+[7]: http://lavablade.lostdecadegames.com/
+[8]: http://rampartrush.lostdecadegames.com/
