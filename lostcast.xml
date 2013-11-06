@@ -744,5 +744,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast 49: Come Play With PlayCanvas</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>Come Play With PlayCanvas</itunes:subtitle>
+			<itunes:summary>Matt and Geoff chat with Dave and Will of PlayCanvas, a cloud-based WebGL game engine!</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_49.mp3" length="4358" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_49.mp3</guid>
+			<pubDate>Tue, 12 November 2013 12:00:00 +0000</pubDate>
+			<itunes:duration>1:12:38</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
