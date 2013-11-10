@@ -105,7 +105,6 @@ games:
     title: "Onslaught!"
     tagline: "Slay hordes of monsters in this action-packed shoot-em-up!"
     promo_url: "/games/onslaught/"
-    ost_url: "http://joshuamorse.bandcamp.com/album/onslaught-original-soundtrack"
     platforms:
       ios: "http://itunes.apple.com/us/app/onslaught!/id441426241"
   onslaughtdefense:
