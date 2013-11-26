@@ -774,5 +774,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast 51: A Wizard's Beta</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>A Wizard's Beta</itunes:subtitle>
+			<itunes:summary>Geoff 'n Matt talk about A Wizard's Lizard development and delivering the beta to hundreds of wonderful preoderererers!</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_51.mp3" length="6278" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_51.mp3</guid>
+			<pubDate>Tue, 26 November 2013 12:00:00 +0000</pubDate>
+			<itunes:duration>1:44:38</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
