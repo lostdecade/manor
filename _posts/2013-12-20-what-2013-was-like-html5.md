@@ -45,7 +45,7 @@ We’ve been iterating on our own internal tools for about three years now, incl
 
 Regarding engines, [ImpactJS][4] was the leader of the pack, despite the $99 USD price tag. [Phaser][5] has been picking up steam as an open source alternative, and there are many other solid choices. The tooling has a long way to go, but things are looking bright for the future, with offerings like Intel’s [XDK][6] and PlayCanvas’s [cloud-based IDE][7] pushing forward every day.
 
-# Where was the money?
+# How did we make money?
 
 As with any technology, there are many different approaches to monetizing an application. HTML5 doesn’t really have any limitations here, as it’s perfectly capable of supporting premium downloads, F2P with IAP, subscription models, or probably any other crazy scheme. That said, monetizing consumer products is hard, and this year it was easier for HTML5 games to make money through B2B deals.
 
@@ -63,7 +63,7 @@ There's lots of interest in HTML5 from companies with money, and from what we've
 
 ## Licenses
 
-HTML5 gaming portals are popping up everywhere. They typically pay a one-time non-exclusive licensing fee for a quality mobile HTML5 game, ranging drastically in price. From what we’ve seen, an individual license could earn between $350 and $5000 USD, depending on the quality of the game and success of the partner. These numbers will likely decrease as more developers saturate the market. Many portals offer revenue split only, from which we’ve never seen better pay than the one-time fee.
+HTML5 gaming portals are popping up everywhere. They typically pay a one-time non-exclusive licensing fee for a quality mobile HTML5 game, ranging drastically in price. From what we’ve seen, an individual license could earn between $350-$2k USD, depending on the quality of the game and success of the partner. These numbers will likely decrease as more developers saturate the market. Many portals offer revenue split only, from which we’ve never seen better pay than the one-time fee.
 
 These licenses seem like easy money on the surface, and once in a blue moon they are. The vast majority of licenses, however, end up being bloody time vampires. Portals usually want support for a dozen or more devices, going back as far as Android 2.1 and iOS 3. Since many of these portals are brand new, they tend to be very volatile. We’ve experienced companies switching contacts multiple times, pivoting away from HTML5, and even shutting down entirely during discussions.
 
@@ -81,18 +81,18 @@ Developing and marketing HTML5 games directly to consumers? Good luck! You’re 
 
 # What games did we make?
 
+One way to measure the effectiveness of a platform is to look at how productive its developers have been. So what was our output from 2013? Here is an incomplete list of the games we made:
+
 <div class="full-frame">
 	<img alt="LDG games in 2013" src="/media/images/posts/2013/games.jpg" width="500" height="611">
 </div>
-
-One way to measure the effectiveness of a platform is to look at how productive its developers have been. So what was our output from 2013? Here is an incomplete list of the games we made:
 
 1. **Lava Blade** (turn-based strategy RPG, launched via our own [Humble widget][11])
 1. **Rampart Rush** (unreleased, got tied up in publishing deals)
 1. **Retreat to the Jeep!** ([Indie Speed Run 2013 entry][12])
 1. **Midtown Mayhem** (unreleased, also tied up in publishing deals)
 
-These games were developed while handling dozens of licenses and creating many [prototypes][13] to sharpen our skills and tools. Additionally, throughout almost the entire year we were developing [A Wizard’s Lizard][10] in one form or another.
+These games were developed while handling dozens of licenses and creating many [prototypes][13] to sharpen our skills and tools. Additionally, throughout almost the entire year we were developing [A Wizard’s Lizard][10] in one form or another. Any studio can always be more productive, but we're satisfied with what we were able to build on HTML5 this year.
 
 # Summary
 
