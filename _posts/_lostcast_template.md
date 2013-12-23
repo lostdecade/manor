@@ -14,8 +14,8 @@ tags: [lostcast]
 
 Start with our most popular episodes:
 
-1. [Follin in Love with HTML5](/lostcast-54/).
-1. [Quite an Impact](/lostcast-episode-14-quite-an-impact/).
+1. [Follin in Love with HTML5](/lostcast-54/)
+1. [Quite an Impact](/lostcast-episode-14-quite-an-impact/)
 1. [HTML5, The Bad Parts](/lostcast-episode-7-html5-the-bad-parts/)
 
 <a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_.mp3">

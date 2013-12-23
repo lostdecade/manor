@@ -2,7 +2,7 @@
 layout: article
 title: "Lostcast Episode 17: Vincent Priceless"
 author: matt
-tags: [lostcast]
+tags: [lostcast, interview]
 ---
 <div class="full-frame">
 	<img alt="Lostcast logo" src="/media/images/lostcast/500x500.jpg">

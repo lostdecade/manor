@@ -2,7 +2,7 @@
 layout: article
 title: "Lostcast Episode 12: Arnother Interview"
 author: matt
-tags: [lostcast]
+tags: [lostcast, interview]
 ---
 
 <div class="full-frame">

@@ -2,7 +2,7 @@
 layout: article
 title: "Lostcast Episode 16: We Heart Huckaby"
 author: matt
-tags: [lostcast]
+tags: [lostcast, interview]
 ---
 
 <div class="full-frame">

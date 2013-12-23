@@ -2,7 +2,7 @@
 layout: article
 title: "Lostcast Episode 14: Quite an Impact"
 author: matt
-tags: [lostcast]
+tags: [lostcast, interview]
 ---
 
 <div class="full-frame">
