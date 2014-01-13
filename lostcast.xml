@@ -853,13 +853,28 @@
 			<title>Lostcast 56: 2013 Retrospective</title>
 			<link>http://www.lostdecadegames.com/</link>
 			<itunes:author>Lost Decade Games</itunes:author>
-			<itunes:subtitle></itunes:subtitle>
+			<itunes:subtitle>2013 Retrospective</itunes:subtitle>
 			<itunes:summary>Matt 'n Geoff talk about A Wizard's Lizard on Steam Greenlight, oh and all of 2013.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_56.mp3" length="3752" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_56.mp3</guid>
 			<pubDate>Wed, 8 January 2014 12:00:00 +0000</pubDate>
 			<itunes:duration>1:02:32</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse, steam greenlight, 2013</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
+		<item>
+			<title>Lostcast 57: LDG Catchup</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>LDG Catchup</itunes:subtitle>
+			<itunes:summary>Matt 'n Geoff talk about the first 5 days of A Wizard's Lizard on Steam Greenlight, Horse Blair, and other things.</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_57.mp3" length="3624" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_57.mp3</guid>
+			<pubDate>Tue, 14 January 2014 12:00:00 +0000</pubDate>
+			<itunes:duration>1:00:24</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse, steam greenlight</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
