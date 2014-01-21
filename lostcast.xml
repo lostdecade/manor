@@ -879,5 +879,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast 58: Legend of Backups</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>Legend of Backups</itunes:subtitle>
+			<itunes:summary>Matt 'n Geoff talk about backups, Legend of Grimrock, Steam Greenlight, and more!</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_58.mp3" length="3660" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_58.mp3</guid>
+			<pubDate>Tue, 21 January 2014 12:00:00 +0000</pubDate>
+			<itunes:duration>1:01:00</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
