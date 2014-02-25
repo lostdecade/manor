@@ -954,5 +954,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast 63: Tweenworks</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>Tweenworks</itunes:subtitle>
+			<itunes:summary>Matt 'n Geoff discuss tweening, polygonal hit detection, and Steamworks.</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_63.mp3" length="3742" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_63.mp3</guid>
+			<pubDate>Tue, 25 February 2014 12:00:00 +0000</pubDate>
+			<itunes:duration>1:02:22</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse, steam, steamworks, greenworks</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
