@@ -984,5 +984,20 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
+		<item>
+			<title>Lostcast 65: HorseFaerie in Pixi Land</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>HorseFaerie in Pixi Land</itunes:subtitle>
+			<itunes:summary>Matt 'n Geoff discuss their decision to continue with their own rendering tools and not switch to Pixi.js (which is a great tool).</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_65.mp3" length="3392" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_65.mp3</guid>
+			<pubDate>Tue, 11 March 2014 12:00:00 +0000</pubDate>
+			<itunes:duration>56:32</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
 	</channel>
 </rss>
