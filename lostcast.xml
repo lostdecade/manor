@@ -7,13 +7,13 @@
 		<language>en-us</language>
 		<copyright>© 2012 Lost Decade Games</copyright>
 
-		<itunes:subtitle>HTML5 Game Development Podcast</itunes:subtitle>
+		<itunes:subtitle>Indie Game Studio</itunes:subtitle>
 		<itunes:author>Lost Decade Games</itunes:author>
 		<itunes:summary>
-			Geoff Blair and Matt Hackett discuss the business, tech, and creativity of HTML5 games.
+			Geoff Blair and Matt Hackett discuss the business, tech, and creativity of indie games.
 		</itunes:summary>
 		<description>
-			Geoff Blair and Matt Hackett discuss the business, tech, and creativity of HTML5 games.
+			Geoff Blair and Matt Hackett discuss the business, tech, and creativity of indie games.
 		</description>
 		<itunes:category text="Games &amp; Hobbies">
 			<itunes:category text="Video Games"/>
@@ -995,6 +995,21 @@
 			<pubDate>Tue, 11 March 2014 12:00:00 +0000</pubDate>
 			<itunes:duration>56:32</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
+		<item>
+			<title>Lostcast 66: Love and Marketing</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>Love and Marketing</itunes:subtitle>
+			<itunes:summary>Matt 'n Geoff chat with Gregory Love of Whippering, an independent business development and marketing firm.</itunes:summary>
+			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_66.mp3" length="4975" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_66.mp3</guid>
+			<pubDate>Wed, 19 March 2014 12:00:00 +0000</pubDate>
+			<itunes:duration>1:22:55</itunes:duration>
+			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse, gregory love, whippering, marketing</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
