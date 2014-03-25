@@ -7,7 +7,7 @@ layout: nil
 	<link href="http://www.lostdecadegames.com/rss.xml" rel="self"/>
 	<link href="http://www.lostdecadegames.com/"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://lostdecade.github.com/</id>
+	<id>http://www.lostdecadegames.com/</id>
 	<author>
 		<name>Lost Decade Games</name>
 		<email>hello@lostdecadegames.com</email>
