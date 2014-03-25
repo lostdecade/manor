@@ -1,3 +1,6 @@
+---
+# This triggers Liquid, needed below
+---
 <?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 	<channel>
@@ -1013,6 +1016,24 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
+
+		{% for pkey in site.podcasts_list %}
+		{% assign podcast = site.podcasts[pkey] %}
+		<item>
+			<title>{{ podcast.title }}: {{ podcast.subtitle }}</title>
+			<link>http://www.lostdecadegames.com/</link>
+			<enclosure url="{{ podcast.mp3url }}" length="{{ podcast.length }}" type="audio/mpeg"/>
+			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_1_hello_world.mp3</guid>
+			<pubDate>{{ podcast.pubDate }}</pubDate>
+			<itunes:author>Lost Decade Games</itunes:author>
+			<itunes:subtitle>{{ podcast.subtitle }}</itunes:subtitle>
+			<itunes:summary>{{ podcast.summary }}</itunes:summary>
+			<itunes:duration>{{ podcast.duration }}</itunes:duration>
+			<itunes:keywords>{{ podcast.keywords }}</itunes:keywords>
+			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+		{% endfor %}
 
 	</channel>
 </rss>
