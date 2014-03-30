@@ -1023,7 +1023,7 @@
 			<title>{{ podcast.title }}: {{ podcast.subtitle }}</title>
 			<link>http://www.lostdecadegames.com/</link>
 			<enclosure url="{{ podcast.mp3url }}" length="{{ podcast.length }}" type="audio/mpeg"/>
-			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_1_hello_world.mp3</guid>
+			<guid>{{ podcast.mp3url }}</guid>
 			<pubDate>{{ podcast.pubDate }}</pubDate>
 			<itunes:author>Lost Decade Games</itunes:author>
 			<itunes:subtitle>{{ podcast.subtitle }}</itunes:subtitle>
