@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Lostcast episode 22: HTMLd5"
+title: "Lostcast 22: HTMLd5"
 author: matt
 tags: [lostcast]
 ---

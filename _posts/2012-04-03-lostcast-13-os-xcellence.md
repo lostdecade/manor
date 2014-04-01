@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Lostcast Episode 13: OS Xcellence"
+title: "Lostcast 13: OS Xcellence"
 author: matt
 tags: [lostcast]
 ---

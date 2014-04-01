@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Lostcast Episode 11: LDG @ GDC"
+title: "Lostcast 11: LDG @ GDC"
 author: matt
 tags: [lostcast]
 ---

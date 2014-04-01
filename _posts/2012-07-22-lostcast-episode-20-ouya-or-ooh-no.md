@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Lostcast Episode 20: OUYA or Ooh, no?"
+title: "Lostcast 20: OUYA or Ooh, no?"
 author: matt
 tags: [lostcast]
 ---

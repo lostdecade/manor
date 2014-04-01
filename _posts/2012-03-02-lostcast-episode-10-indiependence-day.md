@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Lostcast Episode 10: Indiependence Day"
+title: "Lostcast 10: Indiependence Day"
 author: matt
 tags: [lostcast]
 ---

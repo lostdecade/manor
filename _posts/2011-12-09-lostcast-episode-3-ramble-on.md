@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Lostcast Episode 3: Ramble On"
+title: "Lostcast 3: Ramble On"
 author: matt
 tags: [lostcast]
 ---

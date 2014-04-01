@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Lostcast Episode 1: Hello World"
+title: "Lostcast 1: Hello World"
 author: matt
 tags: [lostcast]
 ---

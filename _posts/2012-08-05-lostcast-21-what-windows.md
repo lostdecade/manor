@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Lostcast episode 21: What Windows?"
+title: "Lostcast 21: What Windows?"
 author: matt
 tags: [lostcast]
 ---

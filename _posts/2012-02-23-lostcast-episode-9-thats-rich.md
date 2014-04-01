@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Lostcast Episode 9: That's Rich"
+title: "Lostcast 9: That's Rich"
 author: matt
 tags: [lostcast, interview]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Lostcast Episode 23: HTML5.blur()"
+title: "Lostcast 23: HTML5.blur()"
 author: matt
 tags: [lostcast]
 ---

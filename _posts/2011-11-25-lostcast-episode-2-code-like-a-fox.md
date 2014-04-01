@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Lostcast Episode 2: Code Like a Fox"
+title: "Lostcast 2: Code Like a Fox"
 author: matt
 tags: [lostcast, interview]
 ---

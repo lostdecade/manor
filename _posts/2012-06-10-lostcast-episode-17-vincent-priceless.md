@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Lostcast Episode 17: Vincent Priceless"
+title: "Lostcast 17: Vincent Priceless"
 author: matt
 tags: [lostcast, interview]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Lostcast Episode 15: Deus Ex Game Mechanics"
+title: "Lostcast 15: Deus Ex Game Mechanics"
 author: matt
 tags: [lostcast]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Lostcast Episode 5: Left 4 Questions"
+title: "Lostcast 5: Left 4 Questions"
 author: matt
 tags: [lostcast]
 ---

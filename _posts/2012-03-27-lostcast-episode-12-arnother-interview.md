@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Lostcast Episode 12: Arnother Interview"
+title: "Lostcast 12: Arnother Interview"
 author: matt
 tags: [lostcast, interview]
 ---
