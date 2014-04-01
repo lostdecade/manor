@@ -11,8 +11,8 @@ meta:
 base_url: "http://www.lostdecadegames.com"
 email: hello@lostdecadegames.com
 lostcast_itunes_url: http://itunes.apple.com/us/podcast/lostcast/id481950724
-blog_feed_url: "http://feeds.feedburner.com/lostdecadegames/blog"
-lostcast_feed_url: "http://feeds.feedburner.com/lostdecadegames/lostcast"
+blog_feed_url: "http://www.lostdecadegames.com/rss.xml"
+lostcast_feed_url: "http://www.lostdecadegames.com/lostcast.xml"
 
 disqus_shortname: lostdecadegames
 

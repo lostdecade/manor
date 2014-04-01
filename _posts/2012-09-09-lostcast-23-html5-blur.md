@@ -23,7 +23,7 @@ tags: [lostcast]
 * [Steam Greenlight](http://steamcommunity.com/greenlight/)
 * [Awesomium](http://awesomium.com/)
 * [CocoonJS](http://ludei.com/tech/cocoonjs)
-* We're going to do an episode about how to get started making games. [Subscribe](http://feeds.feedburner.com/lostdecadegames/lostcast) so you won't miss it!
+* We're going to do an episode about how to get started making games. [Subscribe](/lostcast.xml) so you won't miss it!
 * [Octopress](http://octopress.org/)
 * You were played out by [Streets](http://joshuamorse.bandcamp.com/track/streets) from [Joshua Morse](http://jmflava.com/)
 

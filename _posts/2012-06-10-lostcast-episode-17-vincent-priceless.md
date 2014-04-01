@@ -28,4 +28,4 @@ _My apologies for the sound issues; this is our first remote episode. We were at
 * [W3C Games Community Group](http://www.w3.org/community/games/)
 * You were played out by **FLAVA Bomb**, a Joshua Morse song on the album [SOUNDSHOCK 2: FM FUNK TERRROR!!](http://ubiktune.org/releases/ubi044-various-artists-soundshock-2-fm-funk-terrror/) which was also [featured in this month's Game Developer magazine](http://i.imgur.com/3yHRV.jpg)!
 
-Thanks for listening! Don't forget to subscribe to **Lostcast** via [RSS](http://feeds.feedburner.com/lostdecadegames/lostcast) or [iTunes](http://itunes.apple.com/us/podcast/lostcast/id481950724).
+Thanks for listening! Don't forget to subscribe to **Lostcast** via [RSS](/lostcast.xml) or [iTunes](http://itunes.apple.com/us/podcast/lostcast/id481950724).
