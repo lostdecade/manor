@@ -1,5 +1,5 @@
 ---
-# This triggers Liquid, needed below
+layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
@@ -1017,8 +1017,9 @@
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
-		{% for pkey in site.podcasts_list %}
-		{% assign podcast = site.podcasts[pkey] %}
+		{% for post in site.tags.lostcast reversed %}
+		{% assign podcast = post.podcast %}
+		{% if podcast %}
 		<item>
 			<title>{{ podcast.title }}: {{ podcast.subtitle }}</title>
 			<link>http://www.lostdecadegames.com/</link>
@@ -1033,6 +1034,9 @@
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
+		{% else %}
+		<!-- No podcast data for {{ post.title }} -->
+		{% endif %}
 		{% endfor %}
 
 	</channel>
