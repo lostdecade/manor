@@ -1034,8 +1034,6 @@ layout: nil
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
 			<itunes:explicit>no</itunes:explicit>
 		</item>
-		{% else %}
-		<!-- No podcast data for {{ post.title }} -->
 		{% endif %}
 		{% endfor %}
 
