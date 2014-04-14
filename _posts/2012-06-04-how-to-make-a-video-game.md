@@ -9,7 +9,7 @@ author: matt
 	</a>
 </div>
 
-Were you sad that there [was no Lostcast](https://twitter.com/LostDecadeGames/status/209356076099973120) yesterday? Us too, but this might help: I was recently on an episode of [Laser Time](http://www.lasertimepodcast.com/), a podcast run by games journalogist [Chris Antista](https://twitter.com/#!/CAntista). The episode's called [Make a Video Game](http://www.lasertimepodcast.com/2012/06/04/laser-time-how-to-make-a-video-game/) and we talk about things that might be familiar to [Lostcast](http://lostcast.fm/) listeners, like HTML5 and independent game development.
+Were you sad that there [was no Lostcast](https://twitter.com/LostDecadeGames/status/209356076099973120) yesterday? Us too, but this might help: I was recently on an episode of [Laser Time](http://www.lasertimepodcast.com/), a podcast run by games journalogist [Chris Antista](https://twitter.com/#!/CAntista). The episode's called [Make a Video Game](http://www.lasertimepodcast.com/2012/06/04/laser-time-how-to-make-a-video-game/) and we talk about things that might be familiar to [Lostcast](/lostcast/) listeners, like HTML5 and independent game development.
 
 <a class="download-podcast" href="http://www.lasertimepodcast.com/2012/06/04/laser-time-how-to-make-a-video-game/">
 	Listen to How to Make a Video Game

@@ -74,7 +74,7 @@ Lastly, here's what seem to be the default browser commands of the controller's 
 
 (Feel free to [correct me](/contact/) if I'm wrong about any of these.)
 
-We'll discuss the Wii U and its web browser in the next episode of [Lostcast](http://lostcast.fm/), our independent gamedev podcast. You should tune in!
+We'll discuss the Wii U and its web browser in the next episode of [Lostcast](/lostcast/), our independent gamedev podcast. You should tune in!
 
 [1]: http://arcade.lostdecadegames.com/onslaught_defense/
 [2]: /play-our-games-on-your-xbox-360/

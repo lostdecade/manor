@@ -30,4 +30,4 @@ We're neck-deep into development of a realtime multiplayer game so I need to get
 	<img alt="Characters, enemies, weapons, store" src="/media/images/posts/lava_blade/words/characterenemyweaponstore.png">
 </div>
 
-On a side note, tomorrow's the one year anniversary of [Lostcast](http://lostcast.fm/) and we're posting an extra-long podcast to celebrate. Hope to see your ears there!
+On a side note, tomorrow's the one year anniversary of [Lostcast](/lostcast/) and we're posting an extra-long podcast to celebrate. Hope to see your ears there!

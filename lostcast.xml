@@ -2,13 +2,14 @@
 layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 	<channel>
 
 		<title>Lostcast</title>
-		<link>http://www.lostcast.fm/</link>
+		<link>http://www.lostdecadegames.com/lostcast/</link>
 		<language>en-us</language>
 		<copyright>© 2012 Lost Decade Games</copyright>
+		<atom:link href="http://www.lostdecadegames.com/lostcast.xml" rel="self" type="application/rss+xml" />
 
 		<itunes:subtitle>Indie Game Studio</itunes:subtitle>
 		<itunes:author>Lost Decade Games</itunes:author>
@@ -36,7 +37,7 @@ layout: nil
 			<itunes:summary>Matt and Geoff discuss their backgrounds and various aspects of Onslaught! development.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_1_hello_world.mp3" length="2711" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_1_hello_world.mp3</guid>
-			<pubDate>Tue, 15 Nov 2011 12:12:12 +0000</pubDate>
+			<pubDate>Tue, 15 Nov 2011 12:12:12 GMT</pubDate>
 			<itunes:duration>46:11</itunes:duration>
 			<itunes:keywords>html5, games</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -51,7 +52,7 @@ layout: nil
 			<itunes:summary>Matt and Geoff talk with HTML5 game developer Louis Stowasser about his Crafty game engine.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_2_code_like_a_fox.mp3" length="3303" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_2_code_like_a_fox.mp3</guid>
-			<pubDate>Fri, 25 Nov 2011 12:28:00 +0000</pubDate>
+			<pubDate>Fri, 25 Nov 2011 12:28:00 GMT</pubDate>
 			<itunes:duration>55:03</itunes:duration>
 			<itunes:keywords>html5, games, crafty</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -66,7 +67,7 @@ layout: nil
 			<itunes:summary>Join us as we ramble on about locking down your HTML5 game's source code</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_3_ramble_on.mp3" length="1479" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_3_ramble_on.mp3</guid>
-			<pubDate>Fri, 9 Dec 2011 12:28:00 +0000</pubDate>
+			<pubDate>Fri, 09 Dec 2011 12:28:00 GMT</pubDate>
 			<itunes:duration>24:39</itunes:duration>
 			<itunes:keywords>html5, games, closure</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -81,7 +82,7 @@ layout: nil
 			<itunes:summary>What's NaCl and why does it kind of scare us?</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_4_native_coffee.mp3" length="2182" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_4_native_coffee.mp3</guid>
-			<pubDate>Fri, 16 Dec 2011 12:00:00 +0000</pubDate>
+			<pubDate>Fri, 16 Dec 2011 12:00:00 GMT</pubDate>
 			<itunes:duration>46:22</itunes:duration>
 			<itunes:keywords>html5, games, nacl, native client, coffeescript</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -95,7 +96,7 @@ layout: nil
 			<itunes:summary>We answer 4 HTML5 game dev questions from a listener.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_5_left_4_questions.mp3" length="2471" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_5_left_4_questions.mp3</guid>
-			<pubDate>Sat, 31 Dec 2011 12:00:00 +0000</pubDate>
+			<pubDate>Sat, 31 Dec 2011 12:00:00 GMT</pubDate>
 			<itunes:duration>41:11</itunes:duration>
 			<itunes:keywords>html5, games, questions</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -110,7 +111,7 @@ layout: nil
 			<itunes:summary>Tom discusses xcjs, Game Closure and HTML5 tech.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_6_a_wild_tom_appears.mp3" length="1667" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_6_a_wild_tom_appears.mp3</guid>
-			<pubDate>Fri, 27 Jan 2012 12:00:00 +0000</pubDate>
+			<pubDate>Fri, 27 Jan 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>27:47</itunes:duration>
 			<itunes:keywords>html5, games, game closure, tom fairfield</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -125,7 +126,7 @@ layout: nil
 			<itunes:summary>We collected things devs hate about HTML5 via Twitter and talk all about them!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_7_html5_the_bad_parts.mp3" length="4257" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_7_html5_the_bad_parts.mp3</guid>
-			<pubDate>Fri, 02 Feb 2012 12:00:00 +0000</pubDate>
+			<pubDate>Fri, 03 Feb 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>1:10:57</itunes:duration>
 			<itunes:keywords>html5, games, suck, sucks, sucking, sucky</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -140,7 +141,7 @@ layout: nil
 			<itunes:summary>With so many companies cloning out companies' games, why don't we talk this out?</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_8_attack_of_the_clones.mp3" length="3883" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_8_attack_of_the_clones.mp3</guid>
-			<pubDate>Sun, 12 Feb 2012 12:00:00 +0000</pubDate>
+			<pubDate>Sun, 12 Feb 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>1:04:43</itunes:duration>
 			<itunes:keywords>html5, games, clones</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -155,7 +156,7 @@ layout: nil
 			<itunes:summary>Rich Davey is a veteran flash game developer and is really excited about HTML5. Let's talk it out!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_9_thats_rich.mp3" length="3822" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_9_thats_rich.mp3</guid>
-			<pubDate>Thu, 23 Feb 2012 12:00:00 +0000</pubDate>
+			<pubDate>Thu, 23 Feb 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>1:03:42</itunes:duration>
 			<itunes:keywords>html5, games, flash, comparison, rich davey, photonstorm</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -170,7 +171,7 @@ layout: nil
 			<itunes:summary>LDG is now a full-on indie game company and we celebrate by open sourcing our flagship product.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_10_indiependence_day.mp3" length="2534" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_10_indiependence_day.mp3</guid>
-			<pubDate>Fri, 2 Mar 2012 12:00:00 +0000</pubDate>
+			<pubDate>Fri, 02 Mar 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>42:14</itunes:duration>
 			<itunes:keywords>html5, games, indie, onslaught, onslaught arena, open source</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -185,7 +186,7 @@ layout: nil
 			<itunes:summary>LDG went to GDC where we wont a contest and other exciting stuff happened.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_11_ldg_at_gdc.mp3" length="2806" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_11_ldg_at_gdc.mp3</guid>
-			<pubDate>Sun, 18 Mar 2012 12:00:00 +0000</pubDate>
+			<pubDate>Sun, 18 Mar 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>46:46</itunes:duration>
 			<itunes:keywords>html5, games, indie, gdc, lava sword</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -200,7 +201,7 @@ layout: nil
 			<itunes:summary>Geoff and Matt talk shop with HTML5 performance expert and Game Closure employee Arno van der Vegt.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_12_arnother_interview.mp3" length="3309" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_12_arnother_interview.mp3</guid>
-			<pubDate>Tue, 27 Mar 2012 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 27 Mar 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>55:09</itunes:duration>
 			<itunes:keywords>html5, games, indie, arno, tankworld</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -215,7 +216,7 @@ layout: nil
 			<itunes:summary>Matt and Geoff talk about pimping out OS X and HTML games and all that!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_13_os_xcellence.mp3" length="3461" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_13_os_xcellence.mp3</guid>
-			<pubDate>Tue, 03 Apr 2012 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 03 Apr 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>57:41</itunes:duration>
 			<itunes:keywords>html5, games, indie, os x, browserquest, open source</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -230,7 +231,7 @@ layout: nil
 			<itunes:summary>Geoff and Matt interview Impact game engine creator Dominic Szablewski.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_14_quite_an_impact.mp3" length="2689" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_14_quite_an_impact.mp3</guid>
-			<pubDate>Sun, 22 Apr 2012 12:00:00 +0000</pubDate>
+			<pubDate>Sun, 22 Apr 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>44:49</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, impact, game engine, biolab disaster, interview, gamedev</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/custom/impact.png"/>
@@ -245,7 +246,7 @@ layout: nil
 			<itunes:summary>Geoff and Matt talk about lots of things HTML5 and game related, but mostly talk about interesting game mechanics!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_15_deus_ex_game_mechanics.mp3" length="3865" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_15_deus_ex_game_mechanics.mp3</guid>
-			<pubDate>Sun, 6 May 2012 12:00:00 +0000</pubDate>
+			<pubDate>Sun, 06 May 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>1:04:25</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, mechanics, gamedev, podcast</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -260,7 +261,7 @@ layout: nil
 			<itunes:summary>Geoff and Matt talk with HTML5 game pioneer Joseph Huckaby, creator of Effect Games.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_16_we_heart_huckaby.mp3" length="6549" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_16_we_heart_huckaby.mp3</guid>
-			<pubDate>Sun, 20 May 2012 12:00:00 +0000</pubDate>
+			<pubDate>Sun, 20 May 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>1:49:09</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, joseph huckaby, effect games</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -275,7 +276,7 @@ layout: nil
 			<itunes:summary>Geoff and Matt talk with veteran game and Chrome developer Vincent Scheib.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_17_vincent_priceless.mp3" length="6549" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_17_vincent_priceless.mp3</guid>
-			<pubDate>Sun, 10 June 2012 12:00:00 +0000</pubDate>
+			<pubDate>Sun, 10 June 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>1:05:09</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, vincent sheib, chrome</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -290,7 +291,7 @@ layout: nil
 			<itunes:summary>Announcing our first sponsor: Pokki! Geoff and Matt talk about how awesome HTML5 gaming is right now.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_18_the_sorcerors_sponsor.mp3" length="3376" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_18_the_sorcerors_sponsor.mp3</guid>
-			<pubDate>Sun, 24 June 2012 12:00:00 +0000</pubDate>
+			<pubDate>Sun, 24 June 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>56:16</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, pokki</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/custom/pokki.png"/>
@@ -305,7 +306,7 @@ layout: nil
 			<itunes:summary>Geoff and Matt answer a listener question about canvas scaling and catch you up on all things LDG. Don't forget to check out our sponsor Pokki!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_19_canvas_story.mp3" length="2387" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_19_canvas_story.mp3</guid>
-			<pubDate>Sun, 8 July 2012 12:00:00 +0000</pubDate>
+			<pubDate>Sun, 08 July 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>39:47</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, canvas, pokki</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/custom/pokki.png"/>
@@ -320,7 +321,7 @@ layout: nil
 			<itunes:summary>In episode 20, we discuss the much buzzed-about OUYA, Onslaught! Arena on Brass Monkey, and the launch of our new game Lunch Bug.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_20_ouya_or_ooh_no.mp3" length="3113" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_20_ouya_or_ooh_no.mp3</guid>
-			<pubDate>Sun, 22 July 2012 12:00:00 +0000</pubDate>
+			<pubDate>Sun, 22 July 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>51:53</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, pokki, ouya, brass monkey, stream greenlight</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/custom/pokki.png"/>
@@ -335,7 +336,7 @@ layout: nil
 			<itunes:summary>In episode 21, talk about an arcade convention, the WHATWG/W3C split and more!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_21_what_windows.mp3" length="3212" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_21_what_windows.mp3</guid>
-			<pubDate>Sun, 5 Aug 2012 12:00:00 +0000</pubDate>
+			<pubDate>Sun, 05 Aug 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>53:32</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, pokki, ca extreme, whatwg, w3c, windows 8, metro, lava blade, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/custom/pokki.png"/>
@@ -350,7 +351,7 @@ layout: nil
 			<itunes:summary>In episode 22, we talk about all kinds of goings-on in the HTML5 games space, including the Dragons Gameboard kickstarter, and the tools used to make HTML5 games. Don’t forget to comment if you want Geoff to blog more!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_22_htmld5.mp3" length="3308" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_22_htmld5.mp3</guid>
-			<pubDate>Sun, 19 Aug 2012 12:00:00 +0000</pubDate>
+			<pubDate>Sun, 19 Aug 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>55:08</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, pokki, ca extreme, whatwg, w3c, windows 8, metro, lava blade, joshua morse, dragons gameboard, brass monkey, cocoonjs</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/custom/pokki.png"/>
@@ -365,7 +366,7 @@ layout: nil
 			<itunes:summary>In episode 23, we talk about HTML5 and how sometimes it doesn't have anything to do with the success of your game. That said, the industry is in love with HTML5 right now, with lots of new companies and money being injected into it.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_23_html5_blur.mp3" length="3010" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_23_html5_blur.mp3</guid>
-			<pubDate>Sun, 9 Sep 2012 12:00:00 +0000</pubDate>
+			<pubDate>Sun, 09 Sep 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>50:10</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, pokki</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/custom/pokki.png"/>
@@ -380,7 +381,7 @@ layout: nil
 			<itunes:summary>We're back! And talking about the disaster-in-progress that is Lava Blade, as well as our next game, project codename: Warhead!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_24_return_of_the_geoff_and_i.mp3" length="2937" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_24_return_of_the_geoff_and_i.mp3</guid>
-			<pubDate>Tue, 30 Oct 2012 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 30 Oct 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>48:57</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -395,7 +396,7 @@ layout: nil
 			<itunes:summary>Entity/component systems and lots of rambly independent game dev stuff.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_episode_25_11001.mp3" length="4026" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_episode_25_11001.mp3</guid>
-			<pubDate>Tue, 6 Nov 2012 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 06 Nov 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>1:07:06</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -410,7 +411,7 @@ layout: nil
 			<itunes:summary>Geoff and Matt go through each and every one of the previous 25 episodes!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_26_foreach_episode.mp3" length="5940" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_26_foreach_episode.mp3</guid>
-			<pubDate>Sun, 18 Nov 2012 12:00:00 +0000</pubDate>
+			<pubDate>Sun, 18 Nov 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>1:39:00</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, lostcast</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -425,7 +426,7 @@ layout: nil
 			<itunes:summary>Geoff and Matt talk about entity/component implementations in JavaScript. It's a RIOT!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_27_entity_component_proponents.mp3" length="3855" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_27_entity_component_proponents.mp3</guid>
-			<pubDate>Wed, 28 Nov 2012 12:00:00 +0000</pubDate>
+			<pubDate>Wed, 28 Nov 2012 12:00:00 GMT</pubDate>
 			<itunes:duration>1:04:15</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, lostcast</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -440,7 +441,7 @@ layout: nil
 			<itunes:summary>Geoff and Matt talk about Indie Speed Run and GitHub Game Off and other fun stuff.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_28.mp3" length="3552" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_28.mp3</guid>
-			<pubDate>Tue, 22 Jan 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 22 Jan 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>59:12</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, lostcast, indie speed run, github</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -455,7 +456,7 @@ layout: nil
 			<itunes:summary>Geoff and Matt talk about what they been up to for da last 2 months?!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_29.mp3" length="3234" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_29.mp3</guid>
-			<pubDate>Wed, 13 Mar 2013 12:00:00 +0000</pubDate>
+			<pubDate>Wed, 13 Mar 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>53:54</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, lostcast</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -470,7 +471,7 @@ layout: nil
 			<itunes:summary>Geoff and Matt are FINALLY launching Lava Blade and they're so excited that this podcast is now called LAUNCHCAST! (not really)</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_30.mp3" length="3828" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_30.mp3</guid>
-			<pubDate>Thu, 11 Apr 2013 12:00:00 +0000</pubDate>
+			<pubDate>Thu, 11 Apr 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>1:03:48</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, lostcast, lava blade</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -485,7 +486,7 @@ layout: nil
 			<itunes:summary>Geoff and Matt interview Microsoft evangelist Jesse Freeman.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_31.mp3" length="3917" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_31.mp3</guid>
-			<pubDate>Thu, 9 May 2013 12:00:00 +0000</pubDate>
+			<pubDate>Thu, 09 May 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>1:05:17</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, lostcast, lava blade, jesse freeman</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -500,7 +501,7 @@ layout: nil
 			<itunes:summary>Geoff and Matt talk about their upcoming game Crypt Run, and the Kickstarter they're launching soon!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_32.mp3" length="3476" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_32.mp3</guid>
-			<pubDate>Tue, 2 July 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 02 July 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>57:56</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, kickstarter</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -515,7 +516,7 @@ layout: nil
 			<itunes:summary>Geoff and Matt talk about their Kickstarter campaign and LIVE DEMO for Crypt Run!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_33.mp3" length="3596" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_33.mp3</guid>
-			<pubDate>Tue, 16 July 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 16 July 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>59:56</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, kickstarter, california extreme, live demo</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -530,7 +531,7 @@ layout: nil
 			<itunes:summary>Geoff and Matt talk about their Kickstarter campaign and a ton of other things!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_34.mp3" length="3273" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_34.mp3</guid>
-			<pubDate>Tue, 23 July 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 23 July 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>54:33</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, kickstarter, california extreme</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -545,7 +546,7 @@ layout: nil
 			<itunes:summary>Crypt Run is 95% funded!! Let's chat about Casual Connect and Indie Prize Showcase!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_35.mp3" length="2313" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_35.mp3</guid>
-			<pubDate>Tue, 30 July 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 30 July 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>38:33</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, kickstarter, casual connect, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -560,7 +561,7 @@ layout: nil
 			<itunes:summary>Crypt Run is FUNDED! Let's talk about Casual Connect, Indie Prize, Nintendo Wii U, Linux, and more!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_36.mp3" length="4025" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_36.mp3</guid>
-			<pubDate>Tue, 6 August 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 06 August 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>1:07:05</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, kickstarter, casual connect, joshua morse, kickstarter</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -575,7 +576,7 @@ layout: nil
 			<itunes:summary>Geoff 'n Matt riff about Kickstarter, live streaming, Spelunky, leaderboars, and more!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_37.mp3" length="3291" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_37.mp3</guid>
-			<pubDate>Tue, 13 August 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 13 August 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>54:51</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, kickstarter, casual connect, joshua morse, kickstarter</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -590,7 +591,7 @@ layout: nil
 			<itunes:summary>Geoff 'n Matt go in-depth about last week's changes to the Crypt Run alpha!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_38.mp3" length="4434" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_38.mp3</guid>
-			<pubDate>Tue, 20 August 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 20 August 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>1:13:54</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, kickstarter, casual connect, joshua morse, kickstarter</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -605,7 +606,7 @@ layout: nil
 			<itunes:summary>Matt 'n Geoff go in-depth about last week's changes to the Crypt Run alpha!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_39.mp3" length="3973" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_39.mp3</guid>
-			<pubDate>Tue, 27 August 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 27 August 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>1:26:13</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, kickstarter, casual connect, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -620,7 +621,7 @@ layout: nil
 			<itunes:summary>Matt 'n Geoff interview HTML5 pioneers Ibon and Iker from Ludei!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_40.mp3" length="3685" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_40.mp3</guid>
-			<pubDate>Tue, 3 September 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 03 September 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>1:01:25</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, kickstarter, casual connect, joshua morse, ludei, cocoonjs</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -635,7 +636,7 @@ layout: nil
 			<itunes:summary>Matt 'n Geoff talk about their new FORUM as well as Crypt Run, Indie Speed Run, and more!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_41.mp3" length="4055" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_41.mp3</guid>
-			<pubDate>Tue, 10 September 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 10 September 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>1:07:35</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, joshua morse, indie speed run</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -650,7 +651,7 @@ layout: nil
 			<itunes:summary>Matt 'n Geoff talk about Rampart Rush (remember that?), Crypt Run, and of course… games.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_42.mp3" length="5094" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_42.mp3</guid>
-			<pubDate>Tue, 17 September 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 17 September 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>1:24:54</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, joshua morse, ridger racer, drift</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -665,7 +666,7 @@ layout: nil
 			<itunes:summary>Matt 'n Geoff talk about Crypt Run, books, Crypt Run, independence, and Crypt Run!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_43.mp3" length="5145" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_43.mp3</guid>
-			<pubDate>Tue, 24 September 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 24 September 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>1:25:45</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, joshua morse, masters of the arena</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -680,7 +681,7 @@ layout: nil
 			<itunes:summary>For once, Geoff and Matt DON'T talk about Crypt Run! Instead, we talk about Spriter, Spine, and a gamedev bucket list!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_44.mp3" length="4352" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_44.mp3</guid>
-			<pubDate>Mon, 30 September 2013 12:00:00 +0000</pubDate>
+			<pubDate>Mon, 30 September 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>1:12:32</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, joshua morse, spriter, spine, bucket list</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -695,7 +696,7 @@ layout: nil
 			<itunes:summary>Return to the Crypt Run development changelog discussion!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_45.mp3" length="4496" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_45.mp3</guid>
-			<pubDate>Tue, 8 October 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 08 October 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>1:14:56</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -710,7 +711,7 @@ layout: nil
 			<itunes:summary>Geoff 'n Matt retreat to the HTML5 Dev Conference.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_46.mp3" length="3018" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_46.mp3</guid>
-			<pubDate>Tue, 15 October 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 15 October 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>50:18</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, crypt run, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -725,7 +726,7 @@ layout: nil
 			<itunes:summary>Geoff 'n Matt talk about allll kinds of stuff including their HTML5 Dev Conf keynote participation and renaming Crypt Run to A Wizard's Lizard!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_47.mp3" length="4633" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_47.mp3</guid>
-			<pubDate>Tue, 29 October 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 29 October 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>1:17:13</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -740,7 +741,7 @@ layout: nil
 			<itunes:summary>Geoff 'n Matt try to focus on the latest A Wizard's Lizard changelog, but end up rambling on about everything from open source to Castlevania.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_48.mp3" length="3918" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_48.mp3</guid>
-			<pubDate>Tue, 5 November 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 05 November 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>1:05:18</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -755,7 +756,7 @@ layout: nil
 			<itunes:summary>Matt and Geoff chat with Dave and Will of PlayCanvas, a cloud-based WebGL game engine!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_49.mp3" length="4358" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_49.mp3</guid>
-			<pubDate>Tue, 12 November 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 12 November 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>1:12:38</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -770,7 +771,7 @@ layout: nil
 			<itunes:summary>Wow, what DON'T Matt and Geoff talk about in this 2 hour+ episode?!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_50.mp3" length="8161" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_50.mp3</guid>
-			<pubDate>Tue, 19 November 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 19 November 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>2:16:01</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -785,7 +786,7 @@ layout: nil
 			<itunes:summary>Geoff 'n Matt talk about A Wizard's Lizard development and delivering the beta to hundreds of wonderful preoderererers!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_51.mp3" length="6278" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_51.mp3</guid>
-			<pubDate>Tue, 26 November 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 26 November 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>1:44:38</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -800,7 +801,7 @@ layout: nil
 			<itunes:summary>Geoff 'n Matt talk about "macro" game design.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_52.mp3" length="3392" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_52.mp3</guid>
-			<pubDate>Tue, 3 December 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 03 December 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>56:32</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -815,7 +816,7 @@ layout: nil
 			<itunes:summary>Geoff 'n Matt talk about bitmasking, tile edging, and general game design.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_53.mp3" length="4589" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_53.mp3</guid>
-			<pubDate>Tue, 10 December 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 10 December 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>1:16:29</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -830,7 +831,7 @@ layout: nil
 			<itunes:summary>LDG interviews world-renowned game composer Tim Follin about his upcoming HTML5 game Contradiction.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_54.mp3" length="5108" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_54.mp3</guid>
-			<pubDate>Tue, 17 December 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 17 December 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>1:25:08</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse, tim follin, contradiction</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -845,7 +846,7 @@ layout: nil
 			<itunes:summary>Matt 'n Geoff talk about A Wizard's Lizard development, including a brand new collision script.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_55.mp3" length="4043" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_55.mp3</guid>
-			<pubDate>Tue, 23 December 2013 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 23 December 2013 12:00:00 GMT</pubDate>
 			<itunes:duration>1:07:23</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse, tim follin, contradiction</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -860,7 +861,7 @@ layout: nil
 			<itunes:summary>Matt 'n Geoff talk about A Wizard's Lizard on Steam Greenlight, oh and all of 2013.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_56.mp3" length="3752" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_56.mp3</guid>
-			<pubDate>Wed, 8 January 2014 12:00:00 +0000</pubDate>
+			<pubDate>Wed, 08 January 2014 12:00:00 GMT</pubDate>
 			<itunes:duration>1:02:32</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse, steam greenlight, 2013</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -875,7 +876,7 @@ layout: nil
 			<itunes:summary>Matt 'n Geoff talk about the first 5 days of A Wizard's Lizard on Steam Greenlight, Horse Blair, and other things.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_57.mp3" length="3624" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_57.mp3</guid>
-			<pubDate>Tue, 14 January 2014 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 14 January 2014 12:00:00 GMT</pubDate>
 			<itunes:duration>1:00:24</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse, steam greenlight</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -890,7 +891,7 @@ layout: nil
 			<itunes:summary>Matt 'n Geoff talk about backups, Legend of Grimrock, Steam Greenlight, and more!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_58.mp3" length="3660" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_58.mp3</guid>
-			<pubDate>Tue, 21 January 2014 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 21 January 2014 12:00:00 GMT</pubDate>
 			<itunes:duration>1:01:00</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -905,7 +906,7 @@ layout: nil
 			<itunes:summary>Matt 'n Geoff talk about the power of streamers, car physics, PIXI, and more!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_59.mp3" length="3654" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_59.mp3</guid>
-			<pubDate>Tue, 28 January 2014 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 28 January 2014 12:00:00 GMT</pubDate>
 			<itunes:duration>1:00:54</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -920,7 +921,7 @@ layout: nil
 			<itunes:summary>Matt 'n Geoff talk about A Wizard's Lizard, The Legend of Zelda: A Link Between Worlds, Steam Greenlight, and more!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_60.mp3" length="3797" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_60.mp3</guid>
-			<pubDate>Wed, 05 February 2014 12:00:00 +0000</pubDate>
+			<pubDate>Wed, 05 February 2014 12:00:00 GMT</pubDate>
 			<itunes:duration>1:03:17</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -935,7 +936,7 @@ layout: nil
 			<itunes:summary>Matt 'n Geoff ramble on about test-driven development, code style, and more!</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_61.mp3" length="4225" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_61.mp3</guid>
-			<pubDate>Tue, 11 February 2014 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 11 February 2014 12:00:00 GMT</pubDate>
 			<itunes:duration>1:10:25</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -950,7 +951,7 @@ layout: nil
 			<itunes:summary>Matt 'n Geoff discuss the TINY EPIDEMIC that is lack of motivation.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_62.mp3" length="3448" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_62.mp3</guid>
-			<pubDate>Tue, 18 February 2014 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 18 February 2014 12:00:00 GMT</pubDate>
 			<itunes:duration>57:28</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -965,7 +966,7 @@ layout: nil
 			<itunes:summary>Matt 'n Geoff discuss tweening, polygonal hit detection, and Steamworks.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_63.mp3" length="3742" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_63.mp3</guid>
-			<pubDate>Tue, 25 February 2014 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 25 February 2014 12:00:00 GMT</pubDate>
 			<itunes:duration>1:02:22</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse, steam, steamworks, greenworks</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -980,7 +981,7 @@ layout: nil
 			<itunes:summary>Matt 'n Geoff discuss speed runs (both tool-assisted and manual) and other fun gaming nonsense.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_64.mp3" length="4151" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_64.mp3</guid>
-			<pubDate>Tue, 04 March 2014 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 04 March 2014 12:00:00 GMT</pubDate>
 			<itunes:duration>1:09:11</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -995,7 +996,7 @@ layout: nil
 			<itunes:summary>Matt 'n Geoff discuss their decision to continue with their own rendering tools and not switch to Pixi.js (which is a great tool).</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_65.mp3" length="3392" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_65.mp3</guid>
-			<pubDate>Tue, 11 March 2014 12:00:00 +0000</pubDate>
+			<pubDate>Tue, 11 March 2014 12:00:00 GMT</pubDate>
 			<itunes:duration>56:32</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
@@ -1010,7 +1011,7 @@ layout: nil
 			<itunes:summary>Matt 'n Geoff chat with Gregory Love of Whippering, an independent business development and marketing firm.</itunes:summary>
 			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_66.mp3" length="4975" type="audio/mpeg"/>
 			<guid>http://media.lostdecadegames.com/lostcast/lostcast_66.mp3</guid>
-			<pubDate>Wed, 19 March 2014 12:00:00 +0000</pubDate>
+			<pubDate>Wed, 19 March 2014 12:00:00 GMT</pubDate>
 			<itunes:duration>1:22:55</itunes:duration>
 			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse, gregory love, whippering, marketing</itunes:keywords>
 			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
