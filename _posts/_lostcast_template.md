@@ -9,7 +9,7 @@ podcast:
   summary: 
   duration: ""
   length: 
-  pubDate: "Tue, 25 March 2014 12:28:00 +0000"
+  pubDate: "Tue, 25 Mar 2014 00:00:00 GMT"
   mp3url: http://media.lostdecadegames.com/lostcast/lostcast_68.mp3
   keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---

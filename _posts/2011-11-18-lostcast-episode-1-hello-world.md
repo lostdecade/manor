@@ -9,7 +9,7 @@ _podcast:
   summary: Matt and Geoff discuss their backgrounds and various aspects of Onslaught! development.
   duration: "46:11"
   length: 2711
-  pubDate: "Tue, 15 Nov 2011 12:12:12 +0000"
+  pubDate: "Tue, 15 Nov 2011 12:12:12 GMT"
   mp3url: http://media.lostdecadegames.com/lostcast/lostcast_episode_1_hello_world.mp3
   keywords: html5, games
 ---
