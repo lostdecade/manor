@@ -8,16 +8,19 @@ layout: nil
 		<title>Lostcast</title>
 		<link>http://www.lostdecadegames.com/lostcast/</link>
 		<language>en-us</language>
-		<copyright>© 2012 Lost Decade Games</copyright>
-		<atom:link href="http://www.lostdecadegames.com/lostcast.xml" rel="self" type="application/rss+xml" />
+		<copyright>Lost Decade Games © 2014</copyright>
 
-		<itunes:subtitle>Indie Game Studio</itunes:subtitle>
+		<atom:link href="http://www.lostdecadegames.com/lostcast.xml" rel="self" type="application/rss+xml" />
+		<itunes:subtitle>Indie Game Dev Podcast</itunes:subtitle>
+		<itunes:keywords>video games, html5, games game dev, game development, javascript, web dev, indie</itunes:keywords>
+
 		<itunes:author>Lost Decade Games</itunes:author>
 		<itunes:summary>
 			Geoff Blair and Matt Hackett discuss the business, tech, and creativity of indie games.
+			Every Tuesday, independent game developers Matt Hackett and Geoff Blair discuss the chaotic circus of running an indie game company.
 		</itunes:summary>
 		<description>
-			Geoff Blair and Matt Hackett discuss the business, tech, and creativity of indie games.
+			Every Tuesday, independent game developers Matt Hackett and Geoff Blair discuss the chaotic circus of running an indie game company.
 		</description>
 		<itunes:category text="Games &amp; Hobbies">
 			<itunes:category text="Video Games"/>
