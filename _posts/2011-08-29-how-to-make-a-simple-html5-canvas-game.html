@@ -4,22 +4,26 @@ title: How to make a simple HTML5 Canvas game
 author: matt
 tags: [feature]
 ---
+<div class="full-frame">
+	<img alt="How to make a simple HTML5 Canvas game" src="/media/images/posts/tuts/simple.jpg" width="500" height="200">
+</div>
+
 <p>
-	Since making a bunch of HTML5 games (like <a href="http://www.wizardslizard.com/">A Wizard's Lizard</a>),
-	I've had many requests for a very basic tutorial on how to make a simple game in canvas.
-	After pondering for some time how to best approach this complex subject,
-	I decided just to put together the <em>very simplest</em> game I can imagine and walk through it practically line-by-line.
+	You want a quick tutorial for making a SIMPLE game in HTML5?
+	Let's walk through a SIMPLE game practically line-by-line!
+	(If you're curious about my credentials, I made half of <a href="http://www.wizardslizard.com/">A Wizard's Lizard</a>.)
 </p>
 
 <p>
-	So here it is!
 	Let's jump right in by walking through
 	<a href="https://github.com/lostdecade/simple_canvas_game/blob/master/js/game.js">game.js</a>.
 	You can also <a href="http://www.lostdecadegames.com/demos/simple_canvas_game/">play the game right here</a>.
 </p>
 
+<h2>Screenshot</h2>
+
 <div class="full-frame">
-	<a href="http://www.flickr.com/photos/50655575@N03/6084194152/in/photostream">
+	<a href="http://www.lostdecadegames.com/demos/simple_canvas_game/">
 		<img alt="Simple game using Onslaught! graphics" src="http://farm7.static.flickr.com/6203/6084194152_35c3e3ba34_z.jpg">
 	</a>
 </div>
@@ -39,8 +43,8 @@ document.body.appendChild(canvas);
 	The first thing we need to do is create a
 	<a href="https://developer.mozilla.org/en/canvas_tutorial">canvas element</a>.
 	I did this in JavaScript instead of HTML to demonstrate how easily it is accomplished.
-	Once we have the element, we get a reference to its context,
-	set its dimensions, and append it to the document's body.
+	Once we have the element we get a reference to its context, which we use to issue drawing commands.
+	Then we set its dimensions, and add it to document so it'll appear in the page.
 </p>
 
 <h2>2. Include images</h2>
@@ -57,16 +61,15 @@ bgImage.src = "images/background.png";
 
 <p>
 	A game needs graphics, so let's load up some images!
-	I wanted to do this as simply as possible so it's just an <code>Image</code> instead of being wrapped up in a nice Class or something.
-	<code>bgReady</code> is used to let the canvas
-	know when it's safe to draw it, as trying to
-	<a href="http://stackoverflow.com/questions/2923564/uncaught-error-index-size-err">render it before it's loaded will throw a DOM error</a>.
+	I wanted to do this as simply as possible so it's just an <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement">Image</a> instead of being wrapped up in a nice Class or something.
+	<code>bgReady</code> is used to let us know when it's safe to draw the image, as trying to
+	<a href="http://stackoverflow.com/questions/2923564/uncaught-error-index-size-err">draw it before it's loaded will throw a DOM error</a>.
 </p>
 
 <p>
 	We do this for each of the three graphics we need:
 	<a href="https://github.com/lostdecade/simple_canvas_game/blob/master/images/background.png">background</a>,
-	<a href="https://github.com/lostdecade/simple_canvas_game/blob/master/images/hero.png">hero</a>
+	<a href="https://github.com/lostdecade/simple_canvas_game/blob/master/images/hero.png">hero</a>,
 	and <a href="https://github.com/lostdecade/simple_canvas_game/blob/master/images/monster.png">monster</a>.
 </p>
 
@@ -173,7 +176,7 @@ var update = function (modifier) {
 
 <p>
 	This is the <code>update</code> function and is called every single interval execution.
-	The first thing it does is checks the up, down, left and right arrow keys to see if the user has pressed them.
+	The first thing it does is checks the up, down, left, and right arrow keys to see if the user has pressed them.
 	If so, the hero is moved in the corresponding direction.
 </p>
 
@@ -216,7 +219,7 @@ var render = function () {
 	ctx.font = "24px Helvetica";
 	ctx.textAlign = "left";
 	ctx.textBaseline = "top";
-	ctx.fillText("Goblins caught: " + monstersCaught, 32, 32);
+	ctx.fillText("Monsterrs caught: " + monstersCaught, 32, 32);
 };
 {% endhighlight %}
 
@@ -225,7 +228,7 @@ var render = function () {
 	First we take the background image and
 	<a href="https://developer.mozilla.org/en/Canvas_tutorial/Using_images">draw it to the canvas</a>.
 	Repeat for the hero and monster.
-	<em>Note that the order is important, as any image drawn to the surface will be drawn over the pixels under it.</em>
+	<em>Note that the order is important, as any image drawn to the canvas will draw over the pixels under it.</em>
 </p>
 
 <p>
@@ -245,6 +248,9 @@ var main = function () {
 	render();
 
 	then = now;
+
+	// Request to do this again ASAP
+	requestAnimationFrame(main);
 };
 {% endhighlight %}
 
@@ -261,30 +267,50 @@ var main = function () {
 	for more on game loops.
 </em></p>
 
-<h2>9. Start the game!</h2>
+<h2>9. A note about looping</h2>
+
+{% highlight js %}
+// Cross-browser support for requestAnimationFrame
+var w = window;
+requestAnimationFrame = w.requestAnimationFrame || w.webkitRequestAnimationFrame || w.msRequestAnimationFrame || w.mozRequestAnimationFrame;
+{% endhighlight %}
+
+<p>
+	<em>Don't worry, it's not necessary to fully understand this part, but I thought an explanation of the looping code would be beneficial.</em>
+</p>
+
+<p>
+	To continuously call the <code>main</code> game loop function, this tutorial used to execute the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window.setInterval">setInterval</a> method. These days there's a better way, via the <a href="https://developer.mozilla.org/en-US/docs/Web/API/window.requestAnimationFrame">requestAnimationFrame</a> method. However, as with most new web technologies, some code is needed to ensure cross-browser support. The <a href="https://en.wikipedia.org/wiki/Polyfill">polyfill</a> I've included is a simplified version of the one on <a href="http://www.paulirish.com/2011/requestanimationframe-for-smart-animating/">Paul Irish's article</a>.
+</p>
+
+<h2>10. Start the game!</h2>
 
 {% highlight js %}
 // Let's play this game!
-reset();
 var then = Date.now();
-setInterval(main, 1); // Execute as fast as possible
+reset();
+main();
 {% endhighlight %}
 
 <p>
 	Almost there, this is the last code snippet!
-	First we call <code>reset</code> to start a new game/level.
+	First we we set our timestamp (with the variable <code>then</code>) to seed it.
+	Then we call <code>reset</code> to start a new game/level.
 	(Remember that this centers the hero and places the monster randomly for the player to find.)
-	Then we seed our timestamp (with the variable <code>then</code>) and start the interval.
 </p>
 
 <p>
-	Congraulations! You now (hopefully!) understand the basic fundamentals of game development using the canvas element in JavaScript.
-	Try it out on your own!
+	Congraulations! You now understand the basic fundamentals of game development (I hope!) using the canvas element in JavaScript.
+	Try it out on your own:
 	<a href="http://www.lostdecadegames.com/demos/simple_canvas_game/">Play the game</a> or
 	<a href="https://github.com/lostdecade/simple_canvas_game">fork</a> the code on GitHub and get started hacking.
 </p>
 
-<h2>A Wizard's Lizard: a full-featured HTML5 game</h2>
+<h2>Get help on our forum</h2>
+
+Lost? Our <a href="http://forum.lostdecadegames.com/">forum community</a> of hobbyiest and professional game devs enjoy helping out. <a href="http://forum.lostdecadegames.com/category/14/game-dev">Start a thread!</a>
+
+<h2>A Wizard's Lizard: an HTML5 action RPG</h2>
 
 <p>
 	Want to see what HTML5 can really do? Watch this:
@@ -295,7 +321,7 @@ setInterval(main, 1); // Execute as fast as possible
 </div>
 
 <p>
-	If you like what you see, consider <a href="http://www.wizardslizard.com/">buying a copy</a>, it really helps us out. Thanks!
+	If you like what you see, consider <a href="http://www.wizardslizard.com/">buying it on the Humble Store</a> (you will get a Steam key eventually). Thanks, your support really helps!
 </p>
 
 <div class="full-frame">
