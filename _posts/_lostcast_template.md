@@ -7,8 +7,9 @@ podcast:
   title: Lostcast 
   subtitle: 
   summary: 
-  duration: ""
-  length: 4176
+  duration: "N:NN:NN"
+  length: NNNN
+  filesize: NNMB
   pubDate: "Tue, 25 Mar 2014 00:00:00 GMT"
   mp3url: http://media.lostdecadegames.com/lostcast/lostcast_68.mp3
   keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
@@ -19,8 +20,8 @@ podcast:
 
 **Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company. HTML5 is our tech, so that's a topic we often discuss.
 
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_.mp3">
-	Download episode  (, MB)
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
 </a>
 
 ## Show notes
