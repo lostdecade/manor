@@ -18,7 +18,9 @@ podcast:
 	<img alt="Lostcast gamedev podcast" src="/media/images/lostcast/splash.jpg" width="500" height="313">
 </div>
 
-**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company. HTML5 is our tech, so that's a topic we often discuss.
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
+
+{{ page.podcast.summary }}
 
 <a class="download-podcast" href="{{ page.podcast.mp3url }}">
 	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
