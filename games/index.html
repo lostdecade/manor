@@ -2,15 +2,27 @@
 layout: default
 title: Games
 ---
-<h2>{{ page.title }}</h2>
+<div class="splash blog">
+	<div>
+		<h2>Games</h2>
+		<em>major games we made</em>
+	</div>
+</div>
 
-<ul class="games-list module">
-	{% for gamekey in site.games_list %}
-		{% assign game = site.games[gamekey] %}
-		<li>
-			<div class="text-format">
+<div class="section text">
+	<ul>
+		{% for gamekey in site.games_list %}
+			{% assign game = site.games[gamekey] %}
+
+			{% if game.promo_url %}
+				{% assign game_url = game.promo_url %}
+			{% else %}
+				{% assign game_url = game.play_url %}
+			{% endif %}
+
+			<li>
 				<h2>{{ game.title }}</h2>
-				<a href="{{ game.promo_url }}">
+				<a href="{{ game.game_url }}">
 					<img alt="{{ game.title }}" src="/media/images/games/{{ gamekey }}/promo-560x180.png" width="560" height="180">
 				</a>
 				<p>
@@ -18,10 +30,11 @@ title: Games
 					{% if game.promo_url %}
 						<a href="{{ game.promo_url }}">Learn more</a>
 					{% else %}
-						<a href="{{ game.play_url }}">Play now</a>
+						<a href="{{ game.play_url }}">Play</a>
 					{% endif %}
 				</p>
-			</div>
-		</li>
-	{% endfor %}
-</ul>
+				<br>
+			</li>
+		{% endfor %}
+	</ul>
+</div>

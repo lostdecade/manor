@@ -150,18 +150,15 @@ h1, h2 {
 		text-align: left;
 		width: 500px;
 
-		h3, p, ul, li {
+		h1, h2, h3, p, ul, li {
+			font-family: "Cabin", Sans-Serif;
 			margin-bottom: @padding;
 		}
 
-		h3 {
-			font-size: 150%;
-		}
-
-		h4 {
-			font-size: 125%;
-			font-weight: bold;
-		}
+		h1 { font-size: 200%; }
+		h2 { font-size: 175%; }
+		h3 { font-size: 150%; }
+		h4 { font-size: 125%; }
 
 		.major {
 			font-size: 200%;
@@ -216,7 +213,7 @@ h1, h2 {
 // Footer
 #ft {
 	color: @dark-grey;
-	padding-bottom: @padding;
+	padding: @padding 0;
 
 	a {
 		color: @dark-grey;

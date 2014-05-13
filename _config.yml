@@ -58,7 +58,7 @@ games:
     paywall: true
     url_key: "lava-blade"
     title: "Lava Blade"
-    tagline: "Embark on an epic adventure of tactical combat in this strategy RPG!"
+    tagline: "Embark on an epic adventure of tactical combat in this strategy RPG."
     promo_url: "http://www.lavablade.com"
     ost_url: "http://joshuamorse.bandcamp.com/album/lava-blade-original-soundtrack"
     platforms:
@@ -70,7 +70,7 @@ games:
   lunchbug:
     url_key: "lunch-bug"
     title: "Lunch Bug"
-    tagline: "Grow delicous berries and feed cute bugs in this sweet puzzle game!"
+    tagline: "Exercise your brain and feed cute bugs in this free strategy puzzle game."
     promo_url: "http://www.lunchbug.com"
     ost_url: "http://joshuamorse.bandcamp.com/album/lunch-bug-original-soundtrack"
     platforms:

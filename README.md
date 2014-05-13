@@ -7,9 +7,10 @@ TODO:
 * lostcast
 	- lostcast/episodes/
 * mailing-list
-* games
 * make discus comments readable (light background?)
 * use local web fonts
+* cull unused shit
+* redo splash/title so it's part of default layout
 
 This is the source code for the [Lost Decade Games website][1]. Our site is open source and hosted out of [AWS][3] using the static site generator [Jekyll][4]. Please see the following blog posts for more information:
 
