@@ -1,13 +1,8 @@
 # Lost Decade Games website
 
 TODO:
-* add padding, white space fixes in lists
 * about
-	- about/press
-	- about/
 	- polish /about/team
-		* link back to /about/?
-		* why are the lines so tall in the list?
 		* add list of traits e.g. Snowboarding: yes
 * make discus comments readable (light background?)
 * check syntax highlighter -- code readable etc.?
