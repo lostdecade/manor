@@ -158,6 +158,11 @@ h1, h2 {
 			margin-bottom: @padding;
 		}
 
+		ol {
+			list-style-type: decimal;
+			margin-left: 2em;
+		}
+
 		h1, h2, h3, h4 {
 			font-family: "Cabin", Sans-Serif;
 		}
@@ -181,6 +186,11 @@ h1, h2 {
 	}
 }
 
+.br {
+	margin-bottom: @padding;
+	padding-bottom: @padding;
+}
+
 // Clean up the messy blog!
 .blog.section.text {
 	text-align: justify;
@@ -200,10 +210,6 @@ h1, h2 {
 
 	ul {
 		list-style-type: disc;
-	}
-
-	ol {
-		list-style-type: decimal;
 	}
 
 	.full-frame {

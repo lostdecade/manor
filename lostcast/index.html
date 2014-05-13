@@ -11,21 +11,19 @@ comments: hidden
 </div>
 
 <div class="section text">
-	<p>
+	<p class="br">
 		Lostcast is a weekly podcast about game development. Join us every Tuesday on <a href="{{ site.lostcast_itunes_url }}">iTunes</a>, <a href="{{ site.lostcast_feed_url }}">RSS</a>, or right here on our website.
 	</p>
 
 	<!-- Listen -->
 	{% for post in site.tags.lostcast %}
 		{% if forloop.first %}
-			<div>
+			<div class="br">
 				<h2>{{ post.title }}</h2>
 				<audio controls="controls" src="{{ post.podcast.mp3url }}">
 					Sorry, your browser doesn't support embedded audio.
 				</audio>
-				<p>
-					or <a href="{{ post.podcast.mp3url }}">download</a> directly
-				</p>
+				or <a href="{{ post.podcast.mp3url }}">download</a> directly
 			</div>
 		{% endif %}
 	{% endfor %}

@@ -11,27 +11,18 @@ comments: hidden
 </div>
 
 <div class="section text">
-	<p>
-		Lostcast is a weekly podcast about game development, uploaded every Tuesday to <a href="{{ site.lostcast_itunes_url }}">iTunes</a> and right here on our website.
+	<p class="br">
+		<a href="/lostcast">Lostcast</a> is a weekly podcast about game development.
 	</p>
 
-	<h3 id="episodes">All Episodes</h3>
-	<ol class="posts">
+	<ol>
 		{% for post in site.tags.lostcast %}
 		<li>
-			<a class="title" href="{{ post.url }}">{{ post.title }}</a>
-		</li>
-		{% endfor %}
-	</ol>
-
-	<h3 id="interviews">Interviews</h3>
-	<ol class="posts">
-		{% for post in site.tags.lostcast %}
+			<a href="{{ post.url }}">{{ post.title }}</a>
 			{% if post.tags contains "interview" %}
-				<li>
-					<a class="title" href="{{ post.url }}">{{ post.title }}</a>
-				</li>
+				(interview)
 			{% endif %}
+		</li>
 		{% endfor %}
 	</ol>
 </div>
