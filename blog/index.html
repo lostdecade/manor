@@ -3,15 +3,15 @@ layout: default
 title: Blog
 comments: hidden
 ---
-<div class="splash blog">
+<div class="splash laptop">
 	<div>
 		<h2>Blog</h2>
-		<em>read these words</em>
+		<em>articles and announcements from LDG</em>
 	</div>
 </div>
 
 <div class="section text">
-	<ul>
+	<ul class="major-list">
 		{% for post in site.posts %}
 			{% assign author = site.authors[post.author] %}
 			{% if post.tags contains "lostcast" %}

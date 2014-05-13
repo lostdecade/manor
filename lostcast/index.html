@@ -18,12 +18,14 @@ comments: hidden
 	<!-- Listen -->
 	{% for post in site.tags.lostcast %}
 		{% if forloop.first %}
-			<div class="br">
+			<div class="br" id="lostcast-file">
 				<h2>{{ post.title }}</h2>
 				<audio controls="controls" src="{{ post.podcast.mp3url }}">
 					Sorry, your browser doesn't support embedded audio.
 				</audio>
-				or <a href="{{ post.podcast.mp3url }}">download</a> directly
+				<p>
+					<a href="{{ post.podcast.mp3url }}">download mp3</a>
+				</p>
 			</div>
 		{% endif %}
 	{% endfor %}
