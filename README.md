@@ -9,10 +9,6 @@ TODO:
 		* link back to /about/?
 		* why are the lines so tall in the list?
 		* add list of traits e.g. Snowboarding: yes
-* mailing-list
-* show the latest blog on the blog
-	- list should be secondary, like on lostcast
-	- although, who cares about the blog?
 * make discus comments readable (light background?)
 * check syntax highlighter -- code readable etc.?
 * use local web fonts
