@@ -1,33 +1,38 @@
 ---
-layout: article
+layout: default
 title: Blog
 comments: hidden
 ---
-<p>
-	Here you will find our entire list of articles published over the years. Don't forget to <a href="/rss.xml">subscribe via RSS</a>!
-</p>
+<div class="splash blog">
+	<div>
+		<h2>Blog</h2>
+		<em>read these words</em>
+	</div>
+</div>
 
-<ul class="article-list">
-	{% for post in site.posts %}
-		{% assign author = site.authors[post.author] %}
-		{% if post.tags contains "lostcast" %}
-			<!-- Omit Lostcast post -->
-		{% else %}
-			<li>
-				<a class="title" href="{{ post.url }}">{{ post.title }}</a>
-				<div class="meta">
-					{{ post.date | date_to_string }}
-					by <strong>{{ author.display_name }}</strong>
-					<a
-						class="comments"
-						href="{{ post.url }}#disqus_thread"
-						data-disqus-identifier="{{ post.id }}"
-					></a>
-				</div>
-			</li>
-		{% endif %}
-	{% endfor %}
-</ul>
+<div class="section text">
+	<ul>
+		{% for post in site.posts %}
+			{% assign author = site.authors[post.author] %}
+			{% if post.tags contains "lostcast" %}
+				<!-- Omit Lostcast post -->
+			{% else %}
+				<li>
+					<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+					<div class="meta">
+						{{ post.date | date_to_string }}
+						by <strong>{{ author.display_name }}</strong>
+						<a
+							class="comments"
+							href="{{ post.url }}#disqus_thread"
+							data-disqus-identifier="{{ post.id }}"
+						></a>
+					</div>
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>
 
 <script type="text/javascript">
 // Disqus comment counts

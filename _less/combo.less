@@ -1,16 +1,228 @@
-// Core
-@import "core-layout";
-@import "core-skin";
+// Imports
+@import "reset";
+@import "palette";
+@import "utils";
 @import "syntax";
 
-// Widgets
-@import "widgets/game-feature-card";
+html {
+	background: @black;
+	color: @white;
+	font-family: "Droid Sans", Sans-Serif;
+	font-size: 18px;
+	text-align: center;
+}
 
-// Modules
-@import "modules/author-info";
-@import "modules/feature-games";
-@import "modules/games-list";
-@import "modules/spotlight-games";
+a {
+	color: @light-green;
+	text-decoration: none;
 
-// Pages
-@import "pages/about.less";
+	&:hover {
+		color: @orange;
+	}
+}
+
+h1, h2 {
+	.fancy;
+}
+
+// Header
+#hd {
+	background: rgba(0, 0, 0, 0.5);
+	padding-top: @padding;
+	position: absolute;
+	z-index: 100;
+	top: 0px;
+	width: 100%;
+	height: 60px;
+
+	// Text with logo
+	h1 {
+		text-align: left;
+
+		a {
+			background: url(/media/images/logo/ldgTiny.png) left center no-repeat;
+			color: @white;
+			font-family: "Cabin", Sans-Serif;
+			font-size: 200%;
+			margin-left: @padding;
+			padding: @padding;
+			padding-left: @padding + 18;
+
+			&:hover {
+				opacity: 0.5;
+			}
+		}
+	}
+
+	// Navigation
+	ul {
+		.fancy;
+		position: absolute;
+		right: 0px;
+		top: @padding / 2;
+
+		li {
+			float: right;
+			padding: @padding;
+
+			a {
+				color: @white;
+
+				&.focal-point {
+					color: @gold;
+				}
+
+				&:hover{
+					color: @light-green;
+				}
+			}
+		}
+	}
+}
+
+// Big image at the top of a page
+.splash {
+	position: relative;
+	height: 600px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	margin-bottom: @padding;
+
+	div {
+		position: absolute;
+		width: 100%;
+		bottom: 0px;
+		background: rgba(0, 0, 0, 0.5);
+		padding: @padding 0;
+
+		h2 {
+			font-family: "Cabin", Sans-Serif;
+			font-size: 64px;
+		}
+
+		em {
+			color: @light-grey;
+			display: block;
+			font-style: italic;
+			margin-top: @padding;
+		}
+	}
+
+	&.about {
+		background-image: url(/media/images/splashes/about.jpg);
+	}
+	&.blog {
+		background-image: url(/media/images/splashes/blog.jpg);
+	}
+	&.contact {
+		background-image: url(/media/images/splashes/contact.jpg);
+	}
+	&.geoff {
+		background-image: url(/media/images/splashes/geoff.jpg);
+	}
+	&.ldg {
+		background-image: url(/media/images/splashes/ldg.jpg);
+	}
+	&.lostcast {
+		background-image: url(/media/images/splashes/lostcast.jpg);
+	}
+	&.matt {
+		background-image: url(/media/images/splashes/matt.jpg);
+	}
+	&.privacy {
+		background-image: url(/media/images/splashes/privacy.jpg);
+	}
+	&.tos {
+		background-image: url(/media/images/splashes/tos.jpg);
+	}
+	&.video {
+		background-image: url(/media/images/splashes/video.jpg);
+	}
+}
+
+// Any section below the header
+.section {
+	margin: auto;
+	padding: @padding 0;
+
+	&.text {
+		line-height: 130%;
+		text-align: left;
+		width: 500px;
+
+		h3, p, ul, li {
+			margin-bottom: @padding;
+		}
+
+		h3 {
+			font-size: 150%;
+		}
+
+		h4 {
+			font-size: 125%;
+			font-weight: bold;
+		}
+
+		.major {
+			font-size: 200%;
+			padding-bottom: @padding;
+		}
+	}
+
+	&.home {
+		width: 1120px;
+		height: 309px;
+
+		iframe {
+			float: left;
+
+			&:last-child {
+				margin-left: @padding;
+			}
+		}
+	}
+}
+
+// Clean up the messy blog!
+.blog.section.text {
+	text-align: justify;
+
+	h1, h2 {
+		color: @light-grey;
+		line-height: 100%;
+		margin-bottom: @padding;
+	}
+
+	h1 { font-size: 200%; }
+	h2 { font-size: 150%; }
+
+	ol, ul {
+		margin-left: 2em;
+	}
+
+	ul {
+		list-style-type: disc;
+	}
+
+	ol {
+		list-style-type: decimal;
+	}
+
+	.full-frame {
+		padding-bottom: @padding;
+	}
+}
+
+// Footer
+#ft {
+	color: @dark-grey;
+	padding-bottom: @padding;
+
+	a {
+		color: @dark-grey;
+
+		&:hover {
+			color: @white;
+		}
+	}
+}

@@ -54,18 +54,6 @@ games:
     promo_url: "http://www.wizardslizard.com/"
     paywall: true
     platforms:
-  lunchbug:
-    url_key: "lunch-bug"
-    title: "Lunch Bug"
-    tagline: "Grow delicous berries and feed cute bugs in this sweet puzzle game!"
-    promo_url: "http://www.lunchbug.com"
-    ost_url: "http://joshuamorse.bandcamp.com/album/lunch-bug-original-soundtrack"
-    platforms:
-      web: "http://lunchbug.lostdecadegames.com"
-      cws: "https://chrome.google.com/webstore/detail/lunch-bug/hnoafdaceebmnoannffpabnhpkdollho"
-      mozmarket: "https://marketplace.firefox.com/app/lunch-bug/"
-      android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.lunchbug"
-      pokki: "https://www.pokki.com/app/lunch-bug"
   lavablade:
     paywall: true
     url_key: "lava-blade"
@@ -79,22 +67,23 @@ games:
       osx: "https://secure.bmtmicro.com/servlets/Orders.ShoppingCart?CID=8107&PRODUCTID=81070001"
       win: "https://secure.bmtmicro.com/servlets/Orders.ShoppingCart?CID=8107&PRODUCTID=81070000"
       steam_greenlight: http://steamcommunity.com/sharedfiles/widget/143588739
-      #android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.lavablade"
-  rampartrush:
-    paywall: true
-    url_key: "rampart-rush"
-    title: "Rampart Rush"
-    tagline: "A shoot ‘em up castle defense game!"
-    promo_url: "http://www.rampartrush.com"
+  lunchbug:
+    url_key: "lunch-bug"
+    title: "Lunch Bug"
+    tagline: "Grow delicous berries and feed cute bugs in this sweet puzzle game!"
+    promo_url: "http://www.lunchbug.com"
+    ost_url: "http://joshuamorse.bandcamp.com/album/lunch-bug-original-soundtrack"
     platforms:
-      web: "http://rampartrush.lostdecadegames.com"
-      android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.rampartrush"
-      #ios: ""
+      web: "http://lunchbug.lostdecadegames.com"
+      cws: "https://chrome.google.com/webstore/detail/lunch-bug/hnoafdaceebmnoannffpabnhpkdollho"
+      mozmarket: "https://marketplace.firefox.com/app/lunch-bug/"
+      android: "https://play.google.com/store/apps/details?id=com.lostdecadegames.lunchbug"
+      pokki: "https://www.pokki.com/app/lunch-bug"
   onslaughtarena:
     url_key: "onslaught-arena"
     title: "Onslaught! Arena"
     tagline: "Slay hordes of monsters in this action-packed shoot 'em up!"
-    promo_url: "/games/onslaught-arena/"
+    play_url: "http://arcade.lostdecadegames.com/onslaught_arena/"
     platforms:
       web: "http://arcade.lostdecadegames.com/onslaught_arena/"
       cws: "https://chrome.google.com/webstore/detail/onslaught-arena/khodnfbkbanejphecblcofbghjdgfaih"

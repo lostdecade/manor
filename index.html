@@ -2,8 +2,25 @@
 layout: default
 title: "Indie Games"
 ---
-{% include modules/spotlight-games.html %}
-
-<div class="section">
-	{% include modules/feature-games.html %}
+<div class="splash ldg">
+	<div>
+		<h2>A Wizard's Lizard</h2>
+		<em>a lovingly handcrafted action RPG</em>
+	</div>
 </div>
+
+<div class="section home">
+	<iframe id="trailer-frame" width="550" height="309" src="about:blank" frameborder="0" allowfullscreen></iframe>
+	<iframe
+		id="humble-frame"
+		width="550" height="264"
+		scrolling="no" frameBorder="0"
+		src="http://www.humblebundle.com/store/product/cryptrun/Cdy6Dgsy3Fts">
+	</iframe>
+</div>
+
+<script>
+	window.onload = function () {
+		document.getElementById("trailer-frame").src = "http://www.youtube.com/embed/coaLLkF7wkc";
+	};
+</script>

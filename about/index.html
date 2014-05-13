@@ -1,58 +1,55 @@
 ---
-layout: article
+layout: default
 title: About
 comments: hidden
 ---
-<div class="full-frame">
-	<a href="/media/images/posts/cryptRun/cax/photos/2013.07.14..18.47.22.jpg">
-		<img alt="Lost Decade Games is Geoff Blair and Matt Hackett" src="/media/images/posts/cryptRun/cax/thumbs/2013.07.14..18.47.22.jpg" width="500" height="333">
-	</a>
-</div>
-
-<p>
-	<strong>Lost Decade Games</strong> is an award-winning independent game company founded by <a href="http://www.geoffblair.com/">Geoff Blair</a> and <a href="https://twitter.com/richtaur">Matt Hackett</a> in 2010. Their first game Onslaught! Arena established them as early pioneers of HTML5 gaming.
-</p>
-	
-<p>
-	With their Kickstarter-funded action RPG <a href="http://www.wizardslizard.com/">A Wizard's Lizard</a>, Lost Decade Games aims to create great experiences for gamers with a passion for solid gameplay and carefully crafted game designs.
-</p>
-
-<h2>Contact</h2>
-<p>
-	For support, questions, or just to get in touch, please email <a href="mailto:{{ site.email }}">{{ site.email }}</a>. Or reach out to us individually:
-</p>
-
-<div class="authors">
-	{% for author_id in site.author_ids %}
-	{% assign author = site.authors[author_id] %}
-	<div id="{{ author_id }}" class="author">
-		<a href="{{ author.web }}">
-			<img
-				class="before"
-				src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=150"
-				alt="{{ author.display_name }}"
-				width="150"
-				height="150"
-			>
-		</a>
-		<h2>{{ author.display_name }}, {{ author.job_title }}</h2>
-		<ul>
-			<li>
-				Twitter:
-				<a href="https://twitter.com/{{ author.twitter }}">@{{ author.twitter }}</a>
-			</li>
-			<li>
-				Web:
-				<a href="{{ author.web }}">{{ author.web }}</a>
-			</li>
-			<li>
-				Email:
-				<a href="mailto:{{ author.email }}">{{ author.email }}</a>
-			</li>
-		</ul>
+<div class="splash about">
+	<div>
+		<h2>Lost Decade Games</h2>
+		<em>est. 2010</em>
 	</div>
-	{% endfor %}
 </div>
+
+<div class="section">
+	<div class="text-section">
+		<p>
+			<strong>Lost Decade Games</strong> is an award-winning independent game company founded by <a href="http://www.geoffblair.com/">Geoff Blair</a> and <a href="https://twitter.com/richtaur">Matt Hackett</a> in 2010. Their first game Onslaught! Arena established them as early pioneers of HTML5 gaming.
+			With their Kickstarter-funded action RPG <a href="http://www.wizardslizard.com/">A Wizard's Lizard</a>, Lost Decade Games aims to create great experiences for gamers with a passion for solid gameplay and carefully crafted game designs.
+		</p>
+
+		<div class="authors">
+			{% for author_id in site.author_ids %}
+			{% assign author = site.authors[author_id] %}
+			<div id="{{ author_id }}" class="author">
+				<a href="{{ author.web }}">
+					<img
+						class="before"
+						src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=150"
+						alt="{{ author.display_name }}"
+						width="150"
+						height="150"
+					>
+				</a>
+				<h2>{{ author.display_name }}, {{ author.job_title }}</h2>
+				<ul>
+					<li>
+						Twitter:
+						<a href="https://twitter.com/{{ author.twitter }}">@{{ author.twitter }}</a>
+					</li>
+					<li>
+						Web:
+						<a href="{{ author.web }}">{{ author.web }}</a>
+					</li>
+					<li>
+						Email:
+						<a href="mailto:{{ author.email }}">{{ author.email }}</a>
+					</li>
+				</ul>
+			</div>
+			{% endfor %}
+		</div><!-- /.authors -->
+	</div><!-- /.text-section -->
+</div><!-- /.section -->
 
 <h2>Press</h2>
 <p>

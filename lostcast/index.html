@@ -1,21 +1,23 @@
 ---
-layout: article
-title: "Lostcast: the Lost Decade podcast"
+layout: default
+title: "Lostcast = Lost Decade + podcast"
 comments: hidden
 ---
-<div class="full-frame">
-	<img alt="Lostcast gamedev podcast" src="/media/images/lostcast/splash.jpg" width="500" height="313">
+<div class="splash lostcast">
+	<div>
+		<h2>Lostcast</h2>
+		<em>game development podcast</em>
+	</div>
 </div>
 
 <p>
-	<strong>Lostcast</strong> is the Lost Decade Games podcast, in which <a href="http://www.geoffblair.com/">Geoff Blair</a> and <a href="http://www.richtaur.com/">Matt Hackett</a> talk about life as independent HTML5 game developers. Topics range from technically advanced engineering discussions to interviews with industry pioneers and veterans.
+	<strong>Lostcast</strong> is the Lost Decade Games podcast, in which <a href="/about/">Geoff Blair and Matt Hackett</a> talk about life as independent HTML5 game developers. Topics range from technically advanced engineering discussions to interviews with industry pioneers and veterans.
 </p>
 
 <p>
 	We upload a new show every Tuesday! Subscribe via <a href="{{ site.lostcast_itunes_url }}">iTunes</a> or <a href="/lostcast.xml">RSS</a>.
 </p>
 
-<h3 id="interviews">Getting started</h3>
 <ol class="posts">
 	{% for post in site.tags.lostcast %}
 		{% if forloop.first %}
@@ -23,14 +25,14 @@ comments: hidden
 				<strong>Latest episode:</strong> <a class="title" href="{{ post.url }}">{{ post.title }}</a>
 			</li>
 		{% endif %}
-		{% if forloop.last %}
-			<li>
-				<strong>First episode:</strong> <a class="title" href="{{ post.url }}">{{ post.title }}</a>
-			</li>
-		{% endif %}
 	{% endfor %}
 </ol>
 
+<p>
+	<a href="TBD">View all episodes</a>
+</p>
+
+<!--
 <h3 id="interviews">Interviews</h3>
 <ol class="posts">
 	{% for post in site.tags.lostcast %}
@@ -50,3 +52,4 @@ comments: hidden
 	</li>
 	{% endfor %}
 </ol>
+-->
