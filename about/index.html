@@ -5,59 +5,28 @@ comments: hidden
 ---
 <div class="splash about">
 	<div>
-		<h2>Lost Decade Games</h2>
-		<em>est. 2010</em>
+		<h2>About LDG</h2>
 	</div>
 </div>
 
-<div class="section">
-	<div class="text-section">
-		<p>
-			<strong>Lost Decade Games</strong> is an award-winning independent game company founded by <a href="http://www.geoffblair.com/">Geoff Blair</a> and <a href="https://twitter.com/richtaur">Matt Hackett</a> in 2010. Their first game Onslaught! Arena established them as early pioneers of HTML5 gaming.
-			With their Kickstarter-funded action RPG <a href="http://www.wizardslizard.com/">A Wizard's Lizard</a>, Lost Decade Games aims to create great experiences for gamers with a passion for solid gameplay and carefully crafted game designs.
-		</p>
+<div class="section text">
+	<p>
+		<strong>Lost Decade Games</strong> is an award-winning independent game company founded in 2010 by <a href="http://www.geoffblair.com/">Geoff Blair</a> and <a href="https://twitter.com/richtaur">Matt Hackett</a>.
+	</p>
 
-		<div class="authors">
-			{% for author_id in site.author_ids %}
-			{% assign author = site.authors[author_id] %}
-			<div id="{{ author_id }}" class="author">
-				<a href="{{ author.web }}">
-					<img
-						class="before"
-						src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=150"
-						alt="{{ author.display_name }}"
-						width="150"
-						height="150"
-					>
-				</a>
-				<h2>{{ author.display_name }}, {{ author.job_title }}</h2>
-				<ul>
-					<li>
-						Twitter:
-						<a href="https://twitter.com/{{ author.twitter }}">@{{ author.twitter }}</a>
-					</li>
-					<li>
-						Web:
-						<a href="{{ author.web }}">{{ author.web }}</a>
-					</li>
-					<li>
-						Email:
-						<a href="mailto:{{ author.email }}">{{ author.email }}</a>
-					</li>
-				</ul>
-			</div>
-			{% endfor %}
-		</div><!-- /.authors -->
-	</div><!-- /.text-section -->
+	<p>
+		Want to <a href="/contact/">contact</a> us? You can also <a href="/about/team">learn more</a> about our team.
+	</p>
+
+	<h2>Press</h2>
+	<p>
+		For press inquiries, please download our <a href="/media/lostDecadeGamesPressKit.zip">press kit</a> and feel free to <a href="/contact/">contact us</a>. Below is a sampling of our notable press coverage:
+	</p>
+	<ul>
+		<li>Joystiq: <a href="http://www.joystiq.com/2014/01/10/a-wizards-lizard-launches-jan-22-scampers-onto-steam-greenlig/">A Wizard's Lizard launches Jan. 22, scampers onto Steam Greenlight</a></li>
+		<li>Polygon: <a href="http://www.polygon.com/2014/1/12/5299328/action-rpg-a-wizards-lizard-to-launch-jan-22">Action RPG A Wizard’s Lizard to launch Jan. 22</a></li>
+		<li>Rock, Paper, Shotgun: <a href="http://www.rockpapershotgun.com/2013/11/20/watch-binding-of-isaac-ish-wizards-lizard-promising-indies/">Watch: Binding Of Isaac-Ish Wizard’s Lizard, Promising Indies</a></li>
+		<li>TechCrunch: <a href="http://techcrunch.com/2011/07/11/html5-game-maker-looks-to-transcend-sleepy-chrome-web-store-sales-on-ios/">HTML5 Game Maker Looks To Transcend Sleepy Chrome Web Store Sales On iOS</a></li>
+	</ul>
+
 </div><!-- /.section -->
-
-<h2>Press</h2>
-<p>
-	For press inquiries, please <a href="/contact/">contact us</a> and download our <a href="/media/lostDecadeGamesPressKit.zip">press kit</a>. Below is a sampling of the notable Lost Decade Games press coverage:
-</p>
-<ul>
-	<li>Joystiq: <a href="http://www.joystiq.com/2014/01/10/a-wizards-lizard-launches-jan-22-scampers-onto-steam-greenlig/">A Wizard's Lizard launches Jan. 22, scampers onto Steam Greenlight</a></li>
-	<li>Polygon: <a href="http://www.polygon.com/2014/1/12/5299328/action-rpg-a-wizards-lizard-to-launch-jan-22">Action RPG A Wizard’s Lizard to launch Jan. 22</a></li>
-	<li>Rock, Paper, Shotgun: <a href="http://www.rockpapershotgun.com/2013/11/20/watch-binding-of-isaac-ish-wizards-lizard-promising-indies/">Watch: Binding Of Isaac-Ish Wizard’s Lizard, Promising Indies</a></li>
-	<li>TechCrunch: <a href="http://techcrunch.com/2011/07/11/html5-game-maker-looks-to-transcend-sleepy-chrome-web-store-sales-on-ios/">HTML5 Game Maker Looks To Transcend Sleepy Chrome Web Store Sales On iOS</a></li>
-</ul>

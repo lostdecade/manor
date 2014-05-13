@@ -1,0 +1,37 @@
+---
+layout: default
+title: "Lostcast episodes"
+comments: hidden
+---
+<div class="splash lostcast">
+	<div>
+		<h2>Lostcast</h2>
+		<em>episode list</em>
+	</div>
+</div>
+
+<div class="section text">
+	<p>
+		Lostcast is a weekly podcast about game development, uploaded every Tuesday to <a href="{{ site.lostcast_itunes_url }}">iTunes</a> and right here on our website.
+	</p>
+
+	<h3 id="episodes">All Episodes</h3>
+	<ol class="posts">
+		{% for post in site.tags.lostcast %}
+		<li>
+			<a class="title" href="{{ post.url }}">{{ post.title }}</a>
+		</li>
+		{% endfor %}
+	</ol>
+
+	<h3 id="interviews">Interviews</h3>
+	<ol class="posts">
+		{% for post in site.tags.lostcast %}
+			{% if post.tags contains "interview" %}
+				<li>
+					<a class="title" href="{{ post.url }}">{{ post.title }}</a>
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ol>
+</div>

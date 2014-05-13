@@ -1,13 +1,21 @@
 # Lost Decade Games website
 
 TODO:
+* add padding, white space fixes in lists
 * about
 	- about/press
-	- about/etc.
+	- about/
+	- polish /about/team
+		* link back to /about/?
+		* why are the lines so tall in the list?
+		* add list of traits e.g. Snowboarding: yes
 * lostcast
 	- lostcast/episodes/
 * mailing-list
+* show the latest blog on the blog
+	- list should be secondary, like on lostcast
 * make discus comments readable (light background?)
+* check syntax highlighter -- code readable etc.?
 * use local web fonts
 * cull unused shit
 * redo splash/title so it's part of default layout

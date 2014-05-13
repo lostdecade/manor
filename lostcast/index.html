@@ -12,46 +12,37 @@ comments: hidden
 
 <div class="section text">
 	<p>
-		Lostcast is a weekly podcast about game development, uploaded every Tuesday to <a href="{{ site.lostcast_itunes_url }}">iTunes</a> and right here on our website.
+		Lostcast is a weekly podcast about game development. Join us every Tuesday on <a href="{{ site.lostcast_itunes_url }}">iTunes</a>, <a href="{{ site.lostcast_feed_url }}">RSS</a>, or right here on our website.
 	</p>
 
-	<p>
-		We upload a new show every Tuesday! Subscribe via <a href="{{ site.lostcast_itunes_url }}">iTunes</a> or <a href="/lostcast.xml">RSS</a>.
-	</p>
+	<!-- Listen -->
+	{% for post in site.tags.lostcast %}
+		{% if forloop.first %}
+			<div>
+				<h2>{{ post.title }}</h2>
+				<audio controls="controls" src="{{ post.podcast.mp3url }}">
+					Sorry, your browser doesn't support embedded audio.
+				</audio>
+				<p>
+					or <a href="{{ post.podcast.mp3url }}">download</a> directly
+				</p>
+			</div>
+		{% endif %}
+	{% endfor %}
 
-	<ol class="posts">
-		{% for post in site.tags.lostcast %}
-			{% if forloop.first %}
-				<li>
-					<strong>Latest episode:</strong> <a class="title" href="{{ post.url }}">{{ post.title }}</a>
-				</li>
-			{% endif %}
-		{% endfor %}
-	</ol>
+	<!-- Subscribe -->
+	<div id="lostcast-subscribe">
+		<h2>Subscribe</h2>
+		<ul>
+			<li><a class="rss" href="{{ site.lostcast_feed_url }}">RSS</a></li>
+			<li><a class="itunes" href="{{ site.lostcast_itunes_url }}">iTunes</a></li>
+			<li><a class="youtube" href="http://www.youtube.com/playlist?list=PLwEc1ZRky2_Jw6mKSXkoqbJQRUhjPwfH1">YouTube</a></li>
+		</ul>
 
-	<p>
-		<a href="TBD">View all episodes</a>
-	</p>
+		<!-- Explore -->
+		<p>
+			<a href="/lostcast/episodes/">Explore all episodes</a>
+		</p>
+	</div>
 
-	<!--
-	<h3 id="interviews">Interviews</h3>
-	<ol class="posts">
-		{% for post in site.tags.lostcast %}
-			{% if post.tags contains "interview" %}
-				<li>
-					<a class="title" href="{{ post.url }}">{{ post.title }}</a>
-				</li>
-			{% endif %}
-		{% endfor %}
-	</ol>
-
-	<h3 id="episodes">All Episodes</h3>
-	<ol class="posts">
-		{% for post in site.tags.lostcast %}
-		<li>
-			<a class="title" href="{{ post.url }}">{{ post.title }}</a>
-		</li>
-		{% endfor %}
-	</ol>
-	-->
 </div>

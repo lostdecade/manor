@@ -1,0 +1,45 @@
+---
+layout: default
+title: Team
+comments: hidden
+---
+<div class="splash team">
+	<div>
+		<h2>LDG Team</h2>
+		<em>the people who make our games</em>
+	</div>
+</div>
+
+<div class="section text">
+	<div class="authors">
+		{% for author_id in site.author_ids %}
+		{% assign author = site.authors[author_id] %}
+		<div id="{{ author_id }}" class="author">
+			<a href="{{ author.web }}">
+				<img
+					class="before"
+					src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=150"
+					alt="{{ author.display_name }}"
+					width="150"
+					height="150"
+				>
+			</a>
+			<h2>{{ author.display_name }}, {{ author.job_title }}</h2>
+			<ul>
+				<li>
+					Twitter:
+					<a href="https://twitter.com/{{ author.twitter }}">@{{ author.twitter }}</a>
+				</li>
+				<li>
+					Web:
+					<a href="{{ author.web }}">{{ author.web }}</a>
+				</li>
+				<li>
+					Email:
+					<a href="mailto:{{ author.email }}">{{ author.email }}</a>
+				</li>
+			</ul>
+		</div>
+		{% endfor %}
+	</div>
+</div>

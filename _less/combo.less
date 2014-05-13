@@ -3,12 +3,13 @@
 @import "palette";
 @import "utils";
 @import "syntax";
+@import "lostcast";
 
 html {
 	background: @black;
 	color: @white;
 	font-family: "Droid Sans", Sans-Serif;
-	font-size: 18px;
+	font-size: 20px;
 	text-align: center;
 }
 
@@ -132,6 +133,9 @@ h1, h2 {
 	&.privacy {
 		background-image: url(/media/images/splashes/privacy.jpg);
 	}
+	&.team {
+		background-image: url(/media/images/splashes/team.jpg);
+	}
 	&.tos {
 		background-image: url(/media/images/splashes/tos.jpg);
 	}
@@ -151,19 +155,16 @@ h1, h2 {
 		width: 500px;
 
 		h1, h2, h3, p, ul, li {
-			font-family: "Cabin", Sans-Serif;
 			margin-bottom: @padding;
 		}
 
+		h1, h2, h3, h4 {
+			font-family: "Cabin", Sans-Serif;
+		}
 		h1 { font-size: 200%; }
 		h2 { font-size: 175%; }
 		h3 { font-size: 150%; }
 		h4 { font-size: 125%; }
-
-		.major {
-			font-size: 200%;
-			padding-bottom: @padding;
-		}
 	}
 
 	&.home {
