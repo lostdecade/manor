@@ -1,12 +1,5 @@
 # Lost Decade Games website
 
-TODO:
-* make discus comments readable (light background?)
-* check syntax highlighter -- code readable etc.?
-* use local web fonts
-* cull unused shit
-* redo splash/title so it's part of default layout
-
 This is the source code for the [Lost Decade Games website][1]. Our site is open source and hosted out of [AWS][3] using the static site generator [Jekyll][4]. Please see the following blog posts for more information:
 
 * [Our new blog is running on Jekyll][12]
