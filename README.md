@@ -1,9 +1,6 @@
 # Lost Decade Games website
 
 TODO:
-* about
-	- polish /about/team
-		* add list of traits e.g. Snowboarding: yes
 * make discus comments readable (light background?)
 * check syntax highlighter -- code readable etc.?
 * use local web fonts
