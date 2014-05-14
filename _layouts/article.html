@@ -1,11 +1,29 @@
 ---
 layout: default
 ---
+<!-- Author -->
 {% if page.author %}
 	{% assign author = site.authors[page.author] %}
 {% endif %}
 
-<div class="splash laptop">
+<!-- Splash -->
+{% if page.tags contains "lavablade" %}
+	{% assign splash = "lavablade" %}
+{% elsif page.tags contains "lostcast" %}
+	{% assign splash = "lostcast" %}
+{% elsif page.tags contains "onslaught" %}
+	{% assign splash = "onslaught" %}
+{% elsif page.tags contains "onslaughtarena" %}
+	{% assign splash = "onslaught" %}
+{% elsif page.tags contains "team" %}
+	{% assign splash = "team" %}
+{% elsif page.tags contains "wizardslizard" %}
+	{% assign splash = "home" %}
+{% else %}
+	{% assign splash = "laptop" %}
+{% endif %}
+
+<div class="splash {{ splash }}">
 	<div>
 		<h2>{{ page.title }}</h2>
 		<em>by {{ author.display_name }}, {{ page.date | date: "%-Y %b %-d" }}</em>

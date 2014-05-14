@@ -2,6 +2,7 @@
 layout: article
 title: "Crypt Run is now A Wizard's Lizard"
 author: matt
+tags: [wizardslizard]
 ---
 <div class="full-frame">
 	<a href="http://www.wizardslizard.com/">

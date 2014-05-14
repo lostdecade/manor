@@ -2,6 +2,7 @@
 layout: article
 title: "Geoff Lava Bladed"
 author: matt
+tags: [lavablade]
 ---
 It's [Geoff](https://twitter.com/geoffblair)'s birthday! As a fun little gift for the old guy, I've added a little Geoff character into the [Lava Blade teaser](http://www.lavablade.com/).
 
