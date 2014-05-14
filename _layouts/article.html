@@ -1,42 +1,45 @@
 ---
 layout: default
 ---
-<div class="page-title">
-	<h1>{{ page.title }}</h1>
+<!-- Author -->
+{% if page.author %}
+	{% assign author = site.authors[page.author] %}
+{% endif %}
+
+<!-- Splash -->
+{% if page.tags contains "lavablade" %}
+	{% assign splash = "lavablade" %}
+{% elsif page.tags contains "lostcast" %}
+	{% assign splash = "lostcast" %}
+{% elsif page.tags contains "onslaught" %}
+	{% assign splash = "onslaught" %}
+{% elsif page.tags contains "onslaughtarena" %}
+	{% assign splash = "onslaught" %}
+{% elsif page.tags contains "team" %}
+	{% assign splash = "team" %}
+{% elsif page.tags contains "wizardslizard" %}
+	{% assign splash = "home" %}
+{% else %}
+	{% assign splash = "laptop" %}
+{% endif %}
+
+<div class="splash {{ splash }}">
+	<div>
+		<h2>{{ page.title }}</h2>
+		<em>by {{ author.display_name }}, {{ page.date | date: "%-Y %b %-d" }}</em>
+	</div>
 </div>
 
-<div class="column-2">
+<div class="section text blog">
+{{ content }}
 
-	<div class="main text-format">
-		<div class="module">{{ content }}</div>
+	<p>
+		<a class="download-podcast" href="http://twitter.com/{{ author.twitter }}">Follow @{{ author.twitter }}</a>
+	</p>
+</div>
 
-		{% unless page.comments == "hidden" %}
-			{% include modules/comments.html %}
-		{% endunless %}
-	</div>
-
-	<div class="aux">
-
-		{% if page.author %}
-			{% assign author = site.authors[page.author] %}
-			{% include modules/author-info.html %}
-		{% endif %}
-
-		{% include modules/feature-articles.html %}
-
-		{% if site.related_posts %}
-			{% include modules/related-articles.html %}
-		{% endif %}
-
-		{% include modules/our-games.html %}
-		<div class="module">
-			<a href="/lostcast/" title="Lostcast">
-				<img alt="Lostcast logo" src="/media/images/lostcast/sidebar.jpg" width="320" height="320">
-			</a>
-		</div>
-
-		{% include modules/follow-us.html %}
-
-	</div>
-
+<div class="section text">
+	{% unless page.comments == "hidden" %}
+		{% include modules/comments.html %}
+	{% endunless %}
 </div>

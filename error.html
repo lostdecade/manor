@@ -1,0 +1,27 @@
+---
+layout: default
+title: Error
+comments: hidden
+---
+<div class="splash error">
+	<div>
+		<h2>{{ page.title }}</h2>
+		<em>sorry about that</em>
+	</div>
+</div>
+
+<div class="section home">
+	<iframe id="trailer-frame" width="550" height="309" src="about:blank" frameborder="0" allowfullscreen></iframe>
+	<iframe
+		id="humble-frame"
+		width="550" height="264"
+		scrolling="no" frameBorder="0"
+		src="http://www.humblebundle.com/store/product/cryptrun/Cdy6Dgsy3Fts">
+	</iframe>
+</div>
+
+<script>
+	window.onload = function () {
+		document.getElementById("trailer-frame").src = "http://www.youtube.com/embed/coaLLkF7wkc";
+	};
+</script>

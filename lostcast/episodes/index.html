@@ -1,0 +1,28 @@
+---
+layout: default
+title: "Lostcast episodes"
+comments: hidden
+---
+<div class="splash lostcast">
+	<div>
+		<h2>Lostcast</h2>
+		<em>episode list</em>
+	</div>
+</div>
+
+<div class="section text">
+	<p class="br">
+		<a href="/lostcast">Lostcast</a> is a weekly podcast about game development.
+	</p>
+
+	<ol>
+		{% for post in site.tags.lostcast %}
+		<li>
+			<a href="{{ post.url }}">{{ post.title }}</a>
+			{% if post.tags contains "interview" %}
+				(interview)
+			{% endif %}
+		</li>
+		{% endfor %}
+	</ol>
+</div>

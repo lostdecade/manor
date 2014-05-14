@@ -1,0 +1,46 @@
+@import "sizes";
+
+#lostcast-file {
+	text-align: center;
+}
+
+#lostcast-subscribe {
+	text-align: center;
+
+	ul {
+		margin: @padding auto;
+		width: 400px;
+		height: 120px;		
+
+		li {
+			float: left;
+			margin-right: @padding;
+			width: 120px;
+			height: 120px;
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			a {
+				background-image: url(/media/images/lostcast/subscribeIcons.png);
+				display: block;
+				float: left;
+				text-indent: -9999em;
+				width: 120px;
+				height: 120px;
+
+				&:hover {
+					opacity: 0.5;
+				}
+
+				&.itunes {
+					background-position: -120px 0px;
+				}
+				&.youtube {
+					background-position: -240px 0px;
+				}
+			}
+		}
+	}
+}

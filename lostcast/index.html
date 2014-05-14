@@ -1,52 +1,48 @@
 ---
-layout: article
-title: "Lostcast: the Lost Decade podcast"
+layout: default
+title: "Lostcast: game dev podcast"
 comments: hidden
 ---
-<div class="full-frame">
-	<img alt="Lostcast gamedev podcast" src="/media/images/lostcast/splash.jpg" width="500" height="313">
+<div class="splash lostcast">
+	<div>
+		<h2>Lostcast</h2>
+		<em>Lost Decade + podcast = Lostcast</em>
+	</div>
 </div>
 
-<p>
-	<strong>Lostcast</strong> is the Lost Decade Games podcast, in which <a href="http://www.geoffblair.com/">Geoff Blair</a> and <a href="http://www.richtaur.com/">Matt Hackett</a> talk about life as independent HTML5 game developers. Topics range from technically advanced engineering discussions to interviews with industry pioneers and veterans.
-</p>
+<div class="section text">
+	<p class="br">
+		Lostcast is a weekly podcast about game development. Join us every Tuesday on <a href="{{ site.lostcast_itunes_url }}">iTunes</a>, <a href="{{ site.lostcast_feed_url }}">RSS</a>, or right here on our website.
+	</p>
 
-<p>
-	We upload a new show every Tuesday! Subscribe via <a href="{{ site.lostcast_itunes_url }}">iTunes</a> or <a href="/lostcast.xml">RSS</a>.
-</p>
-
-<h3 id="interviews">Getting started</h3>
-<ol class="posts">
+	<!-- Listen -->
 	{% for post in site.tags.lostcast %}
 		{% if forloop.first %}
-			<li>
-				<strong>Latest episode:</strong> <a class="title" href="{{ post.url }}">{{ post.title }}</a>
-			</li>
-		{% endif %}
-		{% if forloop.last %}
-			<li>
-				<strong>First episode:</strong> <a class="title" href="{{ post.url }}">{{ post.title }}</a>
-			</li>
+			<div class="br" id="lostcast-file">
+				<h2>{{ post.title }}</h2>
+				<audio controls="controls" src="{{ post.podcast.mp3url }}">
+					Sorry, your browser doesn't support embedded audio.
+				</audio>
+				<p>
+					<a href="{{ post.podcast.mp3url }}">download mp3</a>
+				</p>
+			</div>
 		{% endif %}
 	{% endfor %}
-</ol>
 
-<h3 id="interviews">Interviews</h3>
-<ol class="posts">
-	{% for post in site.tags.lostcast %}
-		{% if post.tags contains "interview" %}
-			<li>
-				<a class="title" href="{{ post.url }}">{{ post.title }}</a>
-			</li>
-		{% endif %}
-	{% endfor %}
-</ol>
+	<!-- Subscribe -->
+	<div id="lostcast-subscribe">
+		<h2>Subscribe</h2>
+		<ul>
+			<li><a class="rss" href="{{ site.lostcast_feed_url }}">RSS</a></li>
+			<li><a class="itunes" href="{{ site.lostcast_itunes_url }}">iTunes</a></li>
+			<li><a class="youtube" href="http://www.youtube.com/playlist?list=PLwEc1ZRky2_Jw6mKSXkoqbJQRUhjPwfH1">YouTube</a></li>
+		</ul>
 
-<h3 id="episodes">All Episodes</h3>
-<ol class="posts">
-	{% for post in site.tags.lostcast %}
-	<li>
-		<a class="title" href="{{ post.url }}">{{ post.title }}</a>
-	</li>
-	{% endfor %}
-</ol>
+		<!-- Explore -->
+		<p>
+			<a href="/lostcast/episodes/">Explore all episodes</a>
+		</p>
+	</div>
+
+</div>

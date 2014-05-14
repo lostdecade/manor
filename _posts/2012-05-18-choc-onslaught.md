@@ -2,6 +2,7 @@
 layout: article
 title: "Choc-Onslaught!"
 author: geoff
+tags: [onslaught]
 ---
 
 <div class="full-frame">

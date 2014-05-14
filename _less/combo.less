@@ -1,16 +1,304 @@
-// Core
-@import "core-layout";
-@import "core-skin";
+// Imports
+@import "reset";
+@import "palette";
+@import "utils";
 @import "syntax";
+@import "lostcast";
 
-// Widgets
-@import "widgets/game-feature-card";
+// Fonts
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cabin Regular'), local('Cabin-Regular'), url(/media/fonts/Cabin.woff) format('woff');
+}
 
-// Modules
-@import "modules/author-info";
-@import "modules/feature-games";
-@import "modules/games-list";
-@import "modules/spotlight-games";
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(/media/fonts/DroidSans.woff) format('woff');
+}
 
-// Pages
-@import "pages/about.less";
+html {
+	background: @black;
+	color: @white;
+	font-family: "Droid Sans", Sans-Serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+a {
+	color: @light-green;
+	text-decoration: none;
+
+	&:hover {
+		color: @orange;
+	}
+}
+
+h1, h2 {
+	.fancy;
+}
+
+// Header
+#hd {
+	background: rgba(0, 0, 0, 0.4);
+	padding-top: @padding;
+	position: absolute;
+	z-index: 100;
+	top: 0px;
+	width: 100%;
+	height: 60px;
+
+	// Text with logo
+	h1 {
+		text-align: left;
+
+		a {
+			background: url(/media/images/logo/ldgTiny.png) left center no-repeat;
+			color: @white;
+			font-family: "Cabin", Sans-Serif;
+			font-size: 200%;
+			margin-left: @padding;
+			padding: @padding;
+			padding-left: @padding + 18;
+
+			&:hover {
+				opacity: 0.6;
+			}
+		}
+	}
+
+	// Navigation
+	ul {
+		.fancy;
+		position: absolute;
+		right: 0px;
+		top: @padding / 2;
+
+		li {
+			float: right;
+			padding: @padding;
+
+			a {
+				color: @white;
+
+				&.focal-point {
+					color: @gold;
+				}
+
+				&:hover{
+					color: @light-green;
+				}
+			}
+		}
+	}
+}
+
+// Big image at the top of a page
+.splash {
+	position: relative;
+	height: 600px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	margin-bottom: @padding;
+
+	div {
+		position: absolute;
+		width: 100%;
+		bottom: 0px;
+		background: rgba(0, 0, 0, 0.4);
+		padding: @padding 0;
+
+		h2 {
+			font-family: "Cabin", Sans-Serif;
+			font-size: 64px;
+		}
+
+		em {
+			.fancy;
+			color: @light-grey;
+			display: block;
+			font-style: italic;
+			margin-top: @padding;
+		}
+	}
+
+	&.about {
+		background-image: url(/media/images/splashes/about.jpg);
+	}
+	&.blog {
+		background-image: url(/media/images/splashes/blog.jpg);
+	}
+	&.cax {
+		background-image: url(/media/images/splashes/cax.jpg);
+	}
+	&.contact {
+		background-image: url(/media/images/splashes/contact.jpg);
+	}
+	&.error {
+		background-image: url(/media/images/splashes/error.jpg);
+	}
+	&.lavablade {
+		background-image: url(/media/images/splashes/lavablade.jpg);
+	}
+	&.lostcast {
+		background-image: url(/media/images/splashes/lostcast.jpg);
+	}
+	&.onslaught {
+		background-image: url(/media/images/splashes/onslaught.jpg);
+	}
+	&.home {
+		background-image: url(/media/images/splashes/home.jpg);
+	}
+	&.laptop {
+		background-image: url(/media/images/splashes/laptop.jpg);
+	}
+	&.privacy {
+		background-image: url(/media/images/splashes/privacy.jpg);
+	}
+	&.team {
+		background-image: url(/media/images/splashes/team.jpg);
+	}
+	&.video {
+		background-image: url(/media/images/splashes/video.jpg);
+	}
+}
+
+// Any section below the header
+.section {
+	margin: auto;
+	padding: @padding 0;
+
+	&.text {
+		line-height: 130%;
+		text-align: left;
+		width: 500px;
+
+		h1, h2, h3, p, ul, ol, pre {
+			margin-bottom: @padding;
+		}
+
+		ol {
+			list-style-type: decimal;
+			margin-left: 2em;
+		}
+
+		h1, h2, h3, h4 {
+			font-family: "Cabin", Sans-Serif;
+		}
+		h1 { font-size: 200%; }
+		h2 { font-size: 175%; }
+		h3 { font-size: 150%; }
+		h4 { font-size: 125%; }
+	}
+
+	&.home, &.error {
+		width: 1120px;
+		height: 309px;
+
+		iframe {
+			float: left;
+
+			&:last-child {
+				margin-left: @padding;
+			}
+		}
+	}
+}
+
+.br {
+	margin-bottom: @padding;
+	padding-bottom: @padding;
+}
+
+// Clean up the messy blog!
+.blog.section.text {
+	text-align: justify;
+
+	h1, h2 {
+		color: @light-grey;
+		line-height: 100%;
+		margin-bottom: @padding;
+		text-align: left;
+	}
+
+	h1 { font-size: 200%; }
+	h2 { font-size: 150%; }
+
+	ol, ul {
+		margin-left: 2em;
+	}
+
+	ul {
+		list-style-type: disc;
+	}
+
+	p code {
+		color: @light-grey;
+		font-family: Courier, Monospace;
+	}
+
+	blockquote {
+		border-left: 4px solid @dark-grey;
+		color: @light-grey;
+		margin: @padding;
+		padding-left: @padding;
+		text-align: left;
+	}
+
+	.full-frame {
+		padding-bottom: @padding;
+		text-align: center;
+	}
+
+	.before {
+		float: left;
+		margin-right: @padding;
+	}
+
+	.after {
+		float: right;
+		margin-left: @padding;
+	}
+
+	.download-podcast {
+		display: block;
+		border: 1px solid @light-green;
+		border-radius: 10px;
+		margin-bottom: @padding;
+		padding: @padding / 2;
+		text-align: center;
+	}
+}
+
+.major-list li {
+	margin-bottom: @padding;
+}
+
+.section.team {
+	div {
+		margin-bottom: @padding * 2;
+		min-height: 150px;
+
+		& > a {
+			float: left;
+			margin-right: @padding;
+		}
+	}
+}
+
+// Footer
+#ft {
+	color: @dark-grey;
+	padding: @padding 0;
+
+	a {
+		color: @dark-grey;
+
+		&:hover {
+			color: @white;
+		}
+	}
+}
