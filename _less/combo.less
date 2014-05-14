@@ -155,7 +155,7 @@ h1, h2 {
 		text-align: left;
 		width: 500px;
 
-		h1, h2, h3, p, ul {
+		h1, h2, h3, p, ul, ol, pre {
 			margin-bottom: @padding;
 		}
 
@@ -200,6 +200,7 @@ h1, h2 {
 		color: @light-grey;
 		line-height: 100%;
 		margin-bottom: @padding;
+		text-align: left;
 	}
 
 	h1 { font-size: 200%; }
@@ -213,8 +214,41 @@ h1, h2 {
 		list-style-type: disc;
 	}
 
+	p code {
+		color: @light-grey;
+		font-family: Courier, Monospace;
+	}
+
+	blockquote {
+		border-left: 4px solid @dark-grey;
+		color: @light-grey;
+		margin: @padding;
+		padding-left: @padding;
+		text-align: left;
+	}
+
 	.full-frame {
 		padding-bottom: @padding;
+		text-align: center;
+	}
+
+	.before {
+		float: left;
+		margin-right: @padding;
+	}
+
+	.after {
+		float: right;
+		margin-left: @padding;
+	}
+
+	.download-podcast {
+		display: block;
+		border: 1px solid @light-green;
+		border-radius: 10px;
+		margin-bottom: @padding;
+		padding: @padding / 2;
+		text-align: center;
 	}
 }
 

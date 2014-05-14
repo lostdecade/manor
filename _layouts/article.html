@@ -8,7 +8,7 @@ layout: default
 <div class="splash laptop">
 	<div>
 		<h2>{{ page.title }}</h2>
-		<em>by {{ author.display_name }}</em>
+		<em>by {{ author.display_name }}, {{ page.date | date: "%-Y %b %-d" }}</em>
 	</div>
 </div>
 
