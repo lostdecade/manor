@@ -12,7 +12,7 @@ comments: hidden
 
 <div class="section text">
 	<p class="br">
-		Lostcast is a weekly podcast about game development. Join us every Tuesday on <a href="{{ site.lostcast_itunes_url }}">iTunes</a>, <a href="{{ site.lostcast_feed_url }}">RSS</a>, or right here on our website.
+		Lostcast is a weekly podcast about game development. Join us every Tuesday on <a href="{{ site.lostcast_itunes_url }}">iTunes</a> or <a href="{{ site.lostcast_feed_url }}">RSS</a>.
 	</p>
 
 	<!-- Listen -->
@@ -20,11 +20,17 @@ comments: hidden
 		{% if forloop.first %}
 			<div class="br" id="lostcast-file">
 				<h2>{{ post.title }}</h2>
+				<p>
+					Listen now:
+				</p>
 				<audio controls="controls" src="{{ post.podcast.mp3url }}">
 					Sorry, your browser doesn't support embedded audio.
 				</audio>
 				<p>
-					<a href="{{ post.podcast.mp3url }}">download mp3</a>
+					(or <a href="{{ post.podcast.mp3url }}">download mp3</a>)
+				</p>
+				<p>
+					<a class="download-podcast" href="{{ post.url }}">View show notes</a>
 				</p>
 			</div>
 		{% endif %}

@@ -20,20 +20,24 @@ author_ids: [geoff, matt]
 authors:
   matt:
     display_name: Matt Hackett
-    job_title: Co-founder
+    first_name: Matt
     gravatar: 60fd5218fff6927c0ed376cce01c5460
     email: matt@lostdecadegames.com
     web: http://www.richtaur.com/
     twitter: richtaur
     github: richtaur
+    bio: "Matt Hackett obsesses about games in LA with his two cats and user researcher wife Andrea. He co-founded Lost Decade Games in 2010 where he now does game design, programming, and artwork."
+    url_more: http://indieverse.co/issue/4/matt-hackett/
   geoff:
     display_name: Geoff Blair
-    job_title: Co-founder
+    first_name: Geoff
     gravatar: 76dbcc74021b8039f14c7b583978b56d
     email: geoff@lostdecadegames.com
     web: http://www.geoffblair.com/
     twitter: geoffblair
     github: geoffb
+    bio: "Geoff Blair snowboards and games with his cats and fiancé Melissa in northern California. He co-founded Lost Decade Games in 2010 where he now does game design, programming, and business development."
+    url_more: http://indieverse.co/issue/3/geoff-blair/
 
 # List of all game IDs (drives /games listing and maybe more)
 games_list: [wizardslizard, lavablade, lunchbug, onslaughtarena]

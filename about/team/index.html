@@ -23,6 +23,9 @@ comments: hidden
 				>
 			</a>
 			<h2>{{ author.display_name }}</h2>
+			<p class="bio">
+				{{ author.bio }}
+			</p>
 			<ul>
 				<li>
 					Email:
@@ -31,6 +34,9 @@ comments: hidden
 				<li>
 					Twitter:
 					<a href="https://twitter.com/{{ author.twitter }}">@{{ author.twitter }}</a>
+				</li>
+				<li>
+					<a href="{{ author.url_more }}">Learn more</a> about {{ author.first_name }}
 				</li>
 			</ul>
 		</div>

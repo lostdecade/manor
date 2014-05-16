@@ -128,9 +128,6 @@ h1, h2 {
 	&.about {
 		background-image: url(/media/images/splashes/about.jpg);
 	}
-	&.blog {
-		background-image: url(/media/images/splashes/blog.jpg);
-	}
 	&.cax {
 		background-image: url(/media/images/splashes/cax.jpg);
 	}
@@ -139,6 +136,9 @@ h1, h2 {
 	}
 	&.error {
 		background-image: url(/media/images/splashes/error.jpg);
+	}
+	&.games {
+		background-image: url(/media/images/splashes/games.jpg);
 	}
 	&.lavablade {
 		background-image: url(/media/images/splashes/lavablade.jpg);
@@ -174,7 +174,7 @@ h1, h2 {
 	&.text {
 		line-height: 130%;
 		text-align: left;
-		width: 500px;
+		width: 560px;
 
 		h1, h2, h3, p, ul, ol, pre {
 			margin-bottom: @padding;
@@ -192,6 +192,15 @@ h1, h2 {
 		h2 { font-size: 175%; }
 		h3 { font-size: 150%; }
 		h4 { font-size: 125%; }
+
+		.download-podcast {
+			display: block;
+			border: 1px solid @light-green;
+			border-radius: 10px;
+			margin-bottom: @padding;
+			padding: @padding / 2;
+			text-align: center;
+		}
 	}
 
 	&.home, &.error {
@@ -262,15 +271,6 @@ h1, h2 {
 		float: right;
 		margin-left: @padding;
 	}
-
-	.download-podcast {
-		display: block;
-		border: 1px solid @light-green;
-		border-radius: 10px;
-		margin-bottom: @padding;
-		padding: @padding / 2;
-		text-align: center;
-	}
 }
 
 .major-list li {
@@ -285,6 +285,11 @@ h1, h2 {
 		& > a {
 			float: left;
 			margin-right: @padding;
+		}
+
+		.bio {
+			color: @light-grey;
+			font-size: 80%;
 		}
 	}
 }
