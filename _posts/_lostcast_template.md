@@ -14,10 +14,6 @@ podcast:
   mp3url: http://media.lostdecadegames.com/lostcast/lostcast_68.mp3
   keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
-<div class="full-frame">
-	<img alt="Lostcast gamedev podcast" src="/media/images/lostcast/splash.jpg" width="500" height="313">
-</div>
-
 _**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
 
 {{ page.podcast.summary }}
