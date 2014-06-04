@@ -71,7 +71,7 @@ h1, h2 {
 	}
 
 	// Navigation
-	ul {
+	#nav {
 		.fancy;
 		position: absolute;
 		right: 0px;
@@ -170,6 +170,9 @@ h1, h2 {
 	&.video {
 		background-image: url(/media/images/splashes/video.jpg);
 	}
+	&.immortal {
+		background-image: url(/media/images/splashes/immortal.jpg);
+	}
 }
 
 // Any section below the header
@@ -255,6 +258,11 @@ h1, h2 {
 		font-family: Courier, Monospace;
 	}
 
+	p strong {
+		font-weight: bold;
+		font-variant: small-caps;
+	}
+
 	blockquote {
 		border-left: 4px solid @dark-grey;
 		color: @light-grey;
@@ -296,6 +304,66 @@ h1, h2 {
 		.bio {
 			color: @light-grey;
 			font-size: 80%;
+		}
+	}
+}
+
+// Social
+#social {
+	height: 50px;
+
+	position: absolute;
+	right: 0px;
+	top: 100px;
+	z-index: 200;
+
+	li {
+		float: right;
+
+		margin-right: 1em;
+		width: 50px;
+		height: 50px;
+
+		a {
+			display: block;
+			text-indent: -9999em;
+			width: 50px;
+			height: 50px;
+
+			background-image: url(/media/images/ui/social.png);
+
+			&.twitter {
+				background-color: rgba(89, 125, 206, 0.5);
+				background-position: 0 0;
+
+				&:hover {
+					background-color: rgba(89, 125, 206, 1);
+				}
+			}
+			&.rss {
+				background-color: rgba(210, 125, 44, 0.5);
+				background-position: -50px 0;
+
+				&:hover {
+					background-color: rgba(210, 125, 44, 1);
+				}
+			}
+			&.apple {
+				background-color: rgba(78, 74, 78, 0.5);
+				background-position: 0 -50px;
+
+				&:hover {
+					background-color: rgba(78, 74, 78, 1);
+				}
+			}
+			&.youtube {
+				background-color: rgba(208, 70, 72, 0.5);
+				background-position: -50px -50px;
+
+				&:hover {
+					background-color: rgba(208, 70, 72, 1);
+				}
+			}
 		}
 	}
 }
