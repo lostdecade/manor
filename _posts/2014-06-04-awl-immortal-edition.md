@@ -4,7 +4,7 @@ title: "A Wizard's Lizard: Immortal Edition launches June 16"
 author: matt
 tags: [immortal, wizardslizard]
 ---
-You knew [A Wizard's Lizard][1] was coming to Steam because it was [greenlit][2] back in February. However! Did you know that _A Wizard's Lizard_ has since had **four additional months** of development? New content, features, abilities... there's so much stuff we decided to call this update...
+You knew [A Wizard's Lizard][1] was coming to Steam because it was [greenlit][2] back in February. However! Did you know that there have since been **four additional months** of hardcore development? New content, features, abilities... there's so much stuff we decided to call this update...
 
 **A Wizard's Lizard: Immortal Edition**!
 
@@ -82,7 +82,7 @@ Seriously, look at all this great new stuff:
 		<img alt="A Wizard's Lizard: Immortal Edition" src="/media/images/posts/awl/immortal/thumbs/explosions.jpg" width="500" height="333">
 	</a>
 	<p>
-		If you like blowing stuff up, we've got you covered. Boom Barrel Rooms abound in A Wizard's Lizard: Immortal Edition!
+		If you like blowing stuff up, we've got you covered. "Boom Barrel" rooms abound in _A Wizard's Lizard: Immortal Edition_!
 	</p>
 </div>
 
