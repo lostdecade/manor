@@ -82,7 +82,7 @@ Seriously, look at all this great new stuff:
 		<img alt="A Wizard's Lizard: Immortal Edition" src="/media/images/posts/awl/immortal/thumbs/explosions.jpg" width="500" height="333">
 	</a>
 	<p>
-		If you like blowing stuff up, we've got you covered. "Boom Barrel" rooms abound in _A Wizard's Lizard: Immortal Edition_!
+		If you like blowing stuff up, we've got you covered. "Boom Barrel" rooms abound in <em>A Wizard's Lizard: Immortal Edition</em>!
 	</p>
 </div>
 
