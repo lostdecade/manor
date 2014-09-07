@@ -3,16 +3,23 @@ layout: article
 title: "Lostcast 21: What Windows?"
 author: matt
 tags: [lostcast]
+podcast:
+  title: "Lostcast 21"
+  subtitle: "What Windows?"
+  summary: "In episode 21, talk about an arcade convention, the WHATWG/W3C split and more!"
+  duration: "53:32"
+  length: 3212
+  filesize: 44MB
+  pubDate: "Sun, 05 Aug 2012 12:00:00 GMT"
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_21.mp3
+  keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
 
-<div class="full-frame">
-	<img alt="Lostcast logo" src="/media/images/lostcast/custom/pokki.png">
-</div>
+{{ page.podcast.summary }}
 
-**Lostcast** is our podcast about HTML5 games. In episode 21, talk about an awesome arcade convention, the WHATWG/W3C split, Lava Blade, and more!
-
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_21_what_windows.mp3">
-	Download Lostcast episode 21 (53:32, 44MB)
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
 </a>
 
 ## Show notes

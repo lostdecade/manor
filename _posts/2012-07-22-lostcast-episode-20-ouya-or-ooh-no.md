@@ -3,16 +3,23 @@ layout: article
 title: "Lostcast 20: OUYA or Ooh, no?"
 author: matt
 tags: [lostcast]
+podcast:
+  title: "Lostcast 20"
+  subtitle: "OUYA or Ooh, no?"
+  summary: "In episode 20, we discuss the much buzzed-about OUYA, Onslaught! Arena on Brass Monkey, and the launch of our new game Lunch Bug."
+  duration: "51:53"
+  length: 3113
+  filesize: 40MB
+  pubDate: "Sun, 22 Jul 2012 12:00:00 GMT"
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_20.mp3
+  keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
-<div class="full-frame">
-	<img alt="Lostcast logo" src="/media/images/lostcast/custom/pokki.png">
-</div>
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
 
+{{ page.podcast.summary }}
 
-**Lostcast** is our podcast about HTML5 games. In episode 20, we discuss the much buzzed-about [OUYA](http://www.kickstarter.com/projects/ouya/ouya-a-new-kind-of-video-game-console), [Onslaught! Arena on Brass Monkey](http://playbrassmonkey.com/onslaught-arena), and the launch of our new game [Lunch Bug](http://www.lunchbug.com/).
-
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_20_ouya_or_ooh_no.mp3">
-	Download Lostcast episode 20 (51:53, 40MB)
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
 </a>
 
 ## Show notes
