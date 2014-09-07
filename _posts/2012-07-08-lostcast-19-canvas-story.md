@@ -3,15 +3,23 @@ layout: article
 title: "Lostcast 19: Canvas Story"
 author: matt
 tags: [lostcast]
+podcast:
+  title: "Lostcast 19"
+  subtitle: "Canvas Story"
+  summary: "Geoff and Matt answer a listener question about canvas scaling and catch you up on all things LDG. Don't forget to check out our sponsor Pokki!"
+  duration: "39:47"
+  length: 2387
+  filesize: 36MB
+  pubDate: "Sun, 08 Jul 2012 12:00:00 GMT"
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_19.mp3
+  keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
-<div class="full-frame">
-	<img alt="Lostcast logo" src="/media/images/lostcast/custom/pokki.png">
-</div>
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
 
-**Lostcast** is our podcast about HTML5 games. In episode 19, we answer a reader email question (thanks Jarrod!), talk about our upcoming game **Lunch Bug** and our _extra_ upcoming game **Lava Blade**. Good times were had by… both.
+{{ page.podcast.summary }}
 
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_19_canvas_story.mp3">
-	Download Lostcast episode 19 (39:47, MB)
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
 </a>
 
 ## Show notes

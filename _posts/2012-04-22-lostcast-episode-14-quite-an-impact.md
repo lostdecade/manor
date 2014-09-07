@@ -3,16 +3,23 @@ layout: article
 title: "Lostcast 14: Quite an Impact"
 author: matt
 tags: [lostcast, interview]
+podcast:
+  title: "Lostcast 14"
+  subtitle: "Quite an Impact"
+  summary: "Geoff and Matt interview Impact game engine creator Dominic Szablewski."
+  duration: "44:49"
+  length: 2689
+  filesize: 51MB
+  pubDate: "Sun, 22 Apr 2012 12:00:00 GMT"
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_14.mp3
+  keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
 
-<div class="full-frame">
-	<img alt="Lostcast talks with Impact/Biolab creator Dominic Szablewski" src="/media/images/lostcast/custom/impact.png">
-</div>
+{{ page.podcast.summary }}
 
-**Lostcast** is our podcast about HTML5 games. In **episode 14**, we talk with [Impact](http://impactjs.com/) creator [Dominic Szablewski](http://www.phoboslab.org/) about [all kinds of interesting things](https://twitter.com/#!/LostDecadeGames/status/194178727083642881), including what awesome new features to look for in **Impact 2**!
-
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_14_quite_an_impact.mp3">
-	Download Lostcast episode 14 (44:49, 51MB)
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
 </a>
 
 ## Show notes

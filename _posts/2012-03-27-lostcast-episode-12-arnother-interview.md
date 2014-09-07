@@ -3,24 +3,34 @@ layout: article
 title: "Lostcast 12: Arnother Interview"
 author: matt
 tags: [lostcast, interview]
+podcast:
+  title: "Lostcast 12"
+  subtitle: "Arnother Interview"
+  summary: "Geoff and Matt talk shop with HTML5 performance expert and Game Closure employee Arno van der Vegt."
+  duration: "55:09"
+  length: 3309
+  filesize: 64MB
+  pubDate: "Tue, 27 Mar 2012 12:00:00 GMT"
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_12.mp3
+  keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
-
 <div class="full-frame">
 	<a href="/media/images/posts/arno/arno.jpg">
 		<img alt="Arno and Geoff making Lostcast" src="/media/images/posts/arno/arno_thumb.jpg">
 	</a>
 </div>
-
 <div class="full-frame">
 	<em>Arno and Geoff have drinks before the show.</em>
 </div>
 
-**Lostcast** is our podcast about HTML5 games. In episode 12, we chat with [Tankworld][1] developer Arno van der Vegt. Arno is a veteran HTML5 game developer as well as a performance expert. He currently works at Game Closure doing work on their cross-platform SDK.
-
 _Note: sorry about the low quality audio… we need better interview hardware!_
 
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_12_arnother_interview.mp3">
-	Download Lostcast episode 12 (55:09, 64MB)
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
+
+{{ page.podcast.summary }}
+
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
 </a>
 
 ## Show notes

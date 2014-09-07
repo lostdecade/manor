@@ -3,18 +3,26 @@ layout: article
 title: "Lostcast 17: Vincent Priceless"
 author: matt
 tags: [lostcast, interview]
+podcast:
+  title: "Lostcast 17"
+  subtitle: "Vincent Priceless"
+  summary: "Geoff and Matt talk with veteran game and Chrome developer Vincent Scheib."
+  duration: "1:05:09"
+  length: 6549
+  filesize: 52MB
+  pubDate: "Sun, 10 Jun 2012 12:00:00 GMT"
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_17.mp3
+  keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
-<div class="full-frame">
-	<img alt="Lostcast logo" src="/media/images/lostcast/500x500.jpg">
-</div>
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
 
-**Lostcast** is our podcast about HTML5 games. In episode 17, we interview game veteran and Google software developer [Vincent Scheib](http://scheib.net/). We talk about all kinds of new features in Chrome, including the Mouse Lock API, which is very important for some types of games. Be sure to check out the [Google Game Developers](https://developers.google.com/games/) group to let Vincent and other Chrome developers know how they can help your game be successful!
+{{ page.podcast.summary }}
+
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
+</a>
 
 _My apologies for the sound issues; this is our first remote episode. We were at the Googleplex in Mountain View, holding our microphones instead of having them on stands. Because of this we tended to put the mics right in our faces, so the volumes were turned up too much (that's why you may hear clipping). The campus was also going through a bunch of upgrades and construction! We'll do better next time._
-
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_17_vincent_priceless.mp3">
-	Download Lostcast episode 17 (1:05:09, 52MB)
-</a>
 
 ## Show notes
 

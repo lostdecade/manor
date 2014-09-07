@@ -3,12 +3,23 @@ layout: article
 title: "Lostcast 11: LDG @ GDC"
 author: matt
 tags: [lostcast]
+podcast:
+  title: "Lostcast 11"
+  subtitle: "LDG @ GDC"
+  summary: "LDG went to GDC where we wont a contest and other exciting stuff happened."
+  duration: "46:46"
+  length: 2806
+  filesize: 54MB
+  pubDate: "Sun, 17 Mar 2012 12:00:00 GMT"
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_11.mp3
+  keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
 
-**Lostcast** is our podcast about HTML5 games. In episode 11, we talk about our trip to Game Developers Conference and our experience with Pokki. We also chat a bit about some new games we have in the pipeline and answer some **listener questions**!
+{{ page.podcast.summary }}
 
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_11_ldg_at_gdc.mp3">
-	Download Lostcast episode 11 (46:46, 54MB)
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
 </a>
 
 ## Show notes

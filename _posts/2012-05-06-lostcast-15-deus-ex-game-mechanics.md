@@ -3,12 +3,23 @@ layout: article
 title: "Lostcast 15: Deus Ex Game Mechanics"
 author: matt
 tags: [lostcast]
+podcast:
+  title: "Lostcast 15"
+  subtitle: "Deus Ex Game Mechanics"
+  summary: "Geoff and Matt talk about lots of things HTML5 and game related, but mostly talk about interesting game mechanics!"
+  duration: "1:04:25"
+  length: 3865
+  filesize: 78MB
+  pubDate: "Sun, 06 May 2012 12:00:00 GMT"
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_15.mp3
+  keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
 
-**Lostcast** is our podcast about HTML5 games. In episode 15, we talk about the fascinating Heroica line of board games by LEGO, the tech we've been working on (including our upcoming puzzle game Lunch Bug), friends' podcasts and lots about game mechanics.
+{{ page.podcast.summary }}
 
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_15_deus_ex_game_mechanics.mp3">
-	Download Lostcast episode 15 (1:04:25, 78MB)
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
 </a>
 
 ## Show notes

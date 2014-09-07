@@ -3,26 +3,28 @@ layout: article
 title: "Lostcast 16: We Heart Huckaby"
 author: matt
 tags: [lostcast, interview]
+podcast:
+  title: "Lostcast 16"
+  subtitle: "We Heart Huckaby"
+  summary: "Geoff and Matt talk with HTML5 game pioneer Joseph Huckaby, creator of Effect Games."
+  duration: "1:49:09"
+  length: 6549
+  filesize: 78MB
+  pubDate: "Sun, 20 May 2012 12:00:00 GMT"
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_16.mp3
+  keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
 
-<div class="full-frame">
-	<img
-		alt="Lostcast episode 16: We Heart Huckaby"
-		src="/media/images/posts/lostcast_16/lostcast_logo.jpg"
-		width="500"
-		height="342"
-	>
-</div>
+{{ page.podcast.summary }}
 
-**Lostcast** is our podcast about HTML5 games. In episode 16, we interview web game pioneer and [Effect Games][1] creator Joseph Huckaby. We talk about all kinds of awesome tech made in the last… 7 years as well as brand new hacks including one revolving around our game [Onslaught! Arena](/onslaught_arena/).
-
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_16_we_heart_huckaby.mp3">
-	Download Lostcast episode 16 (1:49:09, 78MB)
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
 </a>
 
 ## Show notes
 
-* [Effect Games][1]
+* [Effect Games](http://www.effectgames.com/effect/)
 * [DeepSleep demo from 1995](http://www.youtube.com/watch?v=VAw7FspWmhg)
 * [Mario Demo](http://www.effectgames.com/games/mariodemo/)
 * [Jacob Seidelin](http://blog.nihilogic.dk/)
@@ -66,5 +68,3 @@ tags: [lostcast, interview]
 </div>
 
 Thanks for listening! We love getting questions and comments, so please [email us](mailto:hello@lostdecadegames.com) if you have any.
-
-[1]: http://www.effectgames.com/effect/

@@ -3,19 +3,26 @@ layout: article
 title: "Lostcast 13: OS Xcellence"
 author: matt
 tags: [lostcast]
+podcast:
+  title: "Lostcast 13"
+  subtitle: "OS Xcellence"
+  summary: "Matt and Geoff talk about pimping out OS X and HTML games and all that!"
+  duration: "57:41"
+  length: 3461
+  filesize: 66MB
+  pubDate: "Tue, 03 Apr 2012 12:00:00 GMT"
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_13.mp3
+  keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
 
-<div class="full-frame">
-	<img alt="Shots" src="/media/images/posts/lostcast_13/shots.jpg">
-</div>
+{{ page.podcast.summary }}
 
-**Lostcast** is our podcast about HTML5 games. In episode 13, we talk about all kinds of crazy crap, from our GitHub woes to the recent Mozilla game [BrowserQuest](http://browserquest.mozilla.org/). But primarily I drill Geoff on how/why his OS X experience is really quite streamlined (and better than mine!).
-
-**About the photo:** We've decided we're taking shots before every Lostcast, since it loosens us up and gets the conversation flowing easier. While we didn't _drink_ mojitos, that is Mojito's head coming in from the right. But no Geoff had Maker's Mark and I had what I call a mini White Russian? Or a White Russian shot? I'm sure this already exists…
-
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_13_os_xcellence.mp3">
-	Download Lostcast episode 13 (57:41, 66MB)
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
 </a>
+
+**About the photo:** We've decided we're taking shots before Lostcast, since it loosens us up and gets the conversation flowing easier. While we didn't _drink_ mojitos, that is Mojito's head coming in from the right. But no Geoff had Maker's Mark and I had what I call a mini White Russian? Or a White Russian shot? I'm sure this already exists…
 
 ## Show notes
 

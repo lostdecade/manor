@@ -3,18 +3,23 @@ layout: article
 title: "Lostcast 18: The Sorceror's Sponsor"
 author: matt
 tags: [lostcast]
+podcast:
+  title: "Lostcast 18"
+  subtitle: "The Sorceror's Sponsor"
+  summary: "Announcing our first sponsor: Pokki! Geoff and Matt talk about how awesome HTML5 gaming is right now."
+  duration: "56:16"
+  length: 3376
+  filesize: 47MB
+  pubDate: "Sun, 24 Jun 2012 12:00:00 GMT"
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_18.mp3
+  keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
 
-<div class="full-frame">
-	<img alt="Lostcast: now sponsored by Pokki!" src="/media/images/lostcast/custom/pokki.png">
-</div>
+{{ page.podcast.summary }}
 
-**Lostcast** is our podcast about HTML5 games. In episode 18, we answer a listener email about the great **DOM VS Canvas** debate, talk about getting your games out there into HTML5 land, and chat about our next game **Lava Blade**.
-
-We also announce our new sponsor, [Pokki](http://pokki.com/)! Very exciting news, as it allows us to develop bigger, more awesome games. Please do check them out and be sure to get the high score on [Onslaught! Arena on Pokki](https://www.pokki.com/app/Onslaught-Arena).
-
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_18_the_sorcerors_sponsor.mp3">
-	Download Lostcast episode 18 (56:16, 47MB)
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
 </a>
 
 ## Show notes
