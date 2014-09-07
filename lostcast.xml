@@ -824,21 +824,6 @@ layout: nil
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
-		<item>
-			<title>Lostcast 54: Follin in Love with HTML5</title>
-			<link>http://www.lostdecadegames.com/</link>
-			<itunes:author>Lost Decade Games</itunes:author>
-			<itunes:subtitle>Follin in Love with HTML5</itunes:subtitle>
-			<itunes:summary>LDG interviews world-renowned game composer Tim Follin about his upcoming HTML5 game Contradiction.</itunes:summary>
-			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_54.mp3" length="5108" type="audio/mpeg"/>
-			<guid>http://media.lostdecadegames.com/lostcast/lostcast_54.mp3</guid>
-			<pubDate>Tue, 17 Dec 2013 12:00:00 GMT</pubDate>
-			<itunes:duration>1:25:08</itunes:duration>
-			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse, tim follin, contradiction</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
-			<itunes:explicit>no</itunes:explicit>
-		</item>
-
 		{% for post in site.tags.lostcast reversed %}
 		{% assign podcast = post.podcast %}
 		{% if podcast %}
