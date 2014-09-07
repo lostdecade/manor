@@ -11,7 +11,7 @@ podcast:
   length: 3461
   filesize: 66MB
   pubDate: "Tue, 03 Apr 2012 12:00:00 GMT"
-  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_13.mp3
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_episode_13_os_xcellence.mp3
   keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
 _**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._

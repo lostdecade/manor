@@ -11,7 +11,7 @@ podcast:
   length: 3309
   filesize: 64MB
   pubDate: "Tue, 27 Mar 2012 12:00:00 GMT"
-  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_12.mp3
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_episode_12_arnother_interview.mp3
   keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
 <div class="full-frame">

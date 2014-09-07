@@ -11,7 +11,7 @@ podcast:
   length: 3376
   filesize: 47MB
   pubDate: "Sun, 24 Jun 2012 12:00:00 GMT"
-  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_18.mp3
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_episode_18_the_sorcerors_sponsor.mp3
   keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
 _**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._

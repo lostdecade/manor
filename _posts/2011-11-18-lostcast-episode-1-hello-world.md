@@ -3,12 +3,13 @@ layout: article
 title: "Lostcast 1: Hello World"
 author: matt
 tags: [lostcast]
-_podcast:
+podcast:
   title: "Lostcast 1"
   subtitle: "Hello World"
   summary: "Matt and Geoff discuss their backgrounds and various aspects of Onslaught! development."
   duration: "46:11"
   length: 2711
+  filesize: 45MB
   pubDate: "Fri, 18 Nov 2011 12:12:12 GMT"
   mp3url: http://media.lostdecadegames.com/lostcast/lostcast_episode_1_hello_world.mp3
   keywords: html5, games
