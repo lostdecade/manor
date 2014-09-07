@@ -3,12 +3,23 @@ layout: article
 title: "Lostcast 6: A Wild Tom Appears"
 author: matt
 tags: [lostcast, interview]
+podcast:
+  title: "Lostcast 6"
+  subtitle: "A Wild Tom Appears"
+  summary: "Tom discusses xcjs, Game Closure and HTML5 tech."
+  duration: "27:47"
+  length: 1667
+  filesize: 32MB
+  pubDate: "Fri, 27 Jan 2012 12:00:00 GMT"
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_episode_6_a_wild_tom_appears.mp3
+  keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
-**Lostcast** is our podcast about HTML5 games.
-In episode 6, we interview Tom Fairfield of Game Closure, the company that helped us launch Onslaught! on iPad and Android tablets.
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
 
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_6_a_wild_tom_appears.mp3">
-	Download Lostcast episode 6 (27:47, 32MB)
+{{ page.podcast.summary }}
+
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
 </a>
 
 ## Show notes

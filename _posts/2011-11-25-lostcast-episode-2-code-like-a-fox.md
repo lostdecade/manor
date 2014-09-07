@@ -3,15 +3,26 @@ layout: article
 title: "Lostcast 2: Code Like a Fox"
 author: matt
 tags: [lostcast, interview]
+podcast:
+  title: "Lostcast 2"
+  subtitle: "Code Like a Fox"
+  summary: "Matt and Geoff talk with HTML5 game developer Louis Stowasser about his Crafty game engine."
+  duration: "55:03"
+  length: 3303
+  filesize: 55MB
+  pubDate: "Fri, 25 Nov 2011 12:28:00 GMT"
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_episode_2_code_like_a_fox.mp3
+  keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
-**Lostcast** is our podcast about HTML5 games.
-In episode 2, we talk with [Louis Stowasser][1] about his game engine, [Crafty][2], among many other things HTML5-game related. Have a listen!
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
 
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_2_code_like_a_fox.mp3">
-	Download Lostcast episode 2 (55:03, 55MB)
+{{ page.podcast.summary }}
+
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
 </a>
 
-## Mentioned in the show
+## Show notes
 
 * [CraftyJS](http://craftyjs.com/)
 * [Mouse Lock API](http://blog.sethladd.com/2011/09/mouse-lock-for-html5-fps-games.html)

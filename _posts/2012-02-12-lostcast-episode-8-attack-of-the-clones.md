@@ -3,7 +3,24 @@ layout: article
 title: "Lostcast 8: Attack of the Clones!"
 author: matt
 tags: [lostcast]
+podcast:
+  title: "Lostcast 8"
+  subtitle: "Attack of the Clones!"
+  summary: "With so many companies cloning out companies' games, why don't we talk this out?"
+  duration: "1:04:43"
+  length: 3883
+  filesize: 74MB
+  pubDate: "Sun, 12 Feb 2012 12:00:00 GMT"
+	mp3url: http://media.lostdecadegames.com/lostcast/lostcast_episode_8_attack_of_the_clones.mp3
+  keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
+
+{{ page.podcast.summary }}
+
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
+</a>
 
 <div class="full-frame">
 	<a href="/media/images/posts/lostcast_08/zelda_vs_golden_axe_warrior.png">
@@ -20,10 +37,6 @@ Most recently, there was [Tiny Tower VS Dream Heights][2] and [Triple Town VS Ye
 I myself was working on a ["clone" of Puzzle Quest](/puzzle-punk-a-postmortem-on-a-failed-puzzle-q/) early in my game development career. But my intention was never to copy _Puzzle Quest_ whole-hog. What the hell fun would that be? I had so many ideas for my own flavor and twists to add. By the end, they'd be very different and separate gaming experiences. But the pattern these days seems to be to analyze the target game so closely that there are no variables left, and you've essentially made the entire game design your own.
 
 So we do bring it back home to HTML5 a little, but this episode is a bit light on the HTML5 side.
-
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_8_attack_of_the_clones.mp3">
-	Download Lostcast episode 8 (1:04:43, 74MB)
-</a>
 
 ## HTML5 Game of the Week: /r/html5games
 

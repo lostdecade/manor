@@ -3,14 +3,23 @@ layout: article
 title: "Lostcast 9: That's Rich"
 author: matt
 tags: [lostcast, interview]
+podcast:
+  title: "Lostcast 9"
+  subtitle: "That's Rich"
+  summary: "Rich Davey is a veteran flash game developer and is really excited about HTML5. Let's talk it out!"
+  duration: "1:03:42"
+  length: 3822
+  filesize: 73MB
+  pubDate: "Thu, 23 Feb 2012 12:00:00 GMT"
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_episode_9_thats_rich.mp3
+  keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
 
-**Lostcast** is our podcast about HTML5 games. In episode 9, we talk with flash developer and HTML5 games advocate [Rich Davey](http://www.photonstorm.com/). He's got years of flash game development experience under his belt, so we discuss in great detail the differences between these two similar yet very different development platorms.
+{{ page.podcast.summary }}
 
-Rich is a fascinating guy with a delightful accent so you should totally have a listen!
-
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_9_thats_rich.mp3">
-	Download Lostcast episode 9 (1:03:42, 73MB)
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
 </a>
 
 ## HTML5 Game Spotlight: Pixel Blast

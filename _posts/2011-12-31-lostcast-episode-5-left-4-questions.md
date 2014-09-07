@@ -3,8 +3,25 @@ layout: article
 title: "Lostcast 5: Left 4 Questions"
 author: matt
 tags: [lostcast]
+podcast:
+  title: "Lostcast 5"
+  subtitle: "Left 4 Questions"
+  summary: "We answer 4 HTML5 game dev questions from a listener."
+  duration: "41:11"
+  length: 2471
+  filesize: 47MB
+  pubDate: "Sat, 31 Dec 2011 12:00:00 GMT"
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_episode_5_left_4_questions.mp3
+  keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
-**Lostcast** is our podcast about HTML5 games.
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
+
+{{ page.podcast.summary }}
+
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
+</a>
+
 In episode 5, we answer a list of questions sent in by Jarrod Oberto, one of our listeners. Here are the questions he sent us:
 
 > 1) Setting your frame rate: So in the attached code I use setInterval(main, 20); Now I have an idea what this means but have not fully wrapped my head around it. I see in your tutorial you set this value to 1 (so it runs as fast as possible) and then control the speed with your "modifier" value? I tried your method and it killed my performance in Firefox. Could you explain the pros/cons in the two different techniques?

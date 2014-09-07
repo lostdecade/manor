@@ -4,24 +4,20 @@ title: "Lostcast 1: Hello World"
 author: matt
 tags: [lostcast]
 _podcast:
-  title: Lostcast 1
-  subtitle: Hello World
-  summary: Matt and Geoff discuss their backgrounds and various aspects of Onslaught! development.
+  title: "Lostcast 1"
+  subtitle: "Hello World"
+  summary: "Matt and Geoff discuss their backgrounds and various aspects of Onslaught! development."
   duration: "46:11"
   length: 2711
-  pubDate: "Tue, 15 Nov 2011 12:12:12 GMT"
+  pubDate: "Fri, 18 Nov 2011 12:12:12 GMT"
   mp3url: http://media.lostdecadegames.com/lostcast/lostcast_episode_1_hello_world.mp3
   keywords: html5, games
 ---
 **Lostcast** is the name of our new podcast! In this first episode we introduce ourselves, chat a little bit about **Lost Decade Games**, talk about the history of [Onslaught!](/onslaught_arena/), and discuss HTML5 games in general. We're not sure yet if it will be weekly, or monthly, or what. We'll figure that stuff out eventually.
 
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_1_hello_world.mp3">
-	Download Lostcast episode 1 (46:11, 45MB)
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
 </a>
-
-<p class="subtext">
-	(or <a href="{{ site.lostcast_itunes_url }}">subscribe via iTunes</a>)
-</p>
 
 ## Links mentioned in the show
 

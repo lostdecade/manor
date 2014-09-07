@@ -3,7 +3,24 @@ layout: article
 title: "Lostcast 7: HTML5, The Bad Parts"
 author: matt
 tags: [lostcast]
+podcast:
+  title: "Lostcast 7"
+  subtitle: "HTML5, The Bad Parts"
+  summary: "We collected things devs hate about HTML5 via Twitter and talk all about them!"
+  duration: "1:10:58"
+  length: 4257
+  filesize: 81MB
+  pubDate: "Fri, 03 Feb 2012 12:00:00 GMT"
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_episode_7_html5_the_bad_parts.mp3
+  keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
+
+{{ page.podcast.summary }}
+
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
+</a>
 
 <div class="full-frame">
 	<a href="/media/images/posts/lostcast_07/matt_and_geoff_podcasting.jpg">
@@ -12,13 +29,6 @@ tags: [lostcast]
 </div>
 
 (That's Matt on the left, Geoff on the right… and Mojito below!)
-
-**Lostcast** is our podcast about HTML5 games.
-In episode 7, **we hate HTML5**! … Ok, maybe we actually love it a little _too_ hard, but in this episode we go over all the stuff that developers (via [Twitter](https://twitter.com/#!/lostdecadegames) and live conversations) told us that they hate about working with HTML5.
-
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_7_html5_the_bad_parts.mp3">
-	Download Lostcast episode 7 (1:10:57, 81MB)
-</a>
 
 ## HTML5 Game of the Week: Faerie Alchemy
 

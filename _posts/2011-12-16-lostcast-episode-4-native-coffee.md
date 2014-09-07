@@ -3,15 +3,26 @@ layout: article
 title: "Lostcast 4: Native Coffee"
 author: matt
 tags: [lostcast]
+podcast:
+  title: "Lostcast 4"
+  subtitle: "Native Coffee"
+  summary: "What's NaCl and why does it kind of scare us?"
+  duration: "46:22"
+  length: 2182
+  filesize: 41MB
+  pubDate: "Fri, 16 Dec 2011 12:00:00 GMT"
+  mp3url: http://media.lostdecadegames.com/lostcast/lostcast_episode_4_native_coffee.mp3
+  keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
-**Lostcast** is our podcast about HTML5 games.
-In episode 4, we talk about Native Client and other cool HTML5-related stuff. We also answer our first listener email! Check out the show notes for links.
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
+
+{{ page.podcast.summary }}
+
+<a class="download-podcast" href="{{ page.podcast.mp3url }}">
+	Download {{ page.podcast.title }} ({{ page.podcast.duration }}, {{ page.podcast.filesize }})
+</a>
 
 _Note: our apologies for the poorer-than-usual recording quality. You can hear a dude blowing leaves outside... We'll find a quieter location._
-
-<a class="download-podcast" href="http://media.lostdecadegames.com/lostcast/lostcast_episode_4_native_coffee.mp3">
-	Download Lostcast episode 4 (46:22, 41MB)
-</a>
 
 ## Show notes
 
