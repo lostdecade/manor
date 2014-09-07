@@ -839,21 +839,6 @@ layout: nil
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
-		<item>
-			<title>Lostcast 55: When Wizards Collide</title>
-			<link>http://www.lostdecadegames.com/</link>
-			<itunes:author>Lost Decade Games</itunes:author>
-			<itunes:subtitle>When Wizards Collide</itunes:subtitle>
-			<itunes:summary>Matt 'n Geoff talk about A Wizard's Lizard development, including a brand new collision script.</itunes:summary>
-			<enclosure url="http://media.lostdecadegames.com/lostcast/lostcast_55.mp3" length="4043" type="audio/mpeg"/>
-			<guid>http://media.lostdecadegames.com/lostcast/lostcast_55.mp3</guid>
-			<pubDate>Mon, 23 Dec 2013 12:00:00 GMT</pubDate>
-			<itunes:duration>1:07:23</itunes:duration>
-			<itunes:keywords>html5, games, lost decade games, gamedev, podcast, indie, lostcast, a wizard's lizard, joshua morse, tim follin, contradiction</itunes:keywords>
-			<itunes:image href="http://www.lostdecadegames.com/media/images/lostcast/600x600.jpg"/>
-			<itunes:explicit>no</itunes:explicit>
-		</item>
-
 		{% for post in site.tags.lostcast reversed %}
 		{% assign podcast = post.podcast %}
 		{% if podcast %}
