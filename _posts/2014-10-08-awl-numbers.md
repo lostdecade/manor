@@ -33,7 +33,9 @@ On January 22nd, we launched A Wizard's Lizard on our own [website][1] with a Hu
 
 ## Steam launch
 
-A Wizard's Lizard [launched on Steam][8] June 16th, at $14.99, but this time with a 34% launch discount (actual price: $9.89). As does any new game on Steam, we received homepage placement, a valuable and coveted position. Fortunately, we were able to stay above the average conversion rate, so our time on the homepage was extended by about 40x what we would have received if our game was not performing well. In the first 72 hours on Steam, we sold 6,340 copies. And then...
+A Wizard's Lizard [launched on Steam][8] June 16th, at $14.99, but this time with a 34% launch discount (actual price: $9.89). As does any new game on Steam, we received homepage placement, a valuable and coveted position. Fortunately, we were able to stay above the average conversion rate, so our time on the homepage was extended by about 40x what we would have received if our game was not performing well.
+
+A large part of our initial launch success is due to the wonderful YouTuber and Twitch communities, especially Northernlion who did a [series on A Wizard's Lizard](https://www.youtube.com/playlist?list=PL1bauNEiHIgzILSj4Z4yECli8SUyjaiRv). Video content creators are probably the primary way games discover our game, so we're really grateful for coverage. In the first 72 hours on Steam, we sold 6,340 copies. And then...
 
 ## Steam Summer Sale
 
