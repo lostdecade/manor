@@ -14,7 +14,7 @@ podcast:
   mp3url: http://media.lostdecadegames.com/lostcast/lostcast_.mp3
   keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
-_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about playing games, making games, and running an indie game company._
+_**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) talk about running a small, independent game studio._
 
 {{ page.podcast.summary }}
 
