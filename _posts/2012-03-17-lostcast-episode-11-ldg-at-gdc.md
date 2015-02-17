@@ -6,7 +6,7 @@ tags: [lostcast]
 podcast:
   title: "Lostcast 11"
   subtitle: "LDG @ GDC"
-  summary: "LDG went to GDC where we wont a contest and other exciting stuff happened."
+  summary: "LDG went to GDC where we won a contest and other exciting stuff happened."
   duration: "46:46"
   length: 2806
   filesize: 54MB
