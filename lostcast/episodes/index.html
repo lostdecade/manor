@@ -12,10 +12,10 @@ comments: hidden
 
 <div class="section text">
 	<p class="br">
-		<a href="/lostcast">Lostcast</a> is a weekly podcast about game development.
+		<a href="/lostcast/">Lostcast</a> is a weekly podcast about game development.
 	</p>
 
-	<ol>
+	<ul>
 		{% for post in site.tags.lostcast %}
 		<li>
 			<a href="{{ post.url }}">{{ post.title }}</a>
@@ -24,5 +24,5 @@ comments: hidden
 			{% endif %}
 		</li>
 		{% endfor %}
-	</ol>
+	</ul>
 </div>
