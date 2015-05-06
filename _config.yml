@@ -1,6 +1,6 @@
 permalink: /:title
 highlighter: true
-exclude: [README.md]
+exclude: [README.md, Makefile]
 
 #paginate: 10
 
