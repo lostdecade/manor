@@ -10,45 +10,31 @@ comments: hidden
 	</div>
 </div>
 
-<div class="section text">
-	<p class="br">
-		Lostcast is a weekly podcast about game development. Join us every Tuesday on <a href="{{ site.lostcast_itunes_url }}">iTunes</a> or <a href="{{ site.lostcast_feed_url }}">RSS</a>.
+<div class="section text blog">
+	<p>
+		<em>Lostcast is the Lost Decade Games podcast, where <a href="/about/">Geoff and Matt</a> talk about running a small, independent game studio.</em>
 	</p>
 
 	<!-- Listen -->
 	{% for post in site.tags.lostcast %}
 		{% if forloop.first %}
-			<div class="br" id="lostcast-file">
-				<h2>{{ post.title }}</h2>
-				<p>
-					Listen now:
-				</p>
-				<audio controls="controls" src="{{ post.podcast.mp3url }}">
-					Sorry, your browser doesn't support embedded audio.
-				</audio>
-				<p>
-					(or <a href="{{ post.podcast.mp3url }}">download mp3</a>)
-				</p>
-				<p>
-					<a class="download-podcast" href="{{ post.url }}">View show notes</a>
-				</p>
-			</div>
+			<h2>{{ post.title }}</h2>
+			<p>{{ post.podcast.summary }} <a href="{{ post.url }}">Read more</a></p>
+
+			<a class="download-podcast" href="{{ post.podcast.mp3url }}">
+				Download {{ post.podcast.title }} ({{ post.podcast.duration }}, {{ post.podcast.filesize }})
+			</a>
 		{% endif %}
 	{% endfor %}
+</div>
 
-	<!-- Subscribe -->
+<!-- Subscribe -->
+<div class="section text">
 	<div id="lostcast-subscribe">
 		<h2>Subscribe</h2>
 		<ul>
 			<li><a class="rss" href="{{ site.lostcast_feed_url }}">RSS</a></li>
 			<li><a class="itunes" href="{{ site.lostcast_itunes_url }}">iTunes</a></li>
-			<li><a class="youtube" href="http://www.youtube.com/playlist?list=PLwEc1ZRky2_Jw6mKSXkoqbJQRUhjPwfH1">YouTube</a></li>
 		</ul>
-
-		<!-- Explore -->
-		<p>
-			<a href="/lostcast/episodes/">Explore all episodes</a>
-		</p>
 	</div>
-
 </div>
