@@ -27,7 +27,7 @@ authors:
     twitter: richtaur
     github: richtaur
     bio: "Matt Hackett obsesses about games in LA with his two cats and user researcher wife Andrea. He co-founded Lost Decade Games in 2010 where he now does game design, programming, and artwork."
-    url_more: http://indieverse.co/issue/4/matt-hackett/
+    url_more: http://www.richtaur.com/
   geoff:
     display_name: Geoff Blair
     first_name: Geoff
@@ -37,7 +37,7 @@ authors:
     twitter: geoffblair
     github: geoffb
     bio: "Geoff Blair snowboards and games with his cats and fiancé Melissa in northern California. He co-founded Lost Decade Games in 2010 where he now does game design, programming, and business development."
-    url_more: http://indieverse.co/issue/3/geoff-blair/
+    url_more: http://www.geoffblair.com/
 
 # List of all game IDs (drives /games listing and maybe more)
 games_list: [wizardslizard, lavablade, lunchbug, onslaughtarena]
