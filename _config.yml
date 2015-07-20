@@ -5,8 +5,8 @@ exclude: [README.md, Makefile]
 #paginate: 10
 
 meta:
-  description: "Official website of Lost Decade Games, an independent HTML5 game company in Silicon Valley, CA."
-  keywords: "html5 games, javascript, chrome webstore, game dev, open source, blog, git, github, lost decade games, matt hackett, richtaur, geoff blair, gosub, zylo"
+  description: "LDG: an independent game company in California"
+  keywords: "a wizard's lizard, html5 games, javascript, game dev, open source, blog, git, lost decade games, matt hackett, richtaur, geoff blair, gosub, zylo, unity"
 
 base_url: "http://www.lostdecadegames.com"
 email: hello@lostdecadegames.com
