@@ -11,7 +11,7 @@
 		<link>http://www.lostdecadegames.com/lostcast/</link>
 		<language>en-us</language>
 		<copyright>Lost Decade Games © 2015</copyright>
-		<webMaster>hello@lostdecadegames.com</webMaster>
+		<webMaster>hello@lostdecadegames.com (Matt Hackett)</webMaster>
 
 		<itunes:author>Lost Decade Games</itunes:author>
 		<itunes:subtitle>
@@ -39,7 +39,7 @@
 		<item>
 			<title>{{ podcast.title }}: {{ podcast.subtitle }}</title>
 			<description>{{ podcast.summary }}</description>
-			<link>{{ post.url }}</link>
+			<link>http://www.lostdecadegames.com{{ post.url }}</link>
 			<enclosure url="{{ podcast.mp3url }}" length="{{ podcast.length }}" type="audio/mpeg"/>
 			<guid>{{ podcast.mp3url }}</guid>
 			<pubDate>{{ podcast.pubDate }}</pubDate>
