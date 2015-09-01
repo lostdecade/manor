@@ -2,14 +2,16 @@
 layout: default
 title: "Indie Games"
 ---
-<div class="splash home">
+<div class="splash awl2">
 	<div>
-		<h2>A Wizard's Lizard</h2>
-		<em>Save the wizard from death as Raga, the pet lizard</em>
+		<h2>A Wizard's Lizard 2</h2>
+		<em>The lizardy adventure continues, now on Kickstarter!</em>
 	</div>
 </div>
 
-<div class="section home">
+<div class="section">
+	<iframe id="trailer-frame" width="480" height="360" src="about:blank" frameborder="0" allowfullscreen scrolling="no" style="margin:auto"></iframe>
+	<!--
 	<iframe id="trailer-frame" width="550" height="309" src="about:blank" frameborder="0" allowfullscreen></iframe>
 	<iframe
 		id="humble-frame"
@@ -17,10 +19,12 @@ title: "Indie Games"
 		scrolling="no" frameBorder="0"
 		src="http://www.humblebundle.com/store/product/cryptrun/Cdy6Dgsy3Fts">
 	</iframe>
+	-->
 </div>
 
 <script>
 	window.onload = function () {
-		document.getElementById("trailer-frame").src = "http://www.youtube.com/embed/ta3z8kBMnaQ";
+		//document.getElementById("trailer-frame").src = "http://www.youtube.com/embed/ta3z8kBMnaQ";
+		document.getElementById("trailer-frame").src = "https://www.kickstarter.com/projects/357830563/a-wizards-lizard-2-steam-windows-mac/widget/video.html";
 	};
 </script>
