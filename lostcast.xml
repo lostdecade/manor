@@ -6,7 +6,7 @@
 
 		<title>Lostcast</title>
 		<description>
-			Lostcast is a weekly podcast about running an independent 2d game studio in California.
+			Lostcast is a weekly podcast about making better video games with small teams.
 		</description>
 		<link>http://www.lostdecadegames.com/lostcast/</link>
 		<language>en-us</language>
@@ -19,8 +19,7 @@
 		</itunes:subtitle>
 		<itunes:keywords>podcast, video games, indie, html5, games, game dev, game development, javascript, web dev, weekly, steam</itunes:keywords>
 		<itunes:summary>
-			Lostcast is a weekly podcast about running an independent 2d game studio in California.
-			Each Tuesday, game developers Geof Blair and Matt Hackett discuss the trials and tribulations of running an indie game studio.
+			Lostcast is a weekly podcast about making better video games with small teams.
 		</itunes:summary>
 		<itunes:category text="Games &amp; Hobbies">
 			<itunes:category text="Video Games"/>
