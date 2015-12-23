@@ -12,6 +12,11 @@ This is the source code for the [Lost Decade Games website][1]. Our site is open
 * Email us: [hello@lostdecadegames.com][7]
 * Follow us on Twitter: [@LostDecadeGames][8]
 
+## Dependencies
+
+* [Jekyll 2.5.3][15] (Jekyll 3+ breaks our URLs)
+* [AWS CLI][16]
+
 ## License
 
 The following directories and their contents are Copyright Lost Decade Games, LLC. You may not reuse anything therein without our explicit permission:
@@ -22,9 +27,8 @@ The following directories and their contents are Copyright Lost Decade Games, LL
 All other directories and files are [MIT Licensed][11].
 
 [1]: http://www.lostdecadegames.com/
-[2]: http://www.lostdecadegames.com/our-new-blog-is-running-on-jekyll/
 [3]: http://aws.amazon.com/
-[4]: https://github.com/mojombo/jekyll/wiki
+[4]: https://jekyllrb.com/
 [5]: http://www.lostdecadegames.com/contact/#geoff
 [6]: http://www.lostdecadegames.com/contact/#matt
 [7]: mailto:hello@lostdecadegames.com
@@ -35,3 +39,5 @@ All other directories and files are [MIT Licensed][11].
 [12]: http://www.lostdecadegames.com/our-new-blog-is-running-on-jekyll/
 [13]: http://www.lostdecadegames.com/blog-author-attribution-using-jekyll/
 [14]: http://www.lostdecadegames.com/goodbye-github-hello-aws/
+[15]: https://rubygems.org/gems/jekyll/versions/2.5.3
+[16]: https://aws.amazon.com/cli/
