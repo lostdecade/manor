@@ -22,6 +22,13 @@ deploy: build
 		--delete \
 		--profile lostdecadegames
 
+deploy-all: build
+	aws s3 sync _site s3://www.lostdecadegames.com \
+		--cache-control max-age=86400 \
+		--acl public-read \
+		--delete \
+		--profile lostdecadegames
+
 clean:
 	@rm -rf _site
 
