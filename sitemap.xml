@@ -50,6 +50,9 @@
 	<url>
 		<loc>{{ site.base_url }}/mailing-list/</loc>
 	</url>
+	<url>
+		<loc>{{ site.base_url }}/html5/</loc>
+	</url>
 	{% for post in site.posts %}
 		{% unless post.hide %}
 			<url>
