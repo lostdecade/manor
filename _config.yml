@@ -5,8 +5,8 @@ exclude: [README.md, Makefile]
 #paginate: 10
 
 meta:
-  description: "LDG: an independent game company in California"
-  keywords: "a wizard's lizard, html5 games, javascript, game dev, open source, blog, git, lost decade games, matt hackett, richtaur, geoff blair, gosub, zylo, unity"
+  description: "Lost Decade Games"
+  keywords: "a wizard's lizard, html5 games, javascript, game dev, open source, blog, git, ldg, lost decade games, matt hackett, matthackedit, geoff blair, gosub, zylo, unity"
 
 base_url: "http://www.lostdecadegames.com"
 email: hello@lostdecadegames.com
@@ -23,11 +23,11 @@ authors:
     first_name: Matt
     gravatar: 60fd5218fff6927c0ed376cce01c5460
     email: matt@lostdecadegames.com
-    web: http://www.richtaur.com/
-    twitter: richtaur
+    web: http://www.matthackedit.com/
+    twitter: matthackedit
     github: richtaur
     bio: "Matt Hackett obsesses about games in LA with his two cats and user researcher wife Andrea. He co-founded Lost Decade Games in 2010 where he now does game design, programming, and artwork."
-    url_more: http://www.richtaur.com/
+    url_more: http://www.matthackedit.com/
   geoff:
     display_name: Geoff Blair
     first_name: Geoff
