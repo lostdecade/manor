@@ -6,24 +6,16 @@ comments: hidden
 <div class="splash lostcast">
 	<div>
 		<h2>Lostcast</h2>
-		<em>Lost Decade + podcast = Lostcast</em>
+		<em>The game development podcast, updated every Tuesday.</em>
 	</div>
 </div>
 
 <div class="section text blog">
-	<p>
-		<em>Lostcast is the Lost Decade Games podcast, where <a href="/about/">Geoff and Matt</a> talk about running a small, independent game studio.</em>
-	</p>
-
 	<!-- Listen -->
 	{% for post in site.tags.lostcast %}
 		{% if forloop.first %}
-			<h2>{{ post.title }}</h2>
-			<p>{{ post.podcast.summary }} <a href="{{ post.url }}">Read more</a></p>
-
-			<a class="download-podcast" href="{{ post.podcast.mp3url }}">
-				Download {{ post.podcast.title }} ({{ post.podcast.duration }}, {{ post.podcast.filesize }})
-			</a>
+			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			{{ post.content }}
 		{% endif %}
 	{% endfor %}
 </div>

@@ -28,4 +28,4 @@ _**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) 
 * []()
 * You were played out by []()
 
-Thanks for listening! Subscribe on [iTunes](http://itunes.apple.com/us/podcast/lostcast/id481950724) or [RSS](/lostcast.xml).
+Thanks for listening! Subscribe below:
