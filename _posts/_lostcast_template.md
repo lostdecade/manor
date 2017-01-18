@@ -10,7 +10,7 @@ podcast:
   duration: "TBD:TBD:TBD"
   length: TBD
   filesize: TBD MB
-  pubDate: "Tue, 01 TBD 2016 00:00:00 GMT"
+  pubDate: "Tue, 01 TBD 2017 00:00:00 GMT"
   mp3url: http://media.lostdecadegames.com/lostcast/lostcast_TBD.mp3
   keywords: html5, games, lost decade games, gamedev, podcast, indie, lostcast
 ---
