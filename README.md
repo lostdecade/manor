@@ -17,6 +17,8 @@ This is the source code for the [Lost Decade Games website][1]. Our site is open
 * [Jekyll 2.5.3][15] (Jekyll 3+ breaks our URLs)
 * [AWS CLI][16]
 
+sudo gem install jekyll:2.5.3
+
 ## License
 
 The following directories and their contents are Copyright Lost Decade Games, LLC. You may not reuse anything therein without our explicit permission:
