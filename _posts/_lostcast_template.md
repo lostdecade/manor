@@ -26,6 +26,8 @@ _**Lostcast** is the Lost Decade Games podcast, where [Geoff and Matt](/about/) 
 
 * [TBD]()
 * []()
+* [LDG Patreon](https://www.patreon.com/lostdecadegames)
+* [LDG Discord](https://discord.gg/jNHav65)
 * You were played out by []()
 
 Thanks for listening! Subscribe below:
