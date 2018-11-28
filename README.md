@@ -6,16 +6,18 @@ This is the source code for the [Lost Decade Games website][1]. Our site is open
 * [Blog author attribution using Jekyll][13]
 * [Goodbye GitHub, Hello AWS][14]
 
+## DEPENDENCIES (!!!)
+
+* Do not use latest Jeykyll! Lostcast URLS break.
+* [Jekyll 2.5.3][15] (Jekyll 3+ breaks our URLs)
+	Install: `sudo gem install jekyll -v 2.5.3`
+* [AWS CLI][16]
+
 ## Contact Us
 
 * Visit us on the web: [http://www.lostdecadegames.com][1]
 * Email us: [hello@lostdecadegames.com][7]
 * Follow us on Twitter: [@LostDecadeGames][8]
-
-## Dependencies
-
-* [Jekyll 2.5.3][15] (Jekyll 3+ breaks our URLs)
-* [AWS CLI][16]
 
 sudo gem install jekyll:2.5.3
 
