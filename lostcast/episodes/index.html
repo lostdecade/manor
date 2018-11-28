@@ -18,7 +18,7 @@ comments: hidden
 	<ul>
 		{% for post in site.tags.lostcast %}
 		<li>
-			<a href="{{ post.url }}">{{ post.title }}</a>
+			<a href="{{ post.url }}/">{{ post.title }}</a>
 			{% if post.tags contains "interview" %}
 				(interview)
 			{% endif %}

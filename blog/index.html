@@ -18,7 +18,7 @@ comments: hidden
 				<!-- Omit Lostcast post -->
 			{% else %}
 				<li>
-					<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+					<h4><a href="{{ post.url }}/">{{ post.title }}</a></h4>
 					<div class="meta">
 						{{ post.date | date_to_string }}
 						by <strong>{{ author.display_name }}</strong>
